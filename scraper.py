@@ -12,6 +12,7 @@ import os
 import re
 import ssl
 import sys
+import urllib.parse
 
 import requests
 import urllib3
@@ -55,13 +56,22 @@ class LegacySSLAdapter(HTTPAdapter):
 
 
 def fetch(url, encoding=None, verify=True, **kwargs):
-    """GET 요청. SSL 오류가 나면 레거시 TLS 설정으로 1회 재시도."""
+    """GET 요청.
+
+    - SSL 오류 → 레거시 TLS 설정으로 1회 재시도 (구형 공공기관 서버)
+    - GitHub Actions에서 접속 차단(타임아웃) → 공개 프록시로 1회 우회
+    """
     try:
         r = requests.get(url, headers=HEADERS, timeout=REQUEST_TIMEOUT, verify=verify, **kwargs)
     except requests.exceptions.SSLError:
         s = requests.Session()
         s.mount("https://", LegacySSLAdapter())
-        r = s.get(url, headers=HEADERS, timeout=REQUEST_TIMEOUT, **kwargs)
+        r = s.get(url, headers=HEADERS, timeout=REQUEST_TIMEOUT, verify=False, **kwargs)
+    except (requests.exceptions.ConnectTimeout, requests.exceptions.ConnectionError):
+        if not os.environ.get("GITHUB_ACTIONS"):
+            raise
+        proxied = "https://api.allorigins.win/raw?url=" + urllib.parse.quote(url, safe="")
+        r = requests.get(proxied, headers=HEADERS, timeout=60)
     r.raise_for_status()
     if encoding:
         r.encoding = encoding
