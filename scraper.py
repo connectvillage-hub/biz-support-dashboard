@@ -20,7 +20,8 @@ from bs4 import BeautifulSoup
 from requests.adapters import HTTPAdapter
 
 if hasattr(sys.stdout, "reconfigure"):
-    sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+    # 콘솔 기본 인코딩 유지, 표현 불가 문자만 치환 (CP949 콘솔에서도 한글 정상 출력)
+    sys.stdout.reconfigure(errors="replace")
 
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 

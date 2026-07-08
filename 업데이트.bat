@@ -1,10 +1,9 @@
 @echo off
-chcp 65001 >nul
 cd /d "%~dp0"
 python -c "import requests, bs4" 2>nul || python -m pip install -r requirements.txt
 echo.
-echo ===== ê³µê³  ìˆ˜ì§‘ì„ ì‹œì‘í•©ë‹ˆë‹¤ =====
+echo ===== °ø°í ¼öÁıÀ» ½ÃÀÛÇÕ´Ï´Ù =====
 python scraper.py
 echo.
-echo ===== ì™„ë£Œ. index.html ì„ ìƒˆë¡œê³ ì¹¨í•˜ì„¸ìš” =====
+echo ===== ¿Ï·á. index.html À» »õ·Î°íÄ§ÇÏ¼¼¿ä =====
 pause

@@ -1,12 +1,11 @@
 @echo off
-chcp 65001 >nul
 set PYW=
 for /f "delims=" %%i in ('where pythonw.exe 2^>nul') do if not defined PYW set "PYW=%%i"
 if not defined PYW set "PYW=pythonw.exe"
 
-schtasks /Create /F /TN "ì§€ì›ì‚¬ì—… ê³µê³  ìˆ˜ì§‘" /TR "\"%PYW%\" \"%~dp0scraper.py\"" /SC DAILY /ST 08:30
+schtasks /Create /F /TN "Áö¿ø»ç¾÷ °ø°í ¼öÁı" /TR "\"%PYW%\" \"%~dp0scraper.py\"" /SC DAILY /ST 08:30
 
 echo.
-echo ë§¤ì¼ ì˜¤ì „ 8ì‹œ 30ë¶„ì— ìë™ ìˆ˜ì§‘ì´ ë“±ë¡ë˜ì—ˆìŠµë‹ˆë‹¤.
-echo (í•´ì œí•˜ë ¤ë©´: schtasks /Delete /TN "ì§€ì›ì‚¬ì—… ê³µê³  ìˆ˜ì§‘" /F)
+echo ¸ÅÀÏ ¿ÀÀü 8½Ã 30ºĞ¿¡ ÀÚµ¿ ¼öÁıÀÌ µî·ÏµÇ¾ú½À´Ï´Ù.
+echo (ÇØÁ¦ÇÏ·Á¸é: schtasks /Delete /TN "Áö¿ø»ç¾÷ °ø°í ¼öÁı" /F)
 pause
