@@ -187,8 +187,46 @@
   }
   .savebtn:hover { border-color: #f5b301; color: #f5b301; }
   .savebtn.on { color: #f5b301; border-color: #f7d774; background: #fffbeb; }
-  .card .title { padding-right: 70px; display: block; text-decoration: none; color: inherit; }
+  .sharebtn {
+    position: absolute; right: 84px; top: 12px; border: 1px solid var(--line); background: #fff;
+    color: #b3bac5; width: 30px; height: 30px; border-radius: 8px; cursor: pointer; font-size: 15px;
+    display: flex; align-items: center; justify-content: center; line-height: 1;
+  }
+  .sharebtn:hover { border-color: var(--accent); color: var(--accent); }
+  .card .title { padding-right: 106px; display: block; text-decoration: none; color: inherit; }
   a.title:hover { color: var(--accent); }
+
+  /* ---------- 공유 팝업 ---------- */
+  .sharebox {
+    width: 92vw; max-width: 400px; background: #fff; border-radius: 16px; padding: 18px 18px 20px;
+    box-shadow: 0 20px 50px rgba(16,24,40,.35);
+  }
+  .share-h { display: flex; justify-content: space-between; align-items: center; margin-bottom: 4px; }
+  .share-h b { font-size: 16px; }
+  .share-h button { border: none; background: none; font-size: 19px; color: var(--text-sub); cursor: pointer; }
+  .share-title { font-size: 13.5px; color: var(--text-sub); line-height: 1.5; margin-bottom: 16px; word-break: keep-all;
+    display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+  .share-btns { display: flex; gap: 10px; margin-bottom: 14px; }
+  .share-btns button {
+    flex: 1; border: 1px solid var(--line); background: #fff; border-radius: 12px; padding: 14px 6px;
+    cursor: pointer; font-size: 13px; font-weight: 700; font-family: inherit; color: var(--text);
+    display: flex; flex-direction: column; align-items: center; gap: 6px;
+  }
+  .share-btns button:hover { border-color: var(--accent); background: var(--accent-soft); }
+  .share-btns .ico { font-size: 24px; }
+  .share-btns .kakao { background: #fee500; border-color: #fee500; }
+  .share-btns .kakao:hover { background: #fada0a; border-color: #fada0a; }
+  .share-btns .tele { background: #eaf5fd; border-color: #cfe8fa; }
+  .share-url { display: flex; gap: 8px; }
+  .share-url input {
+    flex: 1; border: 1px solid var(--line); border-radius: 10px; padding: 9px 11px; font-size: 12.5px;
+    font-family: inherit; color: var(--text-sub); background: #f7f9fc; outline: none;
+  }
+  .share-url button {
+    border: 1px solid var(--accent); background: var(--accent); color: #fff; border-radius: 10px;
+    padding: 0 16px; font-size: 13px; font-weight: 700; cursor: pointer; white-space: nowrap;
+  }
+  .share-msg { font-size: 12.5px; color: #0e9f6e; font-weight: 700; margin-top: 10px; min-height: 16px; text-align: center; }
 
   /* source badges */
   .srcbadges { display: flex; flex-wrap: wrap; gap: 5px; margin-top: 8px; align-items: center; }
@@ -284,6 +322,11 @@
     background: var(--accent); color: #fff; border-radius: 10px; padding: 11px 18px; font-size: 14px; font-weight: 700;
   }
   .d-links a:hover { background: #1d4fd6; }
+  .d-sharebtn {
+    border: 1px solid var(--line); background: #fff; color: var(--text); border-radius: 10px;
+    padding: 11px 18px; font-size: 14px; font-weight: 700; cursor: pointer; font-family: inherit;
+  }
+  .d-sharebtn:hover { border-color: var(--accent); color: var(--accent); background: var(--accent-soft); }
 
   .d-card { background: #fff; border: 1px solid var(--line); border-radius: 14px; padding: 16px 18px; margin-bottom: 16px; box-shadow: var(--shadow); }
   .d-card-t { font-size: 14px; font-weight: 800; margin-bottom: 11px; color: var(--text); display: flex; align-items: center; gap: 7px; }
@@ -402,6 +445,20 @@
         <div id="dBody"></div>
       </div>
     </div>
+  </div>
+</div>
+
+<div id="shareOverlay" class="doverlay" style="display:none">
+  <div class="sharebox">
+    <div class="share-h"><b>📤 공고 공유</b><button type="button" onclick="window.__closeShare()">✕</button></div>
+    <div class="share-title" id="shareTitle"></div>
+    <div class="share-btns">
+      <button type="button" data-ch="kakao" class="kakao"><span class="ico">💬</span>카카오톡</button>
+      <button type="button" data-ch="telegram" class="tele"><span class="ico">✈️</span>텔레그램</button>
+      <button type="button" data-ch="copy"><span class="ico">🔗</span>링크 복사</button>
+    </div>
+    <div class="share-url"><input type="text" id="shareUrl" readonly><button type="button" id="shareCopyBtn">복사</button></div>
+    <div class="share-msg" id="shareMsg"></div>
   </div>
 </div>
 
@@ -671,7 +728,9 @@
     // 뒤로가기로 열 때 쌓인 history 항목 정리 (버튼으로 닫아도 히스토리 어긋나지 않게)
     if (history.state && history.state.__detail) { try { history.back(); } catch (e) {} }
   };
+  let currentDetailGroup = null;
   function openDetail(g) {
+    currentDetailGroup = g;
     const url = (g && g.srcList && g.srcList[0]) ? g.srcList[0].url : null;
     document.getElementById('dTitle').textContent = (g && g.title) || '공고';
     document.getElementById('dTopTitle').textContent = (g && g.title) || '';
@@ -680,7 +739,12 @@
       `<span class="tag region ${g.region === '부산' ? 'busan' : ''}">${esc(g.region || '기타')}</span>` +
       (g.categories || []).map(c => `<span class="tag">${esc(c)}</span>`).join('')) : '';
     document.getElementById('dLinks').innerHTML = ((g && g.srcList) || []).map(s =>
-      `<a href="${esc(s.url)}" target="_blank" rel="noopener">🔗 ${esc(s.sourceName)} 원본 열기</a>`).join('');
+      `<a href="${esc(s.url)}" target="_blank" rel="noopener">🔗 ${esc(s.sourceName)} 원본 열기</a>`).join('') +
+      (url ? `<button type="button" class="d-sharebtn" id="dShareBtn">📤 공유</button>` : '');
+    if (url) {
+      const sb = document.getElementById('dShareBtn');
+      if (sb) sb.addEventListener('click', () => openShare(g));
+    }
     document.getElementById('dAttach').innerHTML = '';
     document.getElementById('dBody').innerHTML = url
       ? '<div class="d-loading">원본에서 내용을 불러오는 중… ⏳</div>'
@@ -729,6 +793,70 @@
     document.getElementById('detailOverlay').addEventListener('click', e => {
       if (e.target.id === 'detailOverlay') window.__closeDetail();
     });
+  })();
+
+  // ---------- 공고 공유 (카카오톡 / 텔레그램 / 링크복사) ----------
+  const KAKAO_JS_KEY = '';   // 카카오 개발자에서 JavaScript 키를 발급받아 넣으면 카카오톡 직접 공유가 켜집니다.
+  if (KAKAO_JS_KEY) {
+    const s = document.createElement('script');
+    s.src = 'https://t1.kakaocdn.net/kakao_js_sdk/2.7.2/kakao.min.js';
+    s.onload = () => { try { window.Kakao && window.Kakao.init(KAKAO_JS_KEY); } catch (e) {} };
+    document.head.appendChild(s);
+  }
+  let shareState = { url: '', title: '' };
+  function shareMsg(t) { const m = document.getElementById('shareMsg'); if (m) m.textContent = t || ''; }
+  function copyLink(url, okMsg) {
+    const done = () => shareMsg(okMsg || '링크를 복사했어요!');
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(url).then(done).catch(() => { legacyCopy(url); done(); });
+    } else { legacyCopy(url); done(); }
+  }
+  function legacyCopy(url) {
+    const i = document.getElementById('shareUrl');
+    if (i) { i.focus(); i.select(); try { document.execCommand('copy'); } catch (e) {} }
+  }
+  window.__closeShare = function () {
+    const o = document.getElementById('shareOverlay');
+    if (o) o.style.display = 'none';
+  };
+  function openShare(g) {
+    const url = (g && g.srcList && g.srcList[0]) ? g.srcList[0].url : null;
+    if (!url) return;
+    shareState = { url, title: (g && g.title) || '지원사업 공고' };
+    document.getElementById('shareTitle').textContent = shareState.title;
+    document.getElementById('shareUrl').value = url;
+    shareMsg('');
+    document.getElementById('shareOverlay').style.display = 'flex';
+  }
+  (function wireShare() {
+    const o = document.getElementById('shareOverlay');
+    o.addEventListener('click', e => { if (e.target.id === 'shareOverlay') window.__closeShare(); });
+    document.addEventListener('keydown', e => {
+      if (e.key === 'Escape' && o.style.display !== 'none') window.__closeShare();
+    });
+    document.getElementById('shareCopyBtn').addEventListener('click', () => copyLink(shareState.url));
+    o.querySelectorAll('.share-btns button').forEach(btn => btn.addEventListener('click', () => {
+      const { url, title } = shareState;
+      const ch = btn.dataset.ch;
+      if (ch === 'copy') { copyLink(url); return; }
+      if (ch === 'telegram') {
+        window.open('https://t.me/share/url?url=' + encodeURIComponent(url) +
+          '&text=' + encodeURIComponent(title), '_blank', 'noopener');
+        return;
+      }
+      if (ch === 'kakao') {
+        if (KAKAO_JS_KEY && window.Kakao && window.Kakao.Share) {
+          window.Kakao.Share.sendDefault({
+            objectType: 'text', text: title + '\n' + url,
+            link: { webUrl: url, mobileWebUrl: url },
+          });
+        } else if (navigator.share) {
+          navigator.share({ title: title, url: url }).catch(() => {});
+        } else {
+          copyLink(url, '카카오톡 앱에 붙여넣어 공유하세요. (링크 복사됨)');
+        }
+      }
+    }));
   })();
 
   async function checkServer() {
@@ -861,6 +989,7 @@
           ${(g.categories || []).map(c => `<span class="tag">${esc(c)}</span>`).join('')}
         </div>
         <div class="srcbadges">${dup}${badges}</div>
+        <button class="sharebtn" title="공유">📤</button>
         <button class="savebtn ${saved ? 'on' : ''}" title="저장/해제">${saved ? '★' : '☆'}</button>
         <button class="readbtn" title="읽음/안읽음 전환">✓</button>
       </div>`;
@@ -870,6 +999,11 @@
     groups.forEach(g => byKey[g.sid] = g);
     listEl.querySelectorAll('.card').forEach(card => {
       const g = byKey[card.dataset.id];
+      // 공유 버튼
+      card.querySelector('.sharebtn').addEventListener('click', e => {
+        e.preventDefault(); e.stopPropagation();
+        openShare(g);
+      });
       // 저장(북마크) 버튼
       card.querySelector('.savebtn').addEventListener('click', e => {
         e.preventDefault(); e.stopPropagation();
@@ -945,7 +1079,7 @@
   }
 
   // header updated time (+ 빌드 버전 표시로 최신본 로드 여부 확인)
-  const BUILD = '2026-07-09.16';
+  const BUILD = '2026-07-09.17';
   console.log('[지원사업 대시보드] build ' + BUILD);
   // 자동 최신화: 서버 버전이 페이지 버전보다 새로우면 1회 강제 새로고침(캐시 우회)
   (function selfHeal() {
