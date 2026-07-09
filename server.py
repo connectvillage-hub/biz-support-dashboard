@@ -59,6 +59,10 @@ class Handler(SimpleHTTPRequestHandler):
         return {k: v[0] for k, v in urllib.parse.parse_qs(q).items()}
 
     def do_GET(self):
+        if self.path.startswith("/favicon.ico"):
+            self.send_response(204)   # 아이콘 없음 → 404 대신 조용히 처리
+            self.end_headers()
+            return
         if self.path.startswith("/api/ping"):
             return self._json({"ok": True})
         if self.path.startswith("/api/version"):
@@ -120,7 +124,7 @@ class Handler(SimpleHTTPRequestHandler):
         return self._json({"ok": False, "error": "unknown endpoint"}, 404)
 
 
-APP_VERSION = "2026-07-09.9"
+APP_VERSION = "2026-07-09.10"
 
 
 def kill_port(port):
