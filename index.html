@@ -861,13 +861,15 @@
   })();
 
   let canAdd = false;   // 사이트 추가 가능(로컬 앱만). 상세보기는 serverOn 으로 판단.
+  const IS_LOCALHOST = ['localhost', '127.0.0.1'].includes(location.hostname);
   async function checkServer() {
     if (serverOn !== null) return serverOn;
     try {
       const j = await api('/api/ping');
       const feat = (j && j.features) || {};
       serverOn = !!(j && j.ok) && feat.detail !== false;
-      canAdd = !!(j && j.ok) && feat.add === true;
+      // 사이트 추가는 로컬 파이썬 서버가 있어야 하므로 localhost 에서만 허용
+      canAdd = IS_LOCALHOST && !!(j && j.ok) && feat.add === true;
     } catch (e) { serverOn = false; canAdd = false; }
     return serverOn;
   }
@@ -1086,7 +1088,7 @@
   }
 
   // header updated time (+ 빌드 버전 표시로 최신본 로드 여부 확인)
-  const BUILD = '2026-07-09.19';
+  const BUILD = '2026-07-09.20';
   console.log('[지원사업 대시보드] build ' + BUILD);
   // 자동 최신화: 서버 버전이 페이지 버전보다 새로우면 1회 강제 새로고침(캐시 우회)
   (function selfHeal() {
