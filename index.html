@@ -41,6 +41,11 @@
   }
   .statbox b { color: var(--text); font-size: 15px; margin-left: 4px; }
   .statbox.unread b { color: var(--accent); }
+  .statbox.clickable { cursor: pointer; user-select: none; }
+  .statbox.clickable:hover { border-color: var(--accent); }
+  .statbox.clickable.on { border-color: var(--accent); background: var(--accent-soft); color: var(--accent); }
+  .statbox.saved.on { border-color: #f7d774; background: #fffbeb; color: #b8860b; }
+  .statbox.saved.on b { color: #b8860b; }
   .statbar .spacer { flex: 1; }
   button.ghost {
     border: 1px solid var(--line); background: var(--card); color: var(--text-sub);
@@ -154,7 +159,14 @@
   }
   .readbtn:hover { border-color: var(--accent); color: var(--accent); }
   .card.read .readbtn { color: var(--accent); background: var(--accent-soft); border-color: transparent; }
-  .card .title { padding-right: 36px; display: block; text-decoration: none; color: inherit; }
+  .savebtn {
+    position: absolute; right: 48px; top: 12px; border: 1px solid var(--line); background: #fff;
+    color: #c9ced8; width: 30px; height: 30px; border-radius: 8px; cursor: pointer; font-size: 16px;
+    display: flex; align-items: center; justify-content: center; line-height: 1;
+  }
+  .savebtn:hover { border-color: #f5b301; color: #f5b301; }
+  .savebtn.on { color: #f5b301; border-color: #f7d774; background: #fffbeb; }
+  .card .title { padding-right: 70px; display: block; text-decoration: none; color: inherit; }
   a.title:hover { color: var(--accent); }
 
   /* source badges */
@@ -289,6 +301,7 @@
 
   const DATA = window.BIZ_DATA;
   const READ_KEY = 'bizdash_read_v1';
+  const SAVED_KEY = 'bizdash_saved_v1';
   const FILTER_KEY = 'bizdash_filter_v1';
   const NEW_DAYS = 3; // firstSeen 이내면 NEW 배지
 
@@ -296,7 +309,7 @@
   let readMap = {};
   try { readMap = JSON.parse(localStorage.getItem(READ_KEY) || '{}'); } catch (e) { readMap = {}; }
 
-  let f = { region: '전체', cat: '전체', source: '전체', q: '', sort: 'unread', unreadOnly: false };
+  let f = { region: '전체', cat: '전체', source: '전체', q: '', sort: 'unread', unreadOnly: false, view: 'all' };
   try { f = Object.assign(f, JSON.parse(localStorage.getItem(FILTER_KEY) || '{}')); } catch (e) {}
 
   // 데이터에 없는 오래된 읽음 기록 정리 (6개월 이상)
@@ -364,7 +377,7 @@
       map.get(key).push(it);
     }
     const groups = [];
-    for (const members of map.values()) {
+    for (const [sid, members] of map.entries()) {
       // 최신 등록일 멤버를 대표로
       members.sort((a, b) => (b.date || b.firstSeen || '').localeCompare(a.date || a.firstSeen || ''));
       const primary = members[0];
@@ -377,10 +390,11 @@
       const firsts = members.map(m => m.firstSeen).filter(Boolean);
       const futureDl = members.map(m => m.deadline).filter(d => d && d >= todayStr).sort();
       groups.push({
+        sid,                                 // 저장/식별용 안정 키 (정규화 제목 기반)
         key: primary.id,
         title: primary.title,
-        members,
-        srcList: [...bySrc.values()],       // [{source, sourceName, url}...]
+        memberIds: members.map(m => m.id),
+        srcList: [...bySrc.values()].map(m => ({ source: m.source, sourceName: m.sourceName, url: m.url })),
         date: dates.sort().slice(-1)[0] || null,
         firstSeen: firsts.sort()[0] || null,
         deadline: futureDl[0] || (members.map(m => m.deadline).filter(Boolean).sort().slice(-1)[0]) || null,
@@ -391,9 +405,36 @@
     return groups;
   })();
 
-  const groupRead = g => g.members.every(m => readMap[m.id]);
+  const liveBySid = {};
+  GROUPS.forEach(g => liveBySid[g.sid] = g);
+
+  const groupRead = g => g.memberIds.length > 0 && g.memberIds.every(id => readMap[id]);
   function setGroupRead(g, read) {
-    for (const m of g.members) { if (read) readMap[m.id] = Date.now(); else delete readMap[m.id]; }
+    for (const id of g.memberIds) { if (read) readMap[id] = Date.now(); else delete readMap[id]; }
+  }
+
+  // ---------- 저장(북마크) ----------
+  // 저장한 공고는 스냅샷으로 보관 → 나중에 목록에서 사라져도(마감·삭제) 저장함에 남는다.
+  let savedMap = {};
+  try { savedMap = JSON.parse(localStorage.getItem(SAVED_KEY) || '{}'); } catch (e) { savedMap = {}; }
+  function saveSaved() { localStorage.setItem(SAVED_KEY, JSON.stringify(savedMap)); }
+  const groupSaved = g => !!savedMap[g.sid];
+  function toggleSave(g) {
+    if (savedMap[g.sid]) { delete savedMap[g.sid]; }
+    else {
+      savedMap[g.sid] = {
+        sid: g.sid, key: g.key, title: g.title, memberIds: g.memberIds,
+        srcList: g.srcList, date: g.date, firstSeen: g.firstSeen, deadline: g.deadline,
+        region: g.region, regions: g.regions, categories: g.categories, savedAt: Date.now(),
+      };
+    }
+    saveSaved();
+  }
+  // 저장함 뷰용 그룹 목록: 살아있으면 최신 그룹, 없으면 저장 스냅샷 사용
+  function savedGroups() {
+    return Object.values(savedMap)
+      .sort((a, b) => (b.savedAt || 0) - (a.savedAt || 0))
+      .map(snap => liveBySid[snap.sid] || snap);
   }
 
   // ---------- render ----------
@@ -401,10 +442,13 @@
     const total = GROUPS.length;
     const unread = GROUPS.filter(g => !groupRead(g)).length;
 
+    const savedCnt = Object.keys(savedMap).length;
+    const inSaved = f.view === 'saved';
     let html = '';
     html += `<div class="statbar">
-      <div class="statbox">전체 공고<b>${total}</b></div>
+      <div class="statbox clickable ${!inSaved ? 'on' : ''}" data-view="all">전체 공고<b>${total}</b></div>
       <div class="statbox unread">미확인<b id="unreadCnt">${unread}</b></div>
+      <div class="statbox clickable saved ${inSaved ? 'on' : ''}" data-view="saved">⭐ 저장함<b>${savedCnt}</b></div>
       <div class="spacer"></div>
       <button class="ghost accent" id="btnAdd">＋ 사이트 추가</button>
       <button class="ghost" id="btnSrc">수집 상태</button>
@@ -442,6 +486,9 @@
     app.innerHTML = html;
 
     // events
+    app.querySelectorAll('.statbox.clickable').forEach(sb => sb.addEventListener('click', () => {
+      f.view = sb.dataset.view; saveFilter(); build();
+    }));
     app.querySelectorAll('.chip').forEach(ch => ch.addEventListener('click', () => {
       f[ch.dataset.k] = ch.dataset.v; saveFilter(); build();
     }));
@@ -537,13 +584,14 @@
 
   function filteredGroups() {
     const q = f.q.trim().toLowerCase();
-    return GROUPS.filter(g => {
-      if (f.region !== '전체' && !g.regions.includes(f.region)) return false;
-      if (f.cat !== '전체' && !g.categories.includes(f.cat)) return false;
-      if (f.source !== '전체' && !g.srcList.some(s => s.source === f.source)) return false;
+    const base = f.view === 'saved' ? savedGroups() : GROUPS;
+    return base.filter(g => {
+      if (f.region !== '전체' && !(g.regions || []).includes(f.region)) return false;
+      if (f.cat !== '전체' && !(g.categories || []).includes(f.cat)) return false;
+      if (f.source !== '전체' && !(g.srcList || []).some(s => s.source === f.source)) return false;
       if (f.unreadOnly && groupRead(g)) return false;
-      if (q && !(g.title.toLowerCase().includes(q) ||
-                 g.srcList.some(s => (s.sourceName || '').toLowerCase().includes(q)))) return false;
+      if (q && !((g.title || '').toLowerCase().includes(q) ||
+                 (g.srcList || []).some(s => (s.sourceName || '').toLowerCase().includes(q)))) return false;
       return true;
     });
   }
@@ -570,36 +618,52 @@
     const listEl = document.getElementById('list');
     const groups = sortGroups(filteredGroups());
     if (!groups.length) {
-      listEl.innerHTML = '<div class="empty">조건에 맞는 공고가 없습니다.</div>';
+      listEl.innerHTML = f.view === 'saved'
+        ? '<div class="empty">저장한 공고가 없습니다.<br>공고 카드의 ⭐ 를 눌러 저장해 보세요.</div>'
+        : '<div class="empty">조건에 맞는 공고가 없습니다.</div>';
       return;
     }
     listEl.innerHTML = groups.map(g => {
       const read = groupRead(g);
+      const saved = groupSaved(g);
       const isNew = !read && g.firstSeen && daysBetween(g.firstSeen, todayStr) <= NEW_DAYS;
       const regionCls = g.region === '부산' ? 'busan' : '';
-      const badges = g.srcList.map(s =>
+      const badges = (g.srcList || []).map(s =>
         `<a class="srcbadge" href="${esc(s.url)}" target="_blank" rel="noopener" data-src>${esc(s.sourceName)}<span class="ext">↗</span></a>`
       ).join('');
-      const dup = g.srcList.length > 1
+      const dup = (g.srcList || []).length > 1
         ? `<span class="dupflag" title="여러 사이트에 중복 게시됨">🔁 ${g.srcList.length}개 사이트</span>` : '';
-      const primaryUrl = g.srcList[0] ? g.srcList[0].url : '#';
-      return `<div class="card ${read ? 'read' : ''}" data-id="${esc(g.key)}">
+      const primaryUrl = (g.srcList && g.srcList[0]) ? g.srcList[0].url : '#';
+      return `<div class="card ${read ? 'read' : ''}" data-id="${esc(g.sid)}">
         <a class="title" href="${esc(primaryUrl)}" target="_blank" rel="noopener" data-src>${isNew ? '<span class="badge-new">NEW</span>' : ''}${esc(g.title)}</a>
         <div class="meta">
           ${g.date ? `<span>등록 ${fmtDate(g.date)}</span>` : ''}
           ${ddayHtml(g)}
           <span class="tag region ${regionCls}">${esc(g.region || '기타')}</span>
-          ${g.categories.map(c => `<span class="tag">${esc(c)}</span>`).join('')}
+          ${(g.categories || []).map(c => `<span class="tag">${esc(c)}</span>`).join('')}
         </div>
         <div class="srcbadges">${dup}${badges}</div>
+        <button class="savebtn ${saved ? 'on' : ''}" title="저장/해제">${saved ? '★' : '☆'}</button>
         <button class="readbtn" title="읽음/안읽음 전환">✓</button>
       </div>`;
     }).join('');
 
     const byKey = {};
-    groups.forEach(g => byKey[g.key] = g);
+    groups.forEach(g => byKey[g.sid] = g);
     listEl.querySelectorAll('.card').forEach(card => {
       const g = byKey[card.dataset.id];
+      // 저장(북마크) 버튼
+      card.querySelector('.savebtn').addEventListener('click', e => {
+        e.preventDefault(); e.stopPropagation();
+        toggleSave(g);
+        if (f.view === 'saved') { build(); }   // 저장함 뷰에선 목록에서 빠지므로 재빌드
+        else {
+          const b = card.querySelector('.savebtn');
+          const on = groupSaved(g);
+          b.classList.toggle('on', on); b.textContent = on ? '★' : '☆';
+          updateSavedCount();
+        }
+      });
       // 읽음 토글 버튼
       card.querySelector('.readbtn').addEventListener('click', e => {
         e.preventDefault(); e.stopPropagation();
@@ -622,6 +686,11 @@
   function updateUnreadCount() {
     const el = document.getElementById('unreadCnt');
     if (el) el.textContent = GROUPS.filter(g => !groupRead(g)).length;
+  }
+
+  function updateSavedCount() {
+    const box = document.querySelector('.statbox.saved b');
+    if (box) box.textContent = Object.keys(savedMap).length;
   }
 
   function showSrcModal() {
