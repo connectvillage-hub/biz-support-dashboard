@@ -29,6 +29,7 @@ urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 DATA_JSON = os.path.join(BASE_DIR, "data.json")
 DATA_JS = os.path.join(BASE_DIR, "data.js")
+CUSTOM_JSON = os.path.join(BASE_DIR, "custom_sources.json")
 
 KST = datetime.timezone(datetime.timedelta(hours=9))
 TODAY = datetime.datetime.now(KST).date()
@@ -658,32 +659,156 @@ def make_board_fetcher(cfg):
     return fn
 
 
-def load_custom_sources():
-    path = os.path.join(BASE_DIR, "custom_sources.json")
-    if not os.path.exists(path):
-        return
+MENU_WORDS = ("로그인", "회원가입", "바로가기", "메뉴", "사이트맵", "이전", "다음",
+              "더보기", "목록", "검색", "홈으로", "prev", "next", "more")
+
+
+def _any_date(text):
+    return parse_date(text) or parse_date_yy(text)
+
+
+def crawl_generic_items(src, url, encoding=None):
+    """CSS 셀렉터 없이, 목록 페이지에서 '공고처럼 보이는' 링크를 자동 추출한다.
+
+    휴리스틱: tr/li 안에 링크가 반복되는 구조를 찾되, '날짜가 붙은 행'이 가장 많은
+    묶음을 공고 목록으로 본다. 날짜 붙은 행이 3개 이상이면 그 행들만 채택해
+    내비게이션 메뉴 등 잡음을 걸러낸다.
+    """
+    soup = soup_of(url, encoding=encoding)
+    best, best_score = [], -1
+    for tagname in ("tr", "li", "dl", "article"):
+        cand = []
+        for row in soup.find_all(tagname):
+            a = row.find("a", href=True)
+            if not a:
+                continue
+            title = re.sub(r"\s+", " ", a.get_text(" ", strip=True)).strip()
+            href = a["href"].strip()
+            if len(title) < 6 or any(w in title.lower() for w in MENU_WORDS):
+                continue
+            if href.lower().startswith(("javascript", "#", "mailto:", "tel:")):
+                continue
+            cand.append((title, urllib.parse.urljoin(url, href), _any_date(row.get_text(" "))))
+        dated = [c for c in cand if c[2]]
+        if len(dated) >= 3:
+            score, use = 1000 + len(dated), dated   # 날짜 붙은 목록을 최우선
+        else:
+            score, use = len(cand), cand            # 날짜 없으면 가장 큰 묶음
+        if score > best_score:
+            best_score, best = score, use
+    items, seen = [], set()
+    for title, link, date in best:
+        if (title, link) in seen:
+            continue
+        seen.add((title, link))
+        it = make_item(src, title, link, date)
+        if it:
+            items.append(it)
+    return items[:40]
+
+
+def make_auto_fetcher(cfg):
+    return lambda src: crawl_generic_items(src, cfg.get("list_url") or cfg.get("url"),
+                                           encoding=cfg.get("encoding"))
+
+
+def register_custom_entry(ent, idx=0):
+    """custom_sources.json 항목 1개를 SOURCES에 등록. 등록된 src id 반환(실패 시 None)."""
+    if not isinstance(ent, dict) or not ent.get("enabled", True):
+        return None
+    cid = ent.get("id") or f"custom{idx}"
+    name = ent.get("name") or cid
+    region = ent.get("region", "전국")
+    mode = ent.get("mode", "link")
+    url = ent.get("list_url") or ent.get("url", "")
     try:
-        with open(path, encoding="utf-8") as fp:
+        if mode == "board" and ent.get("item_selector"):
+            register(cid, name, region, url, make_board_fetcher(ent))
+        elif mode == "auto":
+            register(cid, name, region, url, make_auto_fetcher(ent))
+        else:  # link
+            register(cid, name, region, url, link_only=True)
+        return cid
+    except Exception as e:  # noqa: BLE001
+        print(f"[주의] 사용자 소스 '{name}' 등록 실패: {e}")
+        return None
+
+
+def read_custom_conf():
+    if not os.path.exists(CUSTOM_JSON):
+        return {"sources": []}
+    try:
+        with open(CUSTOM_JSON, encoding="utf-8") as fp:
             conf = json.load(fp)
     except Exception as e:  # noqa: BLE001
         print(f"[주의] custom_sources.json 을 읽을 수 없습니다: {e}")
-        return
-    entries = conf.get("sources", conf) if isinstance(conf, dict) else conf
-    for i, ent in enumerate(entries or []):
-        if not isinstance(ent, dict) or not ent.get("enabled", True):
-            continue
-        cid = ent.get("id") or f"custom{i}"
-        name = ent.get("name") or cid
-        region = ent.get("region", "전국")
-        mode = ent.get("mode", "link")
+        return {"sources": []}
+    if isinstance(conf, list):
+        conf = {"sources": conf}
+    conf.setdefault("sources", [])
+    return conf
+
+
+def read_custom_sources():
+    return read_custom_conf().get("sources", [])
+
+
+def write_custom_sources(sources, keep_meta=True):
+    conf = read_custom_conf() if keep_meta else {}
+    conf["sources"] = sources
+    with open(CUSTOM_JSON, "w", encoding="utf-8") as fp:
+        json.dump(conf, fp, ensure_ascii=False, indent=2)
+
+
+def load_custom_sources():
+    for i, ent in enumerate(read_custom_sources()):
+        register_custom_entry(ent, i)
+
+
+def test_crawl(url, encoding=None):
+    """미리보기용: 저장 없이 해당 URL을 즉석 크롤링해 공고 목록을 돌려준다."""
+    src = {"id": "__test__", "name": "test", "region": "전국"}
+    return crawl_generic_items(src, url, encoding=encoding)
+
+
+def add_custom_source(data):
+    """UI에서 넘어온 {name,url,region,mode/autocrawl}로 소스를 추가·등록한다."""
+    url = (data.get("url") or "").strip()
+    name = (data.get("name") or "").strip()
+    if not url.lower().startswith(("http://", "https://")):
+        raise ValueError("올바른 링크(http…)를 입력하세요.")
+    if not name:
+        name = url
+    region = data.get("region") or "전국"
+    autocrawl = data.get("autocrawl", True) and data.get("mode") != "link"
+    mode = "auto" if autocrawl else "link"
+    cid = "cust_" + hashlib.sha1(url.encode("utf-8")).hexdigest()[:8]
+    sources = read_custom_sources()
+    sources = [s for s in sources if s.get("id") != cid]  # 같은 URL 중복 방지
+    entry = {"enabled": True, "id": cid, "name": name, "url": url,
+             "list_url": url, "region": region, "mode": mode}
+    sources.append(entry)
+    write_custom_sources(sources)
+    # 실행 중인 프로세스(SOURCES)에도 즉시 반영
+    global SOURCES
+    SOURCES = [s for s in SOURCES if s["id"] != cid]
+    register_custom_entry(entry, len(sources))
+    # 자동수집이면 미리 1회 크롤링해서 건수 확인
+    count = None
+    if mode == "auto":
         try:
-            if mode == "board" and ent.get("item_selector"):
-                url = ent.get("list_url") or ent.get("url")
-                register(cid, name, region, url, make_board_fetcher(ent))
-            else:  # link (기본): 바로가기 카드로만 노출
-                register(cid, name, region, ent.get("url", ""), link_only=True)
-        except Exception as e:  # noqa: BLE001
-            print(f"[주의] 사용자 소스 '{name}' 등록 실패: {e}")
+            count = len(crawl_generic_items({"id": cid, "name": name, "region": region}, url))
+        except Exception:  # noqa: BLE001
+            count = 0
+    return {"id": cid, "name": name, "mode": mode, "count": count}
+
+
+def remove_custom_source(cid):
+    sources = [s for s in read_custom_sources() if s.get("id") != cid]
+    write_custom_sources(sources)
+    global SOURCES
+    SOURCES = [s for s in SOURCES if s["id"] != cid]
+    return {"id": cid}
 
 
 load_custom_sources()
@@ -702,15 +827,16 @@ def load_store():
 def run(only=None):
     store = load_store()
     known = store.get("items", {})
-    source_status = []
+    # 이전 실행의 소스 상태 보존 (only= 부분 실행 시 나머지 소스 상태 유지)
+    status = {s["id"]: s for s in store.get("sources", [])}
     now_iso = datetime.datetime.now(KST).isoformat(timespec="seconds")
 
     for src in SOURCES:
         if only and src["id"] != only:
             continue
         if src["link_only"]:
-            source_status.append({"id": src["id"], "name": src["name"],
-                                  "url": src["home"], "status": "link-only", "count": 0})
+            status[src["id"]] = {"id": src["id"], "name": src["name"],
+                                 "url": src["home"], "status": "link-only", "count": 0}
             continue
         try:
             items = src["fn"](src)
@@ -721,24 +847,27 @@ def run(only=None):
                 if not it["date"]:
                     it["date"] = it["firstSeen"]
                 known[it["id"]] = it
-            source_status.append({"id": src["id"], "name": src["name"],
-                                  "url": src["home"], "status": "ok", "count": len(items)})
+            status[src["id"]] = {"id": src["id"], "name": src["name"],
+                                 "url": src["home"], "status": "ok", "count": len(items)}
             print(f"[OK]   {src['name']}: {len(items)}건")
         except Exception as e:  # noqa: BLE001 - 소스 하나 실패해도 계속
-            source_status.append({"id": src["id"], "name": src["name"],
-                                  "url": src["home"], "status": "fail", "count": 0,
-                                  "error": str(e)[:200]})
+            status[src["id"]] = {"id": src["id"], "name": src["name"],
+                                 "url": src["home"], "status": "fail", "count": 0,
+                                 "error": str(e)[:200]}
             print(f"[FAIL] {src['name']}: {e}")
 
     # 오래된 공고 제거
     cutoff = (TODAY - datetime.timedelta(days=KEEP_DAYS)).isoformat()
     known = {k: v for k, v in known.items()
              if (v.get("date") or v.get("firstSeen") or "9999") >= cutoff}
-    # 더 이상 등록되지 않은(삭제된) 소스의 잔여 공고 제거
+    # 더 이상 등록되지 않은(삭제된) 소스의 잔여 공고·상태 제거
     valid_src = {s["id"] for s in SOURCES}
     known = {k: v for k, v in known.items() if v.get("source") in valid_src}
+    # 등록 순서대로 소스 상태 정렬(등록된 것만)
+    source_status = [status[s["id"]] for s in SOURCES if s["id"] in status]
 
     store["items"] = known
+    store["sources"] = source_status
     with open(DATA_JSON, "w", encoding="utf-8") as fp:
         json.dump(store, fp, ensure_ascii=False, indent=1)
 

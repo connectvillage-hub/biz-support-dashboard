@@ -47,6 +47,38 @@
     border-radius: 10px; padding: 7px 12px; font-size: 13px; cursor: pointer; box-shadow: var(--shadow);
   }
   button.ghost:hover { color: var(--accent); border-color: var(--accent); }
+  button.ghost.accent { color: var(--accent); border-color: #cfe0ff; font-weight: 700; }
+  button.ghost.accent.solid { background: var(--accent); color: #fff; border-color: var(--accent); }
+  button.ghost.accent.solid:hover { background: #1d4fd6; color: #fff; }
+
+  /* add-site form */
+  .fld { display: block; margin-bottom: 11px; }
+  .fld > span { display: block; font-size: 12.5px; font-weight: 700; color: var(--text-sub); margin-bottom: 4px; }
+  .fld input[type=text], .fld input[type=url], .fld select {
+    width: 100%; border: 1px solid var(--line); border-radius: 9px; padding: 9px 11px;
+    font-size: 14px; font-family: inherit; outline: none;
+  }
+  .fld input:focus, .fld select:focus { border-color: var(--accent); }
+  .fld-row { display: flex; gap: 10px; }
+  .fld.half { flex: 1; }
+  .fld.chk { display: flex; align-items: center; gap: 7px; margin-top: 22px; }
+  .fld.chk input { width: 16px; height: 16px; accent-color: var(--accent); }
+  .fld.chk span { margin: 0; font-weight: 600; color: var(--text); }
+  .add-actions { display: flex; gap: 8px; margin: 6px 0 4px; }
+  .add-actions button { flex: 1; padding: 10px; border-radius: 9px; cursor: pointer; font-size: 14px; font-family: inherit; }
+  .add-result { font-size: 13px; margin: 8px 0; min-height: 4px; }
+  .add-result .good { color: #0e9f6e; font-weight: 700; }
+  .add-result .bad { color: #dc2626; font-weight: 700; }
+  .add-result ul { margin: 6px 0 0; padding-left: 17px; color: var(--text-sub); }
+  .add-result li { margin: 2px 0; }
+  .add-divider { font-size: 12px; font-weight: 800; color: var(--text-sub); margin: 16px 0 8px; border-top: 1px solid var(--line); padding-top: 12px; }
+  .custom-list:empty::after { content: "아직 없습니다."; color: var(--text-sub); font-size: 12.5px; }
+  .crow { display: flex; align-items: center; gap: 8px; padding: 7px 0; border-bottom: 1px solid var(--line); font-size: 13px; }
+  .crow:last-child { border-bottom: none; }
+  .crow .cnm { font-weight: 600; }
+  .crow .ctag { font-size: 11px; color: var(--text-sub); background: var(--chip-bg); border-radius: 5px; padding: 1px 6px; }
+  .crow .cdel { margin-left: auto; border: none; background: none; color: #c0451b; cursor: pointer; font-size: 12.5px; }
+  .crow .cdel:hover { text-decoration: underline; }
 
   /* ---------- filters ---------- */
   .filters {
@@ -209,6 +241,41 @@
   <div class="modal-body" id="srcList"></div>
 </dialog>
 
+<dialog id="addModal">
+  <div class="modal-head">
+    <h2>＋ 사이트 추가</h2>
+    <button class="ghost" onclick="document.getElementById('addModal').close()">닫기</button>
+  </div>
+  <div class="modal-body">
+    <div id="addServerOn">
+      <label class="fld"><span>제목 (기관/사이트 이름)</span>
+        <input type="text" id="addName" placeholder="예: 부산○○진흥원"></label>
+      <label class="fld"><span>공고 목록 페이지 링크</span>
+        <input type="url" id="addUrl" placeholder="https://..."></label>
+      <div class="fld-row">
+        <label class="fld half"><span>지역</span>
+          <select id="addRegion"><option>부산</option><option>전국</option><option>기타</option></select></label>
+        <label class="fld half chk"><input type="checkbox" id="addAuto" checked>
+          <span>이 사이트의 공고 자동 수집</span></label>
+      </div>
+      <div class="add-actions">
+        <button type="button" class="ghost" id="btnTest">🔍 미리 확인</button>
+        <button type="button" class="ghost accent solid" id="btnDoAdd">추가하기</button>
+      </div>
+      <div id="addResult" class="add-result"></div>
+      <div class="add-divider">추가한 사이트</div>
+      <div id="customList" class="custom-list"></div>
+    </div>
+    <div id="addServerOff" style="display:none">
+      <div class="notice" style="margin:0">
+        <b>사이트 추가 기능은 앱으로 실행할 때만 동작합니다.</b><br>
+        폴더의 <b>앱_시작.bat</b> 을 더블클릭해서 열어주세요.
+        (지금은 정적 파일이라 자동 크롤링을 실행할 수 없습니다.)
+      </div>
+    </div>
+  </div>
+</dialog>
+
 <script src="data.js"></script>
 <script>
 (function () {
@@ -339,6 +406,7 @@
       <div class="statbox">전체 공고<b>${total}</b></div>
       <div class="statbox unread">미확인<b id="unreadCnt">${unread}</b></div>
       <div class="spacer"></div>
+      <button class="ghost accent" id="btnAdd">＋ 사이트 추가</button>
       <button class="ghost" id="btnSrc">수집 상태</button>
       <button class="ghost" id="btnAllRead">모두 읽음</button>
     </div>`;
@@ -387,8 +455,84 @@
       saveRead(); build();
     });
     document.getElementById('btnSrc').addEventListener('click', showSrcModal);
+    document.getElementById('btnAdd').addEventListener('click', showAddModal);
 
     renderList();
+  }
+
+  // ---------- 사이트 추가 (로컬 앱 서버 필요) ----------
+  let serverOn = null; // null=미확인, true/false
+  async function api(path, body) {
+    const opt = body ? { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(body) }
+                     : { method: 'GET' };
+    const r = await fetch(path, opt);
+    return r.json();
+  }
+  async function checkServer() {
+    if (serverOn !== null) return serverOn;
+    try { const j = await api('/api/ping'); serverOn = !!j.ok; }
+    catch (e) { serverOn = false; }
+    return serverOn;
+  }
+
+  async function showAddModal() {
+    document.getElementById('addModal').showModal();
+    const on = await checkServer();
+    document.getElementById('addServerOn').style.display = on ? '' : 'none';
+    document.getElementById('addServerOff').style.display = on ? 'none' : '';
+    if (on) renderCustomList();
+  }
+
+  async function renderCustomList() {
+    const box = document.getElementById('customList');
+    try {
+      const j = await api('/api/sources');
+      const list = (j.sources || []).filter(s => s.id && s.id.indexOf('cust_') === 0);
+      box.innerHTML = list.map(s =>
+        `<div class="crow"><span class="cnm">${esc(s.name)}</span>` +
+        `<span class="ctag">${s.mode === 'auto' ? '자동수집' : '링크'}</span>` +
+        `<span class="ctag">${esc(s.region || '')}</span>` +
+        `<button class="cdel" data-id="${esc(s.id)}">삭제</button></div>`).join('');
+      box.querySelectorAll('.cdel').forEach(b => b.addEventListener('click', async () => {
+        if (!confirm('이 사이트를 목록에서 제거할까요?')) return;
+        b.textContent = '삭제 중…';
+        await api('/api/remove', { id: b.dataset.id });
+        location.reload();
+      }));
+    } catch (e) { box.innerHTML = ''; }
+  }
+
+  function addResult(html) { document.getElementById('addResult').innerHTML = html; }
+
+  async function doTest() {
+    const url = document.getElementById('addUrl').value.trim();
+    if (!url) { addResult('<span class="bad">링크를 입력하세요.</span>'); return; }
+    addResult('확인 중… (사이트를 읽고 있어요)');
+    try {
+      const j = await api('/api/test', { url });
+      if (!j.ok) { addResult(`<span class="bad">실패: ${esc(j.error || '알 수 없음')}</span>`); return; }
+      if (!j.count) { addResult('<span class="bad">공고를 자동으로 찾지 못했어요.</span> 링크(바로가기)로만 추가하거나 주소를 확인해 주세요.'); return; }
+      addResult(`<span class="good">${j.count}건 발견</span> — 미리보기:<ul>` +
+        j.items.map(i => `<li>${esc(i.title)}${i.date ? ' · ' + esc(i.date) : ''}</li>`).join('') + '</ul>');
+    } catch (e) { addResult('<span class="bad">서버에 연결하지 못했어요. 앱_시작.bat 으로 실행했는지 확인하세요.</span>'); }
+  }
+
+  async function doAdd() {
+    const name = document.getElementById('addName').value.trim();
+    const url = document.getElementById('addUrl').value.trim();
+    const region = document.getElementById('addRegion').value;
+    const autocrawl = document.getElementById('addAuto').checked;
+    if (!url) { addResult('<span class="bad">링크를 입력하세요.</span>'); return; }
+    addResult('추가하고 수집하는 중… 잠시만요 ⏳');
+    try {
+      const j = await api('/api/add', { name, url, region, autocrawl });
+      if (!j.ok) { addResult(`<span class="bad">실패: ${esc(j.error || '알 수 없음')}</span>`); return; }
+      const msg = j.mode === 'auto'
+        ? `<span class="good">추가 완료 — ${j.count || 0}건 수집</span>`
+        : '<span class="good">바로가기로 추가 완료</span>';
+      addResult(msg + ' 잠시 후 새로고침됩니다…');
+      setTimeout(() => location.reload(), 1200);
+    } catch (e) { addResult('<span class="bad">서버에 연결하지 못했어요.</span>'); }
   }
 
   function filteredGroups() {
@@ -511,6 +655,10 @@
   if (DATA.generatedAt) {
     document.getElementById('updated').textContent = '마지막 수집: ' + fmtDateTime(DATA.generatedAt);
   }
+
+  // 사이트 추가 모달 버튼 (정적 요소 → 1회 바인딩)
+  document.getElementById('btnTest').addEventListener('click', doTest);
+  document.getElementById('btnDoAdd').addEventListener('click', doAdd);
 
   build();
 })();

@@ -2422,6 +2422,204 @@
     "사업화"
    ],
    "firstSeen": "2026-07-09"
+  },
+  "b2ca00b088669a9e": {
+   "id": "b2ca00b088669a9e",
+   "source": "bipa",
+   "sourceName": "부산정보산업진흥원",
+   "title": "2026년 AI 톡톡 코딩 공모전 모집",
+   "url": "https://bipa.kr/board/business/view?seq=85225",
+   "date": "2026-07-09",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-07-09"
   }
- }
+ },
+ "sources": [
+  {
+   "id": "kstartup",
+   "name": "K스타트업",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do",
+   "status": "ok",
+   "count": 15
+  },
+  {
+   "id": "bizinfo",
+   "name": "기업마당",
+   "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200View.do",
+   "status": "ok",
+   "count": 15
+  },
+  {
+   "id": "mss",
+   "name": "중소벤처기업부",
+   "url": "https://www.mss.go.kr/site/smba/ex/bbs/List.do?cbIdx=310",
+   "status": "ok",
+   "count": 10
+  },
+  {
+   "id": "kidp",
+   "name": "한국디자인진흥원",
+   "url": "https://kidp.or.kr/?menuno=1202",
+   "status": "ok",
+   "count": 10
+  },
+  {
+   "id": "kocca",
+   "name": "한국콘텐츠진흥원",
+   "url": "https://www.kocca.kr/kocca/pims/list.do?menuNo=20410",
+   "status": "ok",
+   "count": 10
+  },
+  {
+   "id": "arte",
+   "name": "한국문화예술교육진흥원",
+   "url": "https://arte.or.kr/notice/business/notice/Business_BoardList.do",
+   "status": "ok",
+   "count": 15
+  },
+  {
+   "id": "semas",
+   "name": "소상공인시장진흥공단",
+   "url": "https://www.semas.or.kr/web/board/webBoardList.kmdc?bCd=1&pNm=BOA0101",
+   "status": "ok",
+   "count": 10
+  },
+  {
+   "id": "smtech",
+   "name": "중소기업 기술개발(SMTECH)",
+   "url": "https://www.smtech.go.kr/front/ifg/no/notice02_list.do",
+   "status": "ok",
+   "count": 9
+  },
+  {
+   "id": "busanstartup",
+   "name": "부산창업포털",
+   "url": "https://www.busanstartup.kr/biz_sup?deadline=N&mcode=biz02",
+   "status": "ok",
+   "count": 10
+  },
+  {
+   "id": "dcb",
+   "name": "부산디자인진흥원",
+   "url": "https://dcb.or.kr/01_news/?mcode=0401010000",
+   "status": "ok",
+   "count": 15
+  },
+  {
+   "id": "btp",
+   "name": "부산테크노파크",
+   "url": "https://www.btp.or.kr/kor/CMS/Board/Board.do?mCode=MN013",
+   "status": "ok",
+   "count": 10
+  },
+  {
+   "id": "bepa",
+   "name": "부산경제진흥원",
+   "url": "https://www.bepa.kr/kor/view.do?no=1502",
+   "status": "ok",
+   "count": 10
+  },
+  {
+   "id": "bkic",
+   "name": "부산지식산업센터",
+   "url": "http://bkic.bepa.kr/bsknow/view.do?no=1477",
+   "status": "ok",
+   "count": 10
+  },
+  {
+   "id": "bsia",
+   "name": "부산기술창업투자원",
+   "url": "https://www.bsia.or.kr/announcements?mcode=news02",
+   "status": "link-only",
+   "count": 0
+  },
+  {
+   "id": "bipa",
+   "name": "부산정보산업진흥원",
+   "url": "https://bipa.kr/board/business/list",
+   "status": "ok",
+   "count": 10
+  },
+  {
+   "id": "bistep",
+   "name": "부산산업과학혁신원",
+   "url": "https://www.bistep.re.kr/kor/CMS/Board/Board.do?mCode=MN008",
+   "status": "ok",
+   "count": 10
+  },
+  {
+   "id": "busan_gosi",
+   "name": "부산광역시 고시공고",
+   "url": "https://www.busan.go.kr/nbgosi",
+   "status": "ok",
+   "count": 3
+  },
+  {
+   "id": "bscf",
+   "name": "부산문화재단",
+   "url": "https://www.bscf.or.kr",
+   "status": "ok",
+   "count": 11
+  },
+  {
+   "id": "dcamp",
+   "name": "디캠프(d.camp)",
+   "url": "https://dcamp.kr/news/notice",
+   "status": "ok",
+   "count": 5
+  },
+  {
+   "id": "sparklabs",
+   "name": "스파크랩",
+   "url": "https://sparklabs.co.kr/kr/news",
+   "status": "ok",
+   "count": 10
+  },
+  {
+   "id": "orangeplanet",
+   "name": "오렌지플래닛",
+   "url": "https://orangeplanet.or.kr/news/newsList",
+   "status": "ok",
+   "count": 15
+  },
+  {
+   "id": "primer",
+   "name": "프라이머",
+   "url": "https://primer.kr",
+   "status": "ok",
+   "count": 2
+  },
+  {
+   "id": "yoonmin",
+   "name": "윤민창의투자재단",
+   "url": "https://yoonmin.org/good-starter",
+   "status": "ok",
+   "count": 1
+  },
+  {
+   "id": "ccei_busan",
+   "name": "부산창조경제혁신센터",
+   "url": "https://ccei.creativekorea.or.kr/busan/custom/notice_list.do",
+   "status": "link-only",
+   "count": 0
+  },
+  {
+   "id": "bluepoint",
+   "name": "블루포인트파트너스",
+   "url": "https://bluepoint.ac",
+   "status": "link-only",
+   "count": 0
+  },
+  {
+   "id": "mashup",
+   "name": "매쉬업벤처스",
+   "url": "https://www.mashupventures.co",
+   "status": "link-only",
+   "count": 0
+  }
+ ]
 }
