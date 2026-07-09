@@ -3061,6 +3061,20 @@
     "홍보·마케팅"
    ],
    "firstSeen": "2026-07-09"
+  },
+  "69b851ac318ac71f": {
+   "id": "69b851ac318ac71f",
+   "source": "bscf",
+   "sourceName": "부산문화재단",
+   "title": "지원공모2026년 청년예술가 국제교류(중국 국제 사진축제) 참여작가 모집",
+   "url": "https://www.bscf.or.kr/view.do?no=1010&pgMode=show&pbancSn=2386",
+   "date": "2026-07-09",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-07-09"
   }
  },
  "sources": [
@@ -3188,7 +3202,7 @@
    "name": "부산문화재단",
    "url": "https://www.bscf.or.kr",
    "status": "ok",
-   "count": 11
+   "count": 12
   },
   {
    "id": "dcamp",
