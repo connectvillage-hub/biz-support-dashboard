@@ -712,6 +712,158 @@ def make_auto_fetcher(cfg):
                                            encoding=cfg.get("encoding"))
 
 
+# ---------------------------------------------------------------------------
+# 상세 페이지 내용 · 첨부파일 추출 (사이트 내 안내 팝업용)
+# ---------------------------------------------------------------------------
+ATTACH_EXTS = (".hwp", ".hwpx", ".pdf", ".doc", ".docx", ".xls", ".xlsx",
+               ".ppt", ".pptx", ".zip", ".txt", ".cell", ".show")
+FILE_EXT_RE = re.compile(r"\.(hwp|hwpx|pdf|docx?|xlsx?|pptx?|zip|txt|cell|show)(?:$|[?&])", re.I)
+# 첨부 다운로드 엔드포인트 패턴. 'download'는 오탐(브라우저 업데이트 등)이 있으나
+# 아래 same-host 검사 + BLOCK_HOSTS 로 외부 링크를 걸러 안전하게 사용한다.
+DOWNLOAD_HINTS = ("download", "filedown", "atchfile", "getfile", "/fms/", "downfile",
+                  "cfs_", "fn_egov_downfile", "nttinfo", "streamdocs", "/uploads/")
+GENERIC_NAMES = {"다운로드", "파일다운로드", "첨부", "첨부파일", "download", "view",
+                 "미리보기", "바로보기", "preview", "다운", "내려받기",
+                 "새창내려받기", "새창열림", "새창", "바로가기"}
+BLOCK_HOSTS = ("adobe.com", "microsoft.com", "google.com", "whatsapp", "hancom.com",
+               "apple.com", "mozilla.org", "naver.com/whale")
+CONTENT_SELECTORS = [
+    ".view_cont", ".view-cont", ".board_view", ".bbs_view", ".view_con", ".view-content",
+    ".cont_view", ".vw_cont", ".bo_v_con", ".board-view", ".view_area", ".view_body",
+    ".board_con", ".dbdata", ".se-main-container", "#content .content", "td.content",
+    ".table_view", "article .content", ".detail_cont", ".contents_view",
+]
+SAFE_TAGS = {"p", "br", "b", "strong", "i", "em", "u", "s", "ul", "ol", "li",
+             "table", "thead", "tbody", "tfoot", "tr", "td", "th", "caption",
+             "h1", "h2", "h3", "h4", "h5", "h6", "span", "div", "img", "a", "hr",
+             "blockquote", "pre", "figure", "figcaption", "small", "sub", "sup"}
+DROP_TAGS = ["script", "style", "noscript", "iframe", "object", "embed", "svg",
+             "form", "input", "button", "select", "textarea", "header", "footer", "nav"]
+
+
+def _abs(base, href):
+    try:
+        return urllib.parse.urljoin(base, href)
+    except Exception:  # noqa: BLE001
+        return href
+
+
+def extract_attachments(soup, base):
+    base_host = urllib.parse.urlparse(base).netloc
+    out, seen = [], set()
+    for a in soup.find_all("a", href=True):
+        href = a["href"].strip()
+        low = href.lower()
+        if not href or low.startswith(("mailto:", "tel:", "javascript")):
+            continue
+        is_file = bool(FILE_EXT_RE.search(low))
+        is_dl = any(h in low for h in DOWNLOAD_HINTS)
+        if not (is_file or is_dl):
+            continue
+        url = _abs(base, href)
+        host = urllib.parse.urlparse(url).netloc
+        if any(b in (host + href.lower()) for b in BLOCK_HOSTS):
+            continue
+        if is_dl and not is_file and host and host != base_host:
+            continue  # 외부 사이트로 나가는 download 링크는 첨부 아님
+        if url in seen:
+            continue
+        seen.add(url)
+        raw = a.get("title") or a.get_text(" ", strip=True) or ""
+        raw = re.sub(r"\s+", " ", raw).strip()
+        if not raw or raw.replace(" ", "").lower() in GENERIC_NAMES:
+            # 앵커 텍스트가 밋밋하면 주변(부모)에서 파일명 후보를 찾는다
+            parent = a.find_parent(["li", "tr", "td", "div", "p", "dd"])
+            cand = ""
+            if parent:
+                m = re.search(r"[^\s/\\<>]+\.(?:hwp|hwpx|pdf|docx?|xlsx?|pptx?|zip|txt)",
+                              parent.get_text(" ", strip=True), re.I)
+                if m:
+                    cand = m.group(0)
+            raw = cand or (url.split("/")[-1].split("?")[0] if is_file else "") or "첨부파일"
+        name = raw[:150]
+        m2 = FILE_EXT_RE.search(low) or FILE_EXT_RE.search(name.lower())
+        ext = m2.group(1).lower() if m2 else ""
+        out.append({"name": name, "url": url, "ext": ext})
+    return out[:20]
+
+
+def clean_content_html(node, base):
+    for t in node.find_all(DROP_TAGS):
+        t.decompose()
+    for tag in node.find_all(True):
+        if tag.name not in SAFE_TAGS:
+            tag.unwrap()
+            continue
+        attrs = {}
+        if tag.name == "a" and tag.get("href"):
+            attrs = {"href": _abs(base, tag["href"]), "target": "_blank", "rel": "noopener"}
+        elif tag.name == "img":
+            src = tag.get("src") or tag.get("data-src") or tag.get("data-original")
+            if src:
+                attrs = {"src": _abs(base, src), "loading": "lazy"}
+        elif tag.name in ("td", "th"):
+            for k in ("colspan", "rowspan"):
+                if tag.get(k):
+                    attrs[k] = tag.get(k)
+        tag.attrs = attrs
+    html = str(node)
+    return html[:200000]
+
+
+def pick_content(soup):
+    for sel in CONTENT_SELECTORS:
+        el = soup.select_one(sel)
+        if el and len(el.get_text(strip=True)) > 40:
+            return el
+    best, best_score = None, 0
+    for el in soup.find_all(["div", "td", "article", "section"]):
+        txt = el.get_text(strip=True)
+        n = len(txt)
+        if n < 60 or n > 60000:
+            continue
+        links = len(el.find_all("a"))
+        score = n - 60 * links  # 링크 많은 내비게이션 감점
+        if score > best_score:
+            best, best_score = el, score
+    return best
+
+
+def fetch_detail(url):
+    """공고 상세 페이지에서 본문·첨부파일을 추출한다. (제목은 클라이언트가 카드 값 사용)"""
+    soup = soup_of(url)
+    for t in soup(DROP_TAGS):   # 로고·메뉴·푸터 먼저 제거
+        t.decompose()
+    ttl = soup.select_one(".view_title, .bo_v_title, .subject, .board_title")
+    title = re.sub(r"\s+", " ", ttl.get_text(" ", strip=True)).strip() if ttl else ""
+    attachments = extract_attachments(soup, url)
+    cont = pick_content(soup)
+    html = clean_content_html(cont, url) if cont else ""
+    text_len = len(BeautifulSoup(html, "html.parser").get_text(strip=True)) if html else 0
+    return {"title": title[:250], "html": html, "text_len": text_len,
+            "attachments": attachments, "url": url}
+
+
+def fetch_bytes(url, referer=None):
+    """첨부파일 등 원본 바이너리를 그대로 받아온다. (name, content, content_type)"""
+    headers = dict(HEADERS)
+    if referer:
+        headers["Referer"] = referer
+    try:
+        r = requests.get(url, headers=headers, timeout=REQUEST_TIMEOUT, verify=True)
+    except requests.exceptions.SSLError:
+        s = requests.Session()
+        s.mount("https://", LegacySSLAdapter())
+        r = s.get(url, headers=headers, timeout=REQUEST_TIMEOUT, verify=False)
+    r.raise_for_status()
+    name = None
+    cd = r.headers.get("Content-Disposition", "")
+    m = re.search(r"filename\*?=(?:UTF-8'')?\"?([^\";]+)", cd)
+    if m:
+        name = urllib.parse.unquote(m.group(1))
+    return name, r.content, r.headers.get("Content-Type", "application/octet-stream")
+
+
 def register_custom_entry(ent, idx=0):
     """custom_sources.json 항목 1개를 SOURCES에 등록. 등록된 src id 반환(실패 시 None)."""
     if not isinstance(ent, dict) or not ent.get("enabled", True):

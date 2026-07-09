@@ -228,6 +228,43 @@
     background: #fff8e6; border: 1px solid #f5dfa6; color: #8a6d1a; border-radius: 12px;
     padding: 14px 16px; font-size: 13.5px; margin-bottom: 16px;
   }
+
+  /* ---------- detail (안내) modal ---------- */
+  #detailModal { max-width: 760px; }
+  #detailModal .modal-body { max-height: 74vh; }
+  .d-meta { display: flex; flex-wrap: wrap; gap: 6px 10px; align-items: center; font-size: 12.5px; color: var(--text-sub); margin-bottom: 10px; }
+  .d-links { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 12px; }
+  .d-links a {
+    display: inline-flex; align-items: center; gap: 5px; text-decoration: none;
+    background: var(--accent); color: #fff; border-radius: 9px; padding: 8px 13px; font-size: 13px; font-weight: 700;
+  }
+  .d-links a:hover { background: #1d4fd6; }
+  .d-attach { margin-bottom: 14px; }
+  .d-attach-t { font-size: 13px; font-weight: 800; margin-bottom: 7px; color: var(--text); }
+  .d-file {
+    display: flex; align-items: center; gap: 10px; text-decoration: none; color: var(--text);
+    border: 1px solid var(--line); border-radius: 10px; padding: 9px 12px; margin-bottom: 6px; background: #fff;
+  }
+  .d-file:hover { border-color: var(--accent); background: var(--accent-soft); }
+  .d-ext {
+    flex-shrink: 0; font-size: 10.5px; font-weight: 800; color: #fff; background: #8a94a6;
+    border-radius: 5px; padding: 2px 7px; min-width: 40px; text-align: center; letter-spacing: .3px;
+  }
+  .d-ext.pdf { background: #dc2626; } .d-ext.hwp, .d-ext.hwpx { background: #2563eb; }
+  .d-ext.xls, .d-ext.xlsx, .d-ext.cell { background: #0e9f6e; }
+  .d-ext.doc, .d-ext.docx { background: #1d4ed8; }
+  .d-ext.ppt, .d-ext.pptx, .d-ext.show { background: #ea580c; }
+  .d-ext.zip { background: #6b7280; }
+  .d-fn { flex: 1; font-size: 13px; word-break: break-all; }
+  .d-dl { flex-shrink: 0; font-size: 12px; color: var(--accent); font-weight: 700; }
+  .d-bodywrap { border-top: 1px solid var(--line); padding-top: 12px; }
+  .d-loading, .d-empty { color: var(--text-sub); font-size: 13.5px; padding: 18px 0; text-align: center; }
+  .d-content { font-size: 13.5px; line-height: 1.7; color: #2b3444; word-break: break-word; }
+  .d-content img { max-width: 100%; height: auto; }
+  .d-content table { border-collapse: collapse; max-width: 100%; margin: 8px 0; display: block; overflow-x: auto; }
+  .d-content td, .d-content th { border: 1px solid var(--line); padding: 5px 8px; font-size: 12.5px; }
+  .d-content a { color: var(--accent); }
+  .d-content p { margin: 6px 0; }
   @media (max-width: 640px) {
     body { font-size: 14px; }
     .filter-row .label { width: 100%; }
@@ -285,6 +322,19 @@
         (지금은 정적 파일이라 자동 크롤링을 실행할 수 없습니다.)
       </div>
     </div>
+  </div>
+</dialog>
+
+<dialog id="detailModal">
+  <div class="modal-head">
+    <h2 id="dTitle" style="font-size:16px; line-height:1.4; padding-right:10px;">공고</h2>
+    <button class="ghost" onclick="document.getElementById('detailModal').close()">닫기</button>
+  </div>
+  <div class="modal-body">
+    <div id="dMeta" class="d-meta"></div>
+    <div id="dLinks" class="d-links"></div>
+    <div id="dAttach" class="d-attach"></div>
+    <div id="dBody" class="d-bodywrap"></div>
   </div>
 </dialog>
 
@@ -515,6 +565,45 @@
     const r = await fetch(path, opt);
     return r.json();
   }
+  // ---------- 공고 상세(안내) 모달 ----------
+  function openDetail(g) {
+    const url = (g.srcList && g.srcList[0]) ? g.srcList[0].url : null;
+    if (!url) { window.open(url || '#', '_blank'); return; }
+    document.getElementById('dTitle').textContent = g.title;
+    document.getElementById('dMeta').innerHTML =
+      (g.date ? `<span>등록 ${fmtDate(g.date)}</span>` : '') + ddayHtml(g) +
+      `<span class="tag region ${g.region === '부산' ? 'busan' : ''}">${esc(g.region || '기타')}</span>` +
+      (g.categories || []).map(c => `<span class="tag">${esc(c)}</span>`).join('');
+    document.getElementById('dLinks').innerHTML = (g.srcList || []).map(s =>
+      `<a href="${esc(s.url)}" target="_blank" rel="noopener">🔗 ${esc(s.sourceName)} 원본 열기</a>`).join('');
+    document.getElementById('dAttach').innerHTML = '';
+    document.getElementById('dBody').innerHTML = '<div class="d-loading">원본에서 내용을 불러오는 중… ⏳</div>';
+    document.getElementById('detailModal').showModal();
+
+    api('/api/detail?url=' + encodeURIComponent(url)).then(j => {
+      const body = document.getElementById('dBody');
+      const att = document.getElementById('dAttach');
+      if (!j || !j.ok) { body.innerHTML = '<div class="d-empty">내용을 불러오지 못했어요. 아래 원본 링크에서 확인하세요.</div>'; return; }
+      if (j.attachments && j.attachments.length) {
+        att.innerHTML = '<div class="d-attach-t">📎 첨부파일 ' + j.attachments.length + '개</div>' +
+          j.attachments.map(a => {
+            const dl = '/api/download?url=' + encodeURIComponent(a.url) +
+              '&name=' + encodeURIComponent(a.name) + '&ref=' + encodeURIComponent(url);
+            return `<a class="d-file" href="${dl}"><span class="d-ext ${esc(a.ext || 'file')}">${esc((a.ext || 'FILE').toUpperCase())}</span>` +
+              `<span class="d-fn">${esc(a.name)}</span><span class="d-dl">내려받기 ↓</span></a>`;
+          }).join('');
+      }
+      if (j.html && j.text_len > 5) {
+        body.innerHTML = '<div class="d-content">' + j.html + '</div>';
+      } else {
+        body.innerHTML = '<div class="d-empty">본문 미리보기를 찾지 못했어요.<br>' +
+          (j.attachments && j.attachments.length ? '위 첨부파일' : '아래 원본 링크') + '에서 확인하세요.</div>';
+      }
+    }).catch(() => {
+      document.getElementById('dBody').innerHTML = '<div class="d-empty">서버에 연결하지 못했어요. 앱_시작.bat 으로 실행했는지 확인하세요.</div>';
+    });
+  }
+
   async function checkServer() {
     if (serverOn !== null) return serverOn;
     try { const j = await api('/api/ping'); serverOn = !!j.ok; }
@@ -635,7 +724,7 @@
         ? `<span class="dupflag" title="여러 사이트에 중복 게시됨">🔁 ${g.srcList.length}개 사이트</span>` : '';
       const primaryUrl = (g.srcList && g.srcList[0]) ? g.srcList[0].url : '#';
       return `<div class="card ${read ? 'read' : ''}" data-id="${esc(g.sid)}">
-        <a class="title" href="${esc(primaryUrl)}" target="_blank" rel="noopener" data-src>${isNew ? '<span class="badge-new">NEW</span>' : ''}${esc(g.title)}</a>
+        <a class="title" href="${esc(primaryUrl)}" target="_blank" rel="noopener">${isNew ? '<span class="badge-new">NEW</span>' : ''}${esc(g.title)}</a>
         <div class="meta">
           ${g.date ? `<span>등록 ${fmtDate(g.date)}</span>` : ''}
           ${ddayHtml(g)}
@@ -671,15 +760,21 @@
         saveRead(); updateUnreadCount(); renderList();
         return;
       });
-      // 제목/출처 배지 클릭 → 해당 원문 열림 + 이 공고(묶음 전체) 읽음 처리
-      card.querySelectorAll('[data-src]').forEach(a => a.addEventListener('click', () => {
+      const markSeen = () => {
         if (!groupRead(g)) {
           setGroupRead(g, true); saveRead();
           card.classList.add('read');
           const nb = card.querySelector('.badge-new'); if (nb) nb.remove();
           updateUnreadCount();
         }
-      }));
+      };
+      // 제목 클릭 → 앱 실행 중이면 사이트 내 안내 팝업, 아니면 원본 새 탭
+      card.querySelector('.title').addEventListener('click', e => {
+        markSeen();
+        if (serverOn) { e.preventDefault(); openDetail(g); }
+      });
+      // 출처 배지 클릭 → 해당 사이트 원문 새 탭 + 읽음 처리
+      card.querySelectorAll('.srcbadge').forEach(a => a.addEventListener('click', markSeen));
     });
   }
 
@@ -729,6 +824,7 @@
   document.getElementById('btnTest').addEventListener('click', doTest);
   document.getElementById('btnDoAdd').addEventListener('click', doAdd);
 
+  checkServer();   // 앱 서버 여부 미리 확인 (제목 클릭 시 안내팝업/원본 분기)
   build();
 })();
 </script>
