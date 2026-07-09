@@ -61,6 +61,8 @@ class Handler(SimpleHTTPRequestHandler):
     def do_GET(self):
         if self.path.startswith("/api/ping"):
             return self._json({"ok": True})
+        if self.path.startswith("/api/version"):
+            return self._json({"ok": True, "version": APP_VERSION})
         if self.path.startswith("/api/sources"):
             return self._json({"ok": True, "sources": scraper.read_custom_sources()})
         if self.path.startswith("/api/detail"):
@@ -118,7 +120,7 @@ class Handler(SimpleHTTPRequestHandler):
         return self._json({"ok": False, "error": "unknown endpoint"}, 404)
 
 
-APP_VERSION = "2026-07-09.8"
+APP_VERSION = "2026-07-09.9"
 
 
 def kill_port(port):
@@ -145,7 +147,8 @@ def bind_server():
 def main():
     for p in OLD_PORTS:          # 예전 버전 좀비 서버 정리
         kill_port(p)
-    url = f"http://localhost:{PORT}/index.html"
+    # 버전을 붙여 열면 브라우저가 옛 캐시를 재사용할 수 없어 항상 최신본이 로드됨
+    url = f"http://localhost:{PORT}/index.html?v={APP_VERSION}"
     try:
         httpd = bind_server()
     except OSError as e:
