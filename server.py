@@ -64,7 +64,7 @@ class Handler(SimpleHTTPRequestHandler):
             self.end_headers()
             return
         if self.path.startswith("/api/ping"):
-            return self._json({"ok": True})
+            return self._json({"ok": True, "features": {"detail": True, "add": True}})
         if self.path.startswith("/api/version"):
             return self._json({"ok": True, "version": APP_VERSION})
         if self.path.startswith("/api/sources"):
@@ -124,7 +124,7 @@ class Handler(SimpleHTTPRequestHandler):
         return self._json({"ok": False, "error": "unknown endpoint"}, 404)
 
 
-APP_VERSION = "2026-07-09.18"
+APP_VERSION = "2026-07-09.19"
 
 
 def kill_port(port):
