@@ -1621,20 +1621,6 @@
    ],
    "firstSeen": "2026-07-09"
   },
-  "cb22e1dfaa758b65": {
-   "id": "cb22e1dfaa758b65",
-   "source": "busanstartup",
-   "sourceName": "부산창업포털",
-   "title": "2026년 소상공인 IP(지식재산) 창출지원 상표출원 사업 공고",
-   "url": "https://www.busanstartup.kr/biz_sup/1992?mcode=biz02",
-   "date": "2026-03-11",
-   "deadline": "2026-10-01",
-   "region": "부산",
-   "categories": [
-    "특허·지재권"
-   ],
-   "firstSeen": "2026-07-09"
-  },
   "4f446f843df3a50f": {
    "id": "4f446f843df3a50f",
    "source": "busanstartup",
@@ -2223,21 +2209,6 @@
    "region": "부산",
    "categories": [
     "입주기업"
-   ],
-   "firstSeen": "2026-07-09"
-  },
-  "f1b80b0c0db38607": {
-   "id": "f1b80b0c0db38607",
-   "source": "bkic",
-   "sourceName": "부산지식산업센터",
-   "title": "「2026년 부산 반려동물산업 육성 R&D과제 지원사업」참여기업 모집 공고",
-   "url": "http://bkic.bepa.kr/bsknow/view.do?no=1477&idx=1791&view=view&pageIndex=1&sv=&sw=",
-   "date": "2026-03-11",
-   "deadline": null,
-   "region": "부산",
-   "categories": [
-    "R&D",
-    "사업화"
    ],
    "firstSeen": "2026-07-09"
   },
@@ -3075,6 +3046,21 @@
     "사업화"
    ],
    "firstSeen": "2026-07-09"
+  },
+  "7d480b709e90d168": {
+   "id": "7d480b709e90d168",
+   "source": "kstartup",
+   "sourceName": "K스타트업",
+   "title": "2026년 제2차 대전 팁스타운 입주기업 모집 공고",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178494",
+   "date": "2026-07-09",
+   "deadline": "2026-07-22",
+   "region": "전국",
+   "categories": [
+    "투자",
+    "입주기업"
+   ],
+   "firstSeen": "2026-07-10"
   }
  },
  "sources": [
@@ -3089,15 +3075,17 @@
    "id": "bizinfo",
    "name": "기업마당",
    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200View.do",
-   "status": "ok",
-   "count": 15
+   "status": "fail",
+   "count": 0,
+   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.bizinfo.go.kr%2Fsii%2Fsiia%2FselectSIIA200View.do"
   },
   {
    "id": "mss",
    "name": "중소벤처기업부",
    "url": "https://www.mss.go.kr/site/smba/ex/bbs/List.do?cbIdx=310",
-   "status": "ok",
-   "count": 10
+   "status": "fail",
+   "count": 0,
+   "error": "408 Client Error: Request Timeout for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.mss.go.kr%2Fsite%2Fsmba%2Fex%2Fbbs%2FList.do%3FcbIdx%3D310"
   },
   {
    "id": "kidp",
@@ -3124,15 +3112,17 @@
    "id": "semas",
    "name": "소상공인시장진흥공단",
    "url": "https://www.semas.or.kr/web/board/webBoardList.kmdc?bCd=1&pNm=BOA0101",
-   "status": "ok",
-   "count": 10
+   "status": "fail",
+   "count": 0,
+   "error": "408 Client Error: Request Timeout for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.semas.or.kr%2Fweb%2Fboard%2FwebBoardList.kmdc%3FbCd%3D1%26pNm%3DBOA0101"
   },
   {
    "id": "smtech",
    "name": "중소기업 기술개발(SMTECH)",
    "url": "https://www.smtech.go.kr/front/ifg/no/notice02_list.do",
-   "status": "ok",
-   "count": 9
+   "status": "fail",
+   "count": 0,
+   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.smtech.go.kr%2Ffront%2Fifg%2Fno%2Fnotice02_list.do"
   },
   {
    "id": "busanstartup",
@@ -3194,8 +3184,9 @@
    "id": "busan_gosi",
    "name": "부산광역시 고시공고",
    "url": "https://www.busan.go.kr/nbgosi",
-   "status": "ok",
-   "count": 2
+   "status": "fail",
+   "count": 0,
+   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.busan.go.kr%2Fnbgosi%3FcurPage%3D1"
   },
   {
    "id": "bscf",
