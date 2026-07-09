@@ -748,24 +748,100 @@ def _abs(base, href):
         return href
 
 
-def extract_attachments(soup, base):
+def attachment_abs_url(href, base):
+    """href가 첨부/다운로드 링크로 보이면 절대 URL을, 아니면 None을 반환."""
+    if not href:
+        return None
+    low = href.strip().lower()
+    if low.startswith(("mailto:", "tel:", "javascript", "#")):
+        return None
+    is_file = bool(FILE_EXT_RE.search(low))
+    is_dl = any(h in low for h in DOWNLOAD_HINTS)
+    if not (is_file or is_dl):
+        return None
+    url = _abs(base, href.strip())
+    host = urllib.parse.urlparse(url).netloc
+    base_host = urllib.parse.urlparse(base).netloc
+    if any(b in (host + low) for b in BLOCK_HOSTS):
+        return None
+    if is_dl and not is_file and host and host != base_host:
+        return None
+    return url
+
+
+def proxy_download_url(file_url, name, ref):
+    """브라우저가 우리 서버 프록시를 통해 파일을 내려받게 하는 상대 경로."""
+    return "/api/download?" + urllib.parse.urlencode(
+        {"url": file_url, "name": (name or "첨부파일")[:150], "ref": ref})
+
+
+def parse_download_funcs(html_text):
+    """페이지 JS에서 form 전송 방식 다운로드 함수를 파싱한다.
+
+    예) function downFile(prgrmFileId, prgrmFileSn){ form.prgrmFileId.value=prgrmFileId;
+        form.prgrmFileSn.value=prgrmFileSn; form.action="/cmm/file/downFile.do"; form.submit(); }
+    → {'downFile': {'endpoint': '/cmm/file/downFile.do', 'fields': ['prgrmFileId','prgrmFileSn']}}
+    """
+    funcs = {}
+    for m in re.finditer(r"function\s+(\w+)\s*\(([^)]*)\)\s*\{(.*?)submit\s*\(\)", html_text, re.S):
+        name, sig, body = m.group(1), m.group(2), m.group(3)
+        am = re.search(r"""action\s*=\s*['"]([^'"]+)['"]""", body)
+        if not am:
+            continue
+        params = [p.strip() for p in sig.split(",") if p.strip()]
+        field_by_param = {}
+        for fm in re.finditer(r"\.(\w+)\.value\s*=\s*(\w+)", body):
+            field_by_param[fm.group(2)] = fm.group(1)
+        fields = [field_by_param.get(p) for p in params]
+        if any(fields):
+            funcs[name] = {"endpoint": am.group(1), "fields": fields}
+    return funcs
+
+
+def resolve_onclick_download(onclick, base, dl_funcs):
+    """onclick의 다운로드 함수 호출을 실제 다운로드 URL로 변환. 실패 시 None."""
+    if not onclick or not dl_funcs:
+        return None
+    for m in re.finditer(r"(\w+)\s*\(([^)]*)\)", onclick):
+        info = dl_funcs.get(m.group(1))
+        if not info:
+            continue
+        raw = m.group(2).strip()
+        args = [a.strip().strip("'\"") for a in raw.split(",")] if raw else []
+        params = {}
+        for i, field in enumerate(info["fields"]):
+            if field and i < len(args):
+                params[field] = args[i]
+        if not params:
+            continue
+        ep = _abs(base, info["endpoint"])
+        return ep + ("&" if "?" in ep else "?") + urllib.parse.urlencode(params)
+    return None
+
+
+def extract_attachments(soup, base, dl_funcs=None):
     base_host = urllib.parse.urlparse(base).netloc
     out, seen = [], set()
-    for a in soup.find_all("a", href=True):
-        href = a["href"].strip()
+    for a in soup.find_all("a"):
+        href = (a.get("href") or "").strip()
         low = href.lower()
-        if not href or low.startswith(("mailto:", "tel:", "javascript")):
+        if low.startswith(("mailto:", "tel:")):
             continue
         is_file = bool(FILE_EXT_RE.search(low))
         is_dl = any(h in low for h in DOWNLOAD_HINTS)
-        if not (is_file or is_dl):
-            continue
-        url = _abs(base, href)
-        host = urllib.parse.urlparse(url).netloc
-        if any(b in (host + href.lower()) for b in BLOCK_HOSTS):
-            continue
-        if is_dl and not is_file and host and host != base_host:
-            continue  # 외부 사이트로 나가는 download 링크는 첨부 아님
+        if is_file or is_dl:
+            url = _abs(base, href)
+            host = urllib.parse.urlparse(url).netloc
+            if any(b in (host + low) for b in BLOCK_HOSTS):
+                continue
+            if is_dl and not is_file and host and host != base_host:
+                continue  # 외부 사이트로 나가는 download 링크는 첨부 아님
+        else:
+            # href로는 판별 불가 → onclick의 JS 다운로드 함수 해석 시도
+            url = resolve_onclick_download(a.get("onclick", ""), base, dl_funcs)
+            if not url:
+                # 앵커 텍스트가 파일명(.zip 등)이면 마지막으로 onclick 재시도
+                continue
         if url in seen:
             continue
         seen.add(url)
@@ -788,7 +864,7 @@ def extract_attachments(soup, base):
     return out[:20]
 
 
-def clean_content_html(node, base):
+def clean_content_html(node, base, dl_funcs=None):
     for t in node.find_all(DROP_TAGS):
         t.decompose()
     for tag in node.find_all(True):
@@ -796,8 +872,19 @@ def clean_content_html(node, base):
             tag.unwrap()
             continue
         attrs = {}
-        if tag.name == "a" and tag.get("href"):
-            attrs = {"href": _abs(base, tag["href"]), "target": "_blank", "rel": "noopener"}
+        if tag.name == "a":
+            href = tag.get("href", "")
+            # 첨부/다운로드 링크면(href 기반 또는 onclick JS 기반) 우리 프록시로 연결
+            dl = attachment_abs_url(href, base) or resolve_onclick_download(
+                tag.get("onclick", ""), base, dl_funcs)
+            if dl:
+                nm = (tag.get("title") or re.sub(r"\s+", " ", tag.get_text(" ", strip=True)).strip()
+                      or dl.split("/")[-1].split("?")[0] or "첨부파일")
+                attrs = {"href": proxy_download_url(dl, nm, base),
+                         "class": "d-inline-file", "download": nm}
+            elif href and not href.lower().startswith(("javascript", "#")):
+                attrs = {"href": _abs(base, href), "target": "_blank", "rel": "noopener"}
+            # href 없는(또는 #none) 비-다운로드 링크는 속성 제거해 평범한 텍스트로
         elif tag.name == "img":
             src = tag.get("src") or tag.get("data-src") or tag.get("data-original")
             if src:
@@ -831,14 +918,16 @@ def pick_content(soup):
 
 def fetch_detail(url):
     """공고 상세 페이지에서 본문·첨부파일을 추출한다. (제목은 클라이언트가 카드 값 사용)"""
-    soup = soup_of(url)
+    resp = fetch(url)
+    dl_funcs = parse_download_funcs(resp.text)   # JS 다운로드 함수 파싱 (script 제거 전)
+    soup = BeautifulSoup(resp.text, "html.parser")
     for t in soup(DROP_TAGS):   # 로고·메뉴·푸터 먼저 제거
         t.decompose()
     ttl = soup.select_one(".view_title, .bo_v_title, .subject, .board_title")
     title = re.sub(r"\s+", " ", ttl.get_text(" ", strip=True)).strip() if ttl else ""
-    attachments = extract_attachments(soup, url)
+    attachments = extract_attachments(soup, url, dl_funcs)
     cont = pick_content(soup)
-    html = clean_content_html(cont, url) if cont else ""
+    html = clean_content_html(cont, url, dl_funcs) if cont else ""
     text_len = len(BeautifulSoup(html, "html.parser").get_text(strip=True)) if html else 0
     return {"title": title[:250], "html": html, "text_len": text_len,
             "attachments": attachments, "url": url}
