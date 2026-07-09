@@ -514,7 +514,7 @@
    "source": "busan_gosi",
    "sourceName": "부산광역시 고시공고",
    "title": "부산광역시 사전재난영향평가위원회 위원 공개모집 공고",
-   "url": "https://www.busan.go.kr/nbgosi/view?sno=78617&gosiGbn=A&curPage=2",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=78617&gosiGbn=A&curPage=3",
    "date": "2026-07-09",
    "deadline": null,
    "region": "부산",
@@ -2374,6 +2374,48 @@
    "title": "2026년 소상공인 플랫폼 협업교육 수행기관 모집공고",
    "url": "https://www.semas.or.kr/web/board/webBoardView.kmdc?bCd=1&b_idx=54158&pNm=BOA0101",
    "date": "2026-05-15",
+   "deadline": null,
+   "region": "전국",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-07-09"
+  },
+  "f6e488ffa8f8f154": {
+   "id": "f6e488ffa8f8f154",
+   "source": "btp",
+   "sourceName": "부산테크노파크",
+   "title": "해양과학기술 산학연 협력센터 카페 위탁운영 용역 제안서 평가위원 모집공고",
+   "url": "https://www.btp.or.kr/kor/CMS/Board/Board.do?mCode=MN013&mode=view&mgr_seq=16&board_seq=9582178",
+   "date": "2026-07-09",
+   "deadline": "2026-07-15",
+   "region": "부산",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-07-09"
+  },
+  "94cef8ad3bf66f97": {
+   "id": "94cef8ad3bf66f97",
+   "source": "bipa",
+   "sourceName": "부산정보산업진흥원",
+   "title": "2026 부산콘텐츠아카데미 포트폴리오 컨설팅 프로그램 교육생 모집",
+   "url": "https://bipa.kr/board/business/view?seq=85223",
+   "date": "2026-07-09",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-07-09"
+  },
+  "526430031624cafe": {
+   "id": "526430031624cafe",
+   "source": "kidp",
+   "sourceName": "한국디자인진흥원",
+   "title": "산업단지 수요자 아이디어 모음 - 문화선도산단 청년디자인리빙랩, 산업단지정책해커톤",
+   "url": "https://kidp.or.kr/?menuno=1202",
+   "date": "2026-07-09",
    "deadline": null,
    "region": "전국",
    "categories": [

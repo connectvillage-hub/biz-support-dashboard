@@ -170,6 +170,15 @@
   .srcrow .cnt { margin-left: auto; color: var(--text-sub); }
   .srcrow a { color: inherit; text-decoration: none; }
   .srcrow a:hover { color: var(--accent); }
+  .modal-info {
+    background: var(--accent-soft); border: 1px solid #d6e2ff; border-radius: 10px;
+    padding: 11px 13px; margin-bottom: 12px; font-size: 12.5px; color: #33507d; line-height: 1.6;
+  }
+  .modal-info .when { font-weight: 800; color: var(--accent); font-size: 13px; }
+  .modal-info ul { margin: 6px 0 0; padding-left: 16px; }
+  .modal-info li { margin: 1px 0; }
+  .modal-legend { display: flex; gap: 12px; margin: 2px 0 10px; font-size: 11.5px; color: var(--text-sub); flex-wrap: wrap; }
+  .modal-legend span { display: inline-flex; align-items: center; gap: 4px; }
 
   .notice {
     background: #fff8e6; border: 1px solid #f5dfa6; color: #8a6d1a; border-radius: 12px;
@@ -241,6 +250,13 @@
   const todayStr = new Date().toISOString().slice(0, 10);
   function daysBetween(a, b) { return Math.round((new Date(b) - new Date(a)) / 86400000); }
   function fmtDate(s) { return s ? s.replaceAll('-', '.') : ''; }
+  function fmtDateTime(iso) {
+    if (!iso) return '';
+    const d = new Date(iso);
+    if (isNaN(d)) return '';
+    const p = n => String(n).padStart(2, '0');
+    return `${d.getFullYear()}.${p(d.getMonth() + 1)}.${p(d.getDate())} ${p(d.getHours())}:${p(d.getMinutes())}`;
+  }
   function esc(s) { return (s || '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])); }
 
   function ddayHtml(item) {
@@ -466,20 +482,34 @@
 
   function showSrcModal() {
     const box = document.getElementById('srcList');
-    box.innerHTML = sources.map(s => {
+    const okCnt = sources.filter(s => s.status === 'ok').length;
+    const failCnt = sources.filter(s => s.status === 'fail').length;
+    const linkCnt = sources.filter(s => s.status === 'link-only').length;
+    const info = `<div class="modal-info">
+      <div class="when">🕒 마지막 수집: ${fmtDateTime(DATA.generatedAt) || '기록 없음'}</div>
+      <div style="margin-top:4px">📌 <b>수집 기준</b> — 각 기관의 진행중·모집중 공고 게시판에서:</div>
+      <ul>
+        <li>아직 <b>마감일이 지나지 않은</b> 유효한 공고</li>
+        <li>여기에 더해 <b>새로 올라온 공고</b>를 최신순으로</li>
+        <li>2시간마다 자동 갱신 (마감된 공고는 목록에서 회색 <b>마감</b> 표시)</li>
+      </ul></div>
+      <div class="modal-legend">
+        <span><span class="dot ok"></span>수집 성공 ${okCnt}</span>
+        <span><span class="dot fail"></span>수집 실패 ${failCnt}</span>
+        <span><span class="dot link"></span>링크만 ${linkCnt}</span>
+      </div>`;
+    const rows = sources.map(s => {
       const dot = s.status === 'ok' ? 'ok' : s.status === 'link-only' ? 'link' : 'fail';
       const label = s.status === 'ok' ? `${s.count}건` : s.status === 'link-only' ? '링크만' : '수집 실패';
       return `<div class="srcrow"><span class="dot ${dot}"></span><a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.name)}</a><span class="cnt">${label}</span></div>`;
     }).join('');
+    box.innerHTML = info + rows;
     document.getElementById('srcModal').showModal();
   }
 
   // header updated time
   if (DATA.generatedAt) {
-    const d = new Date(DATA.generatedAt);
-    document.getElementById('updated').textContent =
-      '마지막 수집: ' + d.getFullYear() + '.' + String(d.getMonth() + 1).padStart(2, '0') + '.' +
-      String(d.getDate()).padStart(2, '0') + ' ' + String(d.getHours()).padStart(2, '0') + ':' + String(d.getMinutes()).padStart(2, '0');
+    document.getElementById('updated').textContent = '마지막 수집: ' + fmtDateTime(DATA.generatedAt);
   }
 
   build();

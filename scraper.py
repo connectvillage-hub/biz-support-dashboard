@@ -12,6 +12,7 @@ import os
 import re
 import ssl
 import sys
+import time
 import urllib.parse
 
 import requests
@@ -59,20 +60,40 @@ class LegacySSLAdapter(HTTPAdapter):
 def fetch(url, encoding=None, verify=True, **kwargs):
     """GET 요청.
 
-    - SSL 오류 → 레거시 TLS 설정으로 1회 재시도 (구형 공공기관 서버)
-    - GitHub Actions에서 접속 차단(타임아웃) → 공개 프록시로 1회 우회
+    - 일시적 타임아웃/네트워크 오류 → 최대 3회 재시도 (간헐적 수집 실패 방지)
+    - SSL 오류 → 레거시 TLS 설정으로 재시도 (구형 공공기관 서버)
+    - GitHub Actions에서 접속 차단(타임아웃) → 공개 프록시로 우회
     """
-    try:
-        r = requests.get(url, headers=HEADERS, timeout=REQUEST_TIMEOUT, verify=verify, **kwargs)
-    except requests.exceptions.SSLError:
-        s = requests.Session()
-        s.mount("https://", LegacySSLAdapter())
-        r = s.get(url, headers=HEADERS, timeout=REQUEST_TIMEOUT, verify=False, **kwargs)
-    except (requests.exceptions.ConnectTimeout, requests.exceptions.ConnectionError):
-        if not os.environ.get("GITHUB_ACTIONS"):
-            raise
-        proxied = "https://api.allorigins.win/raw?url=" + urllib.parse.quote(url, safe="")
-        r = requests.get(proxied, headers=HEADERS, timeout=60)
+    last_exc = None
+    legacy = False   # SSLError 발생 시 레거시 TLS로 전환
+    for attempt in range(4):
+        try:
+            if legacy:
+                s = requests.Session()
+                s.mount("https://", LegacySSLAdapter())
+                r = s.get(url, headers=HEADERS, timeout=REQUEST_TIMEOUT, verify=False, **kwargs)
+            else:
+                r = requests.get(url, headers=HEADERS, timeout=REQUEST_TIMEOUT, verify=verify, **kwargs)
+            break
+        except requests.exceptions.SSLError as e:
+            last_exc = e
+            if not legacy:
+                legacy = True      # 레거시 TLS로 전환 후 즉시 재시도
+                continue
+            time.sleep(2 * (attempt + 1))
+        except (requests.exceptions.ConnectTimeout, requests.exceptions.ReadTimeout,
+                requests.exceptions.ConnectionError) as e:
+            last_exc = e
+            if os.environ.get("GITHUB_ACTIONS"):
+                proxied = "https://api.allorigins.win/raw?url=" + urllib.parse.quote(url, safe="")
+                try:
+                    r = requests.get(proxied, headers=HEADERS, timeout=60)
+                    break
+                except Exception as pe:  # noqa: BLE001
+                    last_exc = pe
+            time.sleep(2 * (attempt + 1))  # 2s, 4s, 6s 백오프 후 재시도
+    else:
+        raise last_exc
     r.raise_for_status()
     if encoding:
         r.encoding = encoding
