@@ -628,6 +628,68 @@ register("mashup", "매쉬업벤처스", "전국", "https://www.mashupventures.c
 
 
 # ---------------------------------------------------------------------------
+# 사용자 추가 소스 (custom_sources.json) — 코드 수정 없이 소스 추가
+# ---------------------------------------------------------------------------
+def make_board_fetcher(cfg):
+    """CSS 셀렉터 설정으로 일반적인 게시판(목록) 페이지를 수집하는 범용 어댑터."""
+    def fn(src):
+        soup = soup_of(cfg["list_url"], encoding=cfg.get("encoding"))
+        base = cfg.get("base_url") or cfg["list_url"]
+        items = []
+        for node in soup.select(cfg["item_selector"]):
+            title_el = node.select_one(cfg["title_selector"]) if cfg.get("title_selector") else node
+            if not title_el:
+                continue
+            title = title_el.get_text(" ", strip=True)
+            link_el = (node.select_one(cfg["link_selector"]) if cfg.get("link_selector")
+                       else (title_el if title_el.name == "a" else node.select_one("a")))
+            href = link_el.get("href") if link_el else None
+            if not href or href.strip().lower().startswith("javascript"):
+                continue
+            url = urllib.parse.urljoin(base, href)
+            date = None
+            if cfg.get("date_selector"):
+                de = node.select_one(cfg["date_selector"])
+                date = parse_date(de.get_text()) if de else None
+            else:
+                date = parse_date(node.get_text(" "))
+            items.append(make_item(src, title, url, date))
+        return items
+    return fn
+
+
+def load_custom_sources():
+    path = os.path.join(BASE_DIR, "custom_sources.json")
+    if not os.path.exists(path):
+        return
+    try:
+        with open(path, encoding="utf-8") as fp:
+            conf = json.load(fp)
+    except Exception as e:  # noqa: BLE001
+        print(f"[주의] custom_sources.json 을 읽을 수 없습니다: {e}")
+        return
+    entries = conf.get("sources", conf) if isinstance(conf, dict) else conf
+    for i, ent in enumerate(entries or []):
+        if not isinstance(ent, dict) or not ent.get("enabled", True):
+            continue
+        cid = ent.get("id") or f"custom{i}"
+        name = ent.get("name") or cid
+        region = ent.get("region", "전국")
+        mode = ent.get("mode", "link")
+        try:
+            if mode == "board" and ent.get("item_selector"):
+                url = ent.get("list_url") or ent.get("url")
+                register(cid, name, region, url, make_board_fetcher(ent))
+            else:  # link (기본): 바로가기 카드로만 노출
+                register(cid, name, region, ent.get("url", ""), link_only=True)
+        except Exception as e:  # noqa: BLE001
+            print(f"[주의] 사용자 소스 '{name}' 등록 실패: {e}")
+
+
+load_custom_sources()
+
+
+# ---------------------------------------------------------------------------
 # 수집 실행
 # ---------------------------------------------------------------------------
 def load_store():
@@ -672,6 +734,9 @@ def run(only=None):
     cutoff = (TODAY - datetime.timedelta(days=KEEP_DAYS)).isoformat()
     known = {k: v for k, v in known.items()
              if (v.get("date") or v.get("firstSeen") or "9999") >= cutoff}
+    # 더 이상 등록되지 않은(삭제된) 소스의 잔여 공고 제거
+    valid_src = {s["id"] for s in SOURCES}
+    known = {k: v for k, v in known.items() if v.get("source") in valid_src}
 
     store["items"] = known
     with open(DATA_JSON, "w", encoding="utf-8") as fp:

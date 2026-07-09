@@ -1,0 +1,24 @@
+{
+  "_사용법": "여기 sources 목록에 항목을 추가하면 대시보드에 소스가 추가됩니다. 저장 후 '업데이트.bat'을 실행하세요. mode가 'link'면 바로가기 링크만 표시하고, 'board'면 자동으로 공고를 수집합니다. 아래 두 예시는 enabled를 true로 바꾸면 켜집니다. 자세한 설명은 README.md 하단 '소스 추가' 참고.",
+  "sources": [
+    {
+      "enabled": false,
+      "name": "(예시) 즐겨찾기 사이트 - 링크만",
+      "url": "https://example.com",
+      "region": "부산",
+      "mode": "link"
+    },
+    {
+      "enabled": false,
+      "name": "(예시) 자동수집 게시판",
+      "region": "전국",
+      "mode": "board",
+      "list_url": "https://example.com/board/list",
+      "base_url": "https://example.com",
+      "item_selector": "table tbody tr",
+      "title_selector": "td.title a",
+      "date_selector": "td.date",
+      "link_selector": "td.title a"
+    }
+  ]
+}

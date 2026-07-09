@@ -29,3 +29,46 @@ index.html   ← 대시보드 (단일 파일)
 
 이 저장소를 GitHub에 올리면 Actions가 매일 새벽 자동 수집하고,
 Pages 주소로 폰에서도 접속할 수 있습니다.
+
+## 소스 추가 (코드 수정 없이)
+
+`custom_sources.json` 파일의 `sources` 목록에 항목을 넣고 저장한 뒤 `업데이트.bat`을 실행하면 됩니다.
+
+**① 바로가기 링크만 추가** (가장 쉬움 — 자동수집은 안 하고 대시보드 하단에 링크 카드로 노출):
+
+```json
+{
+  "enabled": true,
+  "name": "부산창조경제혁신센터",
+  "url": "https://ccei.creativekorea.or.kr/busan",
+  "region": "부산",
+  "mode": "link"
+}
+```
+
+**② 자동수집 추가** (게시판을 긁어와 공고 카드로 표시). 대상 사이트의 목록 페이지 구조에 맞는 CSS 셀렉터가 필요합니다:
+
+```json
+{
+  "enabled": true,
+  "name": "○○진흥원",
+  "region": "부산",
+  "mode": "board",
+  "list_url": "https://사이트/board/list",
+  "base_url": "https://사이트",
+  "item_selector": "table tbody tr",
+  "title_selector": "td.title a",
+  "date_selector": "td.date",
+  "link_selector": "td.title a"
+}
+```
+
+- `item_selector`: 공고 한 줄(행)을 감싸는 요소
+- `title_selector` / `link_selector`: 그 안에서 제목/링크(`<a>`)를 가리키는 선택자
+- `date_selector`: 등록일 요소 (없으면 행 전체에서 날짜를 자동 추출)
+- `base_url`: 링크가 `/board/...`처럼 상대경로일 때 앞에 붙일 주소
+- 지역은 `부산` / `전국` / `기타`, 유형은 제목에서 자동 분류됩니다.
+
+> 셀렉터를 직접 찾기 어려우면, 추가하고 싶은 **사이트 주소만 알려주면** 자동수집 설정을 만들어 드립니다.
+> `mode`가 `board`인데 수집이 0건이면 셀렉터가 맞지 않는 것이니 `link` 모드로 두거나 문의하세요.
+> `enabled`를 `false`로 두면 그 항목은 무시됩니다. 항목을 지우면 해당 소스의 공고도 다음 수집 때 자동 제거됩니다.
