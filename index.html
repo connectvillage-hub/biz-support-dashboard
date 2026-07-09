@@ -405,7 +405,7 @@
   let readMap = {};
   try { readMap = JSON.parse(localStorage.getItem(READ_KEY) || '{}'); } catch (e) { readMap = {}; }
 
-  let f = { region: '전체', cat: '전체', source: '전체', q: '', sort: 'unread', unreadOnly: false, view: 'all' };
+  let f = { region: '전체', cat: '전체', source: '전체', q: '', sort: 'unread', unreadOnly: false, view: 'all', hideClosed: true };
   try { f = Object.assign(f, JSON.parse(localStorage.getItem(FILTER_KEY) || '{}')); } catch (e) {}
 
   // 데이터에 없는 오래된 읽음 기록 정리 (6개월 이상)
@@ -509,6 +509,10 @@
     if (!g || !g.memberIds) return;
     for (const id of g.memberIds) { if (read) readMap[id] = Date.now(); else delete readMap[id]; }
   }
+  // 접수 마감이 지난(=이미 끝난) 공고인지. 마감일이 없으면(상시 등) 유효로 본다.
+  const isClosed = g => !!(g && g.deadline && g.deadline < todayStr);
+  // '전체' 뷰의 기준 목록: 기본은 마감 지난 것 제외
+  const openBase = () => f.hideClosed ? GROUPS.filter(g => !isClosed(g)) : GROUPS;
 
   // ---------- 저장(북마크) ----------
   // 저장한 공고는 스냅샷으로 보관 → 나중에 목록에서 사라져도(마감·삭제) 저장함에 남는다.
@@ -536,8 +540,9 @@
 
   // ---------- render ----------
   function build() {
-    const total = GROUPS.length;
-    const unread = GROUPS.filter(g => !groupRead(g)).length;
+    const base = openBase();
+    const total = base.length;
+    const unread = base.filter(g => !groupRead(g)).length;
 
     const savedCnt = Object.keys(savedMap).length;
     const inSaved = f.view === 'saved';
@@ -569,6 +574,7 @@
         <option value="dday" ${f.sort === 'dday' ? 'selected' : ''}>마감 임박순</option>
       </select>
       <label class="toggle"><input type="checkbox" id="unreadOnly" ${f.unreadOnly ? 'checked' : ''}>안 읽은 것만</label>
+      <label class="toggle"><input type="checkbox" id="showClosed" ${!f.hideClosed ? 'checked' : ''}>마감 포함</label>
     </div>`;
     html += '</div>';
 
@@ -593,6 +599,7 @@
     document.getElementById('srcSel').addEventListener('change', e => { f.source = e.target.value; saveFilter(); renderList(); });
     document.getElementById('sortSel').addEventListener('change', e => { f.sort = e.target.value; saveFilter(); renderList(); });
     document.getElementById('unreadOnly').addEventListener('change', e => { f.unreadOnly = e.target.checked; saveFilter(); renderList(); });
+    document.getElementById('showClosed').addEventListener('change', e => { f.hideClosed = !e.target.checked; saveFilter(); build(); });
     document.getElementById('btnAllRead').addEventListener('click', () => {
       if (!confirm('현재 목록의 모든 공고를 읽음 처리할까요?')) return;
       filteredGroups().forEach(g => setGroupRead(g, true));
@@ -754,7 +761,7 @@
 
   function filteredGroups() {
     const q = f.q.trim().toLowerCase();
-    const base = f.view === 'saved' ? savedGroups() : GROUPS;
+    const base = f.view === 'saved' ? savedGroups() : openBase();
     return base.filter(g => {
       if (f.region !== '전체' && !(g.regions || []).includes(f.region)) return false;
       if (f.cat !== '전체' && !(g.categories || []).includes(f.cat)) return false;
@@ -861,7 +868,7 @@
 
   function updateUnreadCount() {
     const el = document.getElementById('unreadCnt');
-    if (el) el.textContent = GROUPS.filter(g => !groupRead(g)).length;
+    if (el) el.textContent = openBase().filter(g => !groupRead(g)).length;
   }
 
   function updateSavedCount() {
@@ -897,7 +904,7 @@
   }
 
   // header updated time (+ 빌드 버전 표시로 최신본 로드 여부 확인)
-  const BUILD = '2026-07-09.13';
+  const BUILD = '2026-07-09.14';
   console.log('[지원사업 대시보드] build ' + BUILD);
   // 자동 최신화: 서버 버전이 페이지 버전보다 새로우면 1회 강제 새로고침(캐시 우회)
   (function selfHeal() {
