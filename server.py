@@ -124,7 +124,7 @@ class Handler(SimpleHTTPRequestHandler):
         return self._json({"ok": False, "error": "unknown endpoint"}, 404)
 
 
-APP_VERSION = "2026-07-09.15"
+APP_VERSION = "2026-07-09.16"
 
 
 def kill_port(port):

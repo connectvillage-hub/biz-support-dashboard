@@ -31,6 +31,23 @@
   }
   .wrap { max-width: 1080px; margin: 0 auto; padding: 20px 16px 80px; }
 
+  /* ---------- 왼쪽 사이트 바로가기 사이드바 ---------- */
+  .sitenav {
+    position: fixed; left: 14px; top: 18px; width: 196px; max-height: calc(100vh - 36px);
+    overflow-y: auto; background: var(--card); border: 1px solid var(--line);
+    border-radius: 14px; padding: 12px 10px 14px; box-shadow: var(--shadow); z-index: 50;
+  }
+  .sitenav h3 { font-size: 13px; font-weight: 800; margin: 2px 6px 8px; color: var(--text); }
+  .sitenav .sub { font-size: 11px; font-weight: 700; color: var(--text-sub); margin: 10px 6px 4px; }
+  .sitenav a {
+    display: flex; align-items: center; gap: 7px; padding: 6px 8px; border-radius: 8px;
+    text-decoration: none; color: #4b5568; font-size: 12.5px;
+  }
+  .sitenav a:hover { background: var(--accent-soft); color: var(--accent); }
+  .sitenav .snm { flex: 1; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .sitenav .sarrow { opacity: .45; font-size: 11px; }
+  @media (max-width: 1520px) { .sitenav { display: none; } }
+
   /* ---------- header ---------- */
   header { display: flex; flex-wrap: wrap; align-items: baseline; gap: 10px; margin-bottom: 6px; }
   header h1 { font-size: 22px; font-weight: 800; letter-spacing: -0.5px; }
@@ -316,6 +333,7 @@
 </style>
 </head>
 <body>
+<nav id="siteNav" class="sitenav" aria-label="사이트 바로가기"></nav>
 <div class="wrap">
   <header>
     <h1>📋 지원사업 통합 대시보드</h1>
@@ -927,7 +945,7 @@
   }
 
   // header updated time (+ 빌드 버전 표시로 최신본 로드 여부 확인)
-  const BUILD = '2026-07-09.15';
+  const BUILD = '2026-07-09.16';
   console.log('[지원사업 대시보드] build ' + BUILD);
   // 자동 최신화: 서버 버전이 페이지 버전보다 새로우면 1회 강제 새로고침(캐시 우회)
   (function selfHeal() {
@@ -943,6 +961,19 @@
   })();
   document.getElementById('updated').textContent =
     (DATA.generatedAt ? '마지막 수집: ' + fmtDateTime(DATA.generatedAt) + '  ·  ' : '') + 'v' + BUILD;
+
+  // 왼쪽 사이트 바로가기 사이드바 채우기 (수집 중인 사이트 + 링크만)
+  (function buildSiteNav() {
+    const nav = document.getElementById('siteNav');
+    if (!nav) return;
+    const row = s => `<a href="${esc(s.url)}" target="_blank" rel="noopener" title="${esc(s.name)}">` +
+      `<span class="dot ${s.status === 'ok' ? 'ok' : s.status === 'link-only' ? 'link' : 'fail'}"></span>` +
+      `<span class="snm">${esc(s.name)}</span><span class="sarrow">↗</span></a>`;
+    let h = '<h3>🔗 사이트 바로가기</h3>';
+    if (scrapedSources.length) h += '<div class="sub">수집 중인 사이트</div>' + scrapedSources.map(row).join('');
+    if (linkOnlySources.length) h += '<div class="sub">직접 확인 사이트</div>' + linkOnlySources.map(row).join('');
+    nav.innerHTML = h;
+  })();
 
   // 사이트 추가 모달 버튼 (정적 요소 → 1회 바인딩)
   document.getElementById('btnTest').addEventListener('click', doTest);
