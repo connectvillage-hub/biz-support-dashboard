@@ -601,27 +601,30 @@
   // ---------- 공고 상세(안내) 전체 페이지 ----------
   let detailNav = false;   // 뒤로가기(history) 연동 플래그
   function openDetail(g) {
-    const url = (g.srcList && g.srcList[0]) ? g.srcList[0].url : null;
-    if (!url) return;
-    document.getElementById('dTitle').textContent = g.title;
-    document.getElementById('dTopTitle').textContent = g.title;
-    document.getElementById('dMeta').innerHTML =
+    const m = document.getElementById('detailModal');
+    const url = (g && g.srcList && g.srcList[0]) ? g.srcList[0].url : null;
+    // 어떤 경우에도 빈 화면이 되지 않도록 제목·메타·링크를 먼저 채운 뒤 모달을 연다
+    document.getElementById('dTitle').textContent = (g && g.title) || '공고';
+    document.getElementById('dTopTitle').textContent = (g && g.title) || '';
+    document.getElementById('dMeta').innerHTML = g ? (
       (g.date ? `<span>등록 ${fmtDate(g.date)}</span>` : '') + ddayHtml(g) +
       `<span class="tag region ${g.region === '부산' ? 'busan' : ''}">${esc(g.region || '기타')}</span>` +
-      (g.categories || []).map(c => `<span class="tag">${esc(c)}</span>`).join('');
-    document.getElementById('dLinks').innerHTML = (g.srcList || []).map(s =>
+      (g.categories || []).map(c => `<span class="tag">${esc(c)}</span>`).join('')) : '';
+    document.getElementById('dLinks').innerHTML = ((g && g.srcList) || []).map(s =>
       `<a href="${esc(s.url)}" target="_blank" rel="noopener">🔗 ${esc(s.sourceName)} 원본 열기</a>`).join('');
     document.getElementById('dAttach').innerHTML = '';
-    document.getElementById('dBody').innerHTML = '<div class="d-loading">원본에서 내용을 불러오는 중… ⏳</div>';
+    document.getElementById('dBody').innerHTML = url
+      ? '<div class="d-loading">원본에서 내용을 불러오는 중… ⏳</div>'
+      : '<div class="d-empty">원본 주소를 찾지 못했어요.</div>';
 
-    const m = document.getElementById('detailModal');
-    document.querySelector('.d-scroll').scrollTop = 0;
+    try { document.querySelector('.d-scroll').scrollTop = 0; } catch (e) {}
     if (!m.open) { m.showModal(); history.pushState({ detail: true }, ''); detailNav = true; }
+    if (!url) return;
 
     api('/api/detail?url=' + encodeURIComponent(url)).then(j => {
       const body = document.getElementById('dBody');
       const att = document.getElementById('dAttach');
-      if (!j || !j.ok) { body.innerHTML = '<div class="d-empty">내용을 불러오지 못했어요.<br>위 원본 열기 버튼으로 확인하세요.</div>'; return; }
+      if (!j || !j.ok) { body.innerHTML = '<div class="d-empty">내용을 불러오지 못했어요.<br>위 <b>원본 열기</b> 버튼으로 확인하세요.</div>'; return; }
       if (j.attachments && j.attachments.length) {
         att.innerHTML = '<div class="d-card"><div class="d-card-t">📎 공고문·첨부파일 ' + j.attachments.length + '개</div>' +
           j.attachments.map(a => {
@@ -638,7 +641,10 @@
           (j.attachments && j.attachments.length ? '위 첨부파일' : '위 원본 열기 버튼') + '에서 확인하세요.</div>';
       }
     }).catch(() => {
-      document.getElementById('dBody').innerHTML = '<div class="d-empty">서버에 연결하지 못했어요. 앱_시작.bat 으로 실행했는지 확인하세요.</div>';
+      document.getElementById('dBody').innerHTML =
+        '<div class="d-empty">내용을 불러오지 못했어요.<br>' +
+        '<b>앱_시작.bat</b> 창을 닫았다가 다시 실행한 뒤(최신 버전 반영) 시도해 주세요.<br>' +
+        '그동안은 위 <b>원본 열기</b> 버튼으로 확인하실 수 있어요.</div>';
     });
   }
 
