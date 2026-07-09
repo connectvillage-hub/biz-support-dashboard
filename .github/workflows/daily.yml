@@ -2,7 +2,7 @@ name: daily-scrape
 
 on:
   schedule:
-    - cron: "0 21 * * *" # UTC 21:00 = KST 06:00
+    - cron: "0 */2 * * *" # 2시간마다 (KST 기준 매 짝수시+9)
   workflow_dispatch:
 
 permissions:

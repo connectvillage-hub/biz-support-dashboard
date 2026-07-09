@@ -8,7 +8,7 @@
 |---|---|
 | 공고 보기 | `index.html` 더블클릭 |
 | 지금 바로 새 공고 수집 | `업데이트.bat` 더블클릭 |
-| 매일 아침 8:30 자동 수집 켜기 | `자동실행등록.bat` 더블클릭 (1회만) |
+| 2시간마다 자동 수집 켜기 | `자동실행등록.bat` 더블클릭 (1회만) |
 
 - 공고를 클릭하면 원문이 새 탭으로 열리고 **읽음(회색)** 처리됩니다.
 - 미확인 공고가 항상 위로, 그다음 최신순으로 정렬됩니다.
@@ -22,7 +22,7 @@ scraper.py   ← 소스별 수집 + 분류 (requests + BeautifulSoup)
 data.json    ← 누적 저장소 (최근 120일)
 data.js      ← 대시보드가 읽는 데이터
 index.html   ← 대시보드 (단일 파일)
-.github/workflows/daily.yml ← GitHub Actions 매일 KST 06:00 자동 수집
+.github/workflows/daily.yml ← GitHub Actions 2시간마다 자동 수집
 ```
 
 ## GitHub Pages
