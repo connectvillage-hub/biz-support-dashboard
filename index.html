@@ -875,10 +875,11 @@
     document.getElementById('srcModal').showModal();
   }
 
-  // header updated time
-  if (DATA.generatedAt) {
-    document.getElementById('updated').textContent = '마지막 수집: ' + fmtDateTime(DATA.generatedAt);
-  }
+  // header updated time (+ 빌드 버전 표시로 최신본 로드 여부 확인)
+  const BUILD = '2026-07-09.7';
+  console.log('[지원사업 대시보드] build ' + BUILD);
+  document.getElementById('updated').textContent =
+    (DATA.generatedAt ? '마지막 수집: ' + fmtDateTime(DATA.generatedAt) + '  ·  ' : '') + 'v' + BUILD;
 
   // 사이트 추가 모달 버튼 (정적 요소 → 1회 바인딩)
   document.getElementById('btnTest').addEventListener('click', doTest);

@@ -115,18 +115,32 @@ class Handler(SimpleHTTPRequestHandler):
         return self._json({"ok": False, "error": "unknown endpoint"}, 404)
 
 
+APP_VERSION = "2026-07-09.7"
+
+
 def main():
     url = f"http://localhost:{PORT}/index.html"
-    print("=" * 46)
-    print(" 지원사업 대시보드 앱이 실행되었습니다.")
+    try:
+        httpd = ThreadingHTTPServer(("127.0.0.1", PORT), Handler)
+    except OSError as e:
+        print("=" * 52)
+        print(f" [오류] 포트 {PORT} 를 이미 다른 프로그램이 쓰고 있습니다.")
+        print(" 이전에 열어둔 검은 창을 모두 닫은 뒤 다시 실행하거나,")
+        print(" 컴퓨터를 재부팅한 뒤 앱_시작.bat 을 다시 눌러주세요.")
+        print(f"   ({e})")
+        print("=" * 52)
+        input(" 엔터를 누르면 닫힙니다…")
+        return
+    print("=" * 52)
+    print(f" 지원사업 대시보드 앱 실행됨 (build {APP_VERSION})")
     print(f"  브라우저 주소: {url}")
-    print(" 이 창을 닫으면 '사이트 추가' 기능이 꺼집니다.")
-    print("=" * 46)
+    print(" 이 창을 닫으면 사이트 추가/상세보기 기능이 꺼집니다.")
+    print("=" * 52)
     try:
         threading.Timer(1.0, lambda: webbrowser.open(url)).start()
     except Exception:  # noqa: BLE001
         pass
-    ThreadingHTTPServer(("127.0.0.1", PORT), Handler).serve_forever()
+    httpd.serve_forever()
 
 
 if __name__ == "__main__":
