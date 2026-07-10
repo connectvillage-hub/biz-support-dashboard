@@ -3061,6 +3061,91 @@
     "입주기업"
    ],
    "firstSeen": "2026-07-10"
+  },
+  "45858f5511f68566": {
+   "id": "45858f5511f68566",
+   "source": "kidp",
+   "sourceName": "한국디자인진흥원",
+   "title": "(산업통상부 보도자료) 2026 문화선도산단 사업 부산, 인천, 원주산단 선정, ‘26년 산업단지 혁신 이끌 주역 확정, 5극3특 지역성장 이끈다",
+   "url": "https://kidp.or.kr/?menuno=1202",
+   "date": "2026-07-10",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-07-10"
+  },
+  "235dddf65b46bd63": {
+   "id": "235dddf65b46bd63",
+   "source": "kocca",
+   "sourceName": "한국콘텐츠진흥원",
+   "title": "2026 스웨덴 게임 컨퍼런스(Sweden Game Conference) 참가기업 모집공고",
+   "url": "https://www.kocca.kr/kocca/pims/view.do?intcNo=326D00089010&menuNo=20410&recptSt=&category=&pageIndex=1&search=&searchWrd=",
+   "date": "2026-07-10",
+   "deadline": "2026-07-27",
+   "region": "전국",
+   "categories": [
+    "네트워킹",
+    "사업화"
+   ],
+   "firstSeen": "2026-07-10"
+  },
+  "f595bd956c0ebec7": {
+   "id": "f595bd956c0ebec7",
+   "source": "kocca",
+   "sourceName": "한국콘텐츠진흥원",
+   "title": "2026년 글로벌 비즈니스 라운드테이블 참가기업 모집",
+   "url": "https://www.kocca.kr/kocca/pims/view.do?intcNo=326D00089009&menuNo=20410&recptSt=&category=&pageIndex=1&search=&searchWrd=",
+   "date": "2026-07-10",
+   "deadline": "2026-08-04",
+   "region": "전국",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-07-10"
+  },
+  "bfe0eceff07c00b6": {
+   "id": "bfe0eceff07c00b6",
+   "source": "bscf",
+   "sourceName": "부산문화재단",
+   "title": "지원공모[상시모집] 예술인 컨설팅 매칭 <아이컨택> 참여 예술인 모집",
+   "url": "https://www.bscf.or.kr/view.do?no=1010&pgMode=show&pbancSn=2194",
+   "date": "2026-07-10",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-07-10"
+  },
+  "cd254617a8fbd145": {
+   "id": "cd254617a8fbd145",
+   "source": "bscf",
+   "sourceName": "부산문화재단",
+   "title": "지원공모[상시모집] 2026년 B·아티스테이(Busan+Artist+Stay) 참여자 모집",
+   "url": "https://www.bscf.or.kr/view.do?no=1010&pgMode=show&pbancSn=2256",
+   "date": "2026-07-10",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-07-10"
+  },
+  "4d2251576bfa93d4": {
+   "id": "4d2251576bfa93d4",
+   "source": "bscf",
+   "sourceName": "부산문화재단",
+   "title": "지원공모[모집] 세계기록유산 조선통신사 특별 프로그램 <조선통신사선 시민 항해 체험> 참여자 모집 안내",
+   "url": "https://www.bscf.or.kr/view.do?no=1010&pgMode=show&pbancSn=2389",
+   "date": "2026-07-10",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-07-10"
   }
  },
  "sources": [
@@ -3077,7 +3162,7 @@
    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200View.do",
    "status": "fail",
    "count": 0,
-   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.bizinfo.go.kr%2Fsii%2Fsiia%2FselectSIIA200View.do"
+   "error": "500 Server Error: Internal Server Error for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.bizinfo.go.kr%2Fsii%2Fsiia%2FselectSIIA200View.do"
   },
   {
    "id": "mss",
@@ -3085,7 +3170,7 @@
    "url": "https://www.mss.go.kr/site/smba/ex/bbs/List.do?cbIdx=310",
    "status": "fail",
    "count": 0,
-   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.mss.go.kr%2Fsite%2Fsmba%2Fex%2Fbbs%2FList.do%3FcbIdx%3D310"
+   "error": "500 Server Error: Internal Server Error for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.mss.go.kr%2Fsite%2Fsmba%2Fex%2Fbbs%2FList.do%3FcbIdx%3D310"
   },
   {
    "id": "kidp",
@@ -3114,14 +3199,15 @@
    "url": "https://www.semas.or.kr/web/board/webBoardList.kmdc?bCd=1&pNm=BOA0101",
    "status": "fail",
    "count": 0,
-   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.semas.or.kr%2Fweb%2Fboard%2FwebBoardList.kmdc%3FbCd%3D1%26pNm%3DBOA0101"
+   "error": "400 Client Error: Bad Request for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.semas.or.kr%2Fweb%2Fboard%2FwebBoardList.kmdc%3FbCd%3D1%26pNm%3DBOA0101"
   },
   {
    "id": "smtech",
    "name": "중소기업 기술개발(SMTECH)",
    "url": "https://www.smtech.go.kr/front/ifg/no/notice02_list.do",
-   "status": "ok",
-   "count": 9
+   "status": "fail",
+   "count": 0,
+   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.smtech.go.kr%2Ffront%2Fifg%2Fno%2Fnotice02_list.do"
   },
   {
    "id": "busanstartup",
@@ -3185,14 +3271,14 @@
    "url": "https://www.busan.go.kr/nbgosi",
    "status": "fail",
    "count": 0,
-   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.busan.go.kr%2Fnbgosi%3FcurPage%3D1"
+   "error": "520 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.busan.go.kr%2Fnbgosi%3FcurPage%3D2"
   },
   {
    "id": "bscf",
    "name": "부산문화재단",
    "url": "https://www.bscf.or.kr",
    "status": "ok",
-   "count": 12
+   "count": 13
   },
   {
    "id": "dcamp",
