@@ -3864,7 +3864,7 @@
    "source": "busan_gosi",
    "sourceName": "부산광역시 고시공고",
    "title": "수산가공선진화단지(공장시설) 입주기업 모집 재공고",
-   "url": "https://www.busan.go.kr/nbgosi/view?sno=78781&gosiGbn=A&curPage=1",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=78781&gosiGbn=A&curPage=2",
    "date": "2026-05-07",
    "deadline": null,
    "region": "부산",
@@ -4110,6 +4110,63 @@
     "사업화"
    ],
    "firstSeen": "2026-07-13"
+  },
+  "68d7dd91e5cd3540": {
+   "id": "68d7dd91e5cd3540",
+   "source": "bizinfo",
+   "sourceName": "기업마당",
+   "title": "[경북] 대구국제식품산업전(K-FOOD 2026) 참가기업 모집 공고(우수 수산물 육성사업)",
+   "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000124303",
+   "date": "2026-07-13",
+   "deadline": "2026-07-28",
+   "region": "전국",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-07-13"
+  },
+  "c18a26fbda47b74b": {
+   "id": "c18a26fbda47b74b",
+   "source": "bizinfo",
+   "sourceName": "기업마당",
+   "title": "[경남] 남해군ㆍ함양군 2026년 시군구연고산업육성 협업프로젝트 수출상담회 지원기업 통합 공고",
+   "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000124301",
+   "date": "2026-07-13",
+   "deadline": "2026-07-20",
+   "region": "경남",
+   "categories": [
+    "홍보·마케팅",
+    "사업화"
+   ],
+   "firstSeen": "2026-07-13"
+  },
+  "7cf957c081b2b8e8": {
+   "id": "7cf957c081b2b8e8",
+   "source": "busan_gosi",
+   "sourceName": "부산광역시 고시공고",
+   "title": "2026년 업무유공 및 노사문화 유공 직원 해외연수 수행업체 모집 공고",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=78789&gosiGbn=A&curPage=1",
+   "date": "2026-07-13",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-07-13"
+  },
+  "915063eedb22dafa": {
+   "id": "915063eedb22dafa",
+   "source": "busan_gosi",
+   "sourceName": "부산광역시 고시공고",
+   "title": "2026년 해양수산 신지식인 후보자 모집 공고",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=78794&gosiGbn=A&curPage=2",
+   "date": "2026-07-13",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-07-13"
   }
  },
  "sources": [
@@ -4124,17 +4181,15 @@
    "id": "bizinfo",
    "name": "기업마당",
    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200View.do",
-   "status": "fail",
-   "count": 0,
-   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.bizinfo.go.kr%2Fsii%2Fsiia%2FselectSIIA200View.do"
+   "status": "ok",
+   "count": 15
   },
   {
    "id": "mss",
    "name": "중소벤처기업부",
    "url": "https://www.mss.go.kr/site/smba/ex/bbs/List.do?cbIdx=310",
-   "status": "fail",
-   "count": 0,
-   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.mss.go.kr%2Fsite%2Fsmba%2Fex%2Fbbs%2FList.do%3FcbIdx%3D310"
+   "status": "ok",
+   "count": 10
   },
   {
    "id": "kidp",
@@ -4231,9 +4286,8 @@
    "id": "busan_gosi",
    "name": "부산광역시 고시공고",
    "url": "https://www.busan.go.kr/nbgosi",
-   "status": "fail",
-   "count": 0,
-   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.busan.go.kr%2Fnbgosi%3FcurPage%3D1"
+   "status": "ok",
+   "count": 10
   },
   {
    "id": "bscf",
