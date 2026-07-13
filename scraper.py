@@ -166,16 +166,28 @@ def classify(title):
     return cats or ["기타"]
 
 
-BUSAN_KW = ["부산", "동남권", "부울경"]
+# 부산·서울·경남·울산만 개별 지역으로 두고, 그 외는 모두 전국으로 묶는다.
+KEEP_REGIONS = ["부산", "서울", "경남", "울산"]
+REGION_KW = [
+    ("부산", ["부산", "동남권", "부울경"]),
+    ("울산", ["울산"]),
+    ("경남", ["경남", "경상남도", "창원", "진주", "김해", "양산", "거제", "통영", "사천", "밀양"]),
+    ("서울", ["서울", "수도권"]),
+]
+
+
+def norm_region(r):
+    return r if r in KEEP_REGIONS else "전국"
 
 
 def detect_region(title, default_region):
-    for kw in BUSAN_KW:
-        if kw in title:
-            return "부산"
+    for reg, kws in REGION_KW:
+        for kw in kws:
+            if kw in title:
+                return reg
     if "전국" in title:
         return "전국"
-    return default_region
+    return norm_region(default_region)
 
 
 # ---------------------------------------------------------------------------

@@ -452,7 +452,7 @@
         <input type="url" id="addUrl" placeholder="https://..."></label>
       <div class="fld-row">
         <label class="fld half"><span>지역</span>
-          <select id="addRegion"><option>부산</option><option>전국</option><option>기타</option></select></label>
+          <select id="addRegion"><option>부산</option><option>서울</option><option>경남</option><option>울산</option><option>전국</option></select></label>
         <label class="fld half chk"><input type="checkbox" id="addAuto" checked>
           <span>이 사이트의 공고 자동 수집</span></label>
       </div>
@@ -570,7 +570,10 @@
   }
 
   const CATS = ['사업화', 'R&D', '투자', '네트워킹', '입주기업', '특허·지재권', '홍보·마케팅', '기타'];
-  const REGIONS = ['부산', '전국', '기타'];
+  const REGIONS = ['부산', '서울', '경남', '울산', '전국'];
+  // 부산·서울·경남·울산만 개별 지역으로 두고, 그 외(기타 등)는 모두 전국으로 묶는다.
+  const KEEP_REGIONS = ['부산', '서울', '경남', '울산'];
+  const normRegion = r => KEEP_REGIONS.includes(r) ? r : '전국';
 
   const sources = (DATA.sources || []).slice().sort((a, b) => a.name.localeCompare(b.name, 'ko'));
   const scrapedSources = sources.filter(s => s.status !== 'link-only');
@@ -606,7 +609,7 @@
       const bySrc = new Map();
       for (const m of members) if (!bySrc.has(m.source)) bySrc.set(m.source, m);
       const cats = [...new Set(members.flatMap(m => m.categories || []))];
-      const regions = [...new Set(members.map(m => m.region))];
+      const regions = [...new Set(members.map(m => normRegion(m.region)))];
       const dates = members.map(m => m.date || m.firstSeen).filter(Boolean);
       const firsts = members.map(m => m.firstSeen).filter(Boolean);
       const futureDl = members.map(m => m.deadline).filter(d => d && d >= todayStr).sort();
@@ -619,7 +622,7 @@
         date: dates.sort().slice(-1)[0] || null,
         firstSeen: firsts.sort()[0] || null,
         deadline: futureDl[0] || (members.map(m => m.deadline).filter(Boolean).sort().slice(-1)[0]) || null,
-        region: primary.region || regions[0] || '기타',
+        region: normRegion(primary.region) || regions[0] || '전국',
         regions, categories: cats,
       });
     }
