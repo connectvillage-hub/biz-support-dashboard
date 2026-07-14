@@ -3680,7 +3680,7 @@
    "source": "busan_gosi",
    "sourceName": "부산광역시 고시공고",
    "title": "부산과학기술고등교육진흥원 부설기관 부산라이즈혁신원장 모집 공고",
-   "url": "https://www.busan.go.kr/nbgosi/view?sno=78774&gosiGbn=A&curPage=2",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=78774&gosiGbn=A&curPage=3",
    "date": "2026-07-13",
    "deadline": null,
    "region": "부산",
@@ -3694,7 +3694,7 @@
    "source": "busan_gosi",
    "sourceName": "부산광역시 고시공고",
    "title": "2026년 끼인세대 자격증 시험 응시료 지원 참여자 모집공고",
-   "url": "https://www.busan.go.kr/nbgosi/view?sno=78757&gosiGbn=A&curPage=2",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=78757&gosiGbn=A&curPage=3",
    "date": "2026-07-13",
    "deadline": null,
    "region": "부산",
@@ -3708,7 +3708,7 @@
    "source": "busan_gosi",
    "sourceName": "부산광역시 고시공고",
    "title": "부산광역시 항노화산업지원위원회 위원 모집 공고",
-   "url": "https://www.busan.go.kr/nbgosi/view?sno=78749&gosiGbn=A&curPage=2",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=78749&gosiGbn=A&curPage=3",
    "date": "2026-07-13",
    "deadline": null,
    "region": "부산",
@@ -3807,7 +3807,7 @@
    "source": "busan_gosi",
    "sourceName": "부산광역시 고시공고",
    "title": "「부산광역시 응급의료지원단 운영」 민간위탁 성과평가 결과 공고",
-   "url": "https://www.busan.go.kr/nbgosi/view?sno=78777&gosiGbn=A&curPage=2",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=78777&gosiGbn=A&curPage=3",
    "date": "2026-07-13",
    "deadline": null,
    "region": "부산",
@@ -4102,7 +4102,7 @@
    "source": "busan_gosi",
    "sourceName": "부산광역시 고시공고",
    "title": "2026년 업무유공 및 노사문화 유공 직원 해외연수 수행업체 모집 공고",
-   "url": "https://www.busan.go.kr/nbgosi/view?sno=78789&gosiGbn=A&curPage=2",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=78789&gosiGbn=A&curPage=3",
    "date": "2026-07-13",
    "deadline": null,
    "region": "부산",
@@ -4187,7 +4187,7 @@
    "source": "busan_gosi",
    "sourceName": "부산광역시 고시공고",
    "title": "「민간주관 전시회 육성관리 사무」 민간위탁 성과평가 결과 공고",
-   "url": "https://www.busan.go.kr/nbgosi/view?sno=78802&gosiGbn=A&curPage=1",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=78802&gosiGbn=A&curPage=2",
    "date": "2026-07-14",
    "deadline": null,
    "region": "부산",
@@ -4483,6 +4483,20 @@
     "사업화"
    ],
    "firstSeen": "2026-07-14"
+  },
+  "ca5b1de55d3a96d7": {
+   "id": "ca5b1de55d3a96d7",
+   "source": "busan_gosi",
+   "sourceName": "부산광역시 고시공고",
+   "title": "부산광역시 행정자치국 제1공적심사위원회 위원 공개모집 공고",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=78756&gosiGbn=A&curPage=1",
+   "date": "2026-07-15",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-07-15"
   }
  },
  "sources": [
@@ -4602,9 +4616,8 @@
    "id": "busan_gosi",
    "name": "부산광역시 고시공고",
    "url": "https://www.busan.go.kr/nbgosi",
-   "status": "fail",
-   "count": 0,
-   "error": "520 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.busan.go.kr%2Fnbgosi%3FcurPage%3D2"
+   "status": "ok",
+   "count": 7
   },
   {
    "id": "bscf",
