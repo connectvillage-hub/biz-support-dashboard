@@ -201,20 +201,6 @@
    ],
    "firstSeen": "2026-07-09"
   },
-  "42f87b2299c39bb1": {
-   "id": "42f87b2299c39bb1",
-   "source": "bistep",
-   "sourceName": "부산산업과학혁신원",
-   "title": "2026년 제1차 부산과학기술고등교육진흥원 정책연구과제 시민의견 조사",
-   "url": "https://www.bistep.re.kr/kor/CMS/Board/Board.do?mCode=MN008&mode=view&mgr_seq=23&board_seq=5549",
-   "date": "2026-03-16",
-   "deadline": null,
-   "region": "부산",
-   "categories": [
-    "기타"
-   ],
-   "firstSeen": "2026-07-09"
-  },
   "58cd5f659d39f4f4": {
    "id": "58cd5f659d39f4f4",
    "source": "bscf",
@@ -1494,20 +1480,6 @@
    ],
    "firstSeen": "2026-07-09"
   },
-  "ad56388a11c7e92e": {
-   "id": "ad56388a11c7e92e",
-   "source": "arte",
-   "sourceName": "한국문화예술교육진흥원",
-   "title": "2026 꿈의 스튜디오 신규 거점기관 공모 안내",
-   "url": "https://arte.or.kr/notice/business/notice/Business_BoardView.do?board_id=BRD_ID0083076",
-   "date": "2026-03-16",
-   "deadline": "2026-04-15",
-   "region": "전국",
-   "categories": [
-    "사업화"
-   ],
-   "firstSeen": "2026-07-09"
-  },
   "f3bb8f3527da492e": {
    "id": "f3bb8f3527da492e",
    "source": "smtech",
@@ -1618,21 +1590,6 @@
    "categories": [
     "투자",
     "R&D"
-   ],
-   "firstSeen": "2026-07-09"
-  },
-  "4f446f843df3a50f": {
-   "id": "4f446f843df3a50f",
-   "source": "busanstartup",
-   "sourceName": "부산창업포털",
-   "title": "벤처투자회사(VC) 및 창업기획자(AC) 대상 티움 공유오피스 사용자 모집 공고",
-   "url": "https://www.busanstartup.kr/biz_sup/1996?mcode=biz02",
-   "date": "2026-03-16",
-   "deadline": null,
-   "region": "부산",
-   "categories": [
-    "투자",
-    "사업화"
    ],
    "firstSeen": "2026-07-09"
   },
@@ -4542,7 +4499,7 @@
    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200View.do",
    "status": "fail",
    "count": 0,
-   "error": "520 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.bizinfo.go.kr%2Fsii%2Fsiia%2FselectSIIA200View.do"
+   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.bizinfo.go.kr%2Fsii%2Fsiia%2FselectSIIA200View.do"
   },
   {
    "id": "mss",
@@ -4649,7 +4606,7 @@
    "url": "https://www.busan.go.kr/nbgosi",
    "status": "fail",
    "count": 0,
-   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.busan.go.kr%2Fnbgosi%3FcurPage%3D1"
+   "error": "502 Server Error: Bad Gateway for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.busan.go.kr%2Fnbgosi%3FcurPage%3D1"
   },
   {
    "id": "bscf",
