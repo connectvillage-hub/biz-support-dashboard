@@ -5095,15 +5095,17 @@
    "id": "bizinfo",
    "name": "기업마당",
    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200View.do",
-   "status": "ok",
-   "count": 15
+   "status": "fail",
+   "count": 0,
+   "error": "408 Client Error: Request Timeout for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.bizinfo.go.kr%2Fsii%2Fsiia%2FselectSIIA200View.do"
   },
   {
    "id": "mss",
    "name": "중소벤처기업부",
    "url": "https://www.mss.go.kr/site/smba/ex/bbs/List.do?cbIdx=310",
-   "status": "ok",
-   "count": 10
+   "status": "fail",
+   "count": 0,
+   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.mss.go.kr%2Fsite%2Fsmba%2Fex%2Fbbs%2FList.do%3FcbIdx%3D310"
   },
   {
    "id": "kidp",
@@ -5200,8 +5202,9 @@
    "id": "busan_gosi",
    "name": "부산광역시 고시공고",
    "url": "https://www.busan.go.kr/nbgosi",
-   "status": "ok",
-   "count": 3
+   "status": "fail",
+   "count": 0,
+   "error": "500 Server Error: Internal Server Error for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.busan.go.kr%2Fnbgosi%3FcurPage%3D1"
   },
   {
    "id": "bscf",
