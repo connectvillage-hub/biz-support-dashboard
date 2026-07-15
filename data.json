@@ -4512,6 +4512,63 @@
     "사업화"
    ],
    "firstSeen": "2026-07-15"
+  },
+  "57e9f6df9dd8eee2": {
+   "id": "57e9f6df9dd8eee2",
+   "source": "kstartup",
+   "sourceName": "K스타트업",
+   "title": "2026년 프리 팁스 2차 창업기업 모집 공고",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178481",
+   "date": "2026-07-10",
+   "deadline": "2026-08-10",
+   "region": "전국",
+   "categories": [
+    "투자",
+    "사업화"
+   ],
+   "firstSeen": "2026-07-15"
+  },
+  "8a8a422a755ee9c3": {
+   "id": "8a8a422a755ee9c3",
+   "source": "arte",
+   "sourceName": "한국문화예술교육진흥원",
+   "title": "2026 한국문화예술교육진흥원 민간경상보조사업 정산 및 회계검증 수행기관(회계법인) 공모 안내",
+   "url": "https://arte.or.kr/notice/business/notice/Business_BoardView.do?board_id=BRD_ID0083637",
+   "date": "2026-07-15",
+   "deadline": "2026-07-30",
+   "region": "전국",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-07-15"
+  },
+  "413cf1a11bdc24d4": {
+   "id": "413cf1a11bdc24d4",
+   "source": "bipa",
+   "sourceName": "부산정보산업진흥원",
+   "title": "2026 K-ICT WEEK in Busan 정보보호 공동관 참가 기업 모집",
+   "url": "https://bipa.kr/board/business/view?seq=85242",
+   "date": "2026-07-15",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-07-15"
+  },
+  "251f6d644624fd78": {
+   "id": "251f6d644624fd78",
+   "source": "bipa",
+   "sourceName": "부산정보산업진흥원",
+   "title": "2026 Busan Indie Wave Conference 개최 안내",
+   "url": "https://bipa.kr/board/business/view?seq=85240",
+   "date": "2026-07-15",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-07-15"
   }
  },
  "sources": [
@@ -4536,7 +4593,7 @@
    "url": "https://www.mss.go.kr/site/smba/ex/bbs/List.do?cbIdx=310",
    "status": "fail",
    "count": 0,
-   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.mss.go.kr%2Fsite%2Fsmba%2Fex%2Fbbs%2FList.do%3FcbIdx%3D310"
+   "error": "408 Client Error: Request Timeout for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.mss.go.kr%2Fsite%2Fsmba%2Fex%2Fbbs%2FList.do%3FcbIdx%3D310"
   },
   {
    "id": "kidp",
@@ -4563,15 +4620,17 @@
    "id": "semas",
    "name": "소상공인시장진흥공단",
    "url": "https://www.semas.or.kr/web/board/webBoardList.kmdc?bCd=1&pNm=BOA0101",
-   "status": "ok",
-   "count": 10
+   "status": "fail",
+   "count": 0,
+   "error": "408 Client Error: Request Timeout for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.semas.or.kr%2Fweb%2Fboard%2FwebBoardList.kmdc%3FbCd%3D1%26pNm%3DBOA0101"
   },
   {
    "id": "smtech",
    "name": "중소기업 기술개발(SMTECH)",
    "url": "https://www.smtech.go.kr/front/ifg/no/notice02_list.do",
-   "status": "ok",
-   "count": 9
+   "status": "fail",
+   "count": 0,
+   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.smtech.go.kr%2Ffront%2Fifg%2Fno%2Fnotice02_list.do"
   },
   {
    "id": "busanstartup",
@@ -4635,7 +4694,7 @@
    "url": "https://www.busan.go.kr/nbgosi",
    "status": "fail",
    "count": 0,
-   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.busan.go.kr%2Fnbgosi%3FcurPage%3D1"
+   "error": "520 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.busan.go.kr%2Fnbgosi%3FcurPage%3D1"
   },
   {
    "id": "bscf",
