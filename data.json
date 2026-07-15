@@ -4844,7 +4844,7 @@
    "source": "busan_gosi",
    "sourceName": "부산광역시 고시공고",
    "title": "제7기 부산광역시 국어진흥위원회 위원 모집 공고",
-   "url": "https://www.busan.go.kr/nbgosi/view?sno=78788&gosiGbn=A&curPage=1",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=78788&gosiGbn=A&curPage=2",
    "date": "2026-07-15",
    "deadline": null,
    "region": "부산",
@@ -4864,6 +4864,235 @@
    "region": "부산",
    "categories": [
     "사업화"
+   ],
+   "firstSeen": "2026-07-15"
+  },
+  "4549f1939b6098b9": {
+   "id": "4549f1939b6098b9",
+   "source": "kstartup",
+   "sourceName": "K스타트업",
+   "title": "2026년 5회차 지식재산 무료 초청교육 수요조사",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178515",
+   "date": "2026-07-15",
+   "deadline": "2026-08-03",
+   "region": "전국",
+   "categories": [
+    "특허·지재권"
+   ],
+   "firstSeen": "2026-07-15"
+  },
+  "02a96c86983ccaef": {
+   "id": "02a96c86983ccaef",
+   "source": "kstartup",
+   "sourceName": "K스타트업",
+   "title": "[무료/선착순] 대구데이터역량강화교육 AI Agent 개발",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178542",
+   "date": "2026-07-15",
+   "deadline": "2026-08-03",
+   "region": "전국",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-07-15"
+  },
+  "3d54e9f04b0241b1": {
+   "id": "3d54e9f04b0241b1",
+   "source": "kstartup",
+   "sourceName": "K스타트업",
+   "title": "2026년 체육인 직업안정(창업지원) 사업 창업교육과정(씨앗) 참여자 추가 모집(9.30.)",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178561",
+   "date": "2026-07-15",
+   "deadline": "2026-09-30",
+   "region": "전국",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-07-15"
+  },
+  "21d2faa028727751": {
+   "id": "21d2faa028727751",
+   "source": "kstartup",
+   "sourceName": "K스타트업",
+   "title": "2026년 논산시 사회적경제 창업 아카데미 교육생 모집",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178548",
+   "date": "2026-07-15",
+   "deadline": "2026-08-13",
+   "region": "전국",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-07-15"
+  },
+  "a6cfe8810dbd8f30": {
+   "id": "a6cfe8810dbd8f30",
+   "source": "kstartup",
+   "sourceName": "K스타트업",
+   "title": "2026년 청년창업 아이디에이션 4.0 참가자 모집 공고",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178551",
+   "date": "2026-07-15",
+   "deadline": "2026-08-13",
+   "region": "전국",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-07-15"
+  },
+  "7bbc41aea0fe8eb6": {
+   "id": "7bbc41aea0fe8eb6",
+   "source": "kstartup",
+   "sourceName": "K스타트업",
+   "title": "강원 바이오·헬스케어 산업 AI 대전환 지원사업",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178564",
+   "date": "2026-07-15",
+   "deadline": "2026-07-17",
+   "region": "전국",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-07-15"
+  },
+  "faf133378b57dc40": {
+   "id": "faf133378b57dc40",
+   "source": "kstartup",
+   "sourceName": "K스타트업",
+   "title": "제2회 AI 및 기술기반 창업 트렌드 세미나(에듀테크 편) 참가자 모집",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178567",
+   "date": "2026-07-15",
+   "deadline": "2026-07-21",
+   "region": "전국",
+   "categories": [
+    "네트워킹",
+    "사업화"
+   ],
+   "firstSeen": "2026-07-15"
+  },
+  "3ddd268090602bad": {
+   "id": "3ddd268090602bad",
+   "source": "kstartup",
+   "sourceName": "K스타트업",
+   "title": "2026년 광주투자액셀러레이팅 G-IN Next Level 13기 참여기업 모집공고",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178531",
+   "date": "2026-07-15",
+   "deadline": "2026-08-06",
+   "region": "전국",
+   "categories": [
+    "투자",
+    "사업화"
+   ],
+   "firstSeen": "2026-07-15"
+  },
+  "24f4a1c069894326": {
+   "id": "24f4a1c069894326",
+   "source": "kstartup",
+   "sourceName": "K스타트업",
+   "title": "2026년「강남 취‧창업허브센터」6차 입주 기업 신규 모집",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178554",
+   "date": "2026-07-15",
+   "deadline": "2026-07-24",
+   "region": "전국",
+   "categories": [
+    "입주기업",
+    "사업화"
+   ],
+   "firstSeen": "2026-07-15"
+  },
+  "ac443783113f6abd": {
+   "id": "ac443783113f6abd",
+   "source": "kstartup",
+   "sourceName": "K스타트업",
+   "title": "2026년 서울창업허브 창동 투자 특화 프로그램 - IR 라운드(1회차)",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178569",
+   "date": "2026-07-15",
+   "deadline": "2026-07-31",
+   "region": "서울",
+   "categories": [
+    "투자",
+    "사업화"
+   ],
+   "firstSeen": "2026-07-15"
+  },
+  "59c045ad69d7f131": {
+   "id": "59c045ad69d7f131",
+   "source": "kstartup",
+   "sourceName": "K스타트업",
+   "title": "[방송미디어통신위원회, 한국인터넷진흥원] 국민안전 LBS 솔루션 대상 (~9.30, 16:00)",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178536",
+   "date": "2026-07-15",
+   "deadline": "2026-09-30",
+   "region": "전국",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-07-15"
+  },
+  "244191093cade40f": {
+   "id": "244191093cade40f",
+   "source": "kstartup",
+   "sourceName": "K스타트업",
+   "title": "2026 서울시 중장년 채용박람회 권역별 참여기업 모집",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178557",
+   "date": "2026-07-15",
+   "deadline": "2026-08-14",
+   "region": "서울",
+   "categories": [
+    "홍보·마케팅",
+    "사업화"
+   ],
+   "firstSeen": "2026-07-15"
+  },
+  "7c4812c032d75b9a": {
+   "id": "7c4812c032d75b9a",
+   "source": "kstartup",
+   "sourceName": "K스타트업",
+   "title": "2026 전북콘텐츠코리아랩 창·제작자 시제품 제작지원 2차 추가모집 공고",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178570",
+   "date": "2026-07-15",
+   "deadline": "2026-07-28",
+   "region": "전국",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-07-15"
+  },
+  "28400022465defd6": {
+   "id": "28400022465defd6",
+   "source": "kstartup",
+   "sourceName": "K스타트업",
+   "title": "2026년 서울창업허브 창동-삼성물산 건설부문 오픈이노베이션 참가기업 모집",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178565",
+   "date": "2026-07-15",
+   "deadline": "2026-07-24",
+   "region": "서울",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-07-15"
+  },
+  "5bcfe6e94f023650": {
+   "id": "5bcfe6e94f023650",
+   "source": "kstartup",
+   "sourceName": "K스타트업",
+   "title": "2026년 서울창업허브 창동-조이시티 오픈이노베이션 참가기업 모집",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178566",
+   "date": "2026-07-15",
+   "deadline": "2026-07-29",
+   "region": "서울",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-07-15"
+  },
+  "f659fc3473427f27": {
+   "id": "f659fc3473427f27",
+   "source": "dcb",
+   "sourceName": "부산디자인진흥원",
+   "title": "2026년 부산 디자인 캠퍼스 참여청년 추가 모집(3차) 공고",
+   "url": "https://dcb.or.kr/01_news/?mcode=0401010000&mode=2&no=14466&page=1",
+   "date": "2026-07-15",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "기타"
    ],
    "firstSeen": "2026-07-15"
   }
