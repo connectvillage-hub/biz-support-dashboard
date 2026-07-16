@@ -5081,6 +5081,249 @@
     "기타"
    ],
    "firstSeen": "2026-07-15"
+  },
+  "d665321dfc898780": {
+   "id": "d665321dfc898780",
+   "source": "kstartup",
+   "sourceName": "K스타트업",
+   "title": "2026 경기도 ESG 인식확산 교육",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178408",
+   "date": "2026-07-16",
+   "deadline": "2026-10-30",
+   "region": "전국",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-07-16"
+  },
+  "ba55366081cc3647": {
+   "id": "ba55366081cc3647",
+   "source": "kstartup",
+   "sourceName": "K스타트업",
+   "title": "2026-7회 충청권 엔젤투자 피칭룸 프로그램 참가기업 모집",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178522",
+   "date": "2026-07-16",
+   "deadline": "2026-07-24",
+   "region": "전국",
+   "categories": [
+    "투자",
+    "사업화"
+   ],
+   "firstSeen": "2026-07-16"
+  },
+  "4a506f294453780e": {
+   "id": "4a506f294453780e",
+   "source": "kstartup",
+   "sourceName": "K스타트업",
+   "title": "[서초창업스테이션] 7월 창업 교육 - 비즈니스 프레젠테이션 스킬 및 자료 제작",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178523",
+   "date": "2026-07-16",
+   "deadline": "2026-07-28",
+   "region": "전국",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-07-16"
+  },
+  "21d15eaec5ceaf34": {
+   "id": "21d15eaec5ceaf34",
+   "source": "kstartup",
+   "sourceName": "K스타트업",
+   "title": "[서초창업스테이션] 7월 전문 분야 컨설팅 - BM 설계, 조직관리",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178524",
+   "date": "2026-07-16",
+   "deadline": "2026-07-22",
+   "region": "전국",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-07-16"
+  },
+  "eb25cd1143d7f98a": {
+   "id": "eb25cd1143d7f98a",
+   "source": "kstartup",
+   "sourceName": "K스타트업",
+   "title": "[강동구 청년해냄센터] 스타트업 영 그라운드 MVP 개발 해커톤 참가자 모집",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178510",
+   "date": "2026-07-16",
+   "deadline": "2026-07-30",
+   "region": "전국",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-07-16"
+  },
+  "ff4ea25443b278ad": {
+   "id": "ff4ea25443b278ad",
+   "source": "kstartup",
+   "sourceName": "K스타트업",
+   "title": "[안양대학교 창업보육센터] 2026년 하반기 신규 입주기업 모집",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178527",
+   "date": "2026-07-16",
+   "deadline": "2026-12-31",
+   "region": "전국",
+   "categories": [
+    "입주기업",
+    "사업화"
+   ],
+   "firstSeen": "2026-07-16"
+  },
+  "424426f767a02e8b": {
+   "id": "424426f767a02e8b",
+   "source": "kstartup",
+   "sourceName": "K스타트업",
+   "title": "[청년창업지원센터 상주올래] 2026 입주기업 모집",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178507",
+   "date": "2026-07-16",
+   "deadline": "2026-07-21",
+   "region": "전국",
+   "categories": [
+    "입주기업",
+    "사업화"
+   ],
+   "firstSeen": "2026-07-16"
+  },
+  "545a5c4a763b53cf": {
+   "id": "545a5c4a763b53cf",
+   "source": "kstartup",
+   "sourceName": "K스타트업",
+   "title": "2026년 서울핀테크랩 FIN-오픈이노베이션 Meep-up Day 8회차 - KB Innovation HUB",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178534",
+   "date": "2026-07-16",
+   "deadline": "2026-08-03",
+   "region": "서울",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-07-16"
+  },
+  "5364621b46b9c32f": {
+   "id": "5364621b46b9c32f",
+   "source": "kstartup",
+   "sourceName": "K스타트업",
+   "title": "2026년 한국외대 창업보육센터 입주기업 모집 공고",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178533",
+   "date": "2026-07-16",
+   "deadline": "2026-07-26",
+   "region": "전국",
+   "categories": [
+    "입주기업",
+    "사업화"
+   ],
+   "firstSeen": "2026-07-16"
+  },
+  "70c7f3f8f3bd6bf2": {
+   "id": "70c7f3f8f3bd6bf2",
+   "source": "kstartup",
+   "sourceName": "K스타트업",
+   "title": "2026년 G-Space 입주기업 발굴·육성사업 입주기업 추가 모집 공고",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178525",
+   "date": "2026-07-16",
+   "deadline": "2026-07-29",
+   "region": "전국",
+   "categories": [
+    "입주기업",
+    "사업화"
+   ],
+   "firstSeen": "2026-07-16"
+  },
+  "d54a7dc38b0f4de0": {
+   "id": "d54a7dc38b0f4de0",
+   "source": "kstartup",
+   "sourceName": "K스타트업",
+   "title": "2026 안산 스타트업 청년창업 페스티벌",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178520",
+   "date": "2026-07-16",
+   "deadline": "2026-07-24",
+   "region": "전국",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-07-16"
+  },
+  "633506ad4d67c1f8": {
+   "id": "633506ad4d67c1f8",
+   "source": "kstartup",
+   "sourceName": "K스타트업",
+   "title": "[인천창조경제혁신센터xKT] 『SMART-X LAB 14기』 참여기업 모집",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178537",
+   "date": "2026-07-16",
+   "deadline": "2026-08-02",
+   "region": "전국",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-07-16"
+  },
+  "d0adc9946c5c70d4": {
+   "id": "d0adc9946c5c70d4",
+   "source": "kstartup",
+   "sourceName": "K스타트업",
+   "title": "2026년 규제혁신 로봇 실증사업 2차 공고",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178538",
+   "date": "2026-07-16",
+   "deadline": "2026-08-04",
+   "region": "전국",
+   "categories": [
+    "R&D"
+   ],
+   "firstSeen": "2026-07-16"
+  },
+  "6a83c0e4c43fa43b": {
+   "id": "6a83c0e4c43fa43b",
+   "source": "kstartup",
+   "sourceName": "K스타트업",
+   "title": "IBS(기초과학연구원) Research Connect",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178540",
+   "date": "2026-07-16",
+   "deadline": "2026-07-27",
+   "region": "전국",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-07-16"
+  },
+  "4325f96391f22673": {
+   "id": "4325f96391f22673",
+   "source": "kstartup",
+   "sourceName": "K스타트업",
+   "title": "[강동구 청년해냄센터] 취약분야 상시 컨설팅 8월 참가자 모집 공고",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178543",
+   "date": "2026-07-16",
+   "deadline": "2026-08-31",
+   "region": "전국",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-07-16"
+  },
+  "344a639711545100": {
+   "id": "344a639711545100",
+   "source": "bipa",
+   "sourceName": "부산정보산업진흥원",
+   "title": "[윈스테크넷] 채용연계형 사이버보안 전문인력 양성과정 교육생 모집",
+   "url": "https://bipa.kr/board/business/view?seq=85248",
+   "date": "2026-07-16",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-07-16"
+  },
+  "fa3cbf7a38ddbfd9": {
+   "id": "fa3cbf7a38ddbfd9",
+   "source": "bipa",
+   "sourceName": "부산정보산업진흥원",
+   "title": "게임콘텐츠 멀티부스팅 지원기업 추가 모집 공고",
+   "url": "https://bipa.kr/board/business/view?seq=85245",
+   "date": "2026-07-16",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-07-16"
   }
  },
  "sources": [
@@ -5095,15 +5338,17 @@
    "id": "bizinfo",
    "name": "기업마당",
    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200View.do",
-   "status": "ok",
-   "count": 15
+   "status": "fail",
+   "count": 0,
+   "error": "500 Server Error: Internal Server Error for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.bizinfo.go.kr%2Fsii%2Fsiia%2FselectSIIA200View.do"
   },
   {
    "id": "mss",
    "name": "중소벤처기업부",
    "url": "https://www.mss.go.kr/site/smba/ex/bbs/List.do?cbIdx=310",
-   "status": "ok",
-   "count": 10
+   "status": "fail",
+   "count": 0,
+   "error": "500 Server Error: Internal Server Error for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.mss.go.kr%2Fsite%2Fsmba%2Fex%2Fbbs%2FList.do%3FcbIdx%3D310"
   },
   {
    "id": "kidp",
@@ -5130,15 +5375,17 @@
    "id": "semas",
    "name": "소상공인시장진흥공단",
    "url": "https://www.semas.or.kr/web/board/webBoardList.kmdc?bCd=1&pNm=BOA0101",
-   "status": "ok",
-   "count": 10
+   "status": "fail",
+   "count": 0,
+   "error": "408 Client Error: Request Timeout for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.semas.or.kr%2Fweb%2Fboard%2FwebBoardList.kmdc%3FbCd%3D1%26pNm%3DBOA0101"
   },
   {
    "id": "smtech",
    "name": "중소기업 기술개발(SMTECH)",
    "url": "https://www.smtech.go.kr/front/ifg/no/notice02_list.do",
-   "status": "ok",
-   "count": 9
+   "status": "fail",
+   "count": 0,
+   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.smtech.go.kr%2Ffront%2Fifg%2Fno%2Fnotice02_list.do"
   },
   {
    "id": "busanstartup",
@@ -5200,8 +5447,9 @@
    "id": "busan_gosi",
    "name": "부산광역시 고시공고",
    "url": "https://www.busan.go.kr/nbgosi",
-   "status": "ok",
-   "count": 3
+   "status": "fail",
+   "count": 0,
+   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.busan.go.kr%2Fnbgosi%3FcurPage%3D1"
   },
   {
    "id": "bscf",
