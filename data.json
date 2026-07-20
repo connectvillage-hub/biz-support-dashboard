@@ -5890,6 +5890,34 @@
     "기타"
    ],
    "firstSeen": "2026-07-20"
+  },
+  "358aa96537be8050": {
+   "id": "358aa96537be8050",
+   "source": "semas",
+   "sourceName": "소상공인시장진흥공단",
+   "title": "2026 대한민국 소상공인대회 정부포상 추천자 공개검증 안내",
+   "url": "https://www.semas.or.kr/web/board/webBoardView.kmdc?bCd=1&b_idx=55583&pNm=BOA0101",
+   "date": "2026-07-20",
+   "deadline": null,
+   "region": "전국",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-07-20"
+  },
+  "f3c8c9495cbe2705": {
+   "id": "f3c8c9495cbe2705",
+   "source": "dcb",
+   "sourceName": "부산디자인진흥원",
+   "title": "아난티와 함께하는 2026년 K-뉴딜 아카데미 모집 공고문",
+   "url": "https://dcb.or.kr/01_news/?mcode=0401010000&mode=2&no=14469&page=1",
+   "date": "2026-07-20",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-07-20"
   }
  },
  "sources": [
@@ -5904,15 +5932,17 @@
    "id": "bizinfo",
    "name": "기업마당",
    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200View.do",
-   "status": "ok",
-   "count": 15
+   "status": "fail",
+   "count": 0,
+   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.bizinfo.go.kr%2Fsii%2Fsiia%2FselectSIIA200View.do"
   },
   {
    "id": "mss",
    "name": "중소벤처기업부",
    "url": "https://www.mss.go.kr/site/smba/ex/bbs/List.do?cbIdx=310",
-   "status": "ok",
-   "count": 10
+   "status": "fail",
+   "count": 0,
+   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.mss.go.kr%2Fsite%2Fsmba%2Fex%2Fbbs%2FList.do%3FcbIdx%3D310"
   },
   {
    "id": "kidp",
@@ -6011,7 +6041,7 @@
    "url": "https://www.busan.go.kr/nbgosi",
    "status": "fail",
    "count": 0,
-   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.busan.go.kr%2Fnbgosi%3FcurPage%3D1"
+   "error": "520 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.busan.go.kr%2Fnbgosi%3FcurPage%3D1"
   },
   {
    "id": "bscf",
