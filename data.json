@@ -5862,6 +5862,34 @@
     "사업화"
    ],
    "firstSeen": "2026-07-20"
+  },
+  "081460c561e41ce0": {
+   "id": "081460c561e41ce0",
+   "source": "kstartup",
+   "sourceName": "K스타트업",
+   "title": "「민관협력 오픈이노베이션 지원」2026년 제2차 민간 선별추천형(Bottom-Up) 창업기업 모집공고",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178605",
+   "date": "2026-07-20",
+   "deadline": "2026-07-31",
+   "region": "전국",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-07-20"
+  },
+  "e2bd9467ada9eac1": {
+   "id": "e2bd9467ada9eac1",
+   "source": "dcb",
+   "sourceName": "부산디자인진흥원",
+   "title": "2026년도 (재)부산디자인진흥원 평가위원 후보자 상시 모집 공고(분야추가)",
+   "url": "https://dcb.or.kr/01_news/?mcode=0401010000&mode=2&no=14468&page=1",
+   "date": "2026-07-20",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-07-20"
   }
  },
  "sources": [
@@ -5876,17 +5904,15 @@
    "id": "bizinfo",
    "name": "기업마당",
    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200View.do",
-   "status": "fail",
-   "count": 0,
-   "error": "408 Client Error: Request Timeout for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.bizinfo.go.kr%2Fsii%2Fsiia%2FselectSIIA200View.do"
+   "status": "ok",
+   "count": 15
   },
   {
    "id": "mss",
    "name": "중소벤처기업부",
    "url": "https://www.mss.go.kr/site/smba/ex/bbs/List.do?cbIdx=310",
-   "status": "fail",
-   "count": 0,
-   "error": "500 Server Error: Internal Server Error for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.mss.go.kr%2Fsite%2Fsmba%2Fex%2Fbbs%2FList.do%3FcbIdx%3D310"
+   "status": "ok",
+   "count": 10
   },
   {
    "id": "kidp",
@@ -5976,9 +6002,8 @@
    "id": "bistep",
    "name": "부산산업과학혁신원",
    "url": "https://www.bistep.re.kr/kor/CMS/Board/Board.do?mCode=MN008",
-   "status": "fail",
-   "count": 0,
-   "error": "408 Client Error: Request Timeout for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.bistep.re.kr%2Fkor%2FCMS%2FBoard%2FBoard.do%3FmCode%3DMN008"
+   "status": "ok",
+   "count": 10
   },
   {
    "id": "busan_gosi",
