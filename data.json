@@ -6760,7 +6760,7 @@
    "source": "busan_gosi",
    "sourceName": "부산광역시 고시공고",
    "title": "2026년 취약계층 환경성질환 예방사업 지방보조사업자 모집 공고",
-   "url": "https://www.busan.go.kr/nbgosi/view?sno=78875&gosiGbn=A&curPage=1",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=78875&gosiGbn=A&curPage=3",
    "date": "2026-07-21",
    "deadline": null,
    "region": "부산",
@@ -6782,6 +6782,20 @@
     "기타"
    ],
    "firstSeen": "2026-07-21"
+  },
+  "e4db601e1ab106c4": {
+   "id": "e4db601e1ab106c4",
+   "source": "busan_gosi",
+   "sourceName": "부산광역시 고시공고",
+   "title": "제15기 부산광역시 도시공원위원회 위원 모집공고",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=78859&gosiGbn=A&curPage=1",
+   "date": "2026-07-22",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-07-22"
   }
  },
  "sources": [
@@ -6902,7 +6916,7 @@
    "name": "부산광역시 고시공고",
    "url": "https://www.busan.go.kr/nbgosi",
    "status": "ok",
-   "count": 5
+   "count": 2
   },
   {
    "id": "bscf",
