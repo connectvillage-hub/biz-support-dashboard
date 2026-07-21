@@ -6214,6 +6214,49 @@
     "입주기업"
    ],
    "firstSeen": "2026-07-21"
+  },
+  "7c591900f729c56b": {
+   "id": "7c591900f729c56b",
+   "source": "kstartup",
+   "sourceName": "K스타트업",
+   "title": "「다시 쓰는 성공기」 제14회 재도전 사례 공모전 참가 모집 공고",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178426",
+   "date": "2026-07-21",
+   "deadline": "2026-08-20",
+   "region": "전국",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-07-21"
+  },
+  "7b5d31e7d95c6dc4": {
+   "id": "7b5d31e7d95c6dc4",
+   "source": "kidp",
+   "sourceName": "한국디자인진흥원",
+   "title": "2026년 디자인-기술기업 2차 밋업 참가기업 모집",
+   "url": "https://kidp.or.kr/?menuno=1202",
+   "date": "2026-07-21",
+   "deadline": null,
+   "region": "전국",
+   "categories": [
+    "네트워킹",
+    "사업화"
+   ],
+   "firstSeen": "2026-07-21"
+  },
+  "d1bcdbd4a908fa33": {
+   "id": "d1bcdbd4a908fa33",
+   "source": "semas",
+   "sourceName": "소상공인시장진흥공단",
+   "title": "2026년 소상공인 협업활성화 공동사업 2차 공고",
+   "url": "https://www.semas.or.kr/web/board/webBoardView.kmdc?bCd=1&b_idx=55610&pNm=BOA0101",
+   "date": "2026-07-21",
+   "deadline": null,
+   "region": "전국",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-07-21"
   }
  },
  "sources": [
@@ -6230,7 +6273,7 @@
    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200View.do",
    "status": "fail",
    "count": 0,
-   "error": "408 Client Error: Request Timeout for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.bizinfo.go.kr%2Fsii%2Fsiia%2FselectSIIA200View.do"
+   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.bizinfo.go.kr%2Fsii%2Fsiia%2FselectSIIA200View.do"
   },
   {
    "id": "mss",
@@ -6337,7 +6380,7 @@
    "url": "https://www.busan.go.kr/nbgosi",
    "status": "fail",
    "count": 0,
-   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.busan.go.kr%2Fnbgosi%3FcurPage%3D1"
+   "error": "408 Client Error: Request Timeout for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.busan.go.kr%2Fnbgosi%3FcurPage%3D1"
   },
   {
    "id": "bscf",
