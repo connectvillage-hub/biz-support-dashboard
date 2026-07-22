@@ -6796,6 +6796,48 @@
     "사업화"
    ],
    "firstSeen": "2026-07-22"
+  },
+  "b720c6b60321f19a": {
+   "id": "b720c6b60321f19a",
+   "source": "dcb",
+   "sourceName": "부산디자인진흥원",
+   "title": "2026년도 (재)부산디자인진흥원 평가위원 후보자 상시 모집 공고(해양/항만)",
+   "url": "https://dcb.or.kr/01_news/?mcode=0401010000&mode=2&no=14468&page=1",
+   "date": "2026-07-20",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-07-22"
+  },
+  "eeffaf0bee94d4db": {
+   "id": "eeffaf0bee94d4db",
+   "source": "bipa",
+   "sourceName": "부산정보산업진흥원",
+   "title": "「2026 글로벌 신시장 진출 비즈니스 지원」 참가기업 모집공고",
+   "url": "https://bipa.kr/board/business/view?seq=85253",
+   "date": "2026-07-22",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-07-22"
+  },
+  "4b4195b05ee76d7a": {
+   "id": "4b4195b05ee76d7a",
+   "source": "bscf",
+   "sourceName": "부산문화재단",
+   "title": "지원공모[공고] 2026년도 부산문화예술지원사업 레지던시활성화(기획형-개인형) 큐슈예문관 파견 (재공모)",
+   "url": "https://www.bscf.or.kr/view.do?no=1010&pgMode=show&pbancSn=2396",
+   "date": "2026-07-22",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-07-22"
   }
  },
  "sources": [
@@ -6915,15 +6957,16 @@
    "id": "busan_gosi",
    "name": "부산광역시 고시공고",
    "url": "https://www.busan.go.kr/nbgosi",
-   "status": "ok",
-   "count": 2
+   "status": "fail",
+   "count": 0,
+   "error": "408 Client Error: Request Timeout for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.busan.go.kr%2Fnbgosi%3FcurPage%3D1"
   },
   {
    "id": "bscf",
    "name": "부산문화재단",
    "url": "https://www.bscf.or.kr",
    "status": "ok",
-   "count": 15
+   "count": 16
   },
   {
    "id": "dcamp",
