@@ -7207,6 +7207,21 @@
     "기타"
    ],
    "firstSeen": "2026-07-22"
+  },
+  "39463d51702c4d84": {
+   "id": "39463d51702c4d84",
+   "source": "bipa",
+   "sourceName": "부산정보산업진흥원",
+   "title": "2026 부산 콘텐츠코리아 랩 웹소설 IP 개발·사업화 패키지 모집공고(2차)",
+   "url": "https://bipa.kr/board/business/view?seq=85255",
+   "date": "2026-07-22",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "특허·지재권",
+    "사업화"
+   ],
+   "firstSeen": "2026-07-22"
   }
  },
  "sources": [
@@ -7221,15 +7236,17 @@
    "id": "bizinfo",
    "name": "기업마당",
    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200View.do",
-   "status": "ok",
-   "count": 15
+   "status": "fail",
+   "count": 0,
+   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.bizinfo.go.kr%2Fsii%2Fsiia%2FselectSIIA200View.do"
   },
   {
    "id": "mss",
    "name": "중소벤처기업부",
    "url": "https://www.mss.go.kr/site/smba/ex/bbs/List.do?cbIdx=310",
-   "status": "ok",
-   "count": 10
+   "status": "fail",
+   "count": 0,
+   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.mss.go.kr%2Fsite%2Fsmba%2Fex%2Fbbs%2FList.do%3FcbIdx%3D310"
   },
   {
    "id": "kidp",
