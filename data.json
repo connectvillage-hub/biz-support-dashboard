@@ -6838,6 +6838,34 @@
     "사업화"
    ],
    "firstSeen": "2026-07-22"
+  },
+  "a44e53a9b4ac82eb": {
+   "id": "a44e53a9b4ac82eb",
+   "source": "kidp",
+   "sourceName": "한국디자인진흥원",
+   "title": "CES 2027 통합한국관 참가기업 모집 공고",
+   "url": "https://kidp.or.kr/?menuno=1202",
+   "date": "2026-07-22",
+   "deadline": null,
+   "region": "전국",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-07-22"
+  },
+  "c8cfc2388af6b617": {
+   "id": "c8cfc2388af6b617",
+   "source": "bipa",
+   "sourceName": "부산정보산업진흥원",
+   "title": "2026 클라우드 엑스포 코리아 전시기업 지원 추가모집 공고(5차)",
+   "url": "https://bipa.kr/board/business/view?seq=85254",
+   "date": "2026-07-22",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-07-22"
   }
  },
  "sources": [
@@ -6950,8 +6978,9 @@
    "id": "bistep",
    "name": "부산산업과학혁신원",
    "url": "https://www.bistep.re.kr/kor/CMS/Board/Board.do?mCode=MN008",
-   "status": "ok",
-   "count": 10
+   "status": "fail",
+   "count": 0,
+   "error": "520 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.bistep.re.kr%2Fkor%2FCMS%2FBoard%2FBoard.do%3FmCode%3DMN008"
   },
   {
    "id": "busan_gosi",
