@@ -7676,6 +7676,35 @@
     "사업화"
    ],
    "firstSeen": "2026-07-23"
+  },
+  "83a3de6ac703cfad": {
+   "id": "83a3de6ac703cfad",
+   "source": "btp",
+   "sourceName": "부산테크노파크",
+   "title": "2026년 Big Data 활용 대회 공고",
+   "url": "https://www.btp.or.kr/kor/CMS/Board/Board.do?mCode=MN013&mode=view&mgr_seq=16&board_seq=9582117",
+   "date": "2026-06-25",
+   "deadline": "2026-09-18",
+   "region": "부산",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-07-24"
+  },
+  "72a8c5245d72dc72": {
+   "id": "72a8c5245d72dc72",
+   "source": "btp",
+   "sourceName": "부산테크노파크",
+   "title": "2026년 부산 연구개발장비 공동활용 지원사업 모집 공고(2차)",
+   "url": "https://www.btp.or.kr/kor/CMS/Board/Board.do?mCode=MN013&mode=view&mgr_seq=16&board_seq=9582071",
+   "date": "2026-06-19",
+   "deadline": "2026-09-30",
+   "region": "부산",
+   "categories": [
+    "R&D",
+    "사업화"
+   ],
+   "firstSeen": "2026-07-24"
   }
  },
  "sources": [
@@ -7690,15 +7719,17 @@
    "id": "bizinfo",
    "name": "기업마당",
    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200View.do",
-   "status": "ok",
-   "count": 15
+   "status": "fail",
+   "count": 0,
+   "error": "520 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.bizinfo.go.kr%2Fsii%2Fsiia%2FselectSIIA200View.do"
   },
   {
    "id": "mss",
    "name": "중소벤처기업부",
    "url": "https://www.mss.go.kr/site/smba/ex/bbs/List.do?cbIdx=310",
-   "status": "ok",
-   "count": 10
+   "status": "fail",
+   "count": 0,
+   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.mss.go.kr%2Fsite%2Fsmba%2Fex%2Fbbs%2FList.do%3FcbIdx%3D310"
   },
   {
    "id": "kidp",
@@ -7795,8 +7826,9 @@
    "id": "busan_gosi",
    "name": "부산광역시 고시공고",
    "url": "https://www.busan.go.kr/nbgosi",
-   "status": "ok",
-   "count": 3
+   "status": "fail",
+   "count": 0,
+   "error": "500 Server Error: Internal Server Error for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.busan.go.kr%2Fnbgosi%3FcurPage%3D2"
   },
   {
    "id": "bscf",
