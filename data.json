@@ -7222,6 +7222,20 @@
     "사업화"
    ],
    "firstSeen": "2026-07-22"
+  },
+  "92d7146bdcb0c90a": {
+   "id": "92d7146bdcb0c90a",
+   "source": "bipa",
+   "sourceName": "부산정보산업진흥원",
+   "title": "「IT EXPO BUSAN 2026」우수기업 해외 바이어 초청 지원 사업 재공고",
+   "url": "https://bipa.kr/board/business/view?seq=85257",
+   "date": "2026-07-23",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "홍보·마케팅"
+   ],
+   "firstSeen": "2026-07-23"
   }
  },
  "sources": [
@@ -7341,8 +7355,9 @@
    "id": "busan_gosi",
    "name": "부산광역시 고시공고",
    "url": "https://www.busan.go.kr/nbgosi",
-   "status": "ok",
-   "count": 3
+   "status": "fail",
+   "count": 0,
+   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.busan.go.kr%2Fnbgosi%3FcurPage%3D1"
   },
   {
    "id": "bscf",
