@@ -7185,7 +7185,7 @@
    "source": "busan_gosi",
    "sourceName": "부산광역시 고시공고",
    "title": "부산폐가전회수센터 관리·운영 민간위탁 수탁기관 공개모집 공고",
-   "url": "https://www.busan.go.kr/nbgosi/view?sno=78908&gosiGbn=A&curPage=1",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=78908&gosiGbn=A&curPage=2",
    "date": "2026-07-22",
    "deadline": null,
    "region": "부산",
@@ -7199,7 +7199,7 @@
    "source": "busan_gosi",
    "sourceName": "부산광역시 고시공고",
    "title": "부산폐가전회수센터 관리·운영 민간위탁 수탁기관 선정심의위원회 위원 공개모집 공고",
-   "url": "https://www.busan.go.kr/nbgosi/view?sno=78907&gosiGbn=A&curPage=1",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=78907&gosiGbn=A&curPage=2",
    "date": "2026-07-22",
    "deadline": null,
    "region": "부산",
@@ -7355,9 +7355,8 @@
    "id": "busan_gosi",
    "name": "부산광역시 고시공고",
    "url": "https://www.busan.go.kr/nbgosi",
-   "status": "fail",
-   "count": 0,
-   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.busan.go.kr%2Fnbgosi%3FcurPage%3D1"
+   "status": "ok",
+   "count": 3
   },
   {
    "id": "bscf",
