@@ -6788,7 +6788,7 @@
    "source": "busan_gosi",
    "sourceName": "부산광역시 고시공고",
    "title": "제15기 부산광역시 도시공원위원회 위원 모집공고",
-   "url": "https://www.busan.go.kr/nbgosi/view?sno=78859&gosiGbn=A&curPage=2",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=78859&gosiGbn=A&curPage=3",
    "date": "2026-07-22",
    "deadline": null,
    "region": "부산",
@@ -7705,6 +7705,63 @@
     "사업화"
    ],
    "firstSeen": "2026-07-24"
+  },
+  "abf161f00b5eedb7": {
+   "id": "abf161f00b5eedb7",
+   "source": "btp",
+   "sourceName": "부산테크노파크",
+   "title": "2026년도 지역주력산업육성(지역특화프로젝트『레전드50+』3차 모집공고(부산,초정밀소재부품,실버케어테크)",
+   "url": "https://www.btp.or.kr/kor/CMS/Board/Board.do?mCode=MN013&mode=view&mgr_seq=16&board_seq=9582226",
+   "date": "2026-07-24",
+   "deadline": "2026-08-12",
+   "region": "부산",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-07-24"
+  },
+  "2469a015aebfd3d3": {
+   "id": "2469a015aebfd3d3",
+   "source": "btp",
+   "sourceName": "부산테크노파크",
+   "title": "26년 테크노파크 생산장비 고도화사업 장비활용기술지원",
+   "url": "https://www.btp.or.kr/kor/CMS/Board/Board.do?mCode=MN013&mode=view&mgr_seq=16&board_seq=9582221",
+   "date": "2026-07-24",
+   "deadline": "2026-10-30",
+   "region": "부산",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-07-24"
+  },
+  "03846bda7223204b": {
+   "id": "03846bda7223204b",
+   "source": "bipa",
+   "sourceName": "부산정보산업진흥원",
+   "title": "[2026년 부산 정보보호기업 성장지원] 사업화(비R&D)지원 1개사 추가 모집 공고",
+   "url": "https://bipa.kr/board/business/view?seq=85261",
+   "date": "2026-07-24",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "R&D",
+    "사업화"
+   ],
+   "firstSeen": "2026-07-24"
+  },
+  "12e5b86d7c02d2b9": {
+   "id": "12e5b86d7c02d2b9",
+   "source": "bipa",
+   "sourceName": "부산정보산업진흥원",
+   "title": "「도쿄게임쇼 2026」부산공동관 참가기업 추가 모집 공고",
+   "url": "https://bipa.kr/board/business/view?seq=85260",
+   "date": "2026-07-24",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-07-24"
   }
  },
  "sources": [
@@ -7719,15 +7776,17 @@
    "id": "bizinfo",
    "name": "기업마당",
    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200View.do",
-   "status": "ok",
-   "count": 15
+   "status": "fail",
+   "count": 0,
+   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.bizinfo.go.kr%2Fsii%2Fsiia%2FselectSIIA200View.do"
   },
   {
    "id": "mss",
    "name": "중소벤처기업부",
    "url": "https://www.mss.go.kr/site/smba/ex/bbs/List.do?cbIdx=310",
-   "status": "ok",
-   "count": 10
+   "status": "fail",
+   "count": 0,
+   "error": "500 Server Error: Internal Server Error for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.mss.go.kr%2Fsite%2Fsmba%2Fex%2Fbbs%2FList.do%3FcbIdx%3D310"
   },
   {
    "id": "kidp",
@@ -7756,7 +7815,7 @@
    "url": "https://www.semas.or.kr/web/board/webBoardList.kmdc?bCd=1&pNm=BOA0101",
    "status": "fail",
    "count": 0,
-   "error": "500 Server Error: Internal Server Error for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.semas.or.kr%2Fweb%2Fboard%2FwebBoardList.kmdc%3FbCd%3D1%26pNm%3DBOA0101"
+   "error": "408 Client Error: Request Timeout for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.semas.or.kr%2Fweb%2Fboard%2FwebBoardList.kmdc%3FbCd%3D1%26pNm%3DBOA0101"
   },
   {
    "id": "smtech",
@@ -7764,7 +7823,7 @@
    "url": "https://www.smtech.go.kr/front/ifg/no/notice02_list.do",
    "status": "fail",
    "count": 0,
-   "error": "408 Client Error: Request Timeout for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.smtech.go.kr%2Ffront%2Fifg%2Fno%2Fnotice02_list.do"
+   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.smtech.go.kr%2Ffront%2Fifg%2Fno%2Fnotice02_list.do"
   },
   {
    "id": "busanstartup",
