@@ -1466,20 +1466,6 @@
    ],
    "firstSeen": "2026-07-09"
   },
-  "60d31475f488ab85": {
-   "id": "60d31475f488ab85",
-   "source": "arte",
-   "sourceName": "한국문화예술교육진흥원",
-   "title": "2026 꿈의 예술단 플러스 시범운영 거점기관 공모 안내",
-   "url": "https://arte.or.kr/notice/business/notice/Business_BoardView.do?board_id=BRD_ID0083242",
-   "date": "2026-03-26",
-   "deadline": "2026-04-23",
-   "region": "전국",
-   "categories": [
-    "사업화"
-   ],
-   "firstSeen": "2026-07-09"
-  },
   "f3bb8f3527da492e": {
    "id": "f3bb8f3527da492e",
    "source": "smtech",
@@ -8088,17 +8074,15 @@
    "id": "bizinfo",
    "name": "기업마당",
    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200View.do",
-   "status": "fail",
-   "count": 0,
-   "error": "408 Client Error: Request Timeout for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.bizinfo.go.kr%2Fsii%2Fsiia%2FselectSIIA200View.do"
+   "status": "ok",
+   "count": 15
   },
   {
    "id": "mss",
    "name": "중소벤처기업부",
    "url": "https://www.mss.go.kr/site/smba/ex/bbs/List.do?cbIdx=310",
-   "status": "fail",
-   "count": 0,
-   "error": "408 Client Error: Request Timeout for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.mss.go.kr%2Fsite%2Fsmba%2Fex%2Fbbs%2FList.do%3FcbIdx%3D310"
+   "status": "ok",
+   "count": 10
   },
   {
    "id": "kidp",
@@ -8195,9 +8179,8 @@
    "id": "busan_gosi",
    "name": "부산광역시 고시공고",
    "url": "https://www.busan.go.kr/nbgosi",
-   "status": "fail",
-   "count": 0,
-   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.busan.go.kr%2Fnbgosi%3FcurPage%3D1"
+   "status": "ok",
+   "count": 5
   },
   {
    "id": "bscf",
