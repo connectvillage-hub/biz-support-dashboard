@@ -1543,7 +1543,7 @@
    "title": "2026년 테크노파크 생산장비 고도화 제2차 지원계획 선정기관 과제접수 공고",
    "url": "https://www.smtech.go.kr/front/ifg/no/notice02_detail.do?buclYy=&ancmId=S02866&buclCd=S8012&dtlAncmSn=1&schdSe=MO5005&aplySn=2&searchCondition=&searchKeyword=&pageIndex=1",
    "date": "2026-07-07",
-   "deadline": "2026-07-27",
+   "deadline": "2026-07-28",
    "region": "전국",
    "categories": [
     "기타"
@@ -8060,6 +8060,118 @@
     "사업화"
    ],
    "firstSeen": "2026-07-24"
+  },
+  "1ae5876d71402b5d": {
+   "id": "1ae5876d71402b5d",
+   "source": "mss",
+   "sourceName": "중소벤처기업부",
+   "title": "2026년 K-브랜드 챌린지 참여기업 모집 공고",
+   "url": "https://www.mss.go.kr/site/smba/ex/bbs/View.do?cbIdx=310&bcIdx=1070052&parentSeq=1070052",
+   "date": "2026-07-27",
+   "deadline": null,
+   "region": "전국",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-07-27"
+  },
+  "9d01d3d691a68634": {
+   "id": "9d01d3d691a68634",
+   "source": "mss",
+   "sourceName": "중소벤처기업부",
+   "title": "2026년도 방산 특화 창업중심대학 창업기업 모집공고",
+   "url": "https://www.mss.go.kr/site/smba/ex/bbs/View.do?cbIdx=310&bcIdx=1070051&parentSeq=1070051",
+   "date": "2026-07-27",
+   "deadline": null,
+   "region": "전국",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-07-27"
+  },
+  "a0e3401c4dffe7f4": {
+   "id": "a0e3401c4dffe7f4",
+   "source": "btp",
+   "sourceName": "부산테크노파크",
+   "title": "「제7회 부산 대학-지역 상생 혁신 아이디어 경진대회」연장 공고",
+   "url": "https://www.btp.or.kr/kor/CMS/Board/Board.do?mCode=MN013&mode=view&mgr_seq=16&board_seq=9582228",
+   "date": "2026-07-27",
+   "deadline": "2026-08-07",
+   "region": "부산",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-07-27"
+  },
+  "7d57d3dc656222cc": {
+   "id": "7d57d3dc656222cc",
+   "source": "btp",
+   "sourceName": "부산테크노파크",
+   "title": "글로벌시장 대응 AI기반 공조부품 성능평가 인프라 고도화사업 지원사업 통합공고",
+   "url": "https://www.btp.or.kr/kor/CMS/Board/Board.do?mCode=MN013&mode=view&mgr_seq=16&board_seq=9582227",
+   "date": "2026-07-27",
+   "deadline": "2026-08-14",
+   "region": "부산",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-07-27"
+  },
+  "aa900f0e890ae0c4": {
+   "id": "aa900f0e890ae0c4",
+   "source": "btp",
+   "sourceName": "부산테크노파크",
+   "title": "AI기반 리사이클 디자인 플랫폼 활용 제품개발 및 시제품 제작 지원기업 모집공고",
+   "url": "https://www.btp.or.kr/kor/CMS/Board/Board.do?mCode=MN013&mode=view&mgr_seq=16&board_seq=9582225",
+   "date": "2026-07-27",
+   "deadline": "2026-08-07",
+   "region": "부산",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-07-27"
+  },
+  "a16aee05443de68a": {
+   "id": "a16aee05443de68a",
+   "source": "btp",
+   "sourceName": "부산테크노파크",
+   "title": "『부산광역시 해운항만산업 우수기업 인증 및 지원 사업』역량강화 지원사업 모집 공고(3차)",
+   "url": "https://www.btp.or.kr/kor/CMS/Board/Board.do?mCode=MN013&mode=view&mgr_seq=16&board_seq=9582222",
+   "date": "2026-07-27",
+   "deadline": "2026-08-07",
+   "region": "부산",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-07-27"
+  },
+  "2f521c84f3507030": {
+   "id": "2f521c84f3507030",
+   "source": "busan_gosi",
+   "sourceName": "부산광역시 고시공고",
+   "title": "2026년 부산형 재생에너지 주택지원사업 지원 공고",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=78932&gosiGbn=A&curPage=1",
+   "date": "2026-07-27",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-07-27"
+  },
+  "dc29d1e7ba480821": {
+   "id": "dc29d1e7ba480821",
+   "source": "busan_gosi",
+   "sourceName": "부산광역시 고시공고",
+   "title": "부산광역시 신혼부부 주택 융자 및 대출이자 지원 사업 2차 변경 계획 공고",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=78901&gosiGbn=A&curPage=1",
+   "date": "2026-07-27",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-07-27"
   }
  },
  "sources": [
@@ -8096,7 +8208,7 @@
    "name": "한국콘텐츠진흥원",
    "url": "https://www.kocca.kr/kocca/pims/list.do?menuNo=20410",
    "status": "ok",
-   "count": 10
+   "count": 9
   },
   {
    "id": "arte",
@@ -8151,8 +8263,9 @@
    "id": "bkic",
    "name": "부산지식산업센터",
    "url": "http://bkic.bepa.kr/bsknow/view.do?no=1477",
-   "status": "ok",
-   "count": 10
+   "status": "fail",
+   "count": 0,
+   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=http%3A%2F%2Fbkic.bepa.kr%2Fbsknow%2Fview.do%3Fno%3D1477"
   },
   {
    "id": "bsia",
@@ -8180,7 +8293,7 @@
    "name": "부산광역시 고시공고",
    "url": "https://www.busan.go.kr/nbgosi",
    "status": "ok",
-   "count": 5
+   "count": 6
   },
   {
    "id": "bscf",
