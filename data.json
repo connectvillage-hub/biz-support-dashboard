@@ -8010,7 +8010,7 @@
    "source": "busan_gosi",
    "sourceName": "부산광역시 고시공고",
    "title": "(기간연장)「제18회 부산광역시 사회공헌장」수상 후보자 모집 공고",
-   "url": "https://www.busan.go.kr/nbgosi/view?sno=78947&gosiGbn=A&curPage=1",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=78947&gosiGbn=A&curPage=2",
    "date": "2026-07-24",
    "deadline": null,
    "region": "부산",
@@ -8164,7 +8164,7 @@
    "source": "busan_gosi",
    "sourceName": "부산광역시 고시공고",
    "title": "부산광역시 신혼부부 주택 융자 및 대출이자 지원 사업 2차 변경 계획 공고",
-   "url": "https://www.busan.go.kr/nbgosi/view?sno=78901&gosiGbn=A&curPage=1",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=78901&gosiGbn=A&curPage=2",
    "date": "2026-07-27",
    "deadline": null,
    "region": "부산",
@@ -8458,6 +8458,48 @@
     "사업화"
    ],
    "firstSeen": "2026-07-27"
+  },
+  "636c038cb07c7b8f": {
+   "id": "636c038cb07c7b8f",
+   "source": "kstartup",
+   "sourceName": "K스타트업",
+   "title": "2026 GH 베이스캠프 참여기업 모집공고",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178644",
+   "date": "2026-07-27",
+   "deadline": "2026-08-03",
+   "region": "전국",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-07-27"
+  },
+  "3e6b459784b245be": {
+   "id": "3e6b459784b245be",
+   "source": "kstartup",
+   "sourceName": "K스타트업",
+   "title": "2026년 재창업 활성화 유공포상 공고(재창업기업, 재창업 지원 부문)",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178506",
+   "date": "2026-07-27",
+   "deadline": "2026-08-26",
+   "region": "전국",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-07-27"
+  },
+  "893d523870b4ad86": {
+   "id": "893d523870b4ad86",
+   "source": "btp",
+   "sourceName": "부산테크노파크",
+   "title": "「부산광역시 산학연계 현장실습 브릿지 사업」 2026년도 2학기 참여기업 추가 모집 공고",
+   "url": "https://www.btp.or.kr/kor/CMS/Board/Board.do?mCode=MN013&mode=view&mgr_seq=16&board_seq=9582235",
+   "date": "2026-07-27",
+   "deadline": "2026-08-07",
+   "region": "부산",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-07-27"
   }
  },
  "sources": [
@@ -8494,7 +8536,7 @@
    "name": "한국콘텐츠진흥원",
    "url": "https://www.kocca.kr/kocca/pims/list.do?menuNo=20410",
    "status": "ok",
-   "count": 9
+   "count": 6
   },
   {
    "id": "arte",
@@ -8549,9 +8591,8 @@
    "id": "bkic",
    "name": "부산지식산업센터",
    "url": "http://bkic.bepa.kr/bsknow/view.do?no=1477",
-   "status": "fail",
-   "count": 0,
-   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=http%3A%2F%2Fbkic.bepa.kr%2Fbsknow%2Fview.do%3Fno%3D1477"
+   "status": "ok",
+   "count": 10
   },
   {
    "id": "bsia",
