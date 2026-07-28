@@ -425,20 +425,6 @@
    ],
    "firstSeen": "2026-07-09"
   },
-  "9faa99ede9eeb2f1": {
-   "id": "9faa99ede9eeb2f1",
-   "source": "sparklabs",
-   "sourceName": "스파크랩",
-   "title": "스파크랩, 대국민 창업 오디션 ‘모두의 창업’ 운영기관 선정",
-   "url": "https://sparklabs.co.kr/kr/bbs/link.php?bo_table=news&wr_id=76&no=1",
-   "date": "2026-03-30",
-   "deadline": null,
-   "region": "전국",
-   "categories": [
-    "사업화"
-   ],
-   "firstSeen": "2026-07-09"
-  },
   "f91edd62dabbfaca": {
    "id": "f91edd62dabbfaca",
    "source": "primer",
@@ -1949,7 +1935,7 @@
    "source": "bepa",
    "sourceName": "부산경제진흥원",
    "title": "소상공인 디지털 마케팅 실무교육 - 온라인 스토어 운영 과정 교육생 모집",
-   "url": "https://www.bepa.kr/kor/view.do?no=1502&idx=19251&view=view&pageIndex=1&sv=&sw=&sdate=&edate=&periodState=all&state=ing&temporary=0&items=소상공인",
+   "url": "https://www.bepa.kr/kor/view.do?no=1502&idx=19251&view=view&pageIndex=1&sv=&sw=&sdate=&edate=&periodState=all&state=end&temporary=0&items=소상공인",
    "date": "2026-07-01",
    "deadline": null,
    "region": "부산",
@@ -8150,7 +8136,7 @@
    "source": "busan_gosi",
    "sourceName": "부산광역시 고시공고",
    "title": "2026년 부산형 재생에너지 주택지원사업 지원 공고",
-   "url": "https://www.busan.go.kr/nbgosi/view?sno=78932&gosiGbn=A&curPage=2",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=78932&gosiGbn=A&curPage=3",
    "date": "2026-07-27",
    "deadline": null,
    "region": "부산",
@@ -8164,7 +8150,7 @@
    "source": "busan_gosi",
    "sourceName": "부산광역시 고시공고",
    "title": "부산광역시 신혼부부 주택 융자 및 대출이자 지원 사업 2차 변경 계획 공고",
-   "url": "https://www.busan.go.kr/nbgosi/view?sno=78901&gosiGbn=A&curPage=2",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=78901&gosiGbn=A&curPage=3",
    "date": "2026-07-27",
    "deadline": null,
    "region": "부산",
@@ -8924,6 +8910,20 @@
     "기타"
    ],
    "firstSeen": "2026-07-28"
+  },
+  "d98dad4ac8d1c797": {
+   "id": "d98dad4ac8d1c797",
+   "source": "busan_gosi",
+   "sourceName": "부산광역시 고시공고",
+   "title": "2026년 건설공사 하도급대금 지급보증서 발급 비용 지원사업 시행 공고(2차)",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=78931&gosiGbn=A&curPage=1",
+   "date": "2026-07-29",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-07-29"
   }
  },
  "sources": [
@@ -8938,17 +8938,15 @@
    "id": "bizinfo",
    "name": "기업마당",
    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200View.do",
-   "status": "fail",
-   "count": 0,
-   "error": "500 Server Error: Internal Server Error for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.bizinfo.go.kr%2Fsii%2Fsiia%2FselectSIIA200View.do"
+   "status": "ok",
+   "count": 15
   },
   {
    "id": "mss",
    "name": "중소벤처기업부",
    "url": "https://www.mss.go.kr/site/smba/ex/bbs/List.do?cbIdx=310",
-   "status": "fail",
-   "count": 0,
-   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.mss.go.kr%2Fsite%2Fsmba%2Fex%2Fbbs%2FList.do%3FcbIdx%3D310"
+   "status": "ok",
+   "count": 10
   },
   {
    "id": "kidp",
@@ -9045,9 +9043,8 @@
    "id": "busan_gosi",
    "name": "부산광역시 고시공고",
    "url": "https://www.busan.go.kr/nbgosi",
-   "status": "fail",
-   "count": 0,
-   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.busan.go.kr%2Fnbgosi%3FcurPage%3D1"
+   "status": "ok",
+   "count": 3
   },
   {
    "id": "bscf",
