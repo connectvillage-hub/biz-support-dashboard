@@ -8024,7 +8024,7 @@
    "source": "busan_gosi",
    "sourceName": "부산광역시 고시공고",
    "title": "2026년 가정용 음식물쓰레기 처리기 보조금 지원사업 시행공고",
-   "url": "https://www.busan.go.kr/nbgosi/view?sno=78940&gosiGbn=A&curPage=2",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=78940&gosiGbn=A&curPage=3",
    "date": "2026-07-24",
    "deadline": null,
    "region": "부산",
@@ -8150,7 +8150,7 @@
    "source": "busan_gosi",
    "sourceName": "부산광역시 고시공고",
    "title": "2026년 부산형 재생에너지 주택지원사업 지원 공고",
-   "url": "https://www.busan.go.kr/nbgosi/view?sno=78932&gosiGbn=A&curPage=1",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=78932&gosiGbn=A&curPage=2",
    "date": "2026-07-27",
    "deadline": null,
    "region": "부산",
@@ -8542,6 +8542,34 @@
     "사업화"
    ],
    "firstSeen": "2026-07-28"
+  },
+  "19eb965f1d35d691": {
+   "id": "19eb965f1d35d691",
+   "source": "kidp",
+   "sourceName": "한국디자인진흥원",
+   "title": "[중국센터] 2026년 중국 디자인시장개척단 및 캔톤페어 한국디자인관 운영 대행사 용역 입찰 재공고",
+   "url": "https://kidp.or.kr/?menuno=1202",
+   "date": "2026-07-28",
+   "deadline": null,
+   "region": "전국",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-07-28"
+  },
+  "d46bac2f4052b5d3": {
+   "id": "d46bac2f4052b5d3",
+   "source": "dcb",
+   "sourceName": "부산디자인진흥원",
+   "title": "2026 청년디자이너-소상공인 협업 디자인 프로젝트 지원 과제 추가모집",
+   "url": "https://dcb.or.kr/01_news/?mcode=0401010000&mode=2&no=14476&page=1",
+   "date": "2026-07-28",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-07-28"
   }
  },
  "sources": [
@@ -8556,17 +8584,15 @@
    "id": "bizinfo",
    "name": "기업마당",
    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200View.do",
-   "status": "fail",
-   "count": 0,
-   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.bizinfo.go.kr%2Fsii%2Fsiia%2FselectSIIA200View.do"
+   "status": "ok",
+   "count": 15
   },
   {
    "id": "mss",
    "name": "중소벤처기업부",
    "url": "https://www.mss.go.kr/site/smba/ex/bbs/List.do?cbIdx=310",
-   "status": "fail",
-   "count": 0,
-   "error": "408 Client Error: Request Timeout for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.mss.go.kr%2Fsite%2Fsmba%2Fex%2Fbbs%2FList.do%3FcbIdx%3D310"
+   "status": "ok",
+   "count": 10
   },
   {
    "id": "kidp",
@@ -8663,9 +8689,8 @@
    "id": "busan_gosi",
    "name": "부산광역시 고시공고",
    "url": "https://www.busan.go.kr/nbgosi",
-   "status": "fail",
-   "count": 0,
-   "error": "408 Client Error: Request Timeout for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.busan.go.kr%2Fnbgosi%3FcurPage%3D1"
+   "status": "ok",
+   "count": 4
   },
   {
    "id": "bscf",
