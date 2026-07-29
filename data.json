@@ -9154,6 +9154,62 @@
     "사업화"
    ],
    "firstSeen": "2026-07-29"
+  },
+  "bc094476c077e35e": {
+   "id": "bc094476c077e35e",
+   "source": "kidp",
+   "sourceName": "한국디자인진흥원",
+   "title": "(보도자료) 한국디자인진흥원, 완주 산단 근로자 문화생활 돕는 ‘완주루프’ 첫 시범운영",
+   "url": "https://kidp.or.kr/?menuno=1202",
+   "date": "2026-07-29",
+   "deadline": null,
+   "region": "전국",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-07-29"
+  },
+  "ab0eaccba475253f": {
+   "id": "ab0eaccba475253f",
+   "source": "kidp",
+   "sourceName": "한국디자인진흥원",
+   "title": "한국디자인진흥원, 완주 산단 근로자 문화생활 돕는 ‘완주루프’ 첫 시범운영",
+   "url": "https://kidp.or.kr/?menuno=1202",
+   "date": "2026-07-29",
+   "deadline": null,
+   "region": "전국",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-07-29"
+  },
+  "88561bceed18cfd1": {
+   "id": "88561bceed18cfd1",
+   "source": "smtech",
+   "sourceName": "중소기업 기술개발(SMTECH)",
+   "title": "2026년도 중소기업 연구인력지원사업(파견) 7월 공고",
+   "url": "https://www.smtech.go.kr/front/ifg/no/notice02_detail.do?buclYy=&ancmId=S02847&buclCd=S6041&dtlAncmSn=6&schdSe=MO5005&aplySn=1&searchCondition=&searchKeyword=&pageIndex=1",
+   "date": "2026-08-01",
+   "deadline": "2026-07-31",
+   "region": "전국",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-07-29"
+  },
+  "467a5eca96d7d106": {
+   "id": "467a5eca96d7d106",
+   "source": "btp",
+   "sourceName": "부산테크노파크",
+   "title": "전력반도체 특화단지 테스트베드 조성 및 활성화 수요조사 공고",
+   "url": "https://www.btp.or.kr/kor/CMS/Board/Board.do?mCode=MN013&mode=view&mgr_seq=16&board_seq=9582238",
+   "date": "2026-07-29",
+   "deadline": "2026-09-30",
+   "region": "부산",
+   "categories": [
+    "R&D"
+   ],
+   "firstSeen": "2026-07-29"
   }
  },
  "sources": [
@@ -9170,7 +9226,7 @@
    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200View.do",
    "status": "fail",
    "count": 0,
-   "error": "500 Server Error: Internal Server Error for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.bizinfo.go.kr%2Fsii%2Fsiia%2FselectSIIA200View.do"
+   "error": "408 Client Error: Request Timeout for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.bizinfo.go.kr%2Fsii%2Fsiia%2FselectSIIA200View.do"
   },
   {
    "id": "mss",
@@ -9192,7 +9248,7 @@
    "name": "한국콘텐츠진흥원",
    "url": "https://www.kocca.kr/kocca/pims/list.do?menuNo=20410",
    "status": "ok",
-   "count": 7
+   "count": 6
   },
   {
    "id": "arte",
@@ -9205,17 +9261,15 @@
    "id": "semas",
    "name": "소상공인시장진흥공단",
    "url": "https://www.semas.or.kr/web/board/webBoardList.kmdc?bCd=1&pNm=BOA0101",
-   "status": "fail",
-   "count": 0,
-   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.semas.or.kr%2Fweb%2Fboard%2FwebBoardList.kmdc%3FbCd%3D1%26pNm%3DBOA0101"
+   "status": "ok",
+   "count": 10
   },
   {
    "id": "smtech",
    "name": "중소기업 기술개발(SMTECH)",
    "url": "https://www.smtech.go.kr/front/ifg/no/notice02_list.do",
-   "status": "fail",
-   "count": 0,
-   "error": "408 Client Error: Request Timeout for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.smtech.go.kr%2Ffront%2Fifg%2Fno%2Fnotice02_list.do"
+   "status": "ok",
+   "count": 9
   },
   {
    "id": "busanstartup",
@@ -9270,8 +9324,9 @@
    "id": "bistep",
    "name": "부산산업과학혁신원",
    "url": "https://www.bistep.re.kr/kor/CMS/Board/Board.do?mCode=MN008",
-   "status": "ok",
-   "count": 10
+   "status": "fail",
+   "count": 0,
+   "error": "408 Client Error: Request Timeout for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.bistep.re.kr%2Fkor%2FCMS%2FBoard%2FBoard.do%3FmCode%3DMN008"
   },
   {
    "id": "busan_gosi",
@@ -9279,7 +9334,7 @@
    "url": "https://www.busan.go.kr/nbgosi",
    "status": "fail",
    "count": 0,
-   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.busan.go.kr%2Fnbgosi%3FcurPage%3D1"
+   "error": "500 Server Error: Internal Server Error for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.busan.go.kr%2Fnbgosi%3FcurPage%3D2"
   },
   {
    "id": "bscf",
