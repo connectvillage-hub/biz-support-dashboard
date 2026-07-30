@@ -9550,6 +9550,133 @@
     "사업화"
    ],
    "firstSeen": "2026-07-30"
+  },
+  "cfd1df558cb8ff18": {
+   "id": "cfd1df558cb8ff18",
+   "source": "kstartup",
+   "sourceName": "K스타트업",
+   "title": "2026년 제 5회 경남 스타트업 IR「A.C.E(에이스) 경진대회」오픈리그 참여기업 모집 공고",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178713",
+   "date": "2026-07-30",
+   "deadline": "2026-08-10",
+   "region": "경남",
+   "categories": [
+    "투자",
+    "사업화"
+   ],
+   "firstSeen": "2026-07-30"
+  },
+  "1c8cbf05c7202c2f": {
+   "id": "1c8cbf05c7202c2f",
+   "source": "kstartup",
+   "sourceName": "K스타트업",
+   "title": "[KEA] IoT제품 개발 지원 및 빅데이터 분석 과제기획 수요기업 모집",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178718",
+   "date": "2026-07-30",
+   "deadline": "2026-08-31",
+   "region": "전국",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-07-30"
+  },
+  "09c7e0bb7f0eecf1": {
+   "id": "09c7e0bb7f0eecf1",
+   "source": "kstartup",
+   "sourceName": "K스타트업",
+   "title": "『춘천시 1인 창조기업 지원센터 입주기업 모집 』공고 (9월)",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178720",
+   "date": "2026-07-30",
+   "deadline": "2026-08-14",
+   "region": "전국",
+   "categories": [
+    "입주기업"
+   ],
+   "firstSeen": "2026-07-30"
+  },
+  "64775862a99fe1ee": {
+   "id": "64775862a99fe1ee",
+   "source": "kstartup",
+   "sourceName": "K스타트업",
+   "title": "2026년 재도전 커뮤니티 데이(수도권) 행사 사전등록 및 창업상담 참여자 모집",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178663",
+   "date": "2026-07-30",
+   "deadline": "2026-08-09",
+   "region": "서울",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-07-30"
+  },
+  "711331881a99522a": {
+   "id": "711331881a99522a",
+   "source": "kstartup",
+   "sourceName": "K스타트업",
+   "title": "2026 한난 온랩(On-Lab) 프로그램 참가팀 모집 연장 (~8/3)",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178705",
+   "date": "2026-07-30",
+   "deadline": "2026-08-03",
+   "region": "전국",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-07-30"
+  },
+  "96dbcd0f582adfd9": {
+   "id": "96dbcd0f582adfd9",
+   "source": "kstartup",
+   "sourceName": "K스타트업",
+   "title": "\"스타트업이 알아야 할 스테이블코인이 바꾸는 금융의 미래\" 비대면 교육 모집",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178722",
+   "date": "2026-07-30",
+   "deadline": "2026-09-06",
+   "region": "전국",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-07-30"
+  },
+  "ad3be55ae610716b": {
+   "id": "ad3be55ae610716b",
+   "source": "kstartup",
+   "sourceName": "K스타트업",
+   "title": "2026년 예비창업패키지 특화분야(소셜벤처)「창업준비 아카데미」교육생 모집(~7/31)",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178715",
+   "date": "2026-07-30",
+   "deadline": "2026-07-31",
+   "region": "전국",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-07-30"
+  },
+  "55abed7bcf931228": {
+   "id": "55abed7bcf931228",
+   "source": "kstartup",
+   "sourceName": "K스타트업",
+   "title": "2026 시흥시 스타트업 통합 IR DAY",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178680",
+   "date": "2026-07-30",
+   "deadline": "2026-08-13",
+   "region": "전국",
+   "categories": [
+    "투자"
+   ],
+   "firstSeen": "2026-07-30"
+  },
+  "51536f11539adfb3": {
+   "id": "51536f11539adfb3",
+   "source": "bipa",
+   "sourceName": "부산정보산업진흥원",
+   "title": "2026 부산 청년 게임개발자 정착지원사업 8월 모집 공고",
+   "url": "https://bipa.kr/board/business/view?seq=85275",
+   "date": "2026-07-30",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-07-30"
   }
  },
  "sources": [
@@ -9574,7 +9701,7 @@
    "url": "https://www.mss.go.kr/site/smba/ex/bbs/List.do?cbIdx=310",
    "status": "fail",
    "count": 0,
-   "error": "500 Server Error: Internal Server Error for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.mss.go.kr%2Fsite%2Fsmba%2Fex%2Fbbs%2FList.do%3FcbIdx%3D310"
+   "error": "408 Client Error: Request Timeout for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.mss.go.kr%2Fsite%2Fsmba%2Fex%2Fbbs%2FList.do%3FcbIdx%3D310"
   },
   {
    "id": "kidp",
@@ -9673,7 +9800,7 @@
    "url": "https://www.busan.go.kr/nbgosi",
    "status": "fail",
    "count": 0,
-   "error": "408 Client Error: Request Timeout for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.busan.go.kr%2Fnbgosi%3FcurPage%3D1"
+   "error": "500 Server Error: Internal Server Error for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.busan.go.kr%2Fnbgosi%3FcurPage%3D1"
   },
   {
    "id": "bscf",
