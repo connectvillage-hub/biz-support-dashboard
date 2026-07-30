@@ -411,20 +411,6 @@
    ],
    "firstSeen": "2026-07-09"
   },
-  "863c62e909cf10c7": {
-   "id": "863c62e909cf10c7",
-   "source": "dcamp",
-   "sourceName": "디캠프(d.camp)",
-   "title": "2026년 디캠프 통합 마케팅 운영사 선정 입찰 공고",
-   "url": "https://dcamp.kr/news/notice/7313",
-   "date": "2026-04-01",
-   "deadline": null,
-   "region": "전국",
-   "categories": [
-    "홍보·마케팅"
-   ],
-   "firstSeen": "2026-07-09"
-  },
   "f91edd62dabbfaca": {
    "id": "f91edd62dabbfaca",
    "source": "primer",
@@ -10150,15 +10136,17 @@
    "id": "bizinfo",
    "name": "기업마당",
    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200View.do",
-   "status": "ok",
-   "count": 15
+   "status": "fail",
+   "count": 0,
+   "error": "408 Client Error: Request Timeout for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.bizinfo.go.kr%2Fsii%2Fsiia%2FselectSIIA200View.do"
   },
   {
    "id": "mss",
    "name": "중소벤처기업부",
    "url": "https://www.mss.go.kr/site/smba/ex/bbs/List.do?cbIdx=310",
-   "status": "ok",
-   "count": 10
+   "status": "fail",
+   "count": 0,
+   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.mss.go.kr%2Fsite%2Fsmba%2Fex%2Fbbs%2FList.do%3FcbIdx%3D310"
   },
   {
    "id": "kidp",
@@ -10171,8 +10159,9 @@
    "id": "kocca",
    "name": "한국콘텐츠진흥원",
    "url": "https://www.kocca.kr/kocca/pims/list.do?menuNo=20410",
-   "status": "ok",
-   "count": 6
+   "status": "fail",
+   "count": 0,
+   "error": "408 Client Error: Request Timeout for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.kocca.kr%2Fkocca%2Fpims%2Flist.do%3FmenuNo%3D20410"
   },
   {
    "id": "arte",
@@ -10193,7 +10182,7 @@
    "name": "중소기업 기술개발(SMTECH)",
    "url": "https://www.smtech.go.kr/front/ifg/no/notice02_list.do",
    "status": "ok",
-   "count": 9
+   "count": 8
   },
   {
    "id": "busanstartup",
