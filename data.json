@@ -8916,7 +8916,7 @@
    "source": "busan_gosi",
    "sourceName": "부산광역시 고시공고",
    "title": "2026년 건설공사 하도급대금 지급보증서 발급 비용 지원사업 시행 공고(2차)",
-   "url": "https://www.busan.go.kr/nbgosi/view?sno=78931&gosiGbn=A&curPage=2",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=78931&gosiGbn=A&curPage=3",
    "date": "2026-07-29",
    "deadline": null,
    "region": "부산",
@@ -9471,7 +9471,7 @@
    "source": "busan_gosi",
    "sourceName": "부산광역시 고시공고",
    "title": "낙동강하구 생태계모니터링(제24차, 종합조사) 용역 제안서 평가위원(후보자) 모집 공고",
-   "url": "https://www.busan.go.kr/nbgosi/view?sno=78991&gosiGbn=A&curPage=1",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=78991&gosiGbn=A&curPage=2",
    "date": "2026-07-29",
    "deadline": null,
    "region": "부산",
@@ -9485,7 +9485,7 @@
    "source": "busan_gosi",
    "sourceName": "부산광역시 고시공고",
    "title": "2026년 북한이탈주민「자신감 쑥쑥 표준어 교실」참여자 모집 공고",
-   "url": "https://www.busan.go.kr/nbgosi/view?sno=78990&gosiGbn=A&curPage=1",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=78990&gosiGbn=A&curPage=2",
    "date": "2026-07-29",
    "deadline": null,
    "region": "부산",
@@ -9499,7 +9499,7 @@
    "source": "busan_gosi",
    "sourceName": "부산광역시 고시공고",
    "title": "2026년 민생규제합리화 아이디어 공모전 공고",
-   "url": "https://www.busan.go.kr/nbgosi/view?sno=78941&gosiGbn=A&curPage=1",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=78941&gosiGbn=A&curPage=3",
    "date": "2026-07-29",
    "deadline": null,
    "region": "부산",
@@ -9513,7 +9513,7 @@
    "source": "busan_gosi",
    "sourceName": "부산광역시 고시공고",
    "title": "부산광역시 지방지적위원회 위원 공개모집 공고",
-   "url": "https://www.busan.go.kr/nbgosi/view?sno=78935&gosiGbn=A&curPage=1",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=78935&gosiGbn=A&curPage=3",
    "date": "2026-07-29",
    "deadline": null,
    "region": "부산",
@@ -9864,6 +9864,278 @@
     "기타"
    ],
    "firstSeen": "2026-07-30"
+  },
+  "c9d0e7af15b0e95d": {
+   "id": "c9d0e7af15b0e95d",
+   "source": "bizinfo",
+   "sourceName": "기업마당",
+   "title": "2026년 대경권(대구) 지역혁신클러스터육성(비R&D) 기업지원 수혜기업 상시 모집 공고",
+   "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000124940",
+   "date": "2026-07-30",
+   "deadline": null,
+   "region": "전국",
+   "categories": [
+    "R&D",
+    "사업화"
+   ],
+   "firstSeen": "2026-07-30"
+  },
+  "949a01d2dc7416e2": {
+   "id": "949a01d2dc7416e2",
+   "source": "bizinfo",
+   "sourceName": "기업마당",
+   "title": "[충남] 공주시 2026년 3차 K-푸드 공주알밤 제품의 글로벌 사업 모집 공고(시군구 연고산업 육성사업)",
+   "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000124939",
+   "date": "2026-07-30",
+   "deadline": "2026-08-12",
+   "region": "전국",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-07-30"
+  },
+  "03beea9c91a25ba1": {
+   "id": "03beea9c91a25ba1",
+   "source": "bizinfo",
+   "sourceName": "기업마당",
+   "title": "[충남] 2026년 제2회 유망기업 사업화경진대회 참가기업 모집 공고(충남스타기업 CEO포럼)",
+   "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000124938",
+   "date": "2026-07-30",
+   "deadline": "2026-08-12",
+   "region": "전국",
+   "categories": [
+    "네트워킹",
+    "사업화"
+   ],
+   "firstSeen": "2026-07-30"
+  },
+  "854ad90fe0aabea1": {
+   "id": "854ad90fe0aabea1",
+   "source": "bizinfo",
+   "sourceName": "기업마당",
+   "title": "[대구] 2027년 지역 의료기기 토탈 마케팅 지원사업 AEEDC Dubai 2027ㆍWHX Dubai 2027 대구공동관 참가기업 모집 공고",
+   "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000124937",
+   "date": "2026-07-30",
+   "deadline": "2026-08-19",
+   "region": "전국",
+   "categories": [
+    "홍보·마케팅",
+    "사업화"
+   ],
+   "firstSeen": "2026-07-30"
+  },
+  "dd26f0394c48e907": {
+   "id": "dd26f0394c48e907",
+   "source": "bizinfo",
+   "sourceName": "기업마당",
+   "title": "[제주] 2026년 2차 제주형 히든파워기업 육성 특성화 지원사업 기업 모집 공고",
+   "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000124936",
+   "date": "2026-07-30",
+   "deadline": "2026-08-07",
+   "region": "전국",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-07-30"
+  },
+  "b7118f8980f1f900": {
+   "id": "b7118f8980f1f900",
+   "source": "bizinfo",
+   "sourceName": "기업마당",
+   "title": "[제주] 서귀포시 2026년 5차 방문객을 위한 지능형 여행지원산업 기업지원프로그램 수혜기업 모집 공고(시군구연고산업 육성사업)",
+   "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000124935",
+   "date": "2026-07-30",
+   "deadline": "2026-08-10",
+   "region": "전국",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-07-30"
+  },
+  "62e40e0916304eb1": {
+   "id": "62e40e0916304eb1",
+   "source": "bizinfo",
+   "sourceName": "기업마당",
+   "title": "[전북] 2026년 농식품 분야 시뮬레이션 서비스 기반 실증 지원사업 모집 재공고",
+   "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000124934",
+   "date": "2026-07-30",
+   "deadline": "2026-08-11",
+   "region": "전국",
+   "categories": [
+    "R&D",
+    "사업화"
+   ],
+   "firstSeen": "2026-07-30"
+  },
+  "b7abddff3e0b6244": {
+   "id": "b7abddff3e0b6244",
+   "source": "bizinfo",
+   "sourceName": "기업마당",
+   "title": "2026년 소프트웨어 산업발전 유공자 포상계획 연장 공고",
+   "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000124933",
+   "date": "2026-07-30",
+   "deadline": "2026-08-11",
+   "region": "전국",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-07-30"
+  },
+  "d5a6a6bd0ea245c2": {
+   "id": "d5a6a6bd0ea245c2",
+   "source": "bizinfo",
+   "sourceName": "기업마당",
+   "title": "[경북] 2026년 지역중소기업 밀집지역 생태계 공동회복 지원과제 수요기업 모집 공고(중소기업 밀집지역 위기대응 체계 구축사업)",
+   "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000124932",
+   "date": "2026-07-30",
+   "deadline": "2026-08-06",
+   "region": "전국",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-07-30"
+  },
+  "934b10d10cd7b1e5": {
+   "id": "934b10d10cd7b1e5",
+   "source": "bizinfo",
+   "sourceName": "기업마당",
+   "title": "[전북] 2026년 하반기 중소기업 밀집지역 위기대응 체계 구축사업 Stand-up 맞춤지원 모집 공고",
+   "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000124931",
+   "date": "2026-07-30",
+   "deadline": null,
+   "region": "전국",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-07-30"
+  },
+  "bcbf7bb2837379f6": {
+   "id": "bcbf7bb2837379f6",
+   "source": "bizinfo",
+   "sourceName": "기업마당",
+   "title": "[인천] 2026년 블록체인 기업 글로벌 진출 지원사업 참가기업 모집 공고(블록체인 허브도시 조성 사업)",
+   "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000124930",
+   "date": "2026-07-30",
+   "deadline": "2026-08-10",
+   "region": "전국",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-07-30"
+  },
+  "c47c2174f5c6bf56": {
+   "id": "c47c2174f5c6bf56",
+   "source": "bizinfo",
+   "sourceName": "기업마당",
+   "title": "[경북] 영천시 2026년 3차 중소기업 고부가가치 전환육성 지원사업 공고",
+   "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000124929",
+   "date": "2026-07-30",
+   "deadline": "2026-08-14",
+   "region": "전국",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-07-30"
+  },
+  "033a20c057d5317c": {
+   "id": "033a20c057d5317c",
+   "source": "bizinfo",
+   "sourceName": "기업마당",
+   "title": "[경북] 영천시 2026년 3차 중소기업 혁신기술개발 지원사업 공고",
+   "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000124928",
+   "date": "2026-07-30",
+   "deadline": "2026-08-14",
+   "region": "전국",
+   "categories": [
+    "R&D",
+    "사업화"
+   ],
+   "firstSeen": "2026-07-30"
+  },
+  "f779fe21e5051a01": {
+   "id": "f779fe21e5051a01",
+   "source": "bizinfo",
+   "sourceName": "기업마당",
+   "title": "2026년 3차 산업기술R&D연구기획사업 신규지원 대상과제 공고",
+   "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000124927",
+   "date": "2026-07-30",
+   "deadline": "2026-08-27",
+   "region": "전국",
+   "categories": [
+    "R&D"
+   ],
+   "firstSeen": "2026-07-30"
+  },
+  "1fe785183e8f22b1": {
+   "id": "1fe785183e8f22b1",
+   "source": "bizinfo",
+   "sourceName": "기업마당",
+   "title": "2026년 AI 기반 조명산업의 자원순환 및 서비스화 실증 기반구축 사업 기업지원사업 통합 상시 모집 공고",
+   "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000124926",
+   "date": "2026-07-30",
+   "deadline": null,
+   "region": "전국",
+   "categories": [
+    "R&D",
+    "사업화"
+   ],
+   "firstSeen": "2026-07-30"
+  },
+  "34aa25b99d081e79": {
+   "id": "34aa25b99d081e79",
+   "source": "mss",
+   "sourceName": "중소벤처기업부",
+   "title": "2026년 중소벤처기업부 소상공인 정책자금 융자사업 공고(변경4차)",
+   "url": "https://www.mss.go.kr/site/smba/ex/bbs/View.do?cbIdx=310&bcIdx=1070197&parentSeq=1070197",
+   "date": "2026-07-30",
+   "deadline": null,
+   "region": "전국",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-07-30"
+  },
+  "ba854a55442f3595": {
+   "id": "ba854a55442f3595",
+   "source": "mss",
+   "sourceName": "중소벤처기업부",
+   "title": "「모두의 창업:사회혁신 소셜벤처 리그」모집공고",
+   "url": "https://www.mss.go.kr/site/smba/ex/bbs/View.do?cbIdx=310&bcIdx=1070161&parentSeq=1070161",
+   "date": "2026-07-30",
+   "deadline": null,
+   "region": "전국",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-07-30"
+  },
+  "c535bb2e8fa157f6": {
+   "id": "c535bb2e8fa157f6",
+   "source": "busan_gosi",
+   "sourceName": "부산광역시 고시공고",
+   "title": "부산광역시 응급의료위원회 위원 공개모집 공고",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=79014&gosiGbn=A&curPage=1",
+   "date": "2026-07-30",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-07-30"
+  },
+  "ac63a96ef9164e43": {
+   "id": "ac63a96ef9164e43",
+   "source": "busan_gosi",
+   "sourceName": "부산광역시 고시공고",
+   "title": "부산광역시 행정자치국 제1공적심사위원회 위원 공개모집 선정결과",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=78989&gosiGbn=A&curPage=1",
+   "date": "2026-07-30",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-07-30"
   }
  },
  "sources": [
@@ -9878,17 +10150,15 @@
    "id": "bizinfo",
    "name": "기업마당",
    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200View.do",
-   "status": "fail",
-   "count": 0,
-   "error": "408 Client Error: Request Timeout for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.bizinfo.go.kr%2Fsii%2Fsiia%2FselectSIIA200View.do"
+   "status": "ok",
+   "count": 15
   },
   {
    "id": "mss",
    "name": "중소벤처기업부",
    "url": "https://www.mss.go.kr/site/smba/ex/bbs/List.do?cbIdx=310",
-   "status": "fail",
-   "count": 0,
-   "error": "500 Server Error: Internal Server Error for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.mss.go.kr%2Fsite%2Fsmba%2Fex%2Fbbs%2FList.do%3FcbIdx%3D310"
+   "status": "ok",
+   "count": 10
   },
   {
    "id": "kidp",
@@ -9985,9 +10255,8 @@
    "id": "busan_gosi",
    "name": "부산광역시 고시공고",
    "url": "https://www.busan.go.kr/nbgosi",
-   "status": "fail",
-   "count": 0,
-   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.busan.go.kr%2Fnbgosi%3FcurPage%3D1"
+   "status": "ok",
+   "count": 7
   },
   {
    "id": "bscf",
