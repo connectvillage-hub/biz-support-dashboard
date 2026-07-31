@@ -9457,7 +9457,7 @@
    "source": "busan_gosi",
    "sourceName": "부산광역시 고시공고",
    "title": "낙동강하구 생태계모니터링(제24차, 종합조사) 용역 제안서 평가위원(후보자) 모집 공고",
-   "url": "https://www.busan.go.kr/nbgosi/view?sno=78991&gosiGbn=A&curPage=2",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=78991&gosiGbn=A&curPage=3",
    "date": "2026-07-29",
    "deadline": null,
    "region": "부산",
@@ -10100,7 +10100,7 @@
    "source": "busan_gosi",
    "sourceName": "부산광역시 고시공고",
    "title": "부산광역시 응급의료위원회 위원 공개모집 공고",
-   "url": "https://www.busan.go.kr/nbgosi/view?sno=79014&gosiGbn=A&curPage=1",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=79014&gosiGbn=A&curPage=2",
    "date": "2026-07-30",
    "deadline": null,
    "region": "부산",
@@ -10277,6 +10277,34 @@
     "기타"
    ],
    "firstSeen": "2026-07-31"
+  },
+  "e564417446dca674": {
+   "id": "e564417446dca674",
+   "source": "kidp",
+   "sourceName": "한국디자인진흥원",
+   "title": "[교육생 모집] AI 기술 이해와 데이터 기반 디자인 교육_대구광역시",
+   "url": "https://kidp.or.kr/?menuno=1202",
+   "date": "2026-07-31",
+   "deadline": null,
+   "region": "전국",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-07-31"
+  },
+  "47ea9f6abefcf715": {
+   "id": "47ea9f6abefcf715",
+   "source": "busan_gosi",
+   "sourceName": "부산광역시 고시공고",
+   "title": "부산 에코델타시티 조성용지(산업지원시설용지, 주차장용지, 주유소용지) 분양 공고",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=79022&gosiGbn=A&curPage=1",
+   "date": "2026-07-31",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-07-31"
   }
  },
  "sources": [
@@ -10313,7 +10341,7 @@
    "name": "한국콘텐츠진흥원",
    "url": "https://www.kocca.kr/kocca/pims/list.do?menuNo=20410",
    "status": "ok",
-   "count": 10
+   "count": 9
   },
   {
    "id": "arte",
@@ -10397,7 +10425,7 @@
    "name": "부산광역시 고시공고",
    "url": "https://www.busan.go.kr/nbgosi",
    "status": "ok",
-   "count": 6
+   "count": 5
   },
   {
    "id": "bscf",
