@@ -9471,7 +9471,7 @@
    "source": "busan_gosi",
    "sourceName": "부산광역시 고시공고",
    "title": "2026년 북한이탈주민「자신감 쑥쑥 표준어 교실」참여자 모집 공고",
-   "url": "https://www.busan.go.kr/nbgosi/view?sno=78990&gosiGbn=A&curPage=2",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=78990&gosiGbn=A&curPage=3",
    "date": "2026-07-29",
    "deadline": null,
    "region": "부산",
@@ -10114,7 +10114,7 @@
    "source": "busan_gosi",
    "sourceName": "부산광역시 고시공고",
    "title": "부산광역시 행정자치국 제1공적심사위원회 위원 공개모집 선정결과",
-   "url": "https://www.busan.go.kr/nbgosi/view?sno=78989&gosiGbn=A&curPage=1",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=78989&gosiGbn=A&curPage=2",
    "date": "2026-07-30",
    "deadline": null,
    "region": "부산",
@@ -10122,6 +10122,161 @@
     "기타"
    ],
    "firstSeen": "2026-07-30"
+  },
+  "6543c5cffbd4b06d": {
+   "id": "6543c5cffbd4b06d",
+   "source": "kstartup",
+   "sourceName": "K스타트업",
+   "title": "2026년 재도전 아이디어 경진대회 참가자 모집 (~08.21)",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178738",
+   "date": "2026-07-31",
+   "deadline": "2026-08-21",
+   "region": "전국",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-07-31"
+  },
+  "2355dff22297fd3a": {
+   "id": "2355dff22297fd3a",
+   "source": "kstartup",
+   "sourceName": "K스타트업",
+   "title": "2026년 『G-Bio Funding Lab』 경기 바이오스타트업 투자유치 역량강화 참가기업 모집 공고",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178744",
+   "date": "2026-07-31",
+   "deadline": "2026-08-14",
+   "region": "전국",
+   "categories": [
+    "투자",
+    "사업화"
+   ],
+   "firstSeen": "2026-07-31"
+  },
+  "02845c2027d1fdfd": {
+   "id": "02845c2027d1fdfd",
+   "source": "kstartup",
+   "sourceName": "K스타트업",
+   "title": "[글로벌] 2026 BIOHEALTH GLOBAL BRIDGE : JOHNS HOPKINS / HIKMA 프로그램 참가기업 모집",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178743",
+   "date": "2026-07-31",
+   "deadline": "2026-08-19",
+   "region": "전국",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-07-31"
+  },
+  "d2041ef599a0962a": {
+   "id": "d2041ef599a0962a",
+   "source": "kstartup",
+   "sourceName": "K스타트업",
+   "title": "2026년 8월 동네창업학교 교육생 모집 공고",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178742",
+   "date": "2026-07-31",
+   "deadline": "2026-08-13",
+   "region": "전국",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-07-31"
+  },
+  "a6237d6391eb7868": {
+   "id": "a6237d6391eb7868",
+   "source": "kocca",
+   "sourceName": "한국콘텐츠진흥원",
+   "title": "2026 대한민국 콘텐츠대상(만화) 정부시상 후보작 추천 공고",
+   "url": "https://www.kocca.kr/kocca/pims/view.do?intcNo=326D00092010&menuNo=20410&recptSt=&category=&pageIndex=1&search=&searchWrd=",
+   "date": "2026-07-31",
+   "deadline": "2026-08-31",
+   "region": "전국",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-07-31"
+  },
+  "6ffe2515df422784": {
+   "id": "6ffe2515df422784",
+   "source": "kocca",
+   "sourceName": "한국콘텐츠진흥원",
+   "title": "2026 대한민국 콘텐츠대상(캐릭터 부문) 정부시상 후보작 추천 공고",
+   "url": "https://www.kocca.kr/kocca/pims/view.do?intcNo=326D00091013&menuNo=20410&recptSt=&category=&pageIndex=1&search=&searchWrd=",
+   "date": "2026-07-31",
+   "deadline": "2026-08-31",
+   "region": "전국",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-07-31"
+  },
+  "73ea606da9689432": {
+   "id": "73ea606da9689432",
+   "source": "kocca",
+   "sourceName": "한국콘텐츠진흥원",
+   "title": "2026 대한민국 콘텐츠대상(애니메이션) 국민심사위원 모집 공고",
+   "url": "https://www.kocca.kr/kocca/pims/view.do?intcNo=326D00037012&menuNo=20410&recptSt=&category=&pageIndex=1&search=&searchWrd=",
+   "date": "2026-07-31",
+   "deadline": "2026-08-31",
+   "region": "전국",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-07-31"
+  },
+  "71ed0e8e3c3d9d7d": {
+   "id": "71ed0e8e3c3d9d7d",
+   "source": "kocca",
+   "sourceName": "한국콘텐츠진흥원",
+   "title": "2026 대한민국 콘텐츠대상(애니메이션) 정부시상 후보작 추천 공고",
+   "url": "https://www.kocca.kr/kocca/pims/view.do?intcNo=326D00037011&menuNo=20410&recptSt=&category=&pageIndex=1&search=&searchWrd=",
+   "date": "2026-07-31",
+   "deadline": "2026-08-31",
+   "region": "전국",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-07-31"
+  },
+  "18e6f016cd2e0c59": {
+   "id": "18e6f016cd2e0c59",
+   "source": "btp",
+   "sourceName": "부산테크노파크",
+   "title": "2026년 수리조선 기업인증 지원사업 공고",
+   "url": "https://www.btp.or.kr/kor/CMS/Board/Board.do?mCode=MN013&mode=view&mgr_seq=16&board_seq=9582245",
+   "date": "2026-07-31",
+   "deadline": "2026-08-21",
+   "region": "부산",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-07-31"
+  },
+  "c41221b2b281a49d": {
+   "id": "c41221b2b281a49d",
+   "source": "btp",
+   "sourceName": "부산테크노파크",
+   "title": "부산지역 스마트제조 IT(공급기업) 국내 전시회 개별참가 지원기업 모집",
+   "url": "https://www.btp.or.kr/kor/CMS/Board/Board.do?mCode=MN013&mode=view&mgr_seq=16&board_seq=9582244",
+   "date": "2026-07-31",
+   "deadline": "2026-08-23",
+   "region": "부산",
+   "categories": [
+    "홍보·마케팅"
+   ],
+   "firstSeen": "2026-07-31"
+  },
+  "2e50b235c04b65c0": {
+   "id": "2e50b235c04b65c0",
+   "source": "bipa",
+   "sourceName": "부산정보산업진흥원",
+   "title": "「2026년 클라우드컴퓨팅 부트캠프」 참가자 모집 공고 (~8/14)",
+   "url": "https://bipa.kr/board/business/view?seq=85280",
+   "date": "2026-07-31",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-07-31"
   }
  },
  "sources": [
@@ -10136,17 +10291,15 @@
    "id": "bizinfo",
    "name": "기업마당",
    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200View.do",
-   "status": "fail",
-   "count": 0,
-   "error": "500 Server Error: Internal Server Error for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.bizinfo.go.kr%2Fsii%2Fsiia%2FselectSIIA200View.do"
+   "status": "ok",
+   "count": 15
   },
   {
    "id": "mss",
    "name": "중소벤처기업부",
    "url": "https://www.mss.go.kr/site/smba/ex/bbs/List.do?cbIdx=310",
-   "status": "fail",
-   "count": 0,
-   "error": "408 Client Error: Request Timeout for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.mss.go.kr%2Fsite%2Fsmba%2Fex%2Fbbs%2FList.do%3FcbIdx%3D310"
+   "status": "ok",
+   "count": 10
   },
   {
    "id": "kidp",
@@ -10160,7 +10313,7 @@
    "name": "한국콘텐츠진흥원",
    "url": "https://www.kocca.kr/kocca/pims/list.do?menuNo=20410",
    "status": "ok",
-   "count": 6
+   "count": 10
   },
   {
    "id": "arte",
@@ -10243,9 +10396,8 @@
    "id": "busan_gosi",
    "name": "부산광역시 고시공고",
    "url": "https://www.busan.go.kr/nbgosi",
-   "status": "fail",
-   "count": 0,
-   "error": "408 Client Error: Request Timeout for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.busan.go.kr%2Fnbgosi%3FcurPage%3D1"
+   "status": "ok",
+   "count": 6
   },
   {
    "id": "bscf",
