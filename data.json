@@ -10673,6 +10673,21 @@
     "기타"
    ],
    "firstSeen": "2026-08-01"
+  },
+  "b2d625085522b242": {
+   "id": "b2d625085522b242",
+   "source": "btp",
+   "sourceName": "부산테크노파크",
+   "title": "부산씨푸드플랫폼 입주기업 모집공고",
+   "url": "https://www.btp.or.kr/kor/CMS/Board/Board.do?mCode=MN013&mode=view&mgr_seq=16&board_seq=9582246",
+   "date": "2026-08-01",
+   "deadline": "2027-12-31",
+   "region": "부산",
+   "categories": [
+    "입주기업",
+    "사업화"
+   ],
+   "firstSeen": "2026-08-01"
   }
  },
  "sources": [
@@ -10785,8 +10800,9 @@
    "id": "bistep",
    "name": "부산산업과학혁신원",
    "url": "https://www.bistep.re.kr/kor/CMS/Board/Board.do?mCode=MN008",
-   "status": "ok",
-   "count": 10
+   "status": "fail",
+   "count": 0,
+   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.bistep.re.kr%2Fkor%2FCMS%2FBoard%2FBoard.do%3FmCode%3DMN008"
   },
   {
    "id": "busan_gosi",
