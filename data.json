@@ -10688,6 +10688,76 @@
     "사업화"
    ],
    "firstSeen": "2026-08-01"
+  },
+  "c8cc00cbaf3e5b6c": {
+   "id": "c8cc00cbaf3e5b6c",
+   "source": "kstartup",
+   "sourceName": "K스타트업",
+   "title": "「2026 청년창업 지역정착 지원사업」 신규참여자 3차 추가모집",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178747",
+   "date": "2026-07-31",
+   "deadline": "2026-08-14",
+   "region": "전국",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-08-03"
+  },
+  "6b1d571c7c8baf96": {
+   "id": "6b1d571c7c8baf96",
+   "source": "kocca",
+   "sourceName": "한국콘텐츠진흥원",
+   "title": "<한중 문화 및 푸드 교류 페스티벌> 참가기업 모집 공고",
+   "url": "https://www.kocca.kr/kocca/pims/view.do?intcNo=326D00088009&menuNo=20410&recptSt=&category=&pageIndex=1&search=&searchWrd=",
+   "date": "2026-08-03",
+   "deadline": "2026-08-18",
+   "region": "전국",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-08-03"
+  },
+  "a9bc84ff47338eaf": {
+   "id": "a9bc84ff47338eaf",
+   "source": "dcb",
+   "sourceName": "부산디자인진흥원",
+   "title": "재단법인 부산디자인진흥원 2026년 하반기 기간제 직원 채용 공고",
+   "url": "https://dcb.or.kr/01_news/?mcode=0401010000&mode=2&no=14480&page=1",
+   "date": "2026-08-03",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-08-03"
+  },
+  "1d9a49440718d5fe": {
+   "id": "1d9a49440718d5fe",
+   "source": "bipa",
+   "sourceName": "부산정보산업진흥원",
+   "title": "2026 부산콘텐츠아카데미 일자리 지원사업 3차 모집 공고",
+   "url": "https://bipa.kr/board/business/view?seq=85282",
+   "date": "2026-08-03",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-08-03"
+  },
+  "643777b8bf2b64e8": {
+   "id": "643777b8bf2b64e8",
+   "source": "bscf",
+   "sourceName": "부산문화재단",
+   "title": "지원공모[모집] 2026년 오픈서킷 부산: 아트앤테크 프랙티스 참여예술가 모집",
+   "url": "https://www.bscf.or.kr/view.do?no=1010&pgMode=show&pbancSn=2404",
+   "date": "2026-08-03",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-08-03"
   }
  },
  "sources": [
@@ -10712,7 +10782,7 @@
    "url": "https://www.mss.go.kr/site/smba/ex/bbs/List.do?cbIdx=310",
    "status": "fail",
    "count": 0,
-   "error": "500 Server Error: Internal Server Error for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.mss.go.kr%2Fsite%2Fsmba%2Fex%2Fbbs%2FList.do%3FcbIdx%3D310"
+   "error": "408 Client Error: Request Timeout for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.mss.go.kr%2Fsite%2Fsmba%2Fex%2Fbbs%2FList.do%3FcbIdx%3D310"
   },
   {
    "id": "kidp",
@@ -10726,7 +10796,7 @@
    "name": "한국콘텐츠진흥원",
    "url": "https://www.kocca.kr/kocca/pims/list.do?menuNo=20410",
    "status": "ok",
-   "count": 9
+   "count": 10
   },
   {
    "id": "arte",
@@ -10802,8 +10872,9 @@
    "id": "bistep",
    "name": "부산산업과학혁신원",
    "url": "https://www.bistep.re.kr/kor/CMS/Board/Board.do?mCode=MN008",
-   "status": "ok",
-   "count": 10
+   "status": "fail",
+   "count": 0,
+   "error": "500 Server Error: Internal Server Error for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.bistep.re.kr%2Fkor%2FCMS%2FBoard%2FBoard.do%3FmCode%3DMN008"
   },
   {
    "id": "busan_gosi",
@@ -10811,7 +10882,7 @@
    "url": "https://www.busan.go.kr/nbgosi",
    "status": "fail",
    "count": 0,
-   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.busan.go.kr%2Fnbgosi%3FcurPage%3D1"
+   "error": "408 Client Error: Request Timeout for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.busan.go.kr%2Fnbgosi%3FcurPage%3D2"
   },
   {
    "id": "bscf",
