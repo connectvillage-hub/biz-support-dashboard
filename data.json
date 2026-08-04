@@ -10283,7 +10283,7 @@
    "source": "busan_gosi",
    "sourceName": "부산광역시 고시공고",
    "title": "부산 에코델타시티 조성용지(산업지원시설용지, 주차장용지, 주유소용지) 분양 공고",
-   "url": "https://www.busan.go.kr/nbgosi/view?sno=79022&gosiGbn=A&curPage=2",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=79022&gosiGbn=A&curPage=3",
    "date": "2026-07-31",
    "deadline": null,
    "region": "부산",
@@ -11119,7 +11119,7 @@
    "source": "busan_gosi",
    "sourceName": "부산광역시 고시공고",
    "title": "부산광역시 식품진흥기금운용심의위원회 위원 공개모집 공고",
-   "url": "https://www.busan.go.kr/nbgosi/view?sno=79035&gosiGbn=A&curPage=1",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=79035&gosiGbn=A&curPage=2",
    "date": "2026-08-03",
    "deadline": null,
    "region": "부산",
@@ -11133,7 +11133,7 @@
    "source": "busan_gosi",
    "sourceName": "부산광역시 고시공고",
    "title": "2026년 지역특화형 비자 사업(지역특화형 우수인재) 3차 모집 공고(수정)",
-   "url": "https://www.busan.go.kr/nbgosi/view?sno=79034&gosiGbn=A&curPage=1",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=79034&gosiGbn=A&curPage=2",
    "date": "2026-08-03",
    "deadline": null,
    "region": "부산",
@@ -11147,7 +11147,7 @@
    "source": "busan_gosi",
    "sourceName": "부산광역시 고시공고",
    "title": "2026년 부산청년 중개보수 및 이사비 지원 대상자 모집 공고",
-   "url": "https://www.busan.go.kr/nbgosi/view?sno=79008&gosiGbn=A&curPage=1",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=79008&gosiGbn=A&curPage=2",
    "date": "2026-08-03",
    "deadline": null,
    "region": "부산",
@@ -11189,7 +11189,7 @@
    "source": "busan_gosi",
    "sourceName": "부산광역시 고시공고",
    "title": "2026년 부산 가든쇼 큰손바닥정원 공모전 공고",
-   "url": "https://www.busan.go.kr/nbgosi/view?sno=78962&gosiGbn=A&curPage=2",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=78962&gosiGbn=A&curPage=3",
    "date": "2026-08-03",
    "deadline": null,
    "region": "부산",
@@ -11211,6 +11211,62 @@
     "기타"
    ],
    "firstSeen": "2026-08-04"
+  },
+  "b40f23f72de21aa7": {
+   "id": "b40f23f72de21aa7",
+   "source": "mss",
+   "sourceName": "중소벤처기업부",
+   "title": "2026년도 하반기 중소벤처기업부 혁신제품 신규지정 수정공고",
+   "url": "https://www.mss.go.kr/site/smba/ex/bbs/View.do?cbIdx=310&bcIdx=1070266&parentSeq=1070266",
+   "date": "2026-08-04",
+   "deadline": null,
+   "region": "전국",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-08-04"
+  },
+  "0b7619c2734c518a": {
+   "id": "0b7619c2734c518a",
+   "source": "smtech",
+   "sourceName": "중소기업 기술개발(SMTECH)",
+   "title": "2026년도 하반기 중소벤처기업부 혁신제품 신규지정 수정공고",
+   "url": "https://www.smtech.go.kr/front/ifg/no/notice02_detail.do?buclYy=&ancmId=S02874&buclCd=S9111&dtlAncmSn=1&schdSe=MO5005&aplySn=1&searchCondition=&searchKeyword=&pageIndex=1",
+   "date": "2026-07-10",
+   "deadline": "2026-09-03",
+   "region": "전국",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-08-04"
+  },
+  "fc2fbd710347cd58": {
+   "id": "fc2fbd710347cd58",
+   "source": "busan_gosi",
+   "sourceName": "부산광역시 고시공고",
+   "title": "부산광역시 식품안전위원회 위원 공개모집 공고",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=79052&gosiGbn=A&curPage=1",
+   "date": "2026-08-04",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-08-04"
+  },
+  "19c5862f2d6d10f6": {
+   "id": "19c5862f2d6d10f6",
+   "source": "busan_gosi",
+   "sourceName": "부산광역시 고시공고",
+   "title": "2026년 지역특화 농업기술 정보화 인력지원사업 기간제노동자 채용공고",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=79051&gosiGbn=A&curPage=1",
+   "date": "2026-09-20",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-08-04"
   }
  },
  "sources": [
@@ -11225,17 +11281,15 @@
    "id": "bizinfo",
    "name": "기업마당",
    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200View.do",
-   "status": "fail",
-   "count": 0,
-   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.bizinfo.go.kr%2Fsii%2Fsiia%2FselectSIIA200View.do"
+   "status": "ok",
+   "count": 15
   },
   {
    "id": "mss",
    "name": "중소벤처기업부",
    "url": "https://www.mss.go.kr/site/smba/ex/bbs/List.do?cbIdx=310",
-   "status": "fail",
-   "count": 0,
-   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.mss.go.kr%2Fsite%2Fsmba%2Fex%2Fbbs%2FList.do%3FcbIdx%3D310"
+   "status": "ok",
+   "count": 10
   },
   {
    "id": "kidp",
@@ -11332,9 +11386,8 @@
    "id": "busan_gosi",
    "name": "부산광역시 고시공고",
    "url": "https://www.busan.go.kr/nbgosi",
-   "status": "fail",
-   "count": 0,
-   "error": "500 Server Error: Internal Server Error for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.busan.go.kr%2Fnbgosi%3FcurPage%3D1"
+   "status": "ok",
+   "count": 11
   },
   {
    "id": "bscf",
