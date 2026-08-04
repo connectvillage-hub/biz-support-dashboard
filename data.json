@@ -3540,8 +3540,8 @@
    "source": "semas",
    "sourceName": "소상공인시장진흥공단",
    "title": "2026년 소상공인 정책자금 융자계획 공고(수정)",
-   "url": "https://www.semas.or.kr/web/board/webBoardView.kmdc?bCd=1&b_idx=55796&pNm=BOA0101",
-   "date": "2026-07-29",
+   "url": "https://www.semas.or.kr/web/board/webBoardView.kmdc?bCd=1&b_idx=55432&pNm=BOA0101",
+   "date": "2026-07-10",
    "deadline": null,
    "region": "전국",
    "categories": [
@@ -8874,7 +8874,7 @@
    "source": "bepa",
    "sourceName": "부산경제진흥원",
    "title": "2026년 사회연대경제 청년 일경험 사업 참여 기업 3차 모집 공고",
-   "url": "https://www.bepa.kr/kor/view.do?no=1502&idx=19330&view=view&pageIndex=1&sv=&sw=&sdate=&edate=&periodState=all&state=ing&temporary=0&items=소상공인",
+   "url": "https://www.bepa.kr/kor/view.do?no=1502&idx=19330&view=view&pageIndex=1&sv=&sw=&sdate=&edate=&periodState=all&state=end&temporary=0&items=소상공인",
    "date": "2026-07-28",
    "deadline": null,
    "region": "부산",
@@ -11119,7 +11119,7 @@
    "source": "busan_gosi",
    "sourceName": "부산광역시 고시공고",
    "title": "부산광역시 식품진흥기금운용심의위원회 위원 공개모집 공고",
-   "url": "https://www.busan.go.kr/nbgosi/view?sno=79035&gosiGbn=A&curPage=2",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=79035&gosiGbn=A&curPage=3",
    "date": "2026-08-03",
    "deadline": null,
    "region": "부산",
@@ -11133,7 +11133,7 @@
    "source": "busan_gosi",
    "sourceName": "부산광역시 고시공고",
    "title": "2026년 지역특화형 비자 사업(지역특화형 우수인재) 3차 모집 공고(수정)",
-   "url": "https://www.busan.go.kr/nbgosi/view?sno=79034&gosiGbn=A&curPage=2",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=79034&gosiGbn=A&curPage=3",
    "date": "2026-08-03",
    "deadline": null,
    "region": "부산",
@@ -11147,7 +11147,7 @@
    "source": "busan_gosi",
    "sourceName": "부산광역시 고시공고",
    "title": "2026년 부산청년 중개보수 및 이사비 지원 대상자 모집 공고",
-   "url": "https://www.busan.go.kr/nbgosi/view?sno=79008&gosiGbn=A&curPage=2",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=79008&gosiGbn=A&curPage=3",
    "date": "2026-08-03",
    "deadline": null,
    "region": "부산",
@@ -11245,7 +11245,7 @@
    "source": "busan_gosi",
    "sourceName": "부산광역시 고시공고",
    "title": "부산광역시 식품안전위원회 위원 공개모집 공고",
-   "url": "https://www.busan.go.kr/nbgosi/view?sno=79052&gosiGbn=A&curPage=1",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=79052&gosiGbn=A&curPage=2",
    "date": "2026-08-04",
    "deadline": null,
    "region": "부산",
@@ -11259,7 +11259,7 @@
    "source": "busan_gosi",
    "sourceName": "부산광역시 고시공고",
    "title": "2026년 지역특화 농업기술 정보화 인력지원사업 기간제노동자 채용공고",
-   "url": "https://www.busan.go.kr/nbgosi/view?sno=79051&gosiGbn=A&curPage=1",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=79051&gosiGbn=A&curPage=2",
    "date": "2026-09-20",
    "deadline": null,
    "region": "부산",
@@ -11531,7 +11531,7 @@
    "source": "busan_gosi",
    "sourceName": "부산광역시 고시공고",
    "title": "「부산광역시 환경영향평가 심의위원회」위원 공개모집 선정결과 공고",
-   "url": "https://www.busan.go.kr/nbgosi/view?sno=79064&gosiGbn=A&curPage=1",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=79064&gosiGbn=A&curPage=2",
    "date": "2026-08-04",
    "deadline": null,
    "region": "부산",
@@ -11539,6 +11539,20 @@
     "기타"
    ],
    "firstSeen": "2026-08-04"
+  },
+  "db355802643c585b": {
+   "id": "db355802643c585b",
+   "source": "busan_gosi",
+   "sourceName": "부산광역시 고시공고",
+   "title": "부산광역시 재정계획심의위원회 위원 공개모집 공고",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=79039&gosiGbn=A&curPage=1",
+   "date": "2026-08-05",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-08-05"
   }
  },
  "sources": [
@@ -11659,7 +11673,7 @@
    "name": "부산광역시 고시공고",
    "url": "https://www.busan.go.kr/nbgosi",
    "status": "ok",
-   "count": 12
+   "count": 8
   },
   {
    "id": "bscf",
