@@ -11553,6 +11553,34 @@
     "기타"
    ],
    "firstSeen": "2026-08-05"
+  },
+  "66167bd0fa09bf78": {
+   "id": "66167bd0fa09bf78",
+   "source": "dcb",
+   "sourceName": "부산디자인진흥원",
+   "title": "WDC BUSAN 2028 프로그램 연계 시민 참여 디자인 아이디어 공모전 개최",
+   "url": "https://dcb.or.kr/01_news/?mcode=0401010000&mode=2&no=14485&page=1",
+   "date": "2026-08-05",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-08-05"
+  },
+  "f94e4fc2fa283a01": {
+   "id": "f94e4fc2fa283a01",
+   "source": "bscf",
+   "sourceName": "부산문화재단",
+   "title": "지원공모[모집] 문화다양성 가치확산 프로젝트 2회차 행사 운영 용역 제안서 평가위원 후보자 모집 공고",
+   "url": "https://www.bscf.or.kr/view.do?no=1010&pgMode=show&pbancSn=2411",
+   "date": "2026-08-05",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-08-05"
   }
  },
  "sources": [
@@ -11567,15 +11595,17 @@
    "id": "bizinfo",
    "name": "기업마당",
    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200View.do",
-   "status": "ok",
-   "count": 15
+   "status": "fail",
+   "count": 0,
+   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.bizinfo.go.kr%2Fsii%2Fsiia%2FselectSIIA200View.do"
   },
   {
    "id": "mss",
    "name": "중소벤처기업부",
    "url": "https://www.mss.go.kr/site/smba/ex/bbs/List.do?cbIdx=310",
-   "status": "ok",
-   "count": 10
+   "status": "fail",
+   "count": 0,
+   "error": "500 Server Error: Internal Server Error for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.mss.go.kr%2Fsite%2Fsmba%2Fex%2Fbbs%2FList.do%3FcbIdx%3D310"
   },
   {
    "id": "kidp",
@@ -11588,9 +11618,8 @@
    "id": "kocca",
    "name": "한국콘텐츠진흥원",
    "url": "https://www.kocca.kr/kocca/pims/list.do?menuNo=20410",
-   "status": "fail",
-   "count": 0,
-   "error": "502 Server Error: Bad Gateway for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.kocca.kr%2Fkocca%2Fpims%2Flist.do%3FmenuNo%3D20410"
+   "status": "ok",
+   "count": 10
   },
   {
    "id": "arte",
