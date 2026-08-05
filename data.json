@@ -11581,6 +11581,76 @@
     "사업화"
    ],
    "firstSeen": "2026-08-05"
+  },
+  "6bf2095e1319f1ac": {
+   "id": "6bf2095e1319f1ac",
+   "source": "bipa",
+   "sourceName": "부산정보산업진흥원",
+   "title": "동남권 지역특화산업 IT 융합 세미나(2026 동남권 INNOVATION SUMMIT)",
+   "url": "https://bipa.kr/board/business/view?seq=85288",
+   "date": "2026-08-05",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "네트워킹"
+   ],
+   "firstSeen": "2026-08-05"
+  },
+  "70ad2c707594a5db": {
+   "id": "70ad2c707594a5db",
+   "source": "bipa",
+   "sourceName": "부산정보산업진흥원",
+   "title": "지스타 2026 BTB·BTC 부산공동관 참가기업 모집",
+   "url": "https://bipa.kr/board/business/view?seq=85287",
+   "date": "2026-08-05",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-08-05"
+  },
+  "a876e1229e4b706d": {
+   "id": "a876e1229e4b706d",
+   "source": "busan_gosi",
+   "sourceName": "부산광역시 고시공고",
+   "title": "2026년 부산현대미술관 도슨트(전시설명 전문 자원봉사자) 모집 공고",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=79073&gosiGbn=A&curPage=1",
+   "date": "2026-08-05",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-08-05"
+  },
+  "db896a150497ff56": {
+   "id": "db896a150497ff56",
+   "source": "busan_gosi",
+   "sourceName": "부산광역시 고시공고",
+   "title": "APEC나루공원 러너지원공간 CCTV 설치를 위한 행정예고",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=79057&gosiGbn=A&curPage=1",
+   "date": "2026-08-05",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-08-05"
+  },
+  "32083176eb416571": {
+   "id": "32083176eb416571",
+   "source": "busan_gosi",
+   "sourceName": "부산광역시 고시공고",
+   "title": "부산광역시 교육지원심의위원회 위원 공개모집 공고",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=79045&gosiGbn=A&curPage=1",
+   "date": "2026-08-05",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-08-05"
   }
  },
  "sources": [
@@ -11595,17 +11665,15 @@
    "id": "bizinfo",
    "name": "기업마당",
    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200View.do",
-   "status": "fail",
-   "count": 0,
-   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.bizinfo.go.kr%2Fsii%2Fsiia%2FselectSIIA200View.do"
+   "status": "ok",
+   "count": 15
   },
   {
    "id": "mss",
    "name": "중소벤처기업부",
    "url": "https://www.mss.go.kr/site/smba/ex/bbs/List.do?cbIdx=310",
-   "status": "fail",
-   "count": 0,
-   "error": "500 Server Error: Internal Server Error for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.mss.go.kr%2Fsite%2Fsmba%2Fex%2Fbbs%2FList.do%3FcbIdx%3D310"
+   "status": "ok",
+   "count": 10
   },
   {
    "id": "kidp",
@@ -11619,7 +11687,7 @@
    "name": "한국콘텐츠진흥원",
    "url": "https://www.kocca.kr/kocca/pims/list.do?menuNo=20410",
    "status": "ok",
-   "count": 10
+   "count": 9
   },
   {
    "id": "arte",
@@ -11695,16 +11763,16 @@
    "id": "bistep",
    "name": "부산산업과학혁신원",
    "url": "https://www.bistep.re.kr/kor/CMS/Board/Board.do?mCode=MN008",
-   "status": "ok",
-   "count": 10
+   "status": "fail",
+   "count": 0,
+   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.bistep.re.kr%2Fkor%2FCMS%2FBoard%2FBoard.do%3FmCode%3DMN008"
   },
   {
    "id": "busan_gosi",
    "name": "부산광역시 고시공고",
    "url": "https://www.busan.go.kr/nbgosi",
-   "status": "fail",
-   "count": 0,
-   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.busan.go.kr%2Fnbgosi%3FcurPage%3D1"
+   "status": "ok",
+   "count": 5
   },
   {
    "id": "bscf",
