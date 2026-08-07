@@ -11629,7 +11629,7 @@
    "source": "busan_gosi",
    "sourceName": "부산광역시 고시공고",
    "title": "APEC나루공원 러너지원공간 CCTV 설치를 위한 행정예고",
-   "url": "https://www.busan.go.kr/nbgosi/view?sno=79057&gosiGbn=A&curPage=2",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=79057&gosiGbn=A&curPage=3",
    "date": "2026-08-05",
    "deadline": null,
    "region": "부산",
@@ -12865,8 +12865,9 @@
    "id": "semas",
    "name": "소상공인시장진흥공단",
    "url": "https://www.semas.or.kr/web/board/webBoardList.kmdc?bCd=1&pNm=BOA0101",
-   "status": "ok",
-   "count": 10
+   "status": "fail",
+   "count": 0,
+   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.semas.or.kr%2Fweb%2Fboard%2FwebBoardList.kmdc%3FbCd%3D1%26pNm%3DBOA0101"
   },
   {
    "id": "smtech",
