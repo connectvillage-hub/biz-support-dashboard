@@ -12544,6 +12544,48 @@
     "기타"
    ],
    "firstSeen": "2026-08-07"
+  },
+  "b05afb94c516b270": {
+   "id": "b05afb94c516b270",
+   "source": "bipa",
+   "sourceName": "부산정보산업진흥원",
+   "title": "[디지펜게임아카데미] 언리얼 엔진 C++ 개발 과정 교육생 모집",
+   "url": "https://bipa.kr/board/business/view?seq=85292",
+   "date": "2026-08-07",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-08-07"
+  },
+  "d95a6db4d15a9a5e": {
+   "id": "d95a6db4d15a9a5e",
+   "source": "bipa",
+   "sourceName": "부산정보산업진흥원",
+   "title": "2026년 데이터센터 글로벌 시장진출 지원사업 참여기업 모집 공고",
+   "url": "https://bipa.kr/board/business/view?seq=85291",
+   "date": "2026-08-07",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-08-07"
+  },
+  "461fa45c03ef61d7": {
+   "id": "461fa45c03ef61d7",
+   "source": "bscf",
+   "sourceName": "부산문화재단",
+   "title": "지원공모[모집] 2026년 예술인 생활안정자금(융자) 등 이자지원사업 참여자 모집",
+   "url": "https://www.bscf.or.kr/view.do?no=1010&pgMode=show&pbancSn=2413",
+   "date": "2026-08-07",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-08-07"
   }
  },
  "sources": [
@@ -12558,15 +12600,17 @@
    "id": "bizinfo",
    "name": "기업마당",
    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200View.do",
-   "status": "ok",
-   "count": 15
+   "status": "fail",
+   "count": 0,
+   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.bizinfo.go.kr%2Fsii%2Fsiia%2FselectSIIA200View.do"
   },
   {
    "id": "mss",
    "name": "중소벤처기업부",
    "url": "https://www.mss.go.kr/site/smba/ex/bbs/List.do?cbIdx=310",
-   "status": "ok",
-   "count": 10
+   "status": "fail",
+   "count": 0,
+   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.mss.go.kr%2Fsite%2Fsmba%2Fex%2Fbbs%2FList.do%3FcbIdx%3D310"
   },
   {
    "id": "kidp",
@@ -12656,22 +12700,24 @@
    "id": "bistep",
    "name": "부산산업과학혁신원",
    "url": "https://www.bistep.re.kr/kor/CMS/Board/Board.do?mCode=MN008",
-   "status": "ok",
-   "count": 10
+   "status": "fail",
+   "count": 0,
+   "error": "408 Client Error: Request Timeout for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.bistep.re.kr%2Fkor%2FCMS%2FBoard%2FBoard.do%3FmCode%3DMN008"
   },
   {
    "id": "busan_gosi",
    "name": "부산광역시 고시공고",
    "url": "https://www.busan.go.kr/nbgosi",
-   "status": "ok",
-   "count": 5
+   "status": "fail",
+   "count": 0,
+   "error": "408 Client Error: Request Timeout for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.busan.go.kr%2Fnbgosi%3FcurPage%3D1"
   },
   {
    "id": "bscf",
    "name": "부산문화재단",
    "url": "https://www.bscf.or.kr",
    "status": "ok",
-   "count": 11
+   "count": 12
   },
   {
    "id": "dcamp",
