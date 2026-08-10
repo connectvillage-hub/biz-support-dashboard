@@ -13019,7 +13019,7 @@
    "source": "busan_gosi",
    "sourceName": "부산광역시 고시공고",
    "title": "2026년도 경력단절예방 지원사업 「기업환경개선」참여 기업체 모집 공고",
-   "url": "https://www.busan.go.kr/nbgosi/view?sno=79068&gosiGbn=A&curPage=1",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=79068&gosiGbn=A&curPage=2",
    "date": "2026-06-20",
    "deadline": null,
    "region": "부산",
@@ -13496,6 +13496,76 @@
     "기타"
    ],
    "firstSeen": "2026-08-10"
+  },
+  "4322c70fc9124e58": {
+   "id": "4322c70fc9124e58",
+   "source": "kstartup",
+   "sourceName": "K스타트업",
+   "title": "2026년 재도전성공패키지 충청·강원권 커뮤니티 데이",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178814",
+   "date": "2026-08-10",
+   "deadline": "2026-08-13",
+   "region": "전국",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-08-10"
+  },
+  "997c2578327293eb": {
+   "id": "997c2578327293eb",
+   "source": "kstartup",
+   "sourceName": "K스타트업",
+   "title": "2026년 대전 스타트업 원스톱 지원센터 아카데미 1차",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178838",
+   "date": "2026-08-10",
+   "deadline": "2026-08-21",
+   "region": "전국",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-08-10"
+  },
+  "b40ae3689ae53d2d": {
+   "id": "b40ae3689ae53d2d",
+   "source": "kstartup",
+   "sourceName": "K스타트업",
+   "title": "2026년 CKL기업지원센터 입주기업 하반기 모집 공고",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178818",
+   "date": "2026-08-10",
+   "deadline": "2026-08-18",
+   "region": "전국",
+   "categories": [
+    "입주기업"
+   ],
+   "firstSeen": "2026-08-10"
+  },
+  "e365521abbf23c42": {
+   "id": "e365521abbf23c42",
+   "source": "kstartup",
+   "sourceName": "K스타트업",
+   "title": "[무료 AI 역량강화 교육] 생성형 AI 기반 무역 컴플라이언스 및 관세·ESG 리스크 최적화",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178798",
+   "date": "2026-08-10",
+   "deadline": "2026-09-14",
+   "region": "전국",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-08-10"
+  },
+  "909cb9609d60c1b1": {
+   "id": "909cb9609d60c1b1",
+   "source": "kstartup",
+   "sourceName": "K스타트업",
+   "title": "제3회 K-ROBOTICS Startup CUP 참가팀 모집(~8/31 마감)",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178841",
+   "date": "2026-08-10",
+   "deadline": "2026-08-31",
+   "region": "전국",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-08-10"
   }
  },
  "sources": [
@@ -13545,17 +13615,15 @@
    "id": "semas",
    "name": "소상공인시장진흥공단",
    "url": "https://www.semas.or.kr/web/board/webBoardList.kmdc?bCd=1&pNm=BOA0101",
-   "status": "fail",
-   "count": 0,
-   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.semas.or.kr%2Fweb%2Fboard%2FwebBoardList.kmdc%3FbCd%3D1%26pNm%3DBOA0101"
+   "status": "ok",
+   "count": 10
   },
   {
    "id": "smtech",
    "name": "중소기업 기술개발(SMTECH)",
    "url": "https://www.smtech.go.kr/front/ifg/no/notice02_list.do",
-   "status": "fail",
-   "count": 0,
-   "error": "408 Client Error: Request Timeout for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.smtech.go.kr%2Ffront%2Fifg%2Fno%2Fnotice02_list.do"
+   "status": "ok",
+   "count": 9
   },
   {
    "id": "busanstartup",
@@ -13617,9 +13685,8 @@
    "id": "busan_gosi",
    "name": "부산광역시 고시공고",
    "url": "https://www.busan.go.kr/nbgosi",
-   "status": "fail",
-   "count": 0,
-   "error": "500 Server Error: Internal Server Error for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.busan.go.kr%2Fnbgosi%3FcurPage%3D1"
+   "status": "ok",
+   "count": 5
   },
   {
    "id": "bscf",
