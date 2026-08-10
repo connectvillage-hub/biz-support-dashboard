@@ -11615,7 +11615,7 @@
    "source": "busan_gosi",
    "sourceName": "부산광역시 고시공고",
    "title": "2026년 부산현대미술관 도슨트(전시설명 전문 자원봉사자) 모집 공고",
-   "url": "https://www.busan.go.kr/nbgosi/view?sno=79073&gosiGbn=A&curPage=2",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=79073&gosiGbn=A&curPage=3",
    "date": "2026-08-05",
    "deadline": null,
    "region": "부산",
@@ -11941,7 +11941,7 @@
    "source": "busan_gosi",
    "sourceName": "부산광역시 고시공고",
    "title": "제16회 부산 MICE 콘텐츠 공모전 결과 공고",
-   "url": "https://www.busan.go.kr/nbgosi/view?sno=79074&gosiGbn=A&curPage=2",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=79074&gosiGbn=A&curPage=3",
    "date": "2026-08-05",
    "deadline": null,
    "region": "부산",
@@ -12901,6 +12901,132 @@
     "기타"
    ],
    "firstSeen": "2026-08-10"
+  },
+  "589a75569e2fceaa": {
+   "id": "589a75569e2fceaa",
+   "source": "kidp",
+   "sourceName": "한국디자인진흥원",
+   "title": "(부산, 인천, 원주) 청년디자인리빙랩 및 산업단지 브랜드 개발 용역 사전 규격 공고 알림",
+   "url": "https://kidp.or.kr/?menuno=1202",
+   "date": "2026-08-10",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-08-10"
+  },
+  "6fac408bf03f3c39": {
+   "id": "6fac408bf03f3c39",
+   "source": "kidp",
+   "sourceName": "한국디자인진흥원",
+   "title": "2026년 우수디자인전문기업 선정계획 공고",
+   "url": "https://kidp.or.kr/?menuno=1202",
+   "date": "2026-08-10",
+   "deadline": null,
+   "region": "전국",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-08-10"
+  },
+  "82af45ebca83a4a9": {
+   "id": "82af45ebca83a4a9",
+   "source": "bepa",
+   "sourceName": "부산경제진흥원",
+   "title": "『찾아가는 배민아카데미 부산편』 수강생 모집 안내",
+   "url": "https://www.bepa.kr/kor/view.do?no=1502&idx=19394&view=view&pageIndex=1&sv=&sw=&sdate=&edate=&periodState=all&state=ing&temporary=0&items=소상공인",
+   "date": "2026-08-10",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-08-10"
+  },
+  "602442960161a75e": {
+   "id": "602442960161a75e",
+   "source": "bepa",
+   "sourceName": "부산경제진흥원",
+   "title": "2026 소셜 비즈니스 육성 지원사업 참여 기업 모집",
+   "url": "https://www.bepa.kr/kor/view.do?no=1502&idx=19392&view=view&pageIndex=1&sv=&sw=&sdate=&edate=&periodState=all&state=ing&temporary=0&items=소상공인",
+   "date": "2026-08-10",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-08-10"
+  },
+  "34b3ba1784298bad": {
+   "id": "34b3ba1784298bad",
+   "source": "bepa",
+   "sourceName": "부산경제진흥원",
+   "title": "2026년 「홍보영상 제작 및 온라인 게시지원 」제안서 평가위원(후보자) 등록 신청 공고",
+   "url": "https://www.bepa.kr/kor/view.do?no=1502&idx=19391&view=view&pageIndex=1&sv=&sw=&sdate=&edate=&periodState=all&state=ing&temporary=0&items=소상공인",
+   "date": "2026-08-10",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "홍보·마케팅"
+   ],
+   "firstSeen": "2026-08-10"
+  },
+  "c140726e9791e84d": {
+   "id": "c140726e9791e84d",
+   "source": "bepa",
+   "sourceName": "부산경제진흥원",
+   "title": "2026년 「홍보영상 제작 및 온라인 게시지원 」입찰 공고",
+   "url": "https://www.bepa.kr/kor/view.do?no=1502&idx=19390&view=view&pageIndex=1&sv=&sw=&sdate=&edate=&periodState=all&state=ing&temporary=0&items=소상공인",
+   "date": "2026-08-10",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "홍보·마케팅"
+   ],
+   "firstSeen": "2026-08-10"
+  },
+  "d621798154a33704": {
+   "id": "d621798154a33704",
+   "source": "busan_gosi",
+   "sourceName": "부산광역시 고시공고",
+   "title": "2026년 모범운전자회 국외연수 진행업체 모집 공고",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=79072&gosiGbn=A&curPage=1",
+   "date": "2026-08-10",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-08-10"
+  },
+  "edfdc360140c564b": {
+   "id": "edfdc360140c564b",
+   "source": "busan_gosi",
+   "sourceName": "부산광역시 고시공고",
+   "title": "제안서 평가위원(후보자) 모집공고(공원·유원지 디자인환경 개선사업 설계용역)",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=79070&gosiGbn=A&curPage=1",
+   "date": "2026-08-10",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-08-10"
+  },
+  "ccf5f086c31a4df1": {
+   "id": "ccf5f086c31a4df1",
+   "source": "busan_gosi",
+   "sourceName": "부산광역시 고시공고",
+   "title": "2026년도 경력단절예방 지원사업 「기업환경개선」참여 기업체 모집 공고",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=79068&gosiGbn=A&curPage=1",
+   "date": "2026-06-20",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-08-10"
   }
  },
  "sources": [
@@ -12936,8 +13062,9 @@
    "id": "kocca",
    "name": "한국콘텐츠진흥원",
    "url": "https://www.kocca.kr/kocca/pims/list.do?menuNo=20410",
-   "status": "ok",
-   "count": 10
+   "status": "fail",
+   "count": 0,
+   "error": "500 Server Error: Internal Server Error for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.kocca.kr%2Fkocca%2Fpims%2Flist.do%3FmenuNo%3D20410"
   },
   {
    "id": "arte",
@@ -13020,9 +13147,8 @@
    "id": "busan_gosi",
    "name": "부산광역시 고시공고",
    "url": "https://www.busan.go.kr/nbgosi",
-   "status": "fail",
-   "count": 0,
-   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.busan.go.kr%2Fnbgosi%3FcurPage%3D2"
+   "status": "ok",
+   "count": 7
   },
   {
    "id": "bscf",
