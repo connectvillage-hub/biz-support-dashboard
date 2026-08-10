@@ -13027,6 +13027,62 @@
     "사업화"
    ],
    "firstSeen": "2026-08-10"
+  },
+  "b7841882d9cdd7f8": {
+   "id": "b7841882d9cdd7f8",
+   "source": "kidp",
+   "sourceName": "한국디자인진흥원",
+   "title": "2026 재직자 대상 디자인 교육 9월 [신기술 융합] AI 기반 실무 워크플로우 - 디자인 효율 300% 올리기",
+   "url": "https://kidp.or.kr/?menuno=1202",
+   "date": "2026-08-10",
+   "deadline": null,
+   "region": "전국",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-08-10"
+  },
+  "2b0beedfd2f246fc": {
+   "id": "2b0beedfd2f246fc",
+   "source": "kocca",
+   "sourceName": "한국콘텐츠진흥원",
+   "title": "2026 더현대글로벌×더셀렉츠 글로벌 팝업스토어(일본 도쿄) 참가 브랜드 모집(2차)",
+   "url": "https://www.kocca.kr/kocca/pims/view.do?intcNo=326D00091014&menuNo=20410&recptSt=&category=&pageIndex=1&search=&searchWrd=",
+   "date": "2026-08-10",
+   "deadline": "2026-08-31",
+   "region": "전국",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-08-10"
+  },
+  "5098ae52f707f381": {
+   "id": "5098ae52f707f381",
+   "source": "dcb",
+   "sourceName": "부산디자인진흥원",
+   "title": "화명 야외수영장 국제 디자인 경쟁공모 개최",
+   "url": "https://dcb.or.kr/01_news/?mcode=0401010000&mode=2&no=14487&page=1",
+   "date": "2026-08-10",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-08-10"
+  },
+  "aaea15832105acfe": {
+   "id": "aaea15832105acfe",
+   "source": "btp",
+   "sourceName": "부산테크노파크",
+   "title": "2026년도 부산광역시 고령친화산업 육성 지원사업 지역기업 역량강화 교육생 모집 공고",
+   "url": "https://www.btp.or.kr/kor/CMS/Board/Board.do?mCode=MN013&mode=view&mgr_seq=16&board_seq=9582272",
+   "date": "2026-08-10",
+   "deadline": "2026-09-11",
+   "region": "부산",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-08-10"
   }
  },
  "sources": [
@@ -13041,15 +13097,17 @@
    "id": "bizinfo",
    "name": "기업마당",
    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200View.do",
-   "status": "ok",
-   "count": 15
+   "status": "fail",
+   "count": 0,
+   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.bizinfo.go.kr%2Fsii%2Fsiia%2FselectSIIA200View.do"
   },
   {
    "id": "mss",
    "name": "중소벤처기업부",
    "url": "https://www.mss.go.kr/site/smba/ex/bbs/List.do?cbIdx=310",
-   "status": "ok",
-   "count": 10
+   "status": "fail",
+   "count": 0,
+   "error": "520 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.mss.go.kr%2Fsite%2Fsmba%2Fex%2Fbbs%2FList.do%3FcbIdx%3D310"
   },
   {
    "id": "kidp",
@@ -13062,9 +13120,8 @@
    "id": "kocca",
    "name": "한국콘텐츠진흥원",
    "url": "https://www.kocca.kr/kocca/pims/list.do?menuNo=20410",
-   "status": "fail",
-   "count": 0,
-   "error": "500 Server Error: Internal Server Error for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.kocca.kr%2Fkocca%2Fpims%2Flist.do%3FmenuNo%3D20410"
+   "status": "ok",
+   "count": 10
   },
   {
    "id": "arte",
@@ -13147,8 +13204,9 @@
    "id": "busan_gosi",
    "name": "부산광역시 고시공고",
    "url": "https://www.busan.go.kr/nbgosi",
-   "status": "ok",
-   "count": 7
+   "status": "fail",
+   "count": 0,
+   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.busan.go.kr%2Fnbgosi%3FcurPage%3D1"
   },
   {
    "id": "bscf",
