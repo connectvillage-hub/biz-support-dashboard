@@ -8052,9 +8052,9 @@
    "source": "btp",
    "sourceName": "부산테크노파크",
    "title": "「제7회 부산 대학-지역 상생 혁신 아이디어 경진대회」연장 공고",
-   "url": "https://www.btp.or.kr/kor/CMS/Board/Board.do?mCode=MN013&mode=view&mgr_seq=16&board_seq=9582228",
-   "date": "2026-07-27",
-   "deadline": "2026-08-07",
+   "url": "https://www.btp.or.kr/kor/CMS/Board/Board.do?mCode=MN013&mode=view&mgr_seq=16&board_seq=9582267",
+   "date": "2026-08-10",
+   "deadline": "2026-08-21",
    "region": "부산",
    "categories": [
     "사업화"
@@ -12816,6 +12816,77 @@
     "사업화"
    ],
    "firstSeen": "2026-08-07"
+  },
+  "eae2727a135aa648": {
+   "id": "eae2727a135aa648",
+   "source": "btp",
+   "sourceName": "부산테크노파크",
+   "title": "「2025년도 시군구연고산업육성 협업프로젝트 2차년도」 지원프로그램 기업모집 공고(3차)",
+   "url": "https://www.btp.or.kr/kor/CMS/Board/Board.do?mCode=MN013&mode=view&mgr_seq=16&board_seq=9582266",
+   "date": "2026-08-10",
+   "deadline": "2026-08-21",
+   "region": "부산",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-08-10"
+  },
+  "dde8f993b443d144": {
+   "id": "dde8f993b443d144",
+   "source": "btp",
+   "sourceName": "부산테크노파크",
+   "title": "「2025년도 시군구연고산업육성 협업프로젝트 2차년도」일본 MEDICAL JAPAN 수출상담회 지원 모집 공고",
+   "url": "https://www.btp.or.kr/kor/CMS/Board/Board.do?mCode=MN013&mode=view&mgr_seq=16&board_seq=9582265",
+   "date": "2026-08-10",
+   "deadline": "2026-08-21",
+   "region": "부산",
+   "categories": [
+    "홍보·마케팅",
+    "사업화"
+   ],
+   "firstSeen": "2026-08-10"
+  },
+  "1df62ad178fb3409": {
+   "id": "1df62ad178fb3409",
+   "source": "btp",
+   "sourceName": "부산테크노파크",
+   "title": "「중소기업 밀집지역 위기대응 체계 구축사업」부산 신발산업 AI·DX 공동전환 가속화 교육 모집 공고",
+   "url": "https://www.btp.or.kr/kor/CMS/Board/Board.do?mCode=MN013&mode=view&mgr_seq=16&board_seq=9582264",
+   "date": "2026-08-10",
+   "deadline": "2026-08-26",
+   "region": "부산",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-08-10"
+  },
+  "d99f86bf4fd7a637": {
+   "id": "d99f86bf4fd7a637",
+   "source": "btp",
+   "sourceName": "부산테크노파크",
+   "title": "2026년 중소기업 밀집지역 위기대응 체계 구축사업 Stand-up 맞춤지원 모집 공고 (하반기)",
+   "url": "https://www.btp.or.kr/kor/CMS/Board/Board.do?mCode=MN013&mode=view&mgr_seq=16&board_seq=9582260",
+   "date": "2026-08-10",
+   "deadline": "2026-08-26",
+   "region": "부산",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-08-10"
+  },
+  "b78385c5ad03fa24": {
+   "id": "b78385c5ad03fa24",
+   "source": "btp",
+   "sourceName": "부산테크노파크",
+   "title": "글로벌 원전 실무 인재 양성을 위한 해외 산업시찰 및 현장교육 참여기업 모집 공고",
+   "url": "https://www.btp.or.kr/kor/CMS/Board/Board.do?mCode=MN013&mode=view&mgr_seq=16&board_seq=9582254",
+   "date": "2026-08-10",
+   "deadline": "2026-08-23",
+   "region": "부산",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-08-10"
   }
  },
  "sources": [
@@ -12832,7 +12903,7 @@
    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200View.do",
    "status": "fail",
    "count": 0,
-   "error": "500 Server Error: Internal Server Error for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.bizinfo.go.kr%2Fsii%2Fsiia%2FselectSIIA200View.do"
+   "error": "408 Client Error: Request Timeout for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.bizinfo.go.kr%2Fsii%2Fsiia%2FselectSIIA200View.do"
   },
   {
    "id": "mss",
@@ -12840,7 +12911,7 @@
    "url": "https://www.mss.go.kr/site/smba/ex/bbs/List.do?cbIdx=310",
    "status": "fail",
    "count": 0,
-   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.mss.go.kr%2Fsite%2Fsmba%2Fex%2Fbbs%2FList.do%3FcbIdx%3D310"
+   "error": "520 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.mss.go.kr%2Fsite%2Fsmba%2Fex%2Fbbs%2FList.do%3FcbIdx%3D310"
   },
   {
    "id": "kidp",
@@ -12867,15 +12938,17 @@
    "id": "semas",
    "name": "소상공인시장진흥공단",
    "url": "https://www.semas.or.kr/web/board/webBoardList.kmdc?bCd=1&pNm=BOA0101",
-   "status": "ok",
-   "count": 10
+   "status": "fail",
+   "count": 0,
+   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.semas.or.kr%2Fweb%2Fboard%2FwebBoardList.kmdc%3FbCd%3D1%26pNm%3DBOA0101"
   },
   {
    "id": "smtech",
    "name": "중소기업 기술개발(SMTECH)",
    "url": "https://www.smtech.go.kr/front/ifg/no/notice02_list.do",
-   "status": "ok",
-   "count": 9
+   "status": "fail",
+   "count": 0,
+   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.smtech.go.kr%2Ffront%2Fifg%2Fno%2Fnotice02_list.do"
   },
   {
    "id": "busanstartup",
