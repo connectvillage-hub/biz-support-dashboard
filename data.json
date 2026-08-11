@@ -1424,20 +1424,6 @@
    ],
    "firstSeen": "2026-07-09"
   },
-  "f2a02574bfe526ef": {
-   "id": "f2a02574bfe526ef",
-   "source": "arte",
-   "sourceName": "한국문화예술교육진흥원",
-   "title": "[수정게시] 2026 길 위의 인문학 · 지혜학교 / 모두의 인문학 운영기관 공모",
-   "url": "https://arte.or.kr/notice/business/notice/Business_BoardView.do?board_id=BRD_ID0083310",
-   "date": "2026-04-13",
-   "deadline": "2026-05-08",
-   "region": "전국",
-   "categories": [
-    "사업화"
-   ],
-   "firstSeen": "2026-07-09"
-  },
   "f3bb8f3527da492e": {
    "id": "f3bb8f3527da492e",
    "source": "smtech",
@@ -14006,7 +13992,7 @@
    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200View.do",
    "status": "fail",
    "count": 0,
-   "error": "408 Client Error: Request Timeout for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.bizinfo.go.kr%2Fsii%2Fsiia%2FselectSIIA200View.do"
+   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.bizinfo.go.kr%2Fsii%2Fsiia%2FselectSIIA200View.do"
   },
   {
    "id": "mss",
@@ -14014,7 +14000,7 @@
    "url": "https://www.mss.go.kr/site/smba/ex/bbs/List.do?cbIdx=310",
    "status": "fail",
    "count": 0,
-   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.mss.go.kr%2Fsite%2Fsmba%2Fex%2Fbbs%2FList.do%3FcbIdx%3D310"
+   "error": "408 Client Error: Request Timeout for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.mss.go.kr%2Fsite%2Fsmba%2Fex%2Fbbs%2FList.do%3FcbIdx%3D310"
   },
   {
    "id": "kidp",
@@ -14111,8 +14097,9 @@
    "id": "busan_gosi",
    "name": "부산광역시 고시공고",
    "url": "https://www.busan.go.kr/nbgosi",
-   "status": "ok",
-   "count": 5
+   "status": "fail",
+   "count": 0,
+   "error": "520 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.busan.go.kr%2Fnbgosi%3FcurPage%3D1"
   },
   {
    "id": "bscf",
