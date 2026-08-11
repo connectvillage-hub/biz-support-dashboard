@@ -13580,6 +13580,20 @@
     "사업화"
    ],
    "firstSeen": "2026-08-11"
+  },
+  "46ee05505ce1cf39": {
+   "id": "46ee05505ce1cf39",
+   "source": "busan_gosi",
+   "sourceName": "부산광역시 고시공고",
+   "title": "공사(소액수의) 견적제출 안내공고[금련산역 러너지원공간 조성 건축공사]",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=79115&gosiGbn=A&curPage=1",
+   "date": "2026-08-11",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-08-11"
   }
  },
  "sources": [
@@ -13700,7 +13714,7 @@
    "name": "부산광역시 고시공고",
    "url": "https://www.busan.go.kr/nbgosi",
    "status": "ok",
-   "count": 4
+   "count": 5
   },
   {
    "id": "bscf",
