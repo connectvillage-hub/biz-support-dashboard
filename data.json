@@ -13594,6 +13594,76 @@
     "기타"
    ],
    "firstSeen": "2026-08-11"
+  },
+  "3f07a137b3a9fbd3": {
+   "id": "3f07a137b3a9fbd3",
+   "source": "kidp",
+   "sourceName": "한국디자인진흥원",
+   "title": "고문변호사 및 법률자문 현황(2026.1.1.~2026.6.30.)",
+   "url": "https://kidp.or.kr/?menuno=1202",
+   "date": "2026-08-11",
+   "deadline": null,
+   "region": "전국",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-08-11"
+  },
+  "b7e1e6fcc6b24143": {
+   "id": "b7e1e6fcc6b24143",
+   "source": "kidp",
+   "sourceName": "한국디자인진흥원",
+   "title": "소송 및 소송대리인 현황(2026.1.1.~2026.6.30.)",
+   "url": "https://kidp.or.kr/?menuno=1202",
+   "date": "2026-08-11",
+   "deadline": null,
+   "region": "전국",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-08-11"
+  },
+  "7334e19afe987c47": {
+   "id": "7334e19afe987c47",
+   "source": "kidp",
+   "sourceName": "한국디자인진흥원",
+   "title": "고문변호사 및 법률자문 현황(2025.7.1.~2025.12.31.)",
+   "url": "https://kidp.or.kr/?menuno=1202",
+   "date": "2026-08-11",
+   "deadline": null,
+   "region": "전국",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-08-11"
+  },
+  "a24d2d9e1a7d298f": {
+   "id": "a24d2d9e1a7d298f",
+   "source": "kidp",
+   "sourceName": "한국디자인진흥원",
+   "title": "소송 및 소송대리인 현황(2025.7.1.~2025.12.31.)",
+   "url": "https://kidp.or.kr/?menuno=1202",
+   "date": "2026-08-11",
+   "deadline": null,
+   "region": "전국",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-08-11"
+  },
+  "ca7ac39293d235a5": {
+   "id": "ca7ac39293d235a5",
+   "source": "semas",
+   "sourceName": "소상공인시장진흥공단",
+   "title": "2026년 공공기관 동반성장 체감도 조사 관련 개인정보 제3자 제공사항 알림",
+   "url": "https://www.semas.or.kr/web/board/webBoardView.kmdc?bCd=1&b_idx=56031&pNm=BOA0101",
+   "date": "2026-08-11",
+   "deadline": null,
+   "region": "전국",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-08-11"
   }
  },
  "sources": [
@@ -13608,15 +13678,17 @@
    "id": "bizinfo",
    "name": "기업마당",
    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200View.do",
-   "status": "ok",
-   "count": 15
+   "status": "fail",
+   "count": 0,
+   "error": "408 Client Error: Request Timeout for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.bizinfo.go.kr%2Fsii%2Fsiia%2FselectSIIA200View.do"
   },
   {
    "id": "mss",
    "name": "중소벤처기업부",
    "url": "https://www.mss.go.kr/site/smba/ex/bbs/List.do?cbIdx=310",
-   "status": "ok",
-   "count": 10
+   "status": "fail",
+   "count": 0,
+   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.mss.go.kr%2Fsite%2Fsmba%2Fex%2Fbbs%2FList.do%3FcbIdx%3D310"
   },
   {
    "id": "kidp",
@@ -13706,15 +13778,17 @@
    "id": "bistep",
    "name": "부산산업과학혁신원",
    "url": "https://www.bistep.re.kr/kor/CMS/Board/Board.do?mCode=MN008",
-   "status": "ok",
-   "count": 10
+   "status": "fail",
+   "count": 0,
+   "error": "408 Client Error: Request Timeout for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.bistep.re.kr%2Fkor%2FCMS%2FBoard%2FBoard.do%3FmCode%3DMN008"
   },
   {
    "id": "busan_gosi",
    "name": "부산광역시 고시공고",
    "url": "https://www.busan.go.kr/nbgosi",
-   "status": "ok",
-   "count": 5
+   "status": "fail",
+   "count": 0,
+   "error": "408 Client Error: Request Timeout for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.busan.go.kr%2Fnbgosi%3FcurPage%3D1"
   },
   {
    "id": "bscf",
