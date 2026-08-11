@@ -5,8 +5,8 @@
    "source": "bipa",
    "sourceName": "부산정보산업진흥원",
    "title": "부산 글로벌게임센터(BGC) 오렌지플래닛 입주모집 공고",
-   "url": "https://bipa.kr/board/business/view?seq=85217",
-   "date": "2026-07-07",
+   "url": "https://bipa.kr/board/business/view?seq=85296",
+   "date": "2026-08-11",
    "deadline": null,
    "region": "부산",
    "categories": [
@@ -13566,6 +13566,20 @@
     "기타"
    ],
    "firstSeen": "2026-08-10"
+  },
+  "eb91cc9ad91e28aa": {
+   "id": "eb91cc9ad91e28aa",
+   "source": "bipa",
+   "sourceName": "부산정보산업진흥원",
+   "title": "[부산글로벌웹툰센터] 제1회 글로벌 웹툰 단편 공모전 모집 공고",
+   "url": "https://bipa.kr/board/business/view?seq=85295",
+   "date": "2026-08-11",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-08-11"
   }
  },
  "sources": [
@@ -13615,15 +13629,17 @@
    "id": "semas",
    "name": "소상공인시장진흥공단",
    "url": "https://www.semas.or.kr/web/board/webBoardList.kmdc?bCd=1&pNm=BOA0101",
-   "status": "ok",
-   "count": 10
+   "status": "fail",
+   "count": 0,
+   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.semas.or.kr%2Fweb%2Fboard%2FwebBoardList.kmdc%3FbCd%3D1%26pNm%3DBOA0101"
   },
   {
    "id": "smtech",
    "name": "중소기업 기술개발(SMTECH)",
    "url": "https://www.smtech.go.kr/front/ifg/no/notice02_list.do",
-   "status": "ok",
-   "count": 9
+   "status": "fail",
+   "count": 0,
+   "error": "500 Server Error: Internal Server Error for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.smtech.go.kr%2Ffront%2Fifg%2Fno%2Fnotice02_list.do"
   },
   {
    "id": "busanstartup",
@@ -13685,8 +13701,9 @@
    "id": "busan_gosi",
    "name": "부산광역시 고시공고",
    "url": "https://www.busan.go.kr/nbgosi",
-   "status": "ok",
-   "count": 5
+   "status": "fail",
+   "count": 0,
+   "error": "500 Server Error: Internal Server Error for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.busan.go.kr%2Fnbgosi%3FcurPage%3D1"
   },
   {
    "id": "bscf",
