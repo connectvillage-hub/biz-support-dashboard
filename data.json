@@ -12977,7 +12977,7 @@
    "source": "busan_gosi",
    "sourceName": "부산광역시 고시공고",
    "title": "2026년 모범운전자회 국외연수 진행업체 모집 공고",
-   "url": "https://www.busan.go.kr/nbgosi/view?sno=79072&gosiGbn=A&curPage=2",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=79072&gosiGbn=A&curPage=3",
    "date": "2026-08-10",
    "deadline": null,
    "region": "부산",
@@ -12991,7 +12991,7 @@
    "source": "busan_gosi",
    "sourceName": "부산광역시 고시공고",
    "title": "제안서 평가위원(후보자) 모집공고(공원·유원지 디자인환경 개선사업 설계용역)",
-   "url": "https://www.busan.go.kr/nbgosi/view?sno=79070&gosiGbn=A&curPage=2",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=79070&gosiGbn=A&curPage=3",
    "date": "2026-08-10",
    "deadline": null,
    "region": "부산",
@@ -13572,7 +13572,7 @@
    "source": "busan_gosi",
    "sourceName": "부산광역시 고시공고",
    "title": "공사(소액수의) 견적제출 안내공고[금련산역 러너지원공간 조성 건축공사]",
-   "url": "https://www.busan.go.kr/nbgosi/view?sno=79115&gosiGbn=A&curPage=1",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=79115&gosiGbn=A&curPage=2",
    "date": "2026-08-11",
    "deadline": null,
    "region": "부산",
@@ -13976,6 +13976,20 @@
     "사업화"
    ],
    "firstSeen": "2026-08-11"
+  },
+  "99dd8227799417b3": {
+   "id": "99dd8227799417b3",
+   "source": "busan_gosi",
+   "sourceName": "부산광역시 고시공고",
+   "title": "부산광역시 노후계획도시정비위원회 위원 공개모집 공고",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=79096&gosiGbn=A&curPage=1",
+   "date": "2026-08-12",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-08-12"
   }
  },
  "sources": [
@@ -13990,17 +14004,15 @@
    "id": "bizinfo",
    "name": "기업마당",
    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200View.do",
-   "status": "fail",
-   "count": 0,
-   "error": "520 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.bizinfo.go.kr%2Fsii%2Fsiia%2FselectSIIA200View.do"
+   "status": "ok",
+   "count": 15
   },
   {
    "id": "mss",
    "name": "중소벤처기업부",
    "url": "https://www.mss.go.kr/site/smba/ex/bbs/List.do?cbIdx=310",
-   "status": "fail",
-   "count": 0,
-   "error": "520 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.mss.go.kr%2Fsite%2Fsmba%2Fex%2Fbbs%2FList.do%3FcbIdx%3D310"
+   "status": "ok",
+   "count": 10
   },
   {
    "id": "kidp",
@@ -14027,15 +14039,17 @@
    "id": "semas",
    "name": "소상공인시장진흥공단",
    "url": "https://www.semas.or.kr/web/board/webBoardList.kmdc?bCd=1&pNm=BOA0101",
-   "status": "ok",
-   "count": 10
+   "status": "fail",
+   "count": 0,
+   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.semas.or.kr%2Fweb%2Fboard%2FwebBoardList.kmdc%3FbCd%3D1%26pNm%3DBOA0101"
   },
   {
    "id": "smtech",
    "name": "중소기업 기술개발(SMTECH)",
    "url": "https://www.smtech.go.kr/front/ifg/no/notice02_list.do",
-   "status": "ok",
-   "count": 9
+   "status": "fail",
+   "count": 0,
+   "error": "408 Client Error: Request Timeout for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.smtech.go.kr%2Ffront%2Fifg%2Fno%2Fnotice02_list.do"
   },
   {
    "id": "busanstartup",
@@ -14097,9 +14111,8 @@
    "id": "busan_gosi",
    "name": "부산광역시 고시공고",
    "url": "https://www.busan.go.kr/nbgosi",
-   "status": "fail",
-   "count": 0,
-   "error": "408 Client Error: Request Timeout for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.busan.go.kr%2Fnbgosi%3FcurPage%3D1"
+   "status": "ok",
+   "count": 6
   },
   {
    "id": "bscf",
