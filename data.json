@@ -13706,6 +13706,34 @@
     "기타"
    ],
    "firstSeen": "2026-08-11"
+  },
+  "76d7bc719d87adfd": {
+   "id": "76d7bc719d87adfd",
+   "source": "semas",
+   "sourceName": "소상공인시장진흥공단",
+   "title": "「소상공인 재난지원금」환수 사전통지 반송에 따른 공시송달 공고",
+   "url": "https://www.semas.or.kr/web/board/webBoardView.kmdc?bCd=1&b_idx=56034&pNm=BOA0101",
+   "date": "2026-08-11",
+   "deadline": null,
+   "region": "전국",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-08-11"
+  },
+  "16a3d2a38a18b9a1": {
+   "id": "16a3d2a38a18b9a1",
+   "source": "semas",
+   "sourceName": "소상공인시장진흥공단",
+   "title": "「소상공인 재난지원금」환수 결정통지 반송에 따른 공시송달 공고",
+   "url": "https://www.semas.or.kr/web/board/webBoardView.kmdc?bCd=1&b_idx=56033&pNm=BOA0101",
+   "date": "2026-08-11",
+   "deadline": null,
+   "region": "전국",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-08-11"
   }
  },
  "sources": [
@@ -13722,7 +13750,7 @@
    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200View.do",
    "status": "fail",
    "count": 0,
-   "error": "520 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.bizinfo.go.kr%2Fsii%2Fsiia%2FselectSIIA200View.do"
+   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.bizinfo.go.kr%2Fsii%2Fsiia%2FselectSIIA200View.do"
   },
   {
    "id": "mss",
@@ -13829,7 +13857,7 @@
    "url": "https://www.busan.go.kr/nbgosi",
    "status": "fail",
    "count": 0,
-   "error": "500 Server Error: Internal Server Error for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.busan.go.kr%2Fnbgosi%3FcurPage%3D1"
+   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.busan.go.kr%2Fnbgosi%3FcurPage%3D1"
   },
   {
    "id": "bscf",
