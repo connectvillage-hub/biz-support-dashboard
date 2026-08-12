@@ -14343,6 +14343,34 @@
     "기타"
    ],
    "firstSeen": "2026-08-12"
+  },
+  "54aa767a9edd31d0": {
+   "id": "54aa767a9edd31d0",
+   "source": "kstartup",
+   "sourceName": "K스타트업",
+   "title": "2026년 모두의 창업 글로벌 재외국민 프로그램 참여자 모집 공고",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178896",
+   "date": "2026-08-12",
+   "deadline": "2026-09-14",
+   "region": "전국",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-08-12"
+  },
+  "44c58f3efe73fcf0": {
+   "id": "44c58f3efe73fcf0",
+   "source": "kidp",
+   "sourceName": "한국디자인진흥원",
+   "title": "[안전]한 기업에서 시작된 안전디자인, 관계사로 확산되다! - k& corp 안전디자인 적용 사례",
+   "url": "https://kidp.or.kr/?menuno=1202",
+   "date": "2026-08-12",
+   "deadline": null,
+   "region": "전국",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-08-12"
   }
  },
  "sources": [
@@ -14357,15 +14385,17 @@
    "id": "bizinfo",
    "name": "기업마당",
    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200View.do",
-   "status": "ok",
-   "count": 15
+   "status": "fail",
+   "count": 0,
+   "error": "408 Client Error: Request Timeout for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.bizinfo.go.kr%2Fsii%2Fsiia%2FselectSIIA200View.do"
   },
   {
    "id": "mss",
    "name": "중소벤처기업부",
    "url": "https://www.mss.go.kr/site/smba/ex/bbs/List.do?cbIdx=310",
-   "status": "ok",
-   "count": 10
+   "status": "fail",
+   "count": 0,
+   "error": "500 Server Error: Internal Server Error for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.mss.go.kr%2Fsite%2Fsmba%2Fex%2Fbbs%2FList.do%3FcbIdx%3D310"
   },
   {
    "id": "kidp",
@@ -14462,8 +14492,9 @@
    "id": "busan_gosi",
    "name": "부산광역시 고시공고",
    "url": "https://www.busan.go.kr/nbgosi",
-   "status": "ok",
-   "count": 7
+   "status": "fail",
+   "count": 0,
+   "error": "502 Server Error: Bad Gateway for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.busan.go.kr%2Fnbgosi%3FcurPage%3D1"
   },
   {
    "id": "bscf",
