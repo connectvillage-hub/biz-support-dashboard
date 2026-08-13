@@ -14222,7 +14222,7 @@
    "sourceName": "부산경제진흥원",
    "title": "2026 홍보영상 제작 및 온라인 게시지원 참여희망 소상공인 모집공고",
    "url": "https://www.bepa.kr/kor/view.do?no=1502&idx=19400&view=view&pageIndex=1&sv=&sw=&sdate=&edate=&periodState=all&state=ing&temporary=0&items=소상공인",
-   "date": "2026-08-12",
+   "date": "2026-08-13",
    "deadline": null,
    "region": "부산",
    "categories": [
@@ -14293,7 +14293,7 @@
    "source": "busan_gosi",
    "sourceName": "부산광역시 고시공고",
    "title": "금련산역 러너지원공간 CCTV설치를 위한 행정예고",
-   "url": "https://www.busan.go.kr/nbgosi/view?sno=79141&gosiGbn=A&curPage=1",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=79141&gosiGbn=A&curPage=2",
    "date": "2026-08-12",
    "deadline": null,
    "region": "부산",
@@ -14307,7 +14307,7 @@
    "source": "busan_gosi",
    "sourceName": "부산광역시 고시공고",
    "title": "2026년 업무유공 소방공무원 해외 체험연수 수행업체 모집 공고",
-   "url": "https://www.busan.go.kr/nbgosi/view?sno=79139&gosiGbn=A&curPage=1",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=79139&gosiGbn=A&curPage=2",
    "date": "2026-08-12",
    "deadline": null,
    "region": "부산",
@@ -14335,7 +14335,7 @@
    "source": "busan_gosi",
    "sourceName": "부산광역시 고시공고",
    "title": "부산광역시 출자출연기관 운영심의위원회 위원 공개모집 공고",
-   "url": "https://www.busan.go.kr/nbgosi/view?sno=79071&gosiGbn=A&curPage=2",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=79071&gosiGbn=A&curPage=3",
    "date": "2026-08-12",
    "deadline": null,
    "region": "부산",
@@ -14456,6 +14456,48 @@
     "네트워킹"
    ],
    "firstSeen": "2026-08-13"
+  },
+  "a97873cfad627cf0": {
+   "id": "a97873cfad627cf0",
+   "source": "busan_gosi",
+   "sourceName": "부산광역시 고시공고",
+   "title": "부산광역시 지방지적위원회 위원 공개모집 선정결과 공고",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=79159&gosiGbn=A&curPage=1",
+   "date": "2026-08-13",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-08-13"
+  },
+  "ebf19e838ce6af26": {
+   "id": "ebf19e838ce6af26",
+   "source": "busan_gosi",
+   "sourceName": "부산광역시 고시공고",
+   "title": "제안서 평가위원 후보자 모집공고(제2차 부산시 해양교육 및 해양문화 활성화 지역(진흥) 계획 수립 용역)",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=79150&gosiGbn=A&curPage=1",
+   "date": "2026-08-13",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-08-13"
+  },
+  "8f247668230d5d85": {
+   "id": "8f247668230d5d85",
+   "source": "busan_gosi",
+   "sourceName": "부산광역시 고시공고",
+   "title": "2026년 지역특화 농업기술 정보화 인력지원사업 기간제노동자(장애인 제한 채용) 재공고",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=79164&gosiGbn=A&curPage=1",
+   "date": "2026-10-20",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-08-13"
   }
  },
  "sources": [
@@ -14470,17 +14512,15 @@
    "id": "bizinfo",
    "name": "기업마당",
    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200View.do",
-   "status": "fail",
-   "count": 0,
-   "error": "500 Server Error: Internal Server Error for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.bizinfo.go.kr%2Fsii%2Fsiia%2FselectSIIA200View.do"
+   "status": "ok",
+   "count": 15
   },
   {
    "id": "mss",
    "name": "중소벤처기업부",
    "url": "https://www.mss.go.kr/site/smba/ex/bbs/List.do?cbIdx=310",
-   "status": "fail",
-   "count": 0,
-   "error": "408 Client Error: Request Timeout for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.mss.go.kr%2Fsite%2Fsmba%2Fex%2Fbbs%2FList.do%3FcbIdx%3D310"
+   "status": "ok",
+   "count": 10
   },
   {
    "id": "kidp",
@@ -14577,9 +14617,8 @@
    "id": "busan_gosi",
    "name": "부산광역시 고시공고",
    "url": "https://www.busan.go.kr/nbgosi",
-   "status": "fail",
-   "count": 0,
-   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.busan.go.kr%2Fnbgosi%3FcurPage%3D1"
+   "status": "ok",
+   "count": 8
   },
   {
    "id": "bscf",
