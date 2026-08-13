@@ -14371,6 +14371,91 @@
     "기타"
    ],
    "firstSeen": "2026-08-12"
+  },
+  "35ae0be45f684037": {
+   "id": "35ae0be45f684037",
+   "source": "kidp",
+   "sourceName": "한국디자인진흥원",
+   "title": "2026년 디자인-기술기업 2차 밋업 참가기업 모집 이후 일정 변경",
+   "url": "https://kidp.or.kr/?menuno=1202",
+   "date": "2026-08-13",
+   "deadline": null,
+   "region": "전국",
+   "categories": [
+    "네트워킹",
+    "사업화"
+   ],
+   "firstSeen": "2026-08-13"
+  },
+  "3b8d8d517872ca59": {
+   "id": "3b8d8d517872ca59",
+   "source": "kocca",
+   "sourceName": "한국콘텐츠진흥원",
+   "title": "2026 KOMICS Thailand 참가기업 모집 공고",
+   "url": "https://www.kocca.kr/kocca/pims/view.do?intcNo=326D00092011&menuNo=20410&recptSt=&category=&pageIndex=1&search=&searchWrd=",
+   "date": "2026-08-13",
+   "deadline": "2026-08-31",
+   "region": "전국",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-08-13"
+  },
+  "106434c494c62b77": {
+   "id": "106434c494c62b77",
+   "source": "dcb",
+   "sourceName": "부산디자인진흥원",
+   "title": "2026년 부산 디자인 캠퍼스(부산디자인스쿨) 참여 청년 추가 모집(4차) 공고",
+   "url": "https://dcb.or.kr/01_news/?mcode=0401010000&mode=2&no=14489&page=1",
+   "date": "2026-08-13",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-08-13"
+  },
+  "afd045b14c1f554c": {
+   "id": "afd045b14c1f554c",
+   "source": "btp",
+   "sourceName": "부산테크노파크",
+   "title": "「2026 화장품전문인력양성」하반기 마케팅 실무 교육생 모집 공고",
+   "url": "https://www.btp.or.kr/kor/CMS/Board/Board.do?mCode=MN013&mode=view&mgr_seq=16&board_seq=9582284",
+   "date": "2026-08-13",
+   "deadline": "2026-08-27",
+   "region": "부산",
+   "categories": [
+    "홍보·마케팅"
+   ],
+   "firstSeen": "2026-08-13"
+  },
+  "7b1d5891b442d78d": {
+   "id": "7b1d5891b442d78d",
+   "source": "bipa",
+   "sourceName": "부산정보산업진흥원",
+   "title": "부산 AI 페스티벌 - AI 콘텐츠 공모전 개최 안내",
+   "url": "https://bipa.kr/board/business/view?seq=85305",
+   "date": "2026-08-13",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-08-13"
+  },
+  "69a7a8ed156e871a": {
+   "id": "69a7a8ed156e871a",
+   "source": "bistep",
+   "sourceName": "부산산업과학혁신원",
+   "title": "2026년 제1회 부산연구산업진흥단지 네트워크 교류회",
+   "url": "https://www.bistep.re.kr/kor/CMS/Board/Board.do?mCode=MN008&mode=view&mgr_seq=23&board_seq=5930",
+   "date": "2026-08-13",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "네트워킹"
+   ],
+   "firstSeen": "2026-08-13"
   }
  },
  "sources": [
@@ -14387,7 +14472,7 @@
    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200View.do",
    "status": "fail",
    "count": 0,
-   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.bizinfo.go.kr%2Fsii%2Fsiia%2FselectSIIA200View.do"
+   "error": "500 Server Error: Internal Server Error for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.bizinfo.go.kr%2Fsii%2Fsiia%2FselectSIIA200View.do"
   },
   {
    "id": "mss",
@@ -14395,7 +14480,7 @@
    "url": "https://www.mss.go.kr/site/smba/ex/bbs/List.do?cbIdx=310",
    "status": "fail",
    "count": 0,
-   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.mss.go.kr%2Fsite%2Fsmba%2Fex%2Fbbs%2FList.do%3FcbIdx%3D310"
+   "error": "408 Client Error: Request Timeout for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.mss.go.kr%2Fsite%2Fsmba%2Fex%2Fbbs%2FList.do%3FcbIdx%3D310"
   },
   {
    "id": "kidp",
