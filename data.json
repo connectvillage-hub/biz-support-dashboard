@@ -12950,7 +12950,7 @@
    "sourceName": "부산경제진흥원",
    "title": "2026년 「홍보영상 제작 및 온라인 게시지원 」제안서 평가위원(후보자) 등록 신청 공고",
    "url": "https://www.bepa.kr/kor/view.do?no=1502&idx=19391&view=view&pageIndex=1&sv=&sw=&sdate=&edate=&periodState=all&state=ing&temporary=0&items=소상공인",
-   "date": "2026-08-10",
+   "date": "2026-08-13",
    "deadline": null,
    "region": "부산",
    "categories": [
@@ -14940,6 +14940,21 @@
     "기타"
    ],
    "firstSeen": "2026-08-13"
+  },
+  "8a08a4e4d6315cdd": {
+   "id": "8a08a4e4d6315cdd",
+   "source": "bipa",
+   "sourceName": "부산정보산업진흥원",
+   "title": "2026년 제2차 부산 콘텐츠코리아 랩 입주실 모집공고",
+   "url": "https://bipa.kr/board/business/view?seq=85307",
+   "date": "2026-08-13",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "입주기업",
+    "사업화"
+   ],
+   "firstSeen": "2026-08-13"
   }
  },
  "sources": [
@@ -14954,15 +14969,17 @@
    "id": "bizinfo",
    "name": "기업마당",
    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200View.do",
-   "status": "ok",
-   "count": 15
+   "status": "fail",
+   "count": 0,
+   "error": "500 Server Error: Internal Server Error for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.bizinfo.go.kr%2Fsii%2Fsiia%2FselectSIIA200View.do"
   },
   {
    "id": "mss",
    "name": "중소벤처기업부",
    "url": "https://www.mss.go.kr/site/smba/ex/bbs/List.do?cbIdx=310",
-   "status": "ok",
-   "count": 10
+   "status": "fail",
+   "count": 0,
+   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.mss.go.kr%2Fsite%2Fsmba%2Fex%2Fbbs%2FList.do%3FcbIdx%3D310"
   },
   {
    "id": "kidp",
@@ -15059,8 +15076,9 @@
    "id": "busan_gosi",
    "name": "부산광역시 고시공고",
    "url": "https://www.busan.go.kr/nbgosi",
-   "status": "ok",
-   "count": 8
+   "status": "fail",
+   "count": 0,
+   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.busan.go.kr%2Fnbgosi%3FcurPage%3D1"
   },
   {
    "id": "bscf",
