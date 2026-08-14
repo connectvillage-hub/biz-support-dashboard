@@ -14462,7 +14462,7 @@
    "source": "busan_gosi",
    "sourceName": "부산광역시 고시공고",
    "title": "부산광역시 지방지적위원회 위원 공개모집 선정결과 공고",
-   "url": "https://www.busan.go.kr/nbgosi/view?sno=79159&gosiGbn=A&curPage=2",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=79159&gosiGbn=A&curPage=3",
    "date": "2026-08-13",
    "deadline": null,
    "region": "부산",
@@ -14476,7 +14476,7 @@
    "source": "busan_gosi",
    "sourceName": "부산광역시 고시공고",
    "title": "제안서 평가위원 후보자 모집공고(제2차 부산시 해양교육 및 해양문화 활성화 지역(진흥) 계획 수립 용역)",
-   "url": "https://www.busan.go.kr/nbgosi/view?sno=79150&gosiGbn=A&curPage=2",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=79150&gosiGbn=A&curPage=3",
    "date": "2026-08-13",
    "deadline": null,
    "region": "부산",
@@ -14961,7 +14961,7 @@
    "source": "busan_gosi",
    "sourceName": "부산광역시 고시공고",
    "title": "2026년 상수도사업본부 업무유공 직원 해외연수 진행업체 모집 공고",
-   "url": "https://www.busan.go.kr/nbgosi/view?sno=79179&gosiGbn=A&curPage=1",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=79179&gosiGbn=A&curPage=2",
    "date": "2026-08-13",
    "deadline": null,
    "region": "부산",
@@ -14975,7 +14975,7 @@
    "source": "busan_gosi",
    "sourceName": "부산광역시 고시공고",
    "title": "2026년 제8회 부산광역시 모집공채 인수제안 공고",
-   "url": "https://www.busan.go.kr/nbgosi/view?sno=79171&gosiGbn=A&curPage=1",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=79171&gosiGbn=A&curPage=2",
    "date": "2026-08-13",
    "deadline": null,
    "region": "부산",
@@ -14989,7 +14989,7 @@
    "source": "busan_gosi",
    "sourceName": "부산광역시 고시공고",
    "title": "제10기 부산광역시 재난관리기금운용심의위원회 여성위원 공개모집 공고",
-   "url": "https://www.busan.go.kr/nbgosi/view?sno=79147&gosiGbn=A&curPage=2",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=79147&gosiGbn=A&curPage=3",
    "date": "2026-08-13",
    "deadline": null,
    "region": "부산",
@@ -15039,6 +15039,34 @@
     "사업화"
    ],
    "firstSeen": "2026-08-14"
+  },
+  "86351d4b1e6d6854": {
+   "id": "86351d4b1e6d6854",
+   "source": "busan_gosi",
+   "sourceName": "부산광역시 고시공고",
+   "title": "2026년 부산 반려동물 사진 공모전 개최 안내 공고",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=79149&gosiGbn=A&curPage=1",
+   "date": "2026-08-14",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-08-14"
+  },
+  "cb672c62ba17e856": {
+   "id": "cb672c62ba17e856",
+   "source": "busan_gosi",
+   "sourceName": "부산광역시 고시공고",
+   "title": "부산시 어린이신문 \"빅(Big)아이도란도란\" 6호 표지 그림 공모 심사 결과 공고",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=79100&gosiGbn=A&curPage=2",
+   "date": "2026-08-14",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-08-14"
   }
  },
  "sources": [
@@ -15063,7 +15091,7 @@
    "url": "https://www.mss.go.kr/site/smba/ex/bbs/List.do?cbIdx=310",
    "status": "fail",
    "count": 0,
-   "error": "520 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.mss.go.kr%2Fsite%2Fsmba%2Fex%2Fbbs%2FList.do%3FcbIdx%3D310"
+   "error": "500 Server Error: Internal Server Error for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.mss.go.kr%2Fsite%2Fsmba%2Fex%2Fbbs%2FList.do%3FcbIdx%3D310"
   },
   {
    "id": "kidp",
@@ -15160,9 +15188,8 @@
    "id": "busan_gosi",
    "name": "부산광역시 고시공고",
    "url": "https://www.busan.go.kr/nbgosi",
-   "status": "fail",
-   "count": 0,
-   "error": "520 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.busan.go.kr%2Fnbgosi%3FcurPage%3D2"
+   "status": "ok",
+   "count": 7
   },
   {
    "id": "bscf",
