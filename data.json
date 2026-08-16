@@ -15281,6 +15281,20 @@
     "기타"
    ],
    "firstSeen": "2026-08-16"
+  },
+  "f5c9d21fac1ae3e5": {
+   "id": "f5c9d21fac1ae3e5",
+   "source": "busan_gosi",
+   "sourceName": "부산광역시 고시공고",
+   "title": "제14회 부산광역시 아름다운 조경상 공모 공고",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=79119&gosiGbn=A&curPage=1",
+   "date": "2026-08-17",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-08-17"
   }
  },
  "sources": [
@@ -15400,9 +15414,8 @@
    "id": "busan_gosi",
    "name": "부산광역시 고시공고",
    "url": "https://www.busan.go.kr/nbgosi",
-   "status": "fail",
-   "count": 0,
-   "error": "408 Client Error: Request Timeout for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.busan.go.kr%2Fnbgosi%3FcurPage%3D1"
+   "status": "ok",
+   "count": 8
   },
   {
    "id": "bscf",
