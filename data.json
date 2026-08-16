@@ -15267,6 +15267,20 @@
     "사업화"
    ],
    "firstSeen": "2026-08-15"
+  },
+  "c8412ae0094f6113": {
+   "id": "c8412ae0094f6113",
+   "source": "kidp",
+   "sourceName": "한국디자인진흥원",
+   "title": "일관된 환경으로 안전을 만든다 - SK하이닉스·SK하이스텍 안전서비스디자인 사례. 커프웍스. 2024~",
+   "url": "https://kidp.or.kr/?menuno=1202",
+   "date": "2026-08-16",
+   "deadline": null,
+   "region": "전국",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-08-16"
   }
  },
  "sources": [
@@ -15379,15 +15393,17 @@
    "id": "bistep",
    "name": "부산산업과학혁신원",
    "url": "https://www.bistep.re.kr/kor/CMS/Board/Board.do?mCode=MN008",
-   "status": "ok",
-   "count": 10
+   "status": "fail",
+   "count": 0,
+   "error": "408 Client Error: Request Timeout for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.bistep.re.kr%2Fkor%2FCMS%2FBoard%2FBoard.do%3FmCode%3DMN008"
   },
   {
    "id": "busan_gosi",
    "name": "부산광역시 고시공고",
    "url": "https://www.busan.go.kr/nbgosi",
-   "status": "ok",
-   "count": 7
+   "status": "fail",
+   "count": 0,
+   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.busan.go.kr%2Fnbgosi%3FcurPage%3D1"
   },
   {
    "id": "bscf",
