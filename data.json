@@ -15045,7 +15045,7 @@
    "source": "busan_gosi",
    "sourceName": "부산광역시 고시공고",
    "title": "부산시 어린이신문 \"빅(Big)아이도란도란\" 6호 표지 그림 공모 심사 결과 공고",
-   "url": "https://www.busan.go.kr/nbgosi/view?sno=79100&gosiGbn=A&curPage=2",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=79100&gosiGbn=A&curPage=3",
    "date": "2026-08-14",
    "deadline": null,
    "region": "부산",
@@ -15550,6 +15550,62 @@
     "사업화"
    ],
    "firstSeen": "2026-08-18"
+  },
+  "8ab38e59a185f69e": {
+   "id": "8ab38e59a185f69e",
+   "source": "dcb",
+   "sourceName": "부산디자인진흥원",
+   "title": "2028 세계디자인수도 부산 브랜드 BI 구축 및 운영체계 수립 용역 입찰 공고",
+   "url": "https://dcb.or.kr/01_news/?mcode=0401010000&mode=2&no=14491&page=1",
+   "date": "2026-08-18",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-08-18"
+  },
+  "3df93fe53c53bfc8": {
+   "id": "3df93fe53c53bfc8",
+   "source": "bipa",
+   "sourceName": "부산정보산업진흥원",
+   "title": "'AI Native 마케터 양성과정 3기' 교육생 모집",
+   "url": "https://bipa.kr/board/business/view?seq=85310",
+   "date": "2026-08-18",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-08-18"
+  },
+  "681d33c1b5145f97": {
+   "id": "681d33c1b5145f97",
+   "source": "busan_gosi",
+   "sourceName": "부산광역시 고시공고",
+   "title": "부산광역시 재정계획심의위원회 위원 공개모집 추가 공고",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=79195&gosiGbn=A&curPage=1",
+   "date": "2026-08-18",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-08-18"
+  },
+  "c9288b766c84f258": {
+   "id": "c9288b766c84f258",
+   "source": "busan_gosi",
+   "sourceName": "부산광역시 고시공고",
+   "title": "수산가공선진화단지(공장시설) 입주기업 모집 공고",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=79201&gosiGbn=A&curPage=1",
+   "date": "2026-06-06",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "입주기업"
+   ],
+   "firstSeen": "2026-08-18"
   }
  },
  "sources": [
@@ -15670,7 +15726,7 @@
    "name": "부산광역시 고시공고",
    "url": "https://www.busan.go.kr/nbgosi",
    "status": "ok",
-   "count": 8
+   "count": 9
   },
   {
    "id": "bscf",
