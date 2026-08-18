@@ -397,20 +397,6 @@
    ],
    "firstSeen": "2026-07-09"
   },
-  "ae3504bf759f565d": {
-   "id": "ae3504bf759f565d",
-   "source": "dcamp",
-   "sourceName": "디캠프(d.camp)",
-   "title": "2026년 디캠프 투자팀 정규직 수시채용",
-   "url": "https://dcamp.kr/news/notice/7323",
-   "date": "2026-04-20",
-   "deadline": null,
-   "region": "전국",
-   "categories": [
-    "투자"
-   ],
-   "firstSeen": "2026-07-09"
-  },
   "f91edd62dabbfaca": {
    "id": "f91edd62dabbfaca",
    "source": "primer",
@@ -15514,7 +15500,7 @@
    "source": "busan_gosi",
    "sourceName": "부산광역시 고시공고",
    "title": "부산광역시 청소년육성위원회 위원 선정결과 공고",
-   "url": "https://www.busan.go.kr/nbgosi/view?sno=79181&gosiGbn=A&curPage=1",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=79181&gosiGbn=A&curPage=2",
    "date": "2026-08-18",
    "deadline": null,
    "region": "부산",
@@ -15528,7 +15514,7 @@
    "source": "busan_gosi",
    "sourceName": "부산광역시 고시공고",
    "title": "2026년 노후경유차 조기폐차 지원사업 공고(2차)",
-   "url": "https://www.busan.go.kr/nbgosi/view?sno=79145&gosiGbn=A&curPage=1",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=79145&gosiGbn=A&curPage=2",
    "date": "2026-08-18",
    "deadline": null,
    "region": "부산",
@@ -16082,7 +16068,7 @@
    "name": "부산광역시 고시공고",
    "url": "https://www.busan.go.kr/nbgosi",
    "status": "ok",
-   "count": 9
+   "count": 7
   },
   {
    "id": "bscf",
