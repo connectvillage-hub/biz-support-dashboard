@@ -14947,7 +14947,7 @@
    "source": "busan_gosi",
    "sourceName": "부산광역시 고시공고",
    "title": "2026년 상수도사업본부 업무유공 직원 해외연수 진행업체 모집 공고",
-   "url": "https://www.busan.go.kr/nbgosi/view?sno=79179&gosiGbn=A&curPage=2",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=79179&gosiGbn=A&curPage=3",
    "date": "2026-08-13",
    "deadline": null,
    "region": "부산",
@@ -15508,6 +15508,48 @@
     "홍보·마케팅"
    ],
    "firstSeen": "2026-08-18"
+  },
+  "069bbd09a5a49836": {
+   "id": "069bbd09a5a49836",
+   "source": "busan_gosi",
+   "sourceName": "부산광역시 고시공고",
+   "title": "부산광역시 청소년육성위원회 위원 선정결과 공고",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=79181&gosiGbn=A&curPage=1",
+   "date": "2026-08-18",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-08-18"
+  },
+  "e2e4eb33c62a5488": {
+   "id": "e2e4eb33c62a5488",
+   "source": "busan_gosi",
+   "sourceName": "부산광역시 고시공고",
+   "title": "2026년 노후경유차 조기폐차 지원사업 공고(2차)",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=79145&gosiGbn=A&curPage=1",
+   "date": "2026-08-18",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-08-18"
+  },
+  "a90ae3fcbd9867aa": {
+   "id": "a90ae3fcbd9867aa",
+   "source": "bscf",
+   "sourceName": "부산문화재단",
+   "title": "지원공모[모집] 2026년 하반기 부산바다도서관 B-북스팟 프로그램 참여 모집",
+   "url": "https://www.bscf.or.kr/view.do?no=1010&pgMode=show&pbancSn=2418",
+   "date": "2026-08-18",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-08-18"
   }
  },
  "sources": [
@@ -15543,9 +15585,8 @@
    "id": "kocca",
    "name": "한국콘텐츠진흥원",
    "url": "https://www.kocca.kr/kocca/pims/list.do?menuNo=20410",
-   "status": "fail",
-   "count": 0,
-   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.kocca.kr%2Fkocca%2Fpims%2Flist.do%3FmenuNo%3D20410"
+   "status": "ok",
+   "count": 10
   },
   {
    "id": "arte",
@@ -15628,16 +15669,15 @@
    "id": "busan_gosi",
    "name": "부산광역시 고시공고",
    "url": "https://www.busan.go.kr/nbgosi",
-   "status": "fail",
-   "count": 0,
-   "error": "520 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.busan.go.kr%2Fnbgosi%3FcurPage%3D1"
+   "status": "ok",
+   "count": 8
   },
   {
    "id": "bscf",
    "name": "부산문화재단",
    "url": "https://www.bscf.or.kr",
    "status": "ok",
-   "count": 12
+   "count": 13
   },
   {
    "id": "dcamp",
