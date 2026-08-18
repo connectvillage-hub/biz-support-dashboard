@@ -15031,7 +15031,7 @@
    "source": "busan_gosi",
    "sourceName": "부산광역시 고시공고",
    "title": "2026년 부산 반려동물 사진 공모전 개최 안내 공고",
-   "url": "https://www.busan.go.kr/nbgosi/view?sno=79149&gosiGbn=A&curPage=2",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=79149&gosiGbn=A&curPage=3",
    "date": "2026-08-14",
    "deadline": null,
    "region": "부산",
@@ -15598,7 +15598,7 @@
    "source": "busan_gosi",
    "sourceName": "부산광역시 고시공고",
    "title": "수산가공선진화단지(공장시설) 입주기업 모집 공고",
-   "url": "https://www.busan.go.kr/nbgosi/view?sno=79201&gosiGbn=A&curPage=1",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=79201&gosiGbn=A&curPage=2",
    "date": "2026-06-06",
    "deadline": null,
    "region": "부산",
@@ -15835,6 +15835,119 @@
     "기타"
    ],
    "firstSeen": "2026-08-18"
+  },
+  "d5e1487d6281478e": {
+   "id": "d5e1487d6281478e",
+   "source": "kstartup",
+   "sourceName": "K스타트업",
+   "title": "2026년 제대군인 창업 경진대회 참가자 모집",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178931",
+   "date": "2026-08-18",
+   "deadline": "2026-09-17",
+   "region": "전국",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-08-18"
+  },
+  "e59722f2eb94b7f6": {
+   "id": "e59722f2eb94b7f6",
+   "source": "kstartup",
+   "sourceName": "K스타트업",
+   "title": "[창업] 창업가를 위한 온라인 판매 실전",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178935",
+   "date": "2026-08-18",
+   "deadline": "2026-09-01",
+   "region": "전국",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-08-18"
+  },
+  "11395db17b93256b": {
+   "id": "11395db17b93256b",
+   "source": "kstartup",
+   "sourceName": "K스타트업",
+   "title": "[창업] 경험을 디자인하는 기획자 양성 과정",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178928",
+   "date": "2026-08-18",
+   "deadline": "2026-08-26",
+   "region": "전국",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-08-18"
+  },
+  "95749892552424d7": {
+   "id": "95749892552424d7",
+   "source": "kstartup",
+   "sourceName": "K스타트업",
+   "title": "크라우드펀딩 플랫폼 등록 희망 여성창업자를 위한 2026 여성창업자 사업화지원금 경진대회",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178926",
+   "date": "2026-08-18",
+   "deadline": "2026-08-25",
+   "region": "전국",
+   "categories": [
+    "투자",
+    "사업화"
+   ],
+   "firstSeen": "2026-08-18"
+  },
+  "4a5838f044e6aeb4": {
+   "id": "4a5838f044e6aeb4",
+   "source": "kstartup",
+   "sourceName": "K스타트업",
+   "title": "[무료/선착순] 대구 피지컬AI & 공공데이터 활용 세미나",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178936",
+   "date": "2026-08-18",
+   "deadline": "2026-09-07",
+   "region": "전국",
+   "categories": [
+    "네트워킹"
+   ],
+   "firstSeen": "2026-08-18"
+  },
+  "1c08261305386cb9": {
+   "id": "1c08261305386cb9",
+   "source": "kstartup",
+   "sourceName": "K스타트업",
+   "title": "광명업사이클아트센터 2026년 하반기 가상오피스 지원기업 모집",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178930",
+   "date": "2026-08-18",
+   "deadline": "2026-09-14",
+   "region": "전국",
+   "categories": [
+    "입주기업"
+   ],
+   "firstSeen": "2026-08-18"
+  },
+  "934275320c67ef8e": {
+   "id": "934275320c67ef8e",
+   "source": "kstartup",
+   "sourceName": "K스타트업",
+   "title": "2026 대구·경북 스타트업 페스티벌 연계 제10회 대구 스타트업 오픈이노베이션 밋업데이(Meet-up) 참여 스타트업 모집",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178934",
+   "date": "2026-08-18",
+   "deadline": "2026-09-01",
+   "region": "전국",
+   "categories": [
+    "네트워킹"
+   ],
+   "firstSeen": "2026-08-18"
+  },
+  "8e228244ffa35439": {
+   "id": "8e228244ffa35439",
+   "source": "kstartup",
+   "sourceName": "K스타트업",
+   "title": "[창업] AI 활용 상세페이지·상품 기획 실습",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178937",
+   "date": "2026-08-18",
+   "deadline": "2026-09-07",
+   "region": "전국",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-08-18"
   }
  },
  "sources": [
@@ -15955,7 +16068,7 @@
    "name": "부산광역시 고시공고",
    "url": "https://www.busan.go.kr/nbgosi",
    "status": "ok",
-   "count": 10
+   "count": 9
   },
   {
    "id": "bscf",
