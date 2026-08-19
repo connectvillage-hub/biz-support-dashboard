@@ -15273,7 +15273,7 @@
    "source": "busan_gosi",
    "sourceName": "부산광역시 고시공고",
    "title": "제14회 부산광역시 아름다운 조경상 공모 공고",
-   "url": "https://www.busan.go.kr/nbgosi/view?sno=79119&gosiGbn=A&curPage=2",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=79119&gosiGbn=A&curPage=3",
    "date": "2026-08-17",
    "deadline": null,
    "region": "부산",
@@ -15514,7 +15514,7 @@
    "source": "busan_gosi",
    "sourceName": "부산광역시 고시공고",
    "title": "2026년 노후경유차 조기폐차 지원사업 공고(2차)",
-   "url": "https://www.busan.go.kr/nbgosi/view?sno=79145&gosiGbn=A&curPage=2",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=79145&gosiGbn=A&curPage=3",
    "date": "2026-08-18",
    "deadline": null,
    "region": "부산",
@@ -15570,7 +15570,7 @@
    "source": "busan_gosi",
    "sourceName": "부산광역시 고시공고",
    "title": "부산광역시 재정계획심의위원회 위원 공개모집 추가 공고",
-   "url": "https://www.busan.go.kr/nbgosi/view?sno=79195&gosiGbn=A&curPage=1",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=79195&gosiGbn=A&curPage=2",
    "date": "2026-08-18",
    "deadline": null,
    "region": "부산",
@@ -15584,7 +15584,7 @@
    "source": "busan_gosi",
    "sourceName": "부산광역시 고시공고",
    "title": "수산가공선진화단지(공장시설) 입주기업 모집 공고",
-   "url": "https://www.busan.go.kr/nbgosi/view?sno=79201&gosiGbn=A&curPage=2",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=79201&gosiGbn=A&curPage=3",
    "date": "2026-06-06",
    "deadline": null,
    "region": "부산",
@@ -15813,7 +15813,7 @@
    "source": "busan_gosi",
    "sourceName": "부산광역시 고시공고",
    "title": "부산광역시 혁신도시발전위원회 위원 공개모집 공고",
-   "url": "https://www.busan.go.kr/nbgosi/view?sno=79198&gosiGbn=A&curPage=1",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=79198&gosiGbn=A&curPage=2",
    "date": "2026-08-18",
    "deadline": null,
    "region": "부산",
@@ -15948,6 +15948,105 @@
     "기타"
    ],
    "firstSeen": "2026-08-18"
+  },
+  "6a509176359705a7": {
+   "id": "6a509176359705a7",
+   "source": "btp",
+   "sourceName": "부산테크노파크",
+   "title": "2026년 전력반도체 산업 육성 종합기술 지원사업 현장전문인력 교육생 모집공고",
+   "url": "https://www.btp.or.kr/kor/CMS/Board/Board.do?mCode=MN013&mode=view&mgr_seq=16&board_seq=9582299",
+   "date": "2026-08-19",
+   "deadline": "2026-09-01",
+   "region": "부산",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-08-19"
+  },
+  "4f4bde53951f1d1b": {
+   "id": "4f4bde53951f1d1b",
+   "source": "btp",
+   "sourceName": "부산테크노파크",
+   "title": "2026년「극한극지 산업용 화합물 반도체 제조 인프라 구축」기업지원팅 모집공고",
+   "url": "https://www.btp.or.kr/kor/CMS/Board/Board.do?mCode=MN013&mode=view&mgr_seq=16&board_seq=9582296",
+   "date": "2026-08-19",
+   "deadline": "2026-10-30",
+   "region": "부산",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-08-19"
+  },
+  "93b5d87a46f8060c": {
+   "id": "93b5d87a46f8060c",
+   "source": "busan_gosi",
+   "sourceName": "부산광역시 고시공고",
+   "title": "2026년 부산 핀테크허브 입주기업 모집공고(3차)",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=79197&gosiGbn=A&curPage=1",
+   "date": "2026-08-19",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "입주기업",
+    "사업화"
+   ],
+   "firstSeen": "2026-08-19"
+  },
+  "e92ad1b26b6bb6d0": {
+   "id": "e92ad1b26b6bb6d0",
+   "source": "busan_gosi",
+   "sourceName": "부산광역시 고시공고",
+   "title": "비콘그라운드 발전협의회 위원 공개모집 공고",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=79136&gosiGbn=A&curPage=1",
+   "date": "2026-08-19",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-08-19"
+  },
+  "b37914cce775ce37": {
+   "id": "b37914cce775ce37",
+   "source": "busan_gosi",
+   "sourceName": "부산광역시 고시공고",
+   "title": "부산광역시교육청 학교 교복 및 체육복 지원 조례 일부개정조례안 입법예고",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=79212&gosiGbn=P&curPage=1",
+   "date": "2026-08-19",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-08-19"
+  },
+  "a6704f67dfd1c1c9": {
+   "id": "a6704f67dfd1c1c9",
+   "source": "busan_gosi",
+   "sourceName": "부산광역시 고시공고",
+   "title": "부산광역시교육청 다자녀가정 학생 교육비 지원에 관한 조례 일부개정조례안 입법예고",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=79211&gosiGbn=P&curPage=2",
+   "date": "2026-08-09",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-08-19"
+  },
+  "2dd63c8c4754278f": {
+   "id": "2dd63c8c4754278f",
+   "source": "busan_gosi",
+   "sourceName": "부산광역시 고시공고",
+   "title": "부산광역시 북극항로 거점도시 조성 및 연관산업 육성 조례안 입법예고",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=79205&gosiGbn=P&curPage=2",
+   "date": "2026-08-08",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-08-19"
   }
  },
  "sources": [
@@ -15962,17 +16061,15 @@
    "id": "bizinfo",
    "name": "기업마당",
    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200View.do",
-   "status": "fail",
-   "count": 0,
-   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.bizinfo.go.kr%2Fsii%2Fsiia%2FselectSIIA200View.do"
+   "status": "ok",
+   "count": 15
   },
   {
    "id": "mss",
    "name": "중소벤처기업부",
    "url": "https://www.mss.go.kr/site/smba/ex/bbs/List.do?cbIdx=310",
-   "status": "fail",
-   "count": 0,
-   "error": "520 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.mss.go.kr%2Fsite%2Fsmba%2Fex%2Fbbs%2FList.do%3FcbIdx%3D310"
+   "status": "ok",
+   "count": 10
   },
   {
    "id": "kidp",
@@ -16069,9 +16166,8 @@
    "id": "busan_gosi",
    "name": "부산광역시 고시공고",
    "url": "https://www.busan.go.kr/nbgosi",
-   "status": "fail",
-   "count": 0,
-   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.busan.go.kr%2Fnbgosi%3FcurPage%3D1"
+   "status": "ok",
+   "count": 11
   },
   {
    "id": "bscf",
