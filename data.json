@@ -12921,7 +12921,7 @@
    "source": "bepa",
    "sourceName": "부산경제진흥원",
    "title": "2026년 「홍보영상 제작 및 온라인 게시지원 」제안서 평가위원(후보자) 등록 신청 공고",
-   "url": "https://www.bepa.kr/kor/view.do?no=1502&idx=19391&view=view&pageIndex=1&sv=&sw=&sdate=&edate=&periodState=all&state=ing&temporary=0&items=소상공인",
+   "url": "https://www.bepa.kr/kor/view.do?no=1502&idx=19391&view=view&pageIndex=1&sv=&sw=&sdate=&edate=&periodState=all&state=end&temporary=0&items=소상공인",
    "date": "2026-08-13",
    "deadline": null,
    "region": "부산",
@@ -16980,6 +16980,20 @@
     "기타"
    ],
    "firstSeen": "2026-08-20"
+  },
+  "434be60635f1692a": {
+   "id": "434be60635f1692a",
+   "source": "busan_gosi",
+   "sourceName": "부산광역시 고시공고",
+   "title": "2026년 지역특화 농업기술 정보화 인력지원사업 기간제근로자 채용 공고",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=79246&gosiGbn=A&curPage=1",
+   "date": "2026-08-21",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-08-21"
   }
  },
  "sources": [
@@ -17100,7 +17114,7 @@
    "name": "부산광역시 고시공고",
    "url": "https://www.busan.go.kr/nbgosi",
    "status": "ok",
-   "count": 4
+   "count": 5
   },
   {
    "id": "bscf",
