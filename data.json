@@ -16852,6 +16852,92 @@
     "기타"
    ],
    "firstSeen": "2026-08-20"
+  },
+  "80ebd47d7a0828d4": {
+   "id": "80ebd47d7a0828d4",
+   "source": "kstartup",
+   "sourceName": "K스타트업",
+   "title": "2026년 부산 핀테크허브 입주기업 모집공고",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178945",
+   "date": "2026-08-20",
+   "deadline": "2026-09-13",
+   "region": "부산",
+   "categories": [
+    "입주기업",
+    "사업화"
+   ],
+   "firstSeen": "2026-08-20"
+  },
+  "e7daf047f9af847c": {
+   "id": "e7daf047f9af847c",
+   "source": "kstartup",
+   "sourceName": "K스타트업",
+   "title": "(~8/25) 2026 SIW 서구 스타트업 스케일업 위크 참가자 모집",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178950",
+   "date": "2026-08-20",
+   "deadline": "2026-08-25",
+   "region": "전국",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-08-20"
+  },
+  "b84e2288de43e419": {
+   "id": "b84e2288de43e419",
+   "source": "kstartup",
+   "sourceName": "K스타트업",
+   "title": "경기창업혁신공간 서부권 「스담스담」(오픈 네트워킹) 2회차",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178940",
+   "date": "2026-08-20",
+   "deadline": "2026-08-25",
+   "region": "전국",
+   "categories": [
+    "네트워킹",
+    "사업화"
+   ],
+   "firstSeen": "2026-08-20"
+  },
+  "6695ff89fbf321b4": {
+   "id": "6695ff89fbf321b4",
+   "source": "kstartup",
+   "sourceName": "K스타트업",
+   "title": "[창업] 고객 경험(CX) 설계 실전",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178956",
+   "date": "2026-08-20",
+   "deadline": "2026-09-23",
+   "region": "전국",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-08-20"
+  },
+  "f057cd76b543bcf4": {
+   "id": "f057cd76b543bcf4",
+   "source": "kstartup",
+   "sourceName": "K스타트업",
+   "title": "「제24차 세계한상대회 스타트업 경연대회-시애틀 진출 연계」 참여기업 모집 공고(AI 분야)",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178954",
+   "date": "2026-08-20",
+   "deadline": "2026-08-26",
+   "region": "전국",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-08-20"
+  },
+  "5495db98494a7f62": {
+   "id": "5495db98494a7f62",
+   "source": "kstartup",
+   "sourceName": "K스타트업",
+   "title": "2026년 Tokyo PMF·GTM 프로그램 창업기업 모집 공고",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178953",
+   "date": "2026-08-20",
+   "deadline": "2026-09-03",
+   "region": "전국",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-08-20"
   }
  },
  "sources": [
@@ -16901,17 +16987,15 @@
    "id": "semas",
    "name": "소상공인시장진흥공단",
    "url": "https://www.semas.or.kr/web/board/webBoardList.kmdc?bCd=1&pNm=BOA0101",
-   "status": "fail",
-   "count": 0,
-   "error": "500 Server Error: Internal Server Error for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.semas.or.kr%2Fweb%2Fboard%2FwebBoardList.kmdc%3FbCd%3D1%26pNm%3DBOA0101"
+   "status": "ok",
+   "count": 10
   },
   {
    "id": "smtech",
    "name": "중소기업 기술개발(SMTECH)",
    "url": "https://www.smtech.go.kr/front/ifg/no/notice02_list.do",
-   "status": "fail",
-   "count": 0,
-   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.smtech.go.kr%2Ffront%2Fifg%2Fno%2Fnotice02_list.do"
+   "status": "ok",
+   "count": 9
   },
   {
    "id": "busanstartup",
