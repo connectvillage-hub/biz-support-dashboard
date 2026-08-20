@@ -3512,8 +3512,8 @@
    "source": "semas",
    "sourceName": "소상공인시장진흥공단",
    "title": "2026년 소상공인 정책자금 융자계획 공고(수정)",
-   "url": "https://www.semas.or.kr/web/board/webBoardView.kmdc?bCd=1&b_idx=55432&pNm=BOA0101",
-   "date": "2026-07-10",
+   "url": "https://www.semas.or.kr/web/board/webBoardView.kmdc?bCd=1&b_idx=55796&pNm=BOA0101",
+   "date": "2026-07-29",
    "deadline": null,
    "region": "전국",
    "categories": [
@@ -15982,7 +15982,7 @@
    "source": "busan_gosi",
    "sourceName": "부산광역시 고시공고",
    "title": "2026년 부산 핀테크허브 입주기업 모집공고(3차)",
-   "url": "https://www.busan.go.kr/nbgosi/view?sno=79197&gosiGbn=A&curPage=2",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=79197&gosiGbn=A&curPage=3",
    "date": "2026-08-19",
    "deadline": null,
    "region": "부산",
@@ -16574,7 +16574,7 @@
    "source": "busan_gosi",
    "sourceName": "부산광역시 고시공고",
    "title": "민생100일 비상조치 관련 취업연수생 긴급 모집 공고",
-   "url": "https://www.busan.go.kr/nbgosi/view?sno=79232&gosiGbn=A&curPage=1",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=79232&gosiGbn=A&curPage=2",
    "date": "2026-08-20",
    "deadline": null,
    "region": "부산",
@@ -16588,7 +16588,7 @@
    "source": "busan_gosi",
    "sourceName": "부산광역시 고시공고",
    "title": "부산오페라하우스 무대막 구매 관련 제안서 평가위원(후보자) 모집 공고",
-   "url": "https://www.busan.go.kr/nbgosi/view?sno=79225&gosiGbn=A&curPage=1",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=79225&gosiGbn=A&curPage=2",
    "date": "2026-08-20",
    "deadline": null,
    "region": "부산",
@@ -16936,6 +16936,48 @@
    "region": "전국",
    "categories": [
     "사업화"
+   ],
+   "firstSeen": "2026-08-20"
+  },
+  "5ceeab66cdf96d3e": {
+   "id": "5ceeab66cdf96d3e",
+   "source": "kstartup",
+   "sourceName": "K스타트업",
+   "title": "「민관협력 오픈이노베이션 지원」2026년 '규제자유특구 지원' 창업기업 모집공고",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178975",
+   "date": "2026-08-20",
+   "deadline": "2026-09-09",
+   "region": "전국",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-08-20"
+  },
+  "a0ad4b732ea7e480": {
+   "id": "a0ad4b732ea7e480",
+   "source": "semas",
+   "sourceName": "소상공인시장진흥공단",
+   "title": "「모두의 창업 프로젝트」통합 모집공고 (2차)",
+   "url": "https://www.semas.or.kr/web/board/webBoardView.kmdc?bCd=1&b_idx=56205&pNm=BOA0101",
+   "date": "2026-08-20",
+   "deadline": null,
+   "region": "전국",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-08-20"
+  },
+  "6b63524dc3cb4a1e": {
+   "id": "6b63524dc3cb4a1e",
+   "source": "busan_gosi",
+   "sourceName": "부산광역시 고시공고",
+   "title": "제8기 다문화가족 참여회의 위촉위원 공개모집 공고",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=79255&gosiGbn=A&curPage=1",
+   "date": "2026-08-20",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "기타"
    ],
    "firstSeen": "2026-08-20"
   }
