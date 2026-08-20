@@ -16512,6 +16512,62 @@
     "기타"
    ],
    "firstSeen": "2026-08-20"
+  },
+  "85e120eaf4de3623": {
+   "id": "85e120eaf4de3623",
+   "source": "kstartup",
+   "sourceName": "K스타트업",
+   "title": "「모두의 창업 프로젝트」통합 모집공고 2차",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178952",
+   "date": "2026-08-20",
+   "deadline": "2026-09-17",
+   "region": "전국",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-08-20"
+  },
+  "f3fdb28424732a97": {
+   "id": "f3fdb28424732a97",
+   "source": "mss",
+   "sourceName": "중소벤처기업부",
+   "title": "모두의 창업 프로젝트 2차 모집 공고",
+   "url": "https://www.mss.go.kr/site/smba/ex/bbs/View.do?cbIdx=310&bcIdx=1070586&parentSeq=1070586",
+   "date": "2026-08-20",
+   "deadline": null,
+   "region": "전국",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-08-20"
+  },
+  "1d427d38cb066dee": {
+   "id": "1d427d38cb066dee",
+   "source": "kidp",
+   "sourceName": "한국디자인진흥원",
+   "title": "산업현장 안전디자인 가이드북 모음 (2021~2025) - 한국디자인진흥원",
+   "url": "https://kidp.or.kr/?menuno=1202",
+   "date": "2026-08-20",
+   "deadline": null,
+   "region": "전국",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-08-20"
+  },
+  "47df156eaca3798b": {
+   "id": "47df156eaca3798b",
+   "source": "btp",
+   "sourceName": "부산테크노파크",
+   "title": "2026년 부산 지역기업 성장사다리 지원사업 기술컨설팅 지원 참여기업 모집 공고",
+   "url": "https://www.btp.or.kr/kor/CMS/Board/Board.do?mCode=MN013&mode=view&mgr_seq=16&board_seq=9582304",
+   "date": "2026-08-20",
+   "deadline": "2026-09-02",
+   "region": "부산",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-08-20"
   }
  },
  "sources": [
@@ -16526,17 +16582,15 @@
    "id": "bizinfo",
    "name": "기업마당",
    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200View.do",
-   "status": "fail",
-   "count": 0,
-   "error": "500 Server Error: Internal Server Error for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.bizinfo.go.kr%2Fsii%2Fsiia%2FselectSIIA200View.do"
+   "status": "ok",
+   "count": 15
   },
   {
    "id": "mss",
    "name": "중소벤처기업부",
    "url": "https://www.mss.go.kr/site/smba/ex/bbs/List.do?cbIdx=310",
-   "status": "fail",
-   "count": 0,
-   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.mss.go.kr%2Fsite%2Fsmba%2Fex%2Fbbs%2FList.do%3FcbIdx%3D310"
+   "status": "ok",
+   "count": 10
   },
   {
    "id": "kidp",
@@ -16565,7 +16619,7 @@
    "url": "https://www.semas.or.kr/web/board/webBoardList.kmdc?bCd=1&pNm=BOA0101",
    "status": "fail",
    "count": 0,
-   "error": "408 Client Error: Request Timeout for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.semas.or.kr%2Fweb%2Fboard%2FwebBoardList.kmdc%3FbCd%3D1%26pNm%3DBOA0101"
+   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.semas.or.kr%2Fweb%2Fboard%2FwebBoardList.kmdc%3FbCd%3D1%26pNm%3DBOA0101"
   },
   {
    "id": "smtech",
@@ -16573,7 +16627,7 @@
    "url": "https://www.smtech.go.kr/front/ifg/no/notice02_list.do",
    "status": "fail",
    "count": 0,
-   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.smtech.go.kr%2Ffront%2Fifg%2Fno%2Fnotice02_list.do"
+   "error": "502 Server Error: Bad Gateway for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.smtech.go.kr%2Ffront%2Fifg%2Fno%2Fnotice02_list.do"
   },
   {
    "id": "busanstartup",
@@ -16637,7 +16691,7 @@
    "url": "https://www.busan.go.kr/nbgosi",
    "status": "fail",
    "count": 0,
-   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.busan.go.kr%2Fnbgosi%3FcurPage%3D1"
+   "error": "500 Server Error: Internal Server Error for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.busan.go.kr%2Fnbgosi%3FcurPage%3D1"
   },
   {
    "id": "bscf",
