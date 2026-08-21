@@ -16972,7 +16972,7 @@
    "source": "busan_gosi",
    "sourceName": "부산광역시 고시공고",
    "title": "제8기 다문화가족 참여회의 위촉위원 공개모집 공고",
-   "url": "https://www.busan.go.kr/nbgosi/view?sno=79255&gosiGbn=A&curPage=2",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=79255&gosiGbn=A&curPage=3",
    "date": "2026-08-20",
    "deadline": null,
    "region": "부산",
@@ -17376,6 +17376,220 @@
     "사업화"
    ],
    "firstSeen": "2026-08-21"
+  },
+  "c6cfe740d2b6d709": {
+   "id": "c6cfe740d2b6d709",
+   "source": "kstartup",
+   "sourceName": "K스타트업",
+   "title": "2026년 크리에이터미디어 콤플렉스 하반기 입주 모집공고(~9/15, 16:00)",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178983",
+   "date": "2026-08-21",
+   "deadline": "2026-09-15",
+   "region": "전국",
+   "categories": [
+    "입주기업",
+    "사업화"
+   ],
+   "firstSeen": "2026-08-21"
+  },
+  "d25267e42c2983e6": {
+   "id": "d25267e42c2983e6",
+   "source": "kstartup",
+   "sourceName": "K스타트업",
+   "title": "제2회 도봉 창업 포럼 (NCI 민.관.학 창업 포럼) : 대전환의 시대, 기술과 사회적 가치가 여는 창업의 새로운 기회(기조강연 : 과학크리에이터 궤도)",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178980",
+   "date": "2026-08-21",
+   "deadline": "2026-09-14",
+   "region": "전국",
+   "categories": [
+    "네트워킹",
+    "사업화"
+   ],
+   "firstSeen": "2026-08-21"
+  },
+  "4a20c4c576741c28": {
+   "id": "4a20c4c576741c28",
+   "source": "kstartup",
+   "sourceName": "K스타트업",
+   "title": "2026년 대한민국 물산업 혁신 창업대전(Startup Water 2026) 참가자(팀) 모집",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178976",
+   "date": "2026-08-21",
+   "deadline": "2026-10-19",
+   "region": "전국",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-08-21"
+  },
+  "2b8a6d236dd15e2d": {
+   "id": "2b8a6d236dd15e2d",
+   "source": "kstartup",
+   "sourceName": "K스타트업",
+   "title": "구로구 청년창업지원센터 일반 창업교육(하반기: 2회차): 스타트업 재무 (feat. 합법적인 절세방안)",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178973",
+   "date": "2026-08-21",
+   "deadline": "2026-09-02",
+   "region": "전국",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-08-21"
+  },
+  "090bea4ac708ca02": {
+   "id": "090bea4ac708ca02",
+   "source": "kstartup",
+   "sourceName": "K스타트업",
+   "title": "2026 인도네시아 자카르타 할랄 식품전시회 지역 수출컨소시엄",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178984",
+   "date": "2026-08-21",
+   "deadline": "2026-09-10",
+   "region": "전국",
+   "categories": [
+    "홍보·마케팅"
+   ],
+   "firstSeen": "2026-08-21"
+  },
+  "7c5fa1521fdc3834": {
+   "id": "7c5fa1521fdc3834",
+   "source": "kstartup",
+   "sourceName": "K스타트업",
+   "title": "서울디자인런 2026 - 사고 싶은 작은 것들: 창작의 가치를 상품으로 바꾸는 안목",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178978",
+   "date": "2026-08-21",
+   "deadline": "2026-08-26",
+   "region": "서울",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-08-21"
+  },
+  "f25f49ce0469bed2": {
+   "id": "f25f49ce0469bed2",
+   "source": "kstartup",
+   "sourceName": "K스타트업",
+   "title": "2026 예비오션스타 기업 모집 공고",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178977",
+   "date": "2026-08-21",
+   "deadline": "2026-09-11",
+   "region": "전국",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-08-21"
+  },
+  "2e06ffa48781f044": {
+   "id": "2e06ffa48781f044",
+   "source": "kstartup",
+   "sourceName": "K스타트업",
+   "title": "모두의 창업 멘토가 알려주는 사업계획서 작성 방법 특강",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178974",
+   "date": "2026-08-21",
+   "deadline": "2026-08-31",
+   "region": "전국",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-08-21"
+  },
+  "690ea94c734b9cc9": {
+   "id": "690ea94c734b9cc9",
+   "source": "kstartup",
+   "sourceName": "K스타트업",
+   "title": "2026년 동아대학교 초기창업패키지 'SAVE the TAX' 프로그램 모집공고",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178970",
+   "date": "2026-08-21",
+   "deadline": "2026-09-03",
+   "region": "전국",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-08-21"
+  },
+  "2078f56947f43754": {
+   "id": "2078f56947f43754",
+   "source": "kstartup",
+   "sourceName": "K스타트업",
+   "title": "2026 경기 고양 MICE 연계 창업리그 참가자 모집 공고",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178972",
+   "date": "2026-08-21",
+   "deadline": "2026-09-01",
+   "region": "전국",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-08-21"
+  },
+  "2c3bc804dc92a56b": {
+   "id": "2c3bc804dc92a56b",
+   "source": "kstartup",
+   "sourceName": "K스타트업",
+   "title": "2026년도 '빅웨이브(BiiG WAVE)' IR 사업 2회차 바이오 특화 IR 참여기업 모집공고",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178966",
+   "date": "2026-08-21",
+   "deadline": "2026-09-02",
+   "region": "전국",
+   "categories": [
+    "투자",
+    "사업화"
+   ],
+   "firstSeen": "2026-08-21"
+  },
+  "0bd62e0c68620e84": {
+   "id": "0bd62e0c68620e84",
+   "source": "kstartup",
+   "sourceName": "K스타트업",
+   "title": "2026 G-Mix 세대융합창업 프로그램 2기",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178776",
+   "date": "2026-08-21",
+   "deadline": "2026-08-21",
+   "region": "전국",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-08-21"
+  },
+  "6553a9cdd23e94ae": {
+   "id": "6553a9cdd23e94ae",
+   "source": "kstartup",
+   "sourceName": "K스타트업",
+   "title": "[차세대융합기술연구원] 2026 제조 스타트업 멘토링 Meet-up Day",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178962",
+   "date": "2026-08-21",
+   "deadline": "2026-09-02",
+   "region": "전국",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-08-21"
+  },
+  "2a20dcc22dcf1e5b": {
+   "id": "2a20dcc22dcf1e5b",
+   "source": "kstartup",
+   "sourceName": "K스타트업",
+   "title": "2026 관악S밸리 성장 지원 세미나 3회",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178961",
+   "date": "2026-08-21",
+   "deadline": "2026-09-02",
+   "region": "전국",
+   "categories": [
+    "네트워킹"
+   ],
+   "firstSeen": "2026-08-21"
+  },
+  "59b47d1ada5e083c": {
+   "id": "59b47d1ada5e083c",
+   "source": "kstartup",
+   "sourceName": "K스타트업",
+   "title": "[2026 시흥시 청년 창업가 육성 프로그램] 준비된 성장, 투자의 모든 것",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178960",
+   "date": "2026-08-21",
+   "deadline": "2026-09-01",
+   "region": "전국",
+   "categories": [
+    "투자",
+    "사업화"
+   ],
+   "firstSeen": "2026-08-21"
   }
  },
  "sources": [
@@ -17496,7 +17710,7 @@
    "name": "부산광역시 고시공고",
    "url": "https://www.busan.go.kr/nbgosi",
    "status": "ok",
-   "count": 6
+   "count": 4
   },
   {
    "id": "bscf",
