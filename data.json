@@ -383,20 +383,6 @@
    ],
    "firstSeen": "2026-07-09"
   },
-  "389ccdd6cfd99e5b": {
-   "id": "389ccdd6cfd99e5b",
-   "source": "dcamp",
-   "sourceName": "디캠프(d.camp)",
-   "title": "2026년 디캠프 일본/미국 사업 PM 수시채용",
-   "url": "https://dcamp.kr/news/notice/7326",
-   "date": "2026-04-23",
-   "deadline": null,
-   "region": "전국",
-   "categories": [
-    "기타"
-   ],
-   "firstSeen": "2026-07-09"
-  },
   "f91edd62dabbfaca": {
    "id": "f91edd62dabbfaca",
    "source": "primer",
@@ -6100,20 +6086,6 @@
    "region": "전국",
    "categories": [
     "사업화"
-   ],
-   "firstSeen": "2026-07-21"
-  },
-  "227363253d520983": {
-   "id": "227363253d520983",
-   "source": "kocca",
-   "sourceName": "한국콘텐츠진흥원",
-   "title": "[수정/상시공고] 2026년 글로벌게임허브센터 신규 입주기업 추가모집(상시) 수정공고",
-   "url": "https://www.kocca.kr/kocca/pims/view.do?intcNo=326D00034004&menuNo=20410&recptSt=&category=&pageIndex=1&search=&searchWrd=",
-   "date": "2026-04-23",
-   "deadline": "2026-12-31",
-   "region": "전국",
-   "categories": [
-    "입주기업"
    ],
    "firstSeen": "2026-07-21"
   },
@@ -12452,7 +12424,7 @@
    "source": "bepa",
    "sourceName": "부산경제진흥원",
    "title": "현장 라이브커머스 운영 지원 입찰 공고",
-   "url": "https://www.bepa.kr/kor/view.do?no=1502&idx=19384&view=view&pageIndex=1&sv=&sw=&sdate=&edate=&periodState=all&state=ing&temporary=0&items=소상공인",
+   "url": "https://www.bepa.kr/kor/view.do?no=1502&idx=19384&view=view&pageIndex=1&sv=&sw=&sdate=&edate=&periodState=all&state=end&temporary=0&items=소상공인",
    "date": "2026-08-06",
    "deadline": null,
    "region": "부산",
@@ -12935,7 +12907,7 @@
    "source": "bepa",
    "sourceName": "부산경제진흥원",
    "title": "2026년 「홍보영상 제작 및 온라인 게시지원 」입찰 공고",
-   "url": "https://www.bepa.kr/kor/view.do?no=1502&idx=19390&view=view&pageIndex=1&sv=&sw=&sdate=&edate=&periodState=all&state=ing&temporary=0&items=소상공인",
+   "url": "https://www.bepa.kr/kor/view.do?no=1502&idx=19390&view=view&pageIndex=1&sv=&sw=&sdate=&edate=&periodState=all&state=end&temporary=0&items=소상공인",
    "date": "2026-08-10",
    "deadline": null,
    "region": "부산",
@@ -17590,6 +17562,20 @@
     "사업화"
    ],
    "firstSeen": "2026-08-21"
+  },
+  "31630db5b6eca263": {
+   "id": "31630db5b6eca263",
+   "source": "kstartup",
+   "sourceName": "K스타트업",
+   "title": "2026년도 딥테크 특화 창업중심대학 추천형 창업기업 모집공고",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178985",
+   "date": "2026-08-21",
+   "deadline": "2026-09-04",
+   "region": "전국",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-08-22"
   }
  },
  "sources": [
@@ -17702,9 +17688,8 @@
    "id": "bistep",
    "name": "부산산업과학혁신원",
    "url": "https://www.bistep.re.kr/kor/CMS/Board/Board.do?mCode=MN008",
-   "status": "fail",
-   "count": 0,
-   "error": "502 Server Error: Bad Gateway for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.bistep.re.kr%2Fkor%2FCMS%2FBoard%2FBoard.do%3FmCode%3DMN008"
+   "status": "ok",
+   "count": 10
   },
   {
    "id": "busan_gosi",
@@ -17712,7 +17697,7 @@
    "url": "https://www.busan.go.kr/nbgosi",
    "status": "fail",
    "count": 0,
-   "error": "408 Client Error: Request Timeout for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.busan.go.kr%2Fnbgosi%3FcurPage%3D1"
+   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.busan.go.kr%2Fnbgosi%3FcurPage%3D1"
   },
   {
    "id": "bscf",
