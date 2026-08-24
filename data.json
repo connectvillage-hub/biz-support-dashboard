@@ -17562,6 +17562,76 @@
     "사업화"
    ],
    "firstSeen": "2026-08-22"
+  },
+  "48bfedec46ef0941": {
+   "id": "48bfedec46ef0941",
+   "source": "kidp",
+   "sourceName": "한국디자인진흥원",
+   "title": "2026년 제61회 대한민국디자인전람회 3차 심사 공개 안내",
+   "url": "https://kidp.or.kr/?menuno=1202",
+   "date": "2026-08-24",
+   "deadline": null,
+   "region": "전국",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-08-24"
+  },
+  "b12f0900742df5d0": {
+   "id": "b12f0900742df5d0",
+   "source": "kocca",
+   "sourceName": "한국콘텐츠진흥원",
+   "title": "2026 ATF 한국공동관 애니메이션 참가기업 모집",
+   "url": "https://www.kocca.kr/kocca/pims/view.do?intcNo=326D00037013&menuNo=20410&recptSt=&category=&pageIndex=1&search=&searchWrd=",
+   "date": "2026-08-24",
+   "deadline": "2026-09-08",
+   "region": "전국",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-08-24"
+  },
+  "88b5586231f1cba6": {
+   "id": "88b5586231f1cba6",
+   "source": "btp",
+   "sourceName": "부산테크노파크",
+   "title": "신발산업진흥센터 입주기업 상시 모집 공고",
+   "url": "https://www.btp.or.kr/kor/CMS/Board/Board.do?mCode=MN013&mode=view&mgr_seq=16&board_seq=9582309",
+   "date": "2026-08-24",
+   "deadline": "2026-12-11",
+   "region": "부산",
+   "categories": [
+    "입주기업"
+   ],
+   "firstSeen": "2026-08-24"
+  },
+  "806f002f386c9423": {
+   "id": "806f002f386c9423",
+   "source": "busan_gosi",
+   "sourceName": "부산광역시 고시공고",
+   "title": "2027년 부산시보건환경연구원 연구과제 공모",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=79243&gosiGbn=A&curPage=1",
+   "date": "2026-08-24",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-08-24"
+  },
+  "1f98290edadeed5c": {
+   "id": "1f98290edadeed5c",
+   "source": "bscf",
+   "sourceName": "부산문화재단",
+   "title": "지원공모[마감] 부산항 개항 150주년 기념 해양문화",
+   "url": "https://www.bscf.or.kr/view.do?no=1010&pgMode=show&pbancSn=2422",
+   "date": "2026-08-24",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-08-24"
   }
  },
  "sources": [
@@ -17576,17 +17646,15 @@
    "id": "bizinfo",
    "name": "기업마당",
    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200View.do",
-   "status": "fail",
-   "count": 0,
-   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.bizinfo.go.kr%2Fsii%2Fsiia%2FselectSIIA200View.do"
+   "status": "ok",
+   "count": 15
   },
   {
    "id": "mss",
    "name": "중소벤처기업부",
    "url": "https://www.mss.go.kr/site/smba/ex/bbs/List.do?cbIdx=310",
-   "status": "fail",
-   "count": 0,
-   "error": "408 Client Error: Request Timeout for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.mss.go.kr%2Fsite%2Fsmba%2Fex%2Fbbs%2FList.do%3FcbIdx%3D310"
+   "status": "ok",
+   "count": 10
   },
   {
    "id": "kidp",
@@ -17599,9 +17667,8 @@
    "id": "kocca",
    "name": "한국콘텐츠진흥원",
    "url": "https://www.kocca.kr/kocca/pims/list.do?menuNo=20410",
-   "status": "fail",
-   "count": 0,
-   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.kocca.kr%2Fkocca%2Fpims%2Flist.do%3FmenuNo%3D20410"
+   "status": "ok",
+   "count": 9
   },
   {
    "id": "arte",
@@ -17614,17 +17681,15 @@
    "id": "semas",
    "name": "소상공인시장진흥공단",
    "url": "https://www.semas.or.kr/web/board/webBoardList.kmdc?bCd=1&pNm=BOA0101",
-   "status": "fail",
-   "count": 0,
-   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.semas.or.kr%2Fweb%2Fboard%2FwebBoardList.kmdc%3FbCd%3D1%26pNm%3DBOA0101"
+   "status": "ok",
+   "count": 10
   },
   {
    "id": "smtech",
    "name": "중소기업 기술개발(SMTECH)",
    "url": "https://www.smtech.go.kr/front/ifg/no/notice02_list.do",
-   "status": "fail",
-   "count": 0,
-   "error": "408 Client Error: Request Timeout for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.smtech.go.kr%2Ffront%2Fifg%2Fno%2Fnotice02_list.do"
+   "status": "ok",
+   "count": 9
   },
   {
    "id": "busanstartup",
@@ -17686,16 +17751,15 @@
    "id": "busan_gosi",
    "name": "부산광역시 고시공고",
    "url": "https://www.busan.go.kr/nbgosi",
-   "status": "fail",
-   "count": 0,
-   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.busan.go.kr%2Fnbgosi%3FcurPage%3D1"
+   "status": "ok",
+   "count": 5
   },
   {
    "id": "bscf",
    "name": "부산문화재단",
    "url": "https://www.bscf.or.kr",
    "status": "ok",
-   "count": 13
+   "count": 14
   },
   {
    "id": "dcamp",
