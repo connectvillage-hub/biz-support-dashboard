@@ -5076,9 +5076,9 @@
    "source": "kstartup",
    "sourceName": "K스타트업",
    "title": "2026년 한국외대 창업보육센터 입주기업 모집 공고",
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178533",
-   "date": "2026-07-16",
-   "deadline": "2026-07-26",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179002",
+   "date": "2026-08-24",
+   "deadline": "2026-09-30",
    "region": "전국",
    "categories": [
     "입주기업",
@@ -18116,6 +18116,21 @@
     "사업화"
    ],
    "firstSeen": "2026-08-24"
+  },
+  "b5f497793d547863": {
+   "id": "b5f497793d547863",
+   "source": "busan_gosi",
+   "sourceName": "부산광역시 고시공고",
+   "title": "모집 취소 공고 안내[부산 핀테크허브 입주기업 모집공고(3차)]",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=79285&gosiGbn=A&curPage=1",
+   "date": "2026-08-24",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "입주기업",
+    "사업화"
+   ],
+   "firstSeen": "2026-08-24"
   }
  },
  "sources": [
@@ -18236,7 +18251,7 @@
    "name": "부산광역시 고시공고",
    "url": "https://www.busan.go.kr/nbgosi",
    "status": "ok",
-   "count": 6
+   "count": 7
   },
   {
    "id": "bscf",
