@@ -17689,6 +17689,48 @@
     "사업화"
    ],
    "firstSeen": "2026-08-24"
+  },
+  "ef9ad5c4efa00548": {
+   "id": "ef9ad5c4efa00548",
+   "source": "kidp",
+   "sourceName": "한국디자인진흥원",
+   "title": "2026 GOOD DESIGN KOREA(우수디자인상품선정) 국민참여심사 안내",
+   "url": "https://kidp.or.kr/?menuno=1202",
+   "date": "2026-08-24",
+   "deadline": null,
+   "region": "전국",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-08-24"
+  },
+  "bb24e49aabea6745": {
+   "id": "bb24e49aabea6745",
+   "source": "dcb",
+   "sourceName": "부산디자인진흥원",
+   "title": "2026 청년디자이너-소상공인 협업 디자인 프로젝트 선정결과",
+   "url": "https://dcb.or.kr/01_news/?mcode=0401010000&mode=2&no=14501&page=1",
+   "date": "2026-08-24",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-08-24"
+  },
+  "1e7a2c52f375bf94": {
+   "id": "1e7a2c52f375bf94",
+   "source": "bscf",
+   "sourceName": "부산문화재단",
+   "title": "지원공모[공고] 2026년 4/4분기 부산공연예술연습공간 정기대관 신청 공고",
+   "url": "https://www.bscf.or.kr/view.do?no=1010&pgMode=show&pbancSn=2423",
+   "date": "2026-08-24",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-08-24"
   }
  },
  "sources": [
@@ -17810,16 +17852,15 @@
    "id": "busan_gosi",
    "name": "부산광역시 고시공고",
    "url": "https://www.busan.go.kr/nbgosi",
-   "status": "fail",
-   "count": 0,
-   "error": "408 Client Error: Request Timeout for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.busan.go.kr%2Fnbgosi%3FcurPage%3D1"
+   "status": "ok",
+   "count": 5
   },
   {
    "id": "bscf",
    "name": "부산문화재단",
    "url": "https://www.bscf.or.kr",
    "status": "ok",
-   "count": 14
+   "count": 15
   },
   {
    "id": "dcamp",
