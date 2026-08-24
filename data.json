@@ -17632,6 +17632,49 @@
     "사업화"
    ],
    "firstSeen": "2026-08-24"
+  },
+  "b5229b0db4fc0f75": {
+   "id": "b5229b0db4fc0f75",
+   "source": "mss",
+   "sourceName": "중소벤처기업부",
+   "title": "2026년 납품대금 연동 우수기업 포상 모집 공고",
+   "url": "https://www.mss.go.kr/site/smba/ex/bbs/View.do?cbIdx=310&bcIdx=1070675&parentSeq=1070675",
+   "date": "2026-08-24",
+   "deadline": null,
+   "region": "전국",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-08-24"
+  },
+  "d75a843854633002": {
+   "id": "d75a843854633002",
+   "source": "bepa",
+   "sourceName": "부산경제진흥원",
+   "title": "[희망아카데미] 캔바 AI를 활용한 우리 가게 홍보 콘텐츠 제작 교육생 모집",
+   "url": "https://www.bepa.kr/kor/view.do?no=1502&idx=19439&view=view&pageIndex=1&sv=&sw=&sdate=&edate=&periodState=all&state=ing&temporary=0&items=소상공인",
+   "date": "2026-08-24",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "홍보·마케팅"
+   ],
+   "firstSeen": "2026-08-24"
+  },
+  "33f5a74b3ddb19a3": {
+   "id": "33f5a74b3ddb19a3",
+   "source": "bipa",
+   "sourceName": "부산정보산업진흥원",
+   "title": "「국제게임전시회 지스타 2026」 BTB 부산공동관 참가기업 모집 연장 공고",
+   "url": "https://bipa.kr/board/business/view?seq=85316",
+   "date": "2026-08-24",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "홍보·마케팅",
+    "사업화"
+   ],
+   "firstSeen": "2026-08-24"
   }
  },
  "sources": [
