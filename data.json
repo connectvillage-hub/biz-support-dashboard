@@ -18108,7 +18108,7 @@
    "source": "busan_gosi",
    "sourceName": "부산광역시 고시공고",
    "title": "2026년 청렴 부산 숏폼 영상 공모전 공개검증",
-   "url": "https://www.busan.go.kr/nbgosi/view?sno=79277&gosiGbn=A&curPage=1",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=79277&gosiGbn=A&curPage=2",
    "date": "2026-08-24",
    "deadline": null,
    "region": "부산",
@@ -18480,6 +18480,20 @@
    "region": "부산",
    "categories": [
     "홍보·마케팅"
+   ],
+   "firstSeen": "2026-08-25"
+  },
+  "0208a4c7a6ed60bc": {
+   "id": "0208a4c7a6ed60bc",
+   "source": "kidp",
+   "sourceName": "한국디자인진흥원",
+   "title": "한국디자인진흥원 지원, 안전디자인 적용 기업 목록 (2021~2025)",
+   "url": "https://kidp.or.kr/?menuno=1202",
+   "date": "2026-08-25",
+   "deadline": null,
+   "region": "전국",
+   "categories": [
+    "기타"
    ],
    "firstSeen": "2026-08-25"
   }
