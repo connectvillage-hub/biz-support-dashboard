@@ -17056,7 +17056,7 @@
    "source": "busan_gosi",
    "sourceName": "부산광역시 고시공고",
    "title": "노동자종합복지관 관리운영 수탁기관 공개모집 공고",
-   "url": "https://www.busan.go.kr/nbgosi/view?sno=79257&gosiGbn=A&curPage=2",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=79257&gosiGbn=A&curPage=3",
    "date": "2026-08-21",
    "deadline": null,
    "region": "부산",
@@ -18187,6 +18187,48 @@
     "사업화"
    ],
    "firstSeen": "2026-08-25"
+  },
+  "126ea8107502c023": {
+   "id": "126ea8107502c023",
+   "source": "kidp",
+   "sourceName": "한국디자인진흥원",
+   "title": "한국디자인진흥원 GOOD DESIGN KOREA 2026 224건 선정 80개 수상 후보 대상 대국민 참여 심사 착수",
+   "url": "https://kidp.or.kr/?menuno=1202",
+   "date": "2026-08-25",
+   "deadline": null,
+   "region": "전국",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-08-25"
+  },
+  "aafa29de9fb43ec7": {
+   "id": "aafa29de9fb43ec7",
+   "source": "busan_gosi",
+   "sourceName": "부산광역시 고시공고",
+   "title": "D-Space(BIFC 63층) 6차 입주기관 모집 공고",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=79290&gosiGbn=A&curPage=1",
+   "date": "2026-08-25",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "입주기업"
+   ],
+   "firstSeen": "2026-08-25"
+  },
+  "6bbfdce8173f49f6": {
+   "id": "6bbfdce8173f49f6",
+   "source": "busan_gosi",
+   "sourceName": "부산광역시 고시공고",
+   "title": "제11기 고리원자력안전협의회 위촉 위원 공개모집 공모",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=79279&gosiGbn=A&curPage=1",
+   "date": "2026-08-25",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-08-25"
   }
  },
  "sources": [
@@ -18201,17 +18243,15 @@
    "id": "bizinfo",
    "name": "기업마당",
    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200View.do",
-   "status": "fail",
-   "count": 0,
-   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.bizinfo.go.kr%2Fsii%2Fsiia%2FselectSIIA200View.do"
+   "status": "ok",
+   "count": 15
   },
   {
    "id": "mss",
    "name": "중소벤처기업부",
    "url": "https://www.mss.go.kr/site/smba/ex/bbs/List.do?cbIdx=310",
-   "status": "fail",
-   "count": 0,
-   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.mss.go.kr%2Fsite%2Fsmba%2Fex%2Fbbs%2FList.do%3FcbIdx%3D310"
+   "status": "ok",
+   "count": 10
   },
   {
    "id": "kidp",
@@ -18308,9 +18348,8 @@
    "id": "busan_gosi",
    "name": "부산광역시 고시공고",
    "url": "https://www.busan.go.kr/nbgosi",
-   "status": "fail",
-   "count": 0,
-   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.busan.go.kr%2Fnbgosi%3FcurPage%3D1"
+   "status": "ok",
+   "count": 7
   },
   {
    "id": "bscf",
