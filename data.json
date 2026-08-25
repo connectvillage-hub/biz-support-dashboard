@@ -9731,7 +9731,7 @@
    "sourceName": "중소기업 기술개발(SMTECH)",
    "title": "2026년 중소기업 연구인력지원사업(파견) 7월 공고",
    "url": "https://www.smtech.go.kr/front/ifg/no/notice02_detail.do?buclYy=&ancmId=S02847&buclCd=S6041&dtlAncmSn=6&schdSe=MO5005&aplySn=1&searchCondition=&searchKeyword=&pageIndex=1",
-   "date": "2026-08-01",
+   "date": "2026-09-01",
    "deadline": "2026-07-31",
    "region": "전국",
    "categories": [
@@ -10539,7 +10539,7 @@
    "sourceName": "중소기업 기술개발(SMTECH)",
    "title": "2026년 중소기업 연구인력지원사업(파견) 8월 공고",
    "url": "https://www.smtech.go.kr/front/ifg/no/notice02_detail.do?buclYy=&ancmId=S02847&buclCd=S6041&dtlAncmSn=7&schdSe=MO5005&aplySn=1&searchCondition=&searchKeyword=&pageIndex=1",
-   "date": "2026-08-01",
+   "date": "2026-09-01",
    "deadline": "2026-08-31",
    "region": "전국",
    "categories": [
@@ -18243,15 +18243,17 @@
    "id": "bizinfo",
    "name": "기업마당",
    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200View.do",
-   "status": "ok",
-   "count": 15
+   "status": "fail",
+   "count": 0,
+   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.bizinfo.go.kr%2Fsii%2Fsiia%2FselectSIIA200View.do"
   },
   {
    "id": "mss",
    "name": "중소벤처기업부",
    "url": "https://www.mss.go.kr/site/smba/ex/bbs/List.do?cbIdx=310",
-   "status": "ok",
-   "count": 10
+   "status": "fail",
+   "count": 0,
+   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.mss.go.kr%2Fsite%2Fsmba%2Fex%2Fbbs%2FList.do%3FcbIdx%3D310"
   },
   {
    "id": "kidp",
@@ -18348,8 +18350,9 @@
    "id": "busan_gosi",
    "name": "부산광역시 고시공고",
    "url": "https://www.busan.go.kr/nbgosi",
-   "status": "ok",
-   "count": 7
+   "status": "fail",
+   "count": 0,
+   "error": "502 Server Error: Bad Gateway for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.busan.go.kr%2Fnbgosi%3FcurPage%3D1"
   },
   {
    "id": "bscf",
