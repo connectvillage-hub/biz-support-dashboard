@@ -369,20 +369,6 @@
    ],
    "firstSeen": "2026-07-09"
   },
-  "50a638cd413fa125": {
-   "id": "50a638cd413fa125",
-   "source": "dcamp",
-   "sourceName": "디캠프(d.camp)",
-   "title": "『디캠프 공간 전략 수립 및 브랜딩』 입찰 공고 (공고문 수정본 재첨부)",
-   "url": "https://dcamp.kr/news/notice/7327",
-   "date": "2026-04-27",
-   "deadline": null,
-   "region": "전국",
-   "categories": [
-    "홍보·마케팅"
-   ],
-   "firstSeen": "2026-07-09"
-  },
   "f91edd62dabbfaca": {
    "id": "f91edd62dabbfaca",
    "source": "primer",
@@ -17610,7 +17596,7 @@
    "source": "busan_gosi",
    "sourceName": "부산광역시 고시공고",
    "title": "2027년 부산시보건환경연구원 연구과제 공모",
-   "url": "https://www.busan.go.kr/nbgosi/view?sno=79243&gosiGbn=A&curPage=2",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=79243&gosiGbn=A&curPage=3",
    "date": "2026-08-24",
    "deadline": null,
    "region": "부산",
@@ -18108,7 +18094,7 @@
    "source": "busan_gosi",
    "sourceName": "부산광역시 고시공고",
    "title": "2026년 청렴 부산 숏폼 영상 공모전 공개검증",
-   "url": "https://www.busan.go.kr/nbgosi/view?sno=79277&gosiGbn=A&curPage=2",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=79277&gosiGbn=A&curPage=3",
    "date": "2026-08-24",
    "deadline": null,
    "region": "부산",
@@ -18122,7 +18108,7 @@
    "source": "busan_gosi",
    "sourceName": "부산광역시 고시공고",
    "title": "모집 취소 공고 안내[부산 핀테크허브 입주기업 모집공고(3차)]",
-   "url": "https://www.busan.go.kr/nbgosi/view?sno=79285&gosiGbn=A&curPage=2",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=79285&gosiGbn=A&curPage=3",
    "date": "2026-08-24",
    "deadline": null,
    "region": "부산",
@@ -18137,7 +18123,7 @@
    "source": "busan_gosi",
    "sourceName": "부산광역시 고시공고",
    "title": "부산광역시 지방시대위원회 위원 공개모집 공고",
-   "url": "https://www.busan.go.kr/nbgosi/view?sno=79283&gosiGbn=A&curPage=1",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=79283&gosiGbn=A&curPage=2",
    "date": "2026-08-25",
    "deadline": null,
    "region": "부산",
@@ -18207,7 +18193,7 @@
    "source": "busan_gosi",
    "sourceName": "부산광역시 고시공고",
    "title": "D-Space(BIFC 63층) 6차 입주기관 모집 공고",
-   "url": "https://www.busan.go.kr/nbgosi/view?sno=79290&gosiGbn=A&curPage=1",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=79290&gosiGbn=A&curPage=2",
    "date": "2026-08-25",
    "deadline": null,
    "region": "부산",
@@ -18221,7 +18207,7 @@
    "source": "busan_gosi",
    "sourceName": "부산광역시 고시공고",
    "title": "제11기 고리원자력안전협의회 위촉 위원 공개모집 공모",
-   "url": "https://www.busan.go.kr/nbgosi/view?sno=79279&gosiGbn=A&curPage=1",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=79279&gosiGbn=A&curPage=2",
    "date": "2026-08-25",
    "deadline": null,
    "region": "부산",
@@ -18496,6 +18482,21 @@
     "기타"
    ],
    "firstSeen": "2026-08-25"
+  },
+  "9fab2011e1dd03f9": {
+   "id": "9fab2011e1dd03f9",
+   "source": "kstartup",
+   "sourceName": "K스타트업",
+   "title": "2026년 초기창업패키지 네이버클라우드 오픈이노베이션 밋업 참가기업 모집공고",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178994",
+   "date": "2026-08-24",
+   "deadline": "2026-09-11",
+   "region": "전국",
+   "categories": [
+    "네트워킹",
+    "사업화"
+   ],
+   "firstSeen": "2026-08-26"
   }
  },
  "sources": [
