@@ -18145,6 +18145,48 @@
     "기타"
    ],
    "firstSeen": "2026-08-25"
+  },
+  "86b9eeac23340526": {
+   "id": "86b9eeac23340526",
+   "source": "semas",
+   "sourceName": "소상공인시장진흥공단",
+   "title": "「2026년 해외 온라인 플랫폼 물류지원 」소상공인 모집공고",
+   "url": "https://www.semas.or.kr/web/board/webBoardView.kmdc?bCd=1&b_idx=56284&pNm=BOA0101",
+   "date": "2026-08-24",
+   "deadline": null,
+   "region": "전국",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-08-25"
+  },
+  "9775c642aa441549": {
+   "id": "9775c642aa441549",
+   "source": "btp",
+   "sourceName": "부산테크노파크",
+   "title": "글로벌 원전 실무 인재 양성을 위한 해외 산업시찰 및 현장교육 참여기업 모집 공고(2차)",
+   "url": "https://www.btp.or.kr/kor/CMS/Board/Board.do?mCode=MN013&mode=view&mgr_seq=16&board_seq=9582324",
+   "date": "2026-08-25",
+   "deadline": "2026-08-31",
+   "region": "부산",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-08-25"
+  },
+  "85f0bca410527b1f": {
+   "id": "85f0bca410527b1f",
+   "source": "btp",
+   "sourceName": "부산테크노파크",
+   "title": "2026년「극한극지 산업용 화합물 반도체 제조 인프라 구축」기업지원 모집공고",
+   "url": "https://www.btp.or.kr/kor/CMS/Board/Board.do?mCode=MN013&mode=view&mgr_seq=16&board_seq=9582296",
+   "date": "2026-08-19",
+   "deadline": "2026-10-30",
+   "region": "부산",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-08-25"
   }
  },
  "sources": [
@@ -18159,15 +18201,17 @@
    "id": "bizinfo",
    "name": "기업마당",
    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200View.do",
-   "status": "ok",
-   "count": 15
+   "status": "fail",
+   "count": 0,
+   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.bizinfo.go.kr%2Fsii%2Fsiia%2FselectSIIA200View.do"
   },
   {
    "id": "mss",
    "name": "중소벤처기업부",
    "url": "https://www.mss.go.kr/site/smba/ex/bbs/List.do?cbIdx=310",
-   "status": "ok",
-   "count": 10
+   "status": "fail",
+   "count": 0,
+   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.mss.go.kr%2Fsite%2Fsmba%2Fex%2Fbbs%2FList.do%3FcbIdx%3D310"
   },
   {
    "id": "kidp",
@@ -18266,7 +18310,7 @@
    "url": "https://www.busan.go.kr/nbgosi",
    "status": "fail",
    "count": 0,
-   "error": "520 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.busan.go.kr%2Fnbgosi%3FcurPage%3D1"
+   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.busan.go.kr%2Fnbgosi%3FcurPage%3D1"
   },
   {
    "id": "bscf",
