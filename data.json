@@ -19012,6 +19012,20 @@
     "사업화"
    ],
    "firstSeen": "2026-08-26"
+  },
+  "1c619ea4c835b5cc": {
+   "id": "1c619ea4c835b5cc",
+   "source": "btp",
+   "sourceName": "부산테크노파크",
+   "title": "2028년 초광역프로젝트(R&D) 기술수요조사 공고",
+   "url": "https://www.btp.or.kr/kor/CMS/Board/Board.do?mCode=MN013&mode=view&mgr_seq=16&board_seq=9582333",
+   "date": "2026-08-26",
+   "deadline": "2026-09-04",
+   "region": "부산",
+   "categories": [
+    "R&D"
+   ],
+   "firstSeen": "2026-08-26"
   }
  },
  "sources": [
