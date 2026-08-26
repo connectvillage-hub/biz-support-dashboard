@@ -18123,7 +18123,7 @@
    "source": "busan_gosi",
    "sourceName": "부산광역시 고시공고",
    "title": "부산광역시 지방시대위원회 위원 공개모집 공고",
-   "url": "https://www.busan.go.kr/nbgosi/view?sno=79283&gosiGbn=A&curPage=2",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=79283&gosiGbn=A&curPage=3",
    "date": "2026-08-25",
    "deadline": null,
    "region": "부산",
@@ -18193,7 +18193,7 @@
    "source": "busan_gosi",
    "sourceName": "부산광역시 고시공고",
    "title": "D-Space(BIFC 63층) 6차 입주기관 모집 공고",
-   "url": "https://www.busan.go.kr/nbgosi/view?sno=79290&gosiGbn=A&curPage=2",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=79290&gosiGbn=A&curPage=3",
    "date": "2026-08-25",
    "deadline": null,
    "region": "부산",
@@ -18207,7 +18207,7 @@
    "source": "busan_gosi",
    "sourceName": "부산광역시 고시공고",
    "title": "제11기 고리원자력안전협의회 위촉 위원 공개모집 공모",
-   "url": "https://www.busan.go.kr/nbgosi/view?sno=79279&gosiGbn=A&curPage=2",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=79279&gosiGbn=A&curPage=3",
    "date": "2026-08-25",
    "deadline": null,
    "region": "부산",
@@ -18497,6 +18497,50 @@
     "사업화"
    ],
    "firstSeen": "2026-08-26"
+  },
+  "c196cb000cd1d2cb": {
+   "id": "c196cb000cd1d2cb",
+   "source": "kocca",
+   "sourceName": "한국콘텐츠진흥원",
+   "title": "K-브랜드 홍보·판촉 마켓 참가기업 모집 추가공고",
+   "url": "https://www.kocca.kr/kocca/pims/view.do?intcNo=326D00088010&menuNo=20410&recptSt=&category=&pageIndex=1&search=&searchWrd=",
+   "date": "2026-08-26",
+   "deadline": "2026-09-07",
+   "region": "전국",
+   "categories": [
+    "홍보·마케팅",
+    "사업화"
+   ],
+   "firstSeen": "2026-08-26"
+  },
+  "c1849b2bf3d0b6cd": {
+   "id": "c1849b2bf3d0b6cd",
+   "source": "btp",
+   "sourceName": "부산테크노파크",
+   "title": "2026년 부산 수출 스타기업 점프업 지원사업 진입기업 추가모집공고",
+   "url": "https://www.btp.or.kr/kor/CMS/Board/Board.do?mCode=MN013&mode=view&mgr_seq=16&board_seq=9582325",
+   "date": "2026-08-26",
+   "deadline": "2026-09-03",
+   "region": "부산",
+   "categories": [
+    "홍보·마케팅",
+    "사업화"
+   ],
+   "firstSeen": "2026-08-26"
+  },
+  "5f3a7eac6ddde8a0": {
+   "id": "5f3a7eac6ddde8a0",
+   "source": "bepa",
+   "sourceName": "부산경제진흥원",
+   "title": "「전통시장 소비진작 환급(온누리상품권)지원 행사 운영 용역」제안서 평가위원(후보자) 등록 신청 공고",
+   "url": "https://www.bepa.kr/kor/view.do?no=1502&idx=19453&view=view&pageIndex=1&sv=&sw=&sdate=&edate=&periodState=all&state=ing&temporary=0&items=소상공인",
+   "date": "2026-08-26",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-08-26"
   }
  },
  "sources": [
@@ -18533,7 +18577,7 @@
    "name": "한국콘텐츠진흥원",
    "url": "https://www.kocca.kr/kocca/pims/list.do?menuNo=20410",
    "status": "ok",
-   "count": 9
+   "count": 10
   },
   {
    "id": "arte",
@@ -18616,9 +18660,8 @@
    "id": "busan_gosi",
    "name": "부산광역시 고시공고",
    "url": "https://www.busan.go.kr/nbgosi",
-   "status": "fail",
-   "count": 0,
-   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.busan.go.kr%2Fnbgosi%3FcurPage%3D1"
+   "status": "ok",
+   "count": 3
   },
   {
    "id": "bscf",
