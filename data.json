@@ -18555,6 +18555,20 @@
     "사업화"
    ],
    "firstSeen": "2026-08-26"
+  },
+  "c00815a41bd50fd6": {
+   "id": "c00815a41bd50fd6",
+   "source": "busan_gosi",
+   "sourceName": "부산광역시 고시공고",
+   "title": "제19회 부산-후쿠오카 포럼 개최 지원 보조사업자 모집 공고",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=79316&gosiGbn=A&curPage=1",
+   "date": "2026-08-26",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "네트워킹"
+   ],
+   "firstSeen": "2026-08-26"
   }
  },
  "sources": [
