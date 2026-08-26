@@ -10774,20 +10774,6 @@
    ],
    "firstSeen": "2026-08-03"
   },
-  "93875c06cce90ef8": {
-   "id": "93875c06cce90ef8",
-   "source": "sparklabs",
-   "sourceName": "스파크랩",
-   "title": "스파크랩, 1인 AI 네이티브 창업 지원 프로그램 ‘스파크클로’ 론칭",
-   "url": "https://sparklabs.co.kr/kr/bbs/link.php?bo_table=news&wr_id=79&no=1",
-   "date": "2026-04-28",
-   "deadline": null,
-   "region": "전국",
-   "categories": [
-    "사업화"
-   ],
-   "firstSeen": "2026-08-03"
-  },
   "b0cd7a9c252b267f": {
    "id": "b0cd7a9c252b267f",
    "source": "bizinfo",
@@ -12837,7 +12823,7 @@
    "source": "bepa",
    "sourceName": "부산경제진흥원",
    "title": "『찾아가는 배민아카데미 부산편』 수강생 모집 안내",
-   "url": "https://www.bepa.kr/kor/view.do?no=1502&idx=19394&view=view&pageIndex=1&sv=&sw=&sdate=&edate=&periodState=all&state=ing&temporary=0&items=소상공인",
+   "url": "https://www.bepa.kr/kor/view.do?no=1502&idx=19394&view=view&pageIndex=1&sv=&sw=&sdate=&edate=&periodState=all&state=end&temporary=0&items=소상공인",
    "date": "2026-08-10",
    "deadline": null,
    "region": "부산",
@@ -19147,7 +19133,7 @@
    "url": "https://www.busan.go.kr/nbgosi",
    "status": "fail",
    "count": 0,
-   "error": "520 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.busan.go.kr%2Fnbgosi%3FcurPage%3D1"
+   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.busan.go.kr%2Fnbgosi%3FcurPage%3D1"
   },
   {
    "id": "bscf",
