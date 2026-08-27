@@ -11021,7 +11021,7 @@
    "source": "busan_gosi",
    "sourceName": "부산광역시 고시공고",
    "title": "2026년 지역특화형 비자 사업(지역특화형 우수인재) 3차 모집 공고(수정)",
-   "url": "https://www.busan.go.kr/nbgosi/view?sno=79034&gosiGbn=A&curPage=3",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=79318&gosiGbn=A&curPage=1",
    "date": "2026-08-03",
    "deadline": null,
    "region": "부산",
@@ -16406,8 +16406,8 @@
    "source": "busan_gosi",
    "sourceName": "부산광역시 고시공고",
    "title": "2026년 지역특화 농업기술 정보화 인력지원사업 기간제노동자 서류전형 합격자 및 면접일정 공고",
-   "url": "https://www.busan.go.kr/nbgosi/view?sno=79210&gosiGbn=A&curPage=3",
-   "date": "2026-12-20",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=79334&gosiGbn=A&curPage=1",
+   "date": "2026-08-19",
    "deadline": null,
    "region": "부산",
    "categories": [
@@ -18547,7 +18547,7 @@
    "source": "busan_gosi",
    "sourceName": "부산광역시 고시공고",
    "title": "제19회 부산-후쿠오카 포럼 개최 지원 보조사업자 모집 공고",
-   "url": "https://www.busan.go.kr/nbgosi/view?sno=79316&gosiGbn=A&curPage=1",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=79316&gosiGbn=A&curPage=2",
    "date": "2026-08-26",
    "deadline": null,
    "region": "부산",
@@ -19012,6 +19012,118 @@
     "R&D"
    ],
    "firstSeen": "2026-08-26"
+  },
+  "440a9fd67ef9b4a6": {
+   "id": "440a9fd67ef9b4a6",
+   "source": "dcb",
+   "sourceName": "부산디자인진흥원",
+   "title": "대학생 연계 굿즈(상품) 디자인 개발 및 전시 지원 사업 대학생(팀) 모집",
+   "url": "https://dcb.or.kr/01_news/?mcode=0401010000&mode=2&no=14505&page=1",
+   "date": "2026-08-27",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-08-27"
+  },
+  "7f8392f89e10a3f3": {
+   "id": "7f8392f89e10a3f3",
+   "source": "btp",
+   "sourceName": "부산테크노파크",
+   "title": "지역원자력산업 기반 에너지기술공유대학 기업지원 모집 공고(2차)",
+   "url": "https://www.btp.or.kr/kor/CMS/Board/Board.do?mCode=MN013&mode=view&mgr_seq=16&board_seq=9582334",
+   "date": "2026-08-27",
+   "deadline": "2026-09-09",
+   "region": "부산",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-08-27"
+  },
+  "b24bdd622a9a2120": {
+   "id": "b24bdd622a9a2120",
+   "source": "btp",
+   "sourceName": "부산테크노파크",
+   "title": "2026년「부산 블록체인 허브」입주기업 7차 통합 모집 공고",
+   "url": "https://www.btp.or.kr/kor/CMS/Board/Board.do?mCode=MN013&mode=view&mgr_seq=16&board_seq=9582330",
+   "date": "2026-08-27",
+   "deadline": "2026-09-17",
+   "region": "부산",
+   "categories": [
+    "입주기업"
+   ],
+   "firstSeen": "2026-08-27"
+  },
+  "e3ebe6d8dbd10fe9": {
+   "id": "e3ebe6d8dbd10fe9",
+   "source": "bepa",
+   "sourceName": "부산경제진흥원",
+   "title": "「전통시장 소비진작 환급(온누리상품권)지원 행사 운영 용역 」입찰 공고",
+   "url": "https://www.bepa.kr/kor/view.do?no=1502&idx=19458&view=view&pageIndex=1&sv=&sw=&sdate=&edate=&periodState=all&state=ing&temporary=0&items=소상공인",
+   "date": "2026-08-27",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-08-27"
+  },
+  "b7c223218a93b9d6": {
+   "id": "b7c223218a93b9d6",
+   "source": "bepa",
+   "sourceName": "부산경제진흥원",
+   "title": "2026 중장년 소상공인 디지털 전환 교육 교육생 모집 공고",
+   "url": "https://www.bepa.kr/kor/view.do?no=1502&idx=19457&view=view&pageIndex=1&sv=&sw=&sdate=&edate=&periodState=all&state=ing&temporary=0&items=소상공인",
+   "date": "2026-08-27",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-08-27"
+  },
+  "21884fbc5b4077d4": {
+   "id": "21884fbc5b4077d4",
+   "source": "bipa",
+   "sourceName": "부산정보산업진흥원",
+   "title": "2026 부산콘텐츠아카데미 실무자 AI활용 교육 2회차 교육생 모집",
+   "url": "https://bipa.kr/board/business/view?seq=85324",
+   "date": "2026-08-27",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-08-27"
+  },
+  "0087b112f4162dff": {
+   "id": "0087b112f4162dff",
+   "source": "bipa",
+   "sourceName": "부산정보산업진흥원",
+   "title": "2026 부산디지털로케이션 AI 숏폼(무빙툰) 공모전",
+   "url": "https://bipa.kr/board/business/view?seq=85323",
+   "date": "2026-08-27",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-08-27"
+  },
+  "5ae07e8b72f24cb7": {
+   "id": "5ae07e8b72f24cb7",
+   "source": "bipa",
+   "sourceName": "부산정보산업진흥원",
+   "title": "2026년 게임콘텐츠 멀티부스팅 지원사업(3차) 모집 공고",
+   "url": "https://bipa.kr/board/business/view?seq=85320",
+   "date": "2026-08-27",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-08-27"
   }
  },
  "sources": [
@@ -19132,7 +19244,7 @@
    "name": "부산광역시 고시공고",
    "url": "https://www.busan.go.kr/nbgosi",
    "status": "ok",
-   "count": 1
+   "count": 3
   },
   {
    "id": "bscf",
