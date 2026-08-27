@@ -16406,7 +16406,7 @@
    "source": "busan_gosi",
    "sourceName": "부산광역시 고시공고",
    "title": "2026년 지역특화 농업기술 정보화 인력지원사업 기간제노동자 서류전형 합격자 및 면접일정 공고",
-   "url": "https://www.busan.go.kr/nbgosi/view?sno=79334&gosiGbn=A&curPage=1",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=79334&gosiGbn=A&curPage=2",
    "date": "2026-08-19",
    "deadline": null,
    "region": "부산",
@@ -19124,6 +19124,450 @@
     "사업화"
    ],
    "firstSeen": "2026-08-27"
+  },
+  "288540c1941b8543": {
+   "id": "288540c1941b8543",
+   "source": "kstartup",
+   "sourceName": "K스타트업",
+   "title": "2026년 민간 산림복지 창업 아카데미[1차] 참가자 모집",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179045",
+   "date": "2026-08-27",
+   "deadline": "2026-09-10",
+   "region": "전국",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-08-28"
+  },
+  "e4552ccb6b2c5549": {
+   "id": "e4552ccb6b2c5549",
+   "source": "kstartup",
+   "sourceName": "K스타트업",
+   "title": "2026 서울 오픈이노베이션 인사이트 데이",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179028",
+   "date": "2026-08-27",
+   "deadline": "2026-09-09",
+   "region": "서울",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-08-28"
+  },
+  "20df6ae7c951f5f9": {
+   "id": "20df6ae7c951f5f9",
+   "source": "kstartup",
+   "sourceName": "K스타트업",
+   "title": "2026년도 한국도로공사 청년 AI 스타트업 지원 시범사업",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179035",
+   "date": "2026-08-27",
+   "deadline": "2026-09-30",
+   "region": "전국",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-08-28"
+  },
+  "66896ee4e5251880": {
+   "id": "66896ee4e5251880",
+   "source": "kstartup",
+   "sourceName": "K스타트업",
+   "title": "코리아 핀테크 위크 2026 「핀테크 스타트업 1:1 투자 밋업」 참여기업 모집",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179012",
+   "date": "2026-08-27",
+   "deadline": "2026-10-26",
+   "region": "전국",
+   "categories": [
+    "투자",
+    "네트워킹",
+    "사업화"
+   ],
+   "firstSeen": "2026-08-28"
+  },
+  "238b327102213013": {
+   "id": "238b327102213013",
+   "source": "kstartup",
+   "sourceName": "K스타트업",
+   "title": "2026년 대구 콘텐츠 스케일업 액셀러레이팅 프로그램 지원사업 참여기업 추가 모집 공고",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179039",
+   "date": "2026-08-27",
+   "deadline": "2026-09-10",
+   "region": "전국",
+   "categories": [
+    "투자",
+    "사업화"
+   ],
+   "firstSeen": "2026-08-28"
+  },
+  "5a5763dfdb236a94": {
+   "id": "5a5763dfdb236a94",
+   "source": "kstartup",
+   "sourceName": "K스타트업",
+   "title": "중앙대-금천구 창업 협력공간(혁신지원거점센터) 입주자 모집 공고",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179040",
+   "date": "2026-08-27",
+   "deadline": "2026-09-13",
+   "region": "전국",
+   "categories": [
+    "입주기업",
+    "사업화"
+   ],
+   "firstSeen": "2026-08-28"
+  },
+  "885a94edaae39ac1": {
+   "id": "885a94edaae39ac1",
+   "source": "kstartup",
+   "sourceName": "K스타트업",
+   "title": "중앙대-금천구 창업 협력공간(창업교육스튜디오) 입주자 모집 공고",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179042",
+   "date": "2026-08-27",
+   "deadline": "2026-09-13",
+   "region": "전국",
+   "categories": [
+    "입주기업",
+    "사업화"
+   ],
+   "firstSeen": "2026-08-28"
+  },
+  "f44edb3b766c8e50": {
+   "id": "f44edb3b766c8e50",
+   "source": "kstartup",
+   "sourceName": "K스타트업",
+   "title": "[숭실대학교 캠퍼스타운] 2026 석·박사급 실험실 창업스쿨(유형2) 참여자 모집",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179054",
+   "date": "2026-08-27",
+   "deadline": "2026-10-07",
+   "region": "전국",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-08-28"
+  },
+  "00ffa2bd9ec1ea8c": {
+   "id": "00ffa2bd9ec1ea8c",
+   "source": "kstartup",
+   "sourceName": "K스타트업",
+   "title": "2026년 대전 스타트업스쿨 스타트업 리딩클래스 (4회차 ㅣ 스타트업 IR & 투자유치 마스터클래스)",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179046",
+   "date": "2026-08-27",
+   "deadline": "2026-09-07",
+   "region": "전국",
+   "categories": [
+    "투자"
+   ],
+   "firstSeen": "2026-08-28"
+  },
+  "2228b9e0f2d8c3e0": {
+   "id": "2228b9e0f2d8c3e0",
+   "source": "kstartup",
+   "sourceName": "K스타트업",
+   "title": "[서초창업스테이션] 서리풀 소상공인 창업 클리닉(9월) - 소상공인 1:1 컨설팅",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179048",
+   "date": "2026-08-27",
+   "deadline": "2026-09-28",
+   "region": "전국",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-08-28"
+  },
+  "4544fd2407c692c8": {
+   "id": "4544fd2407c692c8",
+   "source": "kstartup",
+   "sourceName": "K스타트업",
+   "title": "2026 강원랜드 상생형 창업·벤처기업 지원사업",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179044",
+   "date": "2026-08-27",
+   "deadline": "2026-09-08",
+   "region": "전국",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-08-28"
+  },
+  "41595f327149cd0d": {
+   "id": "41595f327149cd0d",
+   "source": "kstartup",
+   "sourceName": "K스타트업",
+   "title": "2026년 9월 동네창업학교 교육생 모집 공고",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179050",
+   "date": "2026-08-27",
+   "deadline": "2026-09-14",
+   "region": "전국",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-08-28"
+  },
+  "46d1aa097a424c4d": {
+   "id": "46d1aa097a424c4d",
+   "source": "kstartup",
+   "sourceName": "K스타트업",
+   "title": "KAC 한국공항공사 항공산업분야 창업 인큐베이팅 프로그램",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179023",
+   "date": "2026-08-27",
+   "deadline": "2026-09-07",
+   "region": "전국",
+   "categories": [
+    "입주기업",
+    "사업화"
+   ],
+   "firstSeen": "2026-08-28"
+  },
+  "692bd4b30a38153c": {
+   "id": "692bd4b30a38153c",
+   "source": "kstartup",
+   "sourceName": "K스타트업",
+   "title": "[서울여자대학교 창업보육센터] 신규 입주기업 모집 공고",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179056",
+   "date": "2026-08-27",
+   "deadline": "2026-09-09",
+   "region": "서울",
+   "categories": [
+    "입주기업",
+    "사업화"
+   ],
+   "firstSeen": "2026-08-28"
+  },
+  "44855f799569366e": {
+   "id": "44855f799569366e",
+   "source": "bizinfo",
+   "sourceName": "기업마당",
+   "title": "2026년 1차 K-브랜드 정부인증제도 참여기업 모집 공고",
+   "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000125892",
+   "date": "2026-08-27",
+   "deadline": "2026-09-11",
+   "region": "전국",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-08-28"
+  },
+  "e4740e166601483b": {
+   "id": "e4740e166601483b",
+   "source": "bizinfo",
+   "sourceName": "기업마당",
+   "title": "[부산] 2026년 수출 스타기업 점프업 지원사업 진입기업 추가모집 공고",
+   "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000125891",
+   "date": "2026-08-27",
+   "deadline": "2026-09-03",
+   "region": "부산",
+   "categories": [
+    "홍보·마케팅",
+    "사업화"
+   ],
+   "firstSeen": "2026-08-28"
+  },
+  "185b18df751c31e8": {
+   "id": "185b18df751c31e8",
+   "source": "bizinfo",
+   "sourceName": "기업마당",
+   "title": "[울산] 2026년 소상공인 온라인 판로ㆍ마케팅 지원 사업 공고",
+   "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000125890",
+   "date": "2026-08-27",
+   "deadline": null,
+   "region": "울산",
+   "categories": [
+    "홍보·마케팅"
+   ],
+   "firstSeen": "2026-08-28"
+  },
+  "560bd7eddb42fbf2": {
+   "id": "560bd7eddb42fbf2",
+   "source": "bizinfo",
+   "sourceName": "기업마당",
+   "title": "테크패션 시제품ㆍ기술지도(컨설팅) 기술지원 및 고도화 지원사업 프로그램(기술지도 추가모집) 공고",
+   "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000125889",
+   "date": "2026-08-27",
+   "deadline": "2026-09-11",
+   "region": "전국",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-08-28"
+  },
+  "e90c718ff0c81a05": {
+   "id": "e90c718ff0c81a05",
+   "source": "bizinfo",
+   "sourceName": "기업마당",
+   "title": "[전남광주] 2026년 AI융합 지능형 농업 생태계 구축 인공지능 기술 고도화(신뢰성평가) 지원사업 추가 모집 공고",
+   "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000125888",
+   "date": "2026-08-27",
+   "deadline": null,
+   "region": "전국",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-08-28"
+  },
+  "da8f06905a367970": {
+   "id": "da8f06905a367970",
+   "source": "bizinfo",
+   "sourceName": "기업마당",
+   "title": "2026년 중소기업 기술거래 기반조성사업 시행계획 수정 공고",
+   "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000125887",
+   "date": "2026-08-27",
+   "deadline": null,
+   "region": "전국",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-08-28"
+  },
+  "095a23861d4bd82c": {
+   "id": "095a23861d4bd82c",
+   "source": "bizinfo",
+   "sourceName": "기업마당",
+   "title": "[경북] 안동시 2026년 중소기업 근로자 기숙사 임차비 지원사업 참여기업 추가모집 공고",
+   "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000125886",
+   "date": "2026-08-27",
+   "deadline": "2026-09-11",
+   "region": "전국",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-08-28"
+  },
+  "7294a5315d8f3a30": {
+   "id": "7294a5315d8f3a30",
+   "source": "bizinfo",
+   "sourceName": "기업마당",
+   "title": "[서울] 2026년 홍콩 코스모프로프 미용 전시회(Cosmoprof Asia 2026) 참가기업 모집 공고",
+   "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000125885",
+   "date": "2026-08-27",
+   "deadline": "2026-09-10",
+   "region": "서울",
+   "categories": [
+    "홍보·마케팅",
+    "사업화"
+   ],
+   "firstSeen": "2026-08-28"
+  },
+  "776111aca4b4767a": {
+   "id": "776111aca4b4767a",
+   "source": "bizinfo",
+   "sourceName": "기업마당",
+   "title": "2026년 하반기 우수발명품 우선구매 추천사업 기간연장 공고",
+   "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000125884",
+   "date": "2026-08-27",
+   "deadline": "2026-09-22",
+   "region": "전국",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-08-28"
+  },
+  "e0ae12c5e34ca871": {
+   "id": "e0ae12c5e34ca871",
+   "source": "bizinfo",
+   "sourceName": "기업마당",
+   "title": "2026년 하반기 우수발명품 우선구매 추천사업 규격추가 공고",
+   "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000125882",
+   "date": "2026-08-27",
+   "deadline": "2026-09-22",
+   "region": "전국",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-08-28"
+  },
+  "cfcbe1fd0bf45d89": {
+   "id": "cfcbe1fd0bf45d89",
+   "source": "bizinfo",
+   "sourceName": "기업마당",
+   "title": "[대전] 2026년 독일 뒤셀도르프 의료기기 전시회(MEDICA) 단체참가 참여기업 추가모집 공고",
+   "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000125881",
+   "date": "2026-08-27",
+   "deadline": null,
+   "region": "전국",
+   "categories": [
+    "홍보·마케팅",
+    "사업화"
+   ],
+   "firstSeen": "2026-08-28"
+  },
+  "e8fdef6be417dab4": {
+   "id": "e8fdef6be417dab4",
+   "source": "bizinfo",
+   "sourceName": "기업마당",
+   "title": "2026년 2차 스마트상점 기술보급사업 참여 소상공인 모집 공고(구입형ㆍ렌탈형ㆍS/W형)",
+   "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000125880",
+   "date": "2026-08-27",
+   "deadline": "2026-09-30",
+   "region": "전국",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-08-28"
+  },
+  "de6b93bef9e83615": {
+   "id": "de6b93bef9e83615",
+   "source": "bizinfo",
+   "sourceName": "기업마당",
+   "title": "2026년 하반기 우수발명품 우선구매 추천사업 신규지정 공고",
+   "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000125879",
+   "date": "2026-08-27",
+   "deadline": "2026-09-22",
+   "region": "전국",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-08-28"
+  },
+  "cef29bc7bf6ddad9": {
+   "id": "cef29bc7bf6ddad9",
+   "source": "bizinfo",
+   "sourceName": "기업마당",
+   "title": "[제주] 제주시 2026년 지역연고자원을 활용한 치유산업 육성 및 활성화 지원사업 기술고도화 컨설팅 지원 수혜기업 모집 공고(시군구연고산업육성사업)",
+   "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000125878",
+   "date": "2026-08-27",
+   "deadline": "2026-09-30",
+   "region": "전국",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-08-28"
+  },
+  "853433558250ea6a": {
+   "id": "853433558250ea6a",
+   "source": "bizinfo",
+   "sourceName": "기업마당",
+   "title": "2026년 3차 정보보호제품 성능평가 지원 공모 사업 공고",
+   "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000125877",
+   "date": "2026-08-27",
+   "deadline": "2026-09-16",
+   "region": "전국",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-08-28"
+  },
+  "3481c49ab007b561": {
+   "id": "3481c49ab007b561",
+   "source": "kidp",
+   "sourceName": "한국디자인진흥원",
+   "title": "2026 더 편한일터 편의시설 자가진단지 - 한국장애인고용공단. 2026",
+   "url": "https://kidp.or.kr/?menuno=1202",
+   "date": "2026-08-27",
+   "deadline": null,
+   "region": "전국",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-08-28"
+  },
+  "f3c0fca8b97adaf5": {
+   "id": "f3c0fca8b97adaf5",
+   "source": "busan_gosi",
+   "sourceName": "부산광역시 고시공고",
+   "title": "「부산오페라하우스 건축물 미술작품 제작 및 설치 공모」 선정 결과 공고",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=79335&gosiGbn=A&curPage=1",
+   "date": "2026-08-28",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-08-28"
   }
  },
  "sources": [
@@ -19244,7 +19688,7 @@
    "name": "부산광역시 고시공고",
    "url": "https://www.busan.go.kr/nbgosi",
    "status": "ok",
-   "count": 3
+   "count": 4
   },
   {
    "id": "bscf",
