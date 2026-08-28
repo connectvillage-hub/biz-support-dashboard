@@ -19568,6 +19568,62 @@
     "사업화"
    ],
    "firstSeen": "2026-08-28"
+  },
+  "846a2d723a6dd970": {
+   "id": "846a2d723a6dd970",
+   "source": "btp",
+   "sourceName": "부산테크노파크",
+   "title": "2025 급경사지-산사태 안전산업 진흥시설 구축 사업 「급경사지-산사태 안전 산업 분야 기술닥터제」 참여기업 모집 공고",
+   "url": "https://www.btp.or.kr/kor/CMS/Board/Board.do?mCode=MN013&mode=view&mgr_seq=16&board_seq=9582354",
+   "date": "2026-08-28",
+   "deadline": "2026-09-14",
+   "region": "부산",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-08-28"
+  },
+  "4b1e81ee8b9dc333": {
+   "id": "4b1e81ee8b9dc333",
+   "source": "bepa",
+   "sourceName": "부산경제진흥원",
+   "title": "「 2026년 현장 라이브커머스 운영」입찰 제안서 평가위원(후보자)등록 신청 공고",
+   "url": "https://www.bepa.kr/kor/view.do?no=1502&idx=19462&view=view&pageIndex=1&sv=&sw=&sdate=&edate=&periodState=all&state=ing&temporary=0&items=소상공인",
+   "date": "2026-08-28",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "홍보·마케팅"
+   ],
+   "firstSeen": "2026-08-28"
+  },
+  "2705dbd915fe3489": {
+   "id": "2705dbd915fe3489",
+   "source": "bepa",
+   "sourceName": "부산경제진흥원",
+   "title": "「 2026년 현장 라이브커머스 운영」용역 입찰 공고",
+   "url": "https://www.bepa.kr/kor/view.do?no=1502&idx=19461&view=view&pageIndex=1&sv=&sw=&sdate=&edate=&periodState=all&state=ing&temporary=0&items=소상공인",
+   "date": "2026-08-28",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "홍보·마케팅"
+   ],
+   "firstSeen": "2026-08-28"
+  },
+  "318af7f95e01dd13": {
+   "id": "318af7f95e01dd13",
+   "source": "bscf",
+   "sourceName": "부산문화재단",
+   "title": "지원공모[공고] 2026년 청년예술가 국제교류(댄스) 참여예술가 모집",
+   "url": "https://www.bscf.or.kr/view.do?no=1010&pgMode=show&pbancSn=2427",
+   "date": "2026-08-28",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-08-28"
   }
  },
  "sources": [
@@ -19687,15 +19743,16 @@
    "id": "busan_gosi",
    "name": "부산광역시 고시공고",
    "url": "https://www.busan.go.kr/nbgosi",
-   "status": "ok",
-   "count": 4
+   "status": "fail",
+   "count": 0,
+   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.busan.go.kr%2Fnbgosi%3FcurPage%3D1"
   },
   {
    "id": "bscf",
    "name": "부산문화재단",
    "url": "https://www.bscf.or.kr",
    "status": "ok",
-   "count": 16
+   "count": 17
   },
   {
    "id": "dcamp",
