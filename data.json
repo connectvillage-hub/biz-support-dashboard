@@ -11021,7 +11021,7 @@
    "source": "busan_gosi",
    "sourceName": "부산광역시 고시공고",
    "title": "2026년 지역특화형 비자 사업(지역특화형 우수인재) 3차 모집 공고(수정)",
-   "url": "https://www.busan.go.kr/nbgosi/view?sno=79318&gosiGbn=A&curPage=2",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=79318&gosiGbn=A&curPage=3",
    "date": "2026-08-03",
    "deadline": null,
    "region": "부산",
@@ -19560,7 +19560,7 @@
    "source": "busan_gosi",
    "sourceName": "부산광역시 고시공고",
    "title": "「부산오페라하우스 건축물 미술작품 제작 및 설치 공모」 선정 결과 공고",
-   "url": "https://www.busan.go.kr/nbgosi/view?sno=79335&gosiGbn=A&curPage=1",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=79335&gosiGbn=A&curPage=2",
    "date": "2026-08-28",
    "deadline": null,
    "region": "부산",
@@ -20070,7 +20070,7 @@
    "source": "busan_gosi",
    "sourceName": "부산광역시 고시공고",
    "title": "부산광역시 지적재조사위원회 위원 공개모집 선정결과 공고",
-   "url": "https://www.busan.go.kr/nbgosi/view?sno=79353&gosiGbn=A&curPage=1",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=79353&gosiGbn=A&curPage=2",
    "date": "2026-08-29",
    "deadline": null,
    "region": "부산",
@@ -20084,7 +20084,7 @@
    "source": "busan_gosi",
    "sourceName": "부산광역시 고시공고",
    "title": "부산시 어린이신문 \"빅(Big)아이 도란도란\" 7호 표지 그림 공모",
-   "url": "https://www.busan.go.kr/nbgosi/view?sno=79280&gosiGbn=A&curPage=1",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=79280&gosiGbn=A&curPage=3",
    "date": "2026-08-29",
    "deadline": null,
    "region": "부산",
@@ -20362,6 +20362,273 @@
     "사업화"
    ],
    "firstSeen": "2026-08-31"
+  },
+  "278a10b88d74665a": {
+   "id": "278a10b88d74665a",
+   "source": "bizinfo",
+   "sourceName": "기업마당",
+   "title": "[전남광주] 진도군 2026년 외국인 근로자 숙소 지원사업 신청자 추가 모집 공고",
+   "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000125991",
+   "date": "2026-08-31",
+   "deadline": "2026-09-10",
+   "region": "전국",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-09-01"
+  },
+  "c846d3c5f10d4a19": {
+   "id": "c846d3c5f10d4a19",
+   "source": "bizinfo",
+   "sourceName": "기업마당",
+   "title": "[전남광주] 장성군 2026년 하반기 소상공인 지원사업 공고",
+   "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000125990",
+   "date": "2026-08-31",
+   "deadline": "2026-09-04",
+   "region": "전국",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-09-01"
+  },
+  "0eea7c418e7364c2": {
+   "id": "0eea7c418e7364c2",
+   "source": "bizinfo",
+   "sourceName": "기업마당",
+   "title": "[전남광주] 함평군 2026년 음식점 입식테이블 및 경사로 설치 지원사업 신청 공고",
+   "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000125989",
+   "date": "2026-08-31",
+   "deadline": "2026-09-02",
+   "region": "전국",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-09-01"
+  },
+  "80076e28389bc706": {
+   "id": "80076e28389bc706",
+   "source": "bizinfo",
+   "sourceName": "기업마당",
+   "title": "[전남광주] 강진군 2026년 4차 음식점 주방시설 및 냉ㆍ난방기 청소 지원사업 모집 공고",
+   "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000125988",
+   "date": "2026-08-31",
+   "deadline": "2026-09-04",
+   "region": "전국",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-09-01"
+  },
+  "08663a09d9012db0": {
+   "id": "08663a09d9012db0",
+   "source": "bizinfo",
+   "sourceName": "기업마당",
+   "title": "[전남광주] 고흥군 2026년 2차 소상공인 디지털 전환 지원사업 신청ㆍ접수 공고",
+   "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000125987",
+   "date": "2026-08-31",
+   "deadline": "2026-09-18",
+   "region": "전국",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-09-01"
+  },
+  "684cf77b14f5b4e5": {
+   "id": "684cf77b14f5b4e5",
+   "source": "bizinfo",
+   "sourceName": "기업마당",
+   "title": "[전남광주] 고흥군 2026년 영세 소상공인 임대료 지원사업 공고",
+   "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000125986",
+   "date": "2026-08-31",
+   "deadline": "2026-09-18",
+   "region": "전국",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-09-01"
+  },
+  "76200834439e9d05": {
+   "id": "76200834439e9d05",
+   "source": "bizinfo",
+   "sourceName": "기업마당",
+   "title": "[전남광주] 고흥군 2026년 소상공인 희망플러스 지원사업 공고",
+   "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000125985",
+   "date": "2026-08-31",
+   "deadline": "2026-09-18",
+   "region": "전국",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-09-01"
+  },
+  "708d7edc0d81d0ae": {
+   "id": "708d7edc0d81d0ae",
+   "source": "bizinfo",
+   "sourceName": "기업마당",
+   "title": "[전남광주] 구례군 2026년 귀농어귀촌인 우수 창업활성화 지원사업 모집 공고",
+   "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000125984",
+   "date": "2026-08-31",
+   "deadline": "2026-09-28",
+   "region": "전국",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-09-01"
+  },
+  "fac25921d0a075a0": {
+   "id": "fac25921d0a075a0",
+   "source": "bizinfo",
+   "sourceName": "기업마당",
+   "title": "[전남광주] 보성군 2026년 2차 일반음식점 시설환경개선 지원사업 신청 공고",
+   "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000125983",
+   "date": "2026-08-31",
+   "deadline": "2026-09-04",
+   "region": "전국",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-09-01"
+  },
+  "97cb2fd693bfca31": {
+   "id": "97cb2fd693bfca31",
+   "source": "bizinfo",
+   "sourceName": "기업마당",
+   "title": "[전남광주] 보성군 2026년 2차 이ㆍ미용업소 시설환경개선 지원사업 신청 공고",
+   "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000125982",
+   "date": "2026-08-31",
+   "deadline": "2026-09-04",
+   "region": "전국",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-09-01"
+  },
+  "63cd9d24c8db37d4": {
+   "id": "63cd9d24c8db37d4",
+   "source": "bizinfo",
+   "sourceName": "기업마당",
+   "title": "[전남광주] 보성군 2027년 청년농업인 창업 스케일업(성장) 지원사업 대상자 모집 공고",
+   "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000125981",
+   "date": "2026-08-31",
+   "deadline": "2026-09-21",
+   "region": "전국",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-09-01"
+  },
+  "e88c8798a029b980": {
+   "id": "e88c8798a029b980",
+   "source": "bizinfo",
+   "sourceName": "기업마당",
+   "title": "[전남광주] 곡성군 2026년 2차 소상공인 카드수수료 지원사업 공고",
+   "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000125980",
+   "date": "2026-08-31",
+   "deadline": "2026-09-04",
+   "region": "전국",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-09-01"
+  },
+  "3f62f983ce028b6a": {
+   "id": "3f62f983ce028b6a",
+   "source": "bizinfo",
+   "sourceName": "기업마당",
+   "title": "[전남광주] 순천시 2026년 글로벌 IP 창ㆍ제작 지원사업 모집 공고",
+   "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000125979",
+   "date": "2026-08-31",
+   "deadline": "2026-09-09",
+   "region": "전국",
+   "categories": [
+    "특허·지재권",
+    "사업화"
+   ],
+   "firstSeen": "2026-09-01"
+  },
+  "20b908b92d87a2f5": {
+   "id": "20b908b92d87a2f5",
+   "source": "bizinfo",
+   "sourceName": "기업마당",
+   "title": "중소제조 특화 Multi AI Agent 개발(R&D) 점프업 Track 시행계획 공고",
+   "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000125978",
+   "date": "2026-08-31",
+   "deadline": "2026-10-30",
+   "region": "전국",
+   "categories": [
+    "R&D"
+   ],
+   "firstSeen": "2026-09-01"
+  },
+  "6272f0db99dd6589": {
+   "id": "6272f0db99dd6589",
+   "source": "bizinfo",
+   "sourceName": "기업마당",
+   "title": "[경기] 2026년 AI 클러스터 글로벌 프로그램(유럽) 2026 SLUSH 참가기업 모집 공고(경기도 AI 혁신클러스터 조성 사업)",
+   "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000125977",
+   "date": "2026-08-31",
+   "deadline": "2026-09-11",
+   "region": "전국",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-09-01"
+  },
+  "dbe4d54acb56d2e1": {
+   "id": "dbe4d54acb56d2e1",
+   "source": "smtech",
+   "sourceName": "중소기업 기술개발(SMTECH)",
+   "title": "2026년 중소기업 연구인력지원사업(파견) 9월 공고",
+   "url": "https://www.smtech.go.kr/front/ifg/no/notice02_detail.do?buclYy=&ancmId=S02847&buclCd=S6041&dtlAncmSn=8&schdSe=MO5005&aplySn=1&searchCondition=&searchKeyword=&pageIndex=1",
+   "date": "2026-09-01",
+   "deadline": "2026-09-30",
+   "region": "전국",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-09-01"
+  },
+  "19bc8c2a6dc206de": {
+   "id": "19bc8c2a6dc206de",
+   "source": "bscf",
+   "sourceName": "부산문화재단",
+   "title": "2026.08.24[마감] 부산항 개항 150주년 기념 해양문화(2026.08.20.공지사항 글 이관) 부산항 개항 150주년 기념 해양문화예술교육 프로젝트 참여자 모집 참가대상: 해외여행 결격사유가 없고 해양문화예술교육에 관심있는 부산 거주 시민 (초등학생 이상) 접수일정: 2026. 8. 21. (금) 10:00 결재 선착순 마감 및 객실 배정 인 원: 부산 시민 총 60명 내외 (4인 1실 기준) *주민등록 주소지 부산 기준자 신청방법: 아래 링크 접속 및 결재 (자세한 사항 링크 참조) 2026 선상문화예술교육 개인부담비용: 인당 100,000원 (대인, 성인 요금 동일) / 현지중식 1회, 현지 이동 교통, 현지 입장료, 여행자보험료 포함 재단지원사항: 왕복선박비(부산-오사카, 선 내 식사 무료 제공), 선박 내 해양문화예술교육 프로그램 참여 등 문 의: 부산문화재단 문화예술교육팀 051-745-7282",
+   "url": "https://www.bscf.or.kr/view.do?no=1010&pgMode=show&pbancSn=2422",
+   "date": "2026-09-01",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-09-01"
+  },
+  "b990a3f01d244405": {
+   "id": "b990a3f01d244405",
+   "source": "bscf",
+   "sourceName": "부산문화재단",
+   "title": "2026.08.18[모집] 2026년 하반기 부산바다도서관 B-북스팟 프로그램 참여 모집2026년 하반기 부산바다도서관과 함께할 B-북스팟 프로그램 참여 공간을 모집합니다. B-북스팟이 보유한 다양한 독서 문화 콘텐츠를 활용하여 부산바다도서관 행사 현장 또는 각 북스팟 공간에서 시민들과 함께하는 프로그램을 운영해 보세요! □ 모집개요 ○ 모집대상: 부산바다도서관 B-북스팟으로 등록되어 있는 독서공간 ○ 모집내용: 2026년 하반기 부산바다도서관 프로그램 참여 및 연계 프로그램 운영 ○ 모집기간: 2026. 8. 6.(목) ~ 8. 24.(월) 17:00 □ 참여 유형 ○ 현장형 (지원금: 최대 40만원) - 부산바다도서관 행사 현장에서 B-북스팟 홍보 부스 및 프로그램 운영 - 행사 방문객을 대상으로 전시 및 체험 프로그램 등 현장에서 상시 운영 가능한 형태로 구성 ※ 현장형은 시민들이 자유롭게 관람할 수 있는 전시형과 직접 참여할 수 있는 체험 및 기획형 프로그램을 함께 운영하는 것을 기본으로 합니다. 전시형 운영이 어려운 경우 상시 운영이 가능한 프로그램으로 대체할 수 있습니다. ○ 연계형(북틈) (지원금: 최대 20만원) - 각 B-북스팟 자체 공간에서 독서 문화 프로그램 운영 - 부산바다도서관 행사 일정에 맞춰 자율적으로 운영 ▶ B-북스팟 프로그램 참여 신청 https://naver.me/FXnXm4ld □ 유의사항 ○ 본 프로그램은 부산바다도서관 B-북스팟으로 등록된 공간에 한하여 참여 가능합니다. ○ 신청 내용 및 일정 등을 검토하여 최종 참여 공간 및 운영 일정을 조정할 수 있습니다. ○ 제출된 운영계획서에 따라 프로그램 내용 및 지원금 변경 및 일부 조정될 수 있습니다. 부산바다도서관에서는 B-북스팟을 상시 모집하고 있습니다. 부산의 다양한 독서공간이라면 누구나 B-북스팟으로 등록하고 부산바다도서관과 함께 할 수 있습니다. 이번 하반기 프로그램 참여를 희망하시는 공간은 먼저 B-북스팟 등록 신청을 해주세요! ▶ B-북스팟 신청 방법 [지원신청서] 작성 후 book@bscf.or.kr 이메일 제출",
+   "url": "https://www.bscf.or.kr/view.do?no=1010&pgMode=show&pbancSn=2418",
+   "date": "2026-09-01",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "홍보·마케팅"
+   ],
+   "firstSeen": "2026-09-01"
+  },
+  "d2ff063dc1c176ac": {
+   "id": "d2ff063dc1c176ac",
+   "source": "bscf",
+   "sourceName": "부산문화재단",
+   "title": "2026.08.07[모집마감] 2026년 예술인 생활안정자금(융자) 등 이자지원사업 참여자 모집2026년 예술인 생활안정자금(융자) 등 이자지원사업 참여자 모집 마감됐습니다. (재)부산문화재단 공고 제2026-219호 2026년 예술인 생활안정자금(융자) 등 이자지원사업 참여자 모집 (재)부산문화재단은 생활안정자금 및 전세자금 등 융자금에 대한 이자 지원을 통해 지역 예술인들의 금융 안전망을 구축하고자 2026년 예술인 생활안정자금(융자) 등 이자지원사업을 추진하고 있습니다. 본 사업의 많은 관심과 참여 부탁드립니다. ■ 공 고 명: 2026년 예술인 생활안정자금(융자) 등 이자지원사업 참여자 모집 ■ 공고 및 신청기간 - 공고기간: 2026. 8. 7.(금) ~ 8. 28.(금) - 신청기간: 2026. 8. 14.(금) ~ 8. 28.(금) 17:00까지 ■ 지원대상: 한국예술인복지재단 생활안정자금, 전세자금 융자를 받은 부산시 거주 예술인(세부 지원자격 공고문 확인) ■ 신청방법: 이메일 접수(bscfcenter@bscf.or.kr) ■ 지원내용: 생활안정자금, 전세자금 융자에 대한 납부 이자 지원 - (생활안정자금) 최대 30만원 이자 지원 - (전세자금) 최대 300만원 이자 지원 *자세한 사항은 첨부파일을 참조해주시면 됩니다.",
+   "url": "https://www.bscf.or.kr/view.do?no=1010&pgMode=show&pbancSn=2413",
+   "date": "2026-09-01",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-09-01"
   }
  },
  "sources": [
@@ -20376,17 +20643,15 @@
    "id": "bizinfo",
    "name": "기업마당",
    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200View.do",
-   "status": "fail",
-   "count": 0,
-   "error": "408 Client Error: Request Timeout for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.bizinfo.go.kr%2Fsii%2Fsiia%2FselectSIIA200View.do"
+   "status": "ok",
+   "count": 15
   },
   {
    "id": "mss",
    "name": "중소벤처기업부",
    "url": "https://www.mss.go.kr/site/smba/ex/bbs/List.do?cbIdx=310",
-   "status": "fail",
-   "count": 0,
-   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.mss.go.kr%2Fsite%2Fsmba%2Fex%2Fbbs%2FList.do%3FcbIdx%3D310"
+   "status": "ok",
+   "count": 10
   },
   {
    "id": "kidp",
@@ -20421,7 +20686,7 @@
    "name": "중소기업 기술개발(SMTECH)",
    "url": "https://www.smtech.go.kr/front/ifg/no/notice02_list.do",
    "status": "ok",
-   "count": 9
+   "count": 10
   },
   {
    "id": "busanstartup",
@@ -20483,16 +20748,15 @@
    "id": "busan_gosi",
    "name": "부산광역시 고시공고",
    "url": "https://www.busan.go.kr/nbgosi",
-   "status": "fail",
-   "count": 0,
-   "error": "408 Client Error: Request Timeout for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.busan.go.kr%2Fnbgosi%3FcurPage%3D1"
+   "status": "ok",
+   "count": 4
   },
   {
    "id": "bscf",
    "name": "부산문화재단",
    "url": "https://www.bscf.or.kr",
    "status": "ok",
-   "count": 17
+   "count": 11
   },
   {
    "id": "dcamp",
