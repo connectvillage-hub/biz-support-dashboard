@@ -1612,8 +1612,8 @@
    "source": "dcb",
    "sourceName": "부산디자인진흥원",
    "title": "2028 세계디자인수도(WDC) 부산 디지털 플랫폼 구축 입찰 공고",
-   "url": "https://dcb.or.kr/01_news/?mcode=0401010000&mode=2&no=14451&page=1",
-   "date": "2026-07-02",
+   "url": "https://dcb.or.kr/01_news/?mcode=0401010000&mode=2&no=14507&page=1",
+   "date": "2026-08-31",
    "deadline": null,
    "region": "부산",
    "categories": [
@@ -20120,6 +20120,77 @@
     "기타"
    ],
    "firstSeen": "2026-08-29"
+  },
+  "6f5e51bab1d51130": {
+   "id": "6f5e51bab1d51130",
+   "source": "kstartup",
+   "sourceName": "K스타트업",
+   "title": "2026년 제3차 대전 팁스타운 입주기업 모집 공고",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178981",
+   "date": "2026-08-31",
+   "deadline": "2026-09-28",
+   "region": "전국",
+   "categories": [
+    "투자",
+    "입주기업"
+   ],
+   "firstSeen": "2026-08-31"
+  },
+  "9323d199b86e92b0": {
+   "id": "9323d199b86e92b0",
+   "source": "mss",
+   "sourceName": "중소벤처기업부",
+   "title": "중소제조 특화 Multi AI Agent 개발(R&D) 점프업 Track 시행계획 공고",
+   "url": "https://www.mss.go.kr/site/smba/ex/bbs/View.do?cbIdx=310&bcIdx=1070813&parentSeq=1070813",
+   "date": "2026-10-01",
+   "deadline": null,
+   "region": "전국",
+   "categories": [
+    "R&D"
+   ],
+   "firstSeen": "2026-08-31"
+  },
+  "b51b01874df30f34": {
+   "id": "b51b01874df30f34",
+   "source": "kidp",
+   "sourceName": "한국디자인진흥원",
+   "title": "[경남안전 2024-2025] 경상남도, 50인 미만 제조현장의 안전을 디자인하다.",
+   "url": "https://kidp.or.kr/?menuno=1202",
+   "date": "2026-08-31",
+   "deadline": null,
+   "region": "경남",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-08-31"
+  },
+  "88f71cd487f69a8a": {
+   "id": "88f71cd487f69a8a",
+   "source": "dcb",
+   "sourceName": "부산디자인진흥원",
+   "title": "재단법인 부산디자인진흥원 2026년 하반기 기간제 직원 채용 채용대상자 발표",
+   "url": "https://dcb.or.kr/01_news/?mcode=0401010000&mode=2&no=14506&page=1",
+   "date": "2026-08-31",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-08-31"
+  },
+  "2b30040a77efb64d": {
+   "id": "2b30040a77efb64d",
+   "source": "bipa",
+   "sourceName": "부산정보산업진흥원",
+   "title": "부산 잡(Job)페스타 '정보보안 취업 세미나' 개최",
+   "url": "https://bipa.kr/board/business/view?seq=85327",
+   "date": "2026-08-31",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "네트워킹"
+   ],
+   "firstSeen": "2026-08-31"
   }
  },
  "sources": [
@@ -20134,17 +20205,15 @@
    "id": "bizinfo",
    "name": "기업마당",
    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200View.do",
-   "status": "fail",
-   "count": 0,
-   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.bizinfo.go.kr%2Fsii%2Fsiia%2FselectSIIA200View.do"
+   "status": "ok",
+   "count": 15
   },
   {
    "id": "mss",
    "name": "중소벤처기업부",
    "url": "https://www.mss.go.kr/site/smba/ex/bbs/List.do?cbIdx=310",
-   "status": "fail",
-   "count": 0,
-   "error": "520 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.mss.go.kr%2Fsite%2Fsmba%2Fex%2Fbbs%2FList.do%3FcbIdx%3D310"
+   "status": "ok",
+   "count": 10
   },
   {
    "id": "kidp",
@@ -20158,7 +20227,7 @@
    "name": "한국콘텐츠진흥원",
    "url": "https://www.kocca.kr/kocca/pims/list.do?menuNo=20410",
    "status": "ok",
-   "count": 10
+   "count": 9
   },
   {
    "id": "arte",
@@ -20227,9 +20296,8 @@
    "id": "bipa",
    "name": "부산정보산업진흥원",
    "url": "https://bipa.kr/board/business/list",
-   "status": "fail",
-   "count": 0,
-   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fbipa.kr%2Fboard%2Fbusiness%2Flist"
+   "status": "ok",
+   "count": 10
   },
   {
    "id": "bistep",
