@@ -20629,6 +20629,90 @@
     "사업화"
    ],
    "firstSeen": "2026-09-01"
+  },
+  "057917464f939344": {
+   "id": "057917464f939344",
+   "source": "kstartup",
+   "sourceName": "K스타트업",
+   "title": "출연연, 대학 연구소기업 Business Development 프로그램 참여 예비창업자 모집 (9월)",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179085",
+   "date": "2026-08-31",
+   "deadline": "2026-09-30",
+   "region": "전국",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-09-01"
+  },
+  "07875958c5d184f3": {
+   "id": "07875958c5d184f3",
+   "source": "kstartup",
+   "sourceName": "K스타트업",
+   "title": "2026년 안양산업진흥원 제3차 입주기업 모집 공고",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179081",
+   "date": "2026-08-31",
+   "deadline": "2026-09-30",
+   "region": "경남",
+   "categories": [
+    "입주기업"
+   ],
+   "firstSeen": "2026-09-01"
+  },
+  "ad1c3696d09c4995": {
+   "id": "ad1c3696d09c4995",
+   "source": "btp",
+   "sourceName": "부산테크노파크",
+   "title": "2026년 부산 블록체인기업 글로벌(싱가포르) 사업화 지원 사업 참가기업 모집공고",
+   "url": "https://www.btp.or.kr/kor/CMS/Board/Board.do?mCode=MN013&mode=view&mgr_seq=16&board_seq=9582395",
+   "date": "2026-09-01",
+   "deadline": "2026-09-11",
+   "region": "부산",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-09-01"
+  },
+  "a503e089d76deceb": {
+   "id": "a503e089d76deceb",
+   "source": "btp",
+   "sourceName": "부산테크노파크",
+   "title": "2026 제12회 한국 AI 신발디자인 공모전 작품 공모",
+   "url": "https://www.btp.or.kr/kor/CMS/Board/Board.do?mCode=MN013&mode=view&mgr_seq=16&board_seq=9582382",
+   "date": "2026-09-01",
+   "deadline": "2026-09-30",
+   "region": "부산",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-09-01"
+  },
+  "c51ad0193933c77a": {
+   "id": "c51ad0193933c77a",
+   "source": "btp",
+   "sourceName": "부산테크노파크",
+   "title": "2026년 고위험산업 사각지대 집중관리사업(안전보호구 지원) 참여기업 4차 추가모집 공고",
+   "url": "https://www.btp.or.kr/kor/CMS/Board/Board.do?mCode=MN013&mode=view&mgr_seq=16&board_seq=9582349",
+   "date": "2026-09-01",
+   "deadline": "2026-10-30",
+   "region": "부산",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-09-01"
+  },
+  "271da1718642011f": {
+   "id": "271da1718642011f",
+   "source": "btp",
+   "sourceName": "부산테크노파크",
+   "title": "부산안전산업존(BSI-Zone) 초기창업자 2차 모집공고",
+   "url": "https://www.btp.or.kr/kor/CMS/Board/Board.do?mCode=MN013&mode=view&mgr_seq=16&board_seq=9582347",
+   "date": "2026-09-01",
+   "deadline": "2026-09-10",
+   "region": "부산",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-09-01"
   }
  },
  "sources": [
@@ -20643,15 +20727,17 @@
    "id": "bizinfo",
    "name": "기업마당",
    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200View.do",
-   "status": "ok",
-   "count": 15
+   "status": "fail",
+   "count": 0,
+   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.bizinfo.go.kr%2Fsii%2Fsiia%2FselectSIIA200View.do"
   },
   {
    "id": "mss",
    "name": "중소벤처기업부",
    "url": "https://www.mss.go.kr/site/smba/ex/bbs/List.do?cbIdx=310",
-   "status": "ok",
-   "count": 10
+   "status": "fail",
+   "count": 0,
+   "error": "500 Server Error: Internal Server Error for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.mss.go.kr%2Fsite%2Fsmba%2Fex%2Fbbs%2FList.do%3FcbIdx%3D310"
   },
   {
    "id": "kidp",
