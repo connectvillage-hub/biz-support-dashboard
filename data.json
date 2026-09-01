@@ -21418,8 +21418,9 @@
    "id": "orangeplanet",
    "name": "오렌지플래닛",
    "url": "https://orangeplanet.or.kr/news/newsList",
-   "status": "ok",
-   "count": 15
+   "status": "fail",
+   "count": 0,
+   "error": "HTTPSConnectionPool(host='www.orangeplanet.or.kr', port=443): Max retries exceeded with url: /news/getNewsListJson (Caused by SSLError(SSLError(1, '[SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert intern"
   },
   {
    "id": "primer",
