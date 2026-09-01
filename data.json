@@ -21221,7 +21221,7 @@
    "source": "busan_gosi",
    "sourceName": "부산광역시 고시공고",
    "title": "2026년 부산소방재난본부 소방활동 사진 공모전 공고",
-   "url": "https://www.busan.go.kr/nbgosi/view?sno=79375&gosiGbn=A&curPage=2",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=79375&gosiGbn=A&curPage=3",
    "date": "2026-09-01",
    "deadline": null,
    "region": "부산",
@@ -21235,7 +21235,7 @@
    "source": "busan_gosi",
    "sourceName": "부산광역시 고시공고",
    "title": "2026년 국제체육분야 지방보조사업 공모계획(2차)",
-   "url": "https://www.busan.go.kr/nbgosi/view?sno=79349&gosiGbn=A&curPage=2",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=79349&gosiGbn=A&curPage=3",
    "date": "2026-09-01",
    "deadline": null,
    "region": "부산",
@@ -21249,7 +21249,7 @@
    "source": "busan_gosi",
    "sourceName": "부산광역시 고시공고",
    "title": "부산광역시 안전도시협의회 위원 공개모집 공고",
-   "url": "https://www.busan.go.kr/nbgosi/view?sno=79329&gosiGbn=A&curPage=2",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=79329&gosiGbn=A&curPage=3",
    "date": "2026-09-01",
    "deadline": null,
    "region": "부산",
@@ -21263,7 +21263,7 @@
    "source": "busan_gosi",
    "sourceName": "부산광역시 고시공고",
    "title": "2026년 지역특화 농업기술 정보화 인력지원사업 기간제노동자 최종합격자 공고",
-   "url": "https://www.busan.go.kr/nbgosi/view?sno=79366&gosiGbn=A&curPage=2",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=79366&gosiGbn=A&curPage=3",
    "date": "2026-09-01",
    "deadline": null,
    "region": "부산",
@@ -21271,6 +21271,20 @@
     "사업화"
    ],
    "firstSeen": "2026-09-01"
+  },
+  "daf00e54882cabfb": {
+   "id": "daf00e54882cabfb",
+   "source": "busan_gosi",
+   "sourceName": "부산광역시 고시공고",
+   "title": "부산광역시 출자출연기관 운영심의위원회 위원 공개모집 추가 공고",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=79360&gosiGbn=A&curPage=1",
+   "date": "2026-09-02",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-09-02"
   }
  },
  "sources": [
@@ -21285,17 +21299,15 @@
    "id": "bizinfo",
    "name": "기업마당",
    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200View.do",
-   "status": "fail",
-   "count": 0,
-   "error": "520 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.bizinfo.go.kr%2Fsii%2Fsiia%2FselectSIIA200View.do"
+   "status": "ok",
+   "count": 15
   },
   {
    "id": "mss",
    "name": "중소벤처기업부",
    "url": "https://www.mss.go.kr/site/smba/ex/bbs/List.do?cbIdx=310",
-   "status": "fail",
-   "count": 0,
-   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.mss.go.kr%2Fsite%2Fsmba%2Fex%2Fbbs%2FList.do%3FcbIdx%3D310"
+   "status": "ok",
+   "count": 10
   },
   {
    "id": "kidp",
@@ -21392,9 +21404,8 @@
    "id": "busan_gosi",
    "name": "부산광역시 고시공고",
    "url": "https://www.busan.go.kr/nbgosi",
-   "status": "fail",
-   "count": 0,
-   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.busan.go.kr%2Fnbgosi%3FcurPage%3D1"
+   "status": "ok",
+   "count": 5
   },
   {
    "id": "bscf",
