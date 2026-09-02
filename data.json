@@ -14123,7 +14123,7 @@
    "source": "bepa",
    "sourceName": "부산경제진흥원",
    "title": "2026 홍보영상 제작 및 온라인 게시지원 참여희망 소상공인 모집공고",
-   "url": "https://www.bepa.kr/kor/view.do?no=1502&idx=19400&view=view&pageIndex=1&sv=&sw=&sdate=&edate=&periodState=all&state=ing&temporary=0&items=소상공인",
+   "url": "https://www.bepa.kr/kor/view.do?no=1502&idx=19400&view=view&pageIndex=1&sv=&sw=&sdate=&edate=&periodState=all&state=end&temporary=0&items=소상공인",
    "date": "2026-08-13",
    "deadline": null,
    "region": "부산",
@@ -18519,7 +18519,7 @@
    "source": "bepa",
    "sourceName": "부산경제진흥원",
    "title": "「전통시장 소비진작 환급(온누리상품권)지원 행사 운영 용역」제안서 평가위원(후보자) 등록 신청 공고",
-   "url": "https://www.bepa.kr/kor/view.do?no=1502&idx=19453&view=view&pageIndex=1&sv=&sw=&sdate=&edate=&periodState=all&state=ing&temporary=0&items=소상공인",
+   "url": "https://www.bepa.kr/kor/view.do?no=1502&idx=19453&view=view&pageIndex=1&sv=&sw=&sdate=&edate=&periodState=all&state=end&temporary=0&items=소상공인",
    "date": "2026-08-26",
    "deadline": null,
    "region": "부산",
@@ -21768,6 +21768,21 @@
     "기타"
    ],
    "firstSeen": "2026-09-02"
+  },
+  "de1c3ba983b9627a": {
+   "id": "de1c3ba983b9627a",
+   "source": "smtech",
+   "sourceName": "중소기업 기술개발(SMTECH)",
+   "title": "2026년 제6차 중소기업 R&D 전담은행 투자지원 추천기업(방산 및 전략기술) 모집 공고",
+   "url": "https://www.smtech.go.kr/front/ifg/no/notice02_detail.do?buclYy=&ancmId=S02877&buclCd=S9171&dtlAncmSn=1&schdSe=MO5005&aplySn=1&searchCondition=&searchKeyword=&pageIndex=1",
+   "date": "2026-09-03",
+   "deadline": "2026-09-28",
+   "region": "전국",
+   "categories": [
+    "투자",
+    "R&D"
+   ],
+   "firstSeen": "2026-09-03"
   }
  },
  "sources": [
