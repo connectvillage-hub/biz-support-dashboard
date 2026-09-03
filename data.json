@@ -15514,8 +15514,8 @@
    "source": "busan_gosi",
    "sourceName": "부산광역시 고시공고",
    "title": "수산가공선진화단지(공장시설) 입주기업 모집 공고",
-   "url": "https://www.busan.go.kr/nbgosi/view?sno=79201&gosiGbn=A&curPage=3",
-   "date": "2026-06-06",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=79408&gosiGbn=A&curPage=1",
+   "date": "2026-08-18",
    "deadline": null,
    "region": "부산",
    "categories": [
@@ -21760,7 +21760,7 @@
    "source": "busan_gosi",
    "sourceName": "부산광역시 고시공고",
    "title": "부산광역시 지방공기업 회계감사인선임위원회 위원 공개모집 공고",
-   "url": "https://www.busan.go.kr/nbgosi/view?sno=79341&gosiGbn=A&curPage=1",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=79341&gosiGbn=A&curPage=2",
    "date": "2026-09-02",
    "deadline": null,
    "region": "부산",
@@ -21783,6 +21783,48 @@
     "R&D"
    ],
    "firstSeen": "2026-09-03"
+  },
+  "e98789a57d802746": {
+   "id": "e98789a57d802746",
+   "source": "kidp",
+   "sourceName": "한국디자인진흥원",
+   "title": "(지식재산처) 디자인 IP 침해분쟁 실태 조사 참여 안내",
+   "url": "https://kidp.or.kr/?menuno=1202",
+   "date": "2026-09-03",
+   "deadline": null,
+   "region": "전국",
+   "categories": [
+    "특허·지재권"
+   ],
+   "firstSeen": "2026-09-03"
+  },
+  "d1951a3b380b2420": {
+   "id": "d1951a3b380b2420",
+   "source": "kidp",
+   "sourceName": "한국디자인진흥원",
+   "title": "한국디자인진흥원, 세계 최대 가전ㆍ테크 전시회 IFA 참가",
+   "url": "https://kidp.or.kr/?menuno=1202",
+   "date": "2026-09-03",
+   "deadline": null,
+   "region": "전국",
+   "categories": [
+    "홍보·마케팅"
+   ],
+   "firstSeen": "2026-09-03"
+  },
+  "9b8bb4915fb501bd": {
+   "id": "9b8bb4915fb501bd",
+   "source": "busan_gosi",
+   "sourceName": "부산광역시 고시공고",
+   "title": "2026년 발달장애인 인식개선사업 수행기관 공모",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=79404&gosiGbn=A&curPage=1",
+   "date": "2026-09-03",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-09-03"
   }
  },
  "sources": [
@@ -21797,17 +21839,15 @@
    "id": "bizinfo",
    "name": "기업마당",
    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200View.do",
-   "status": "fail",
-   "count": 0,
-   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.bizinfo.go.kr%2Fsii%2Fsiia%2FselectSIIA200View.do"
+   "status": "ok",
+   "count": 15
   },
   {
    "id": "mss",
    "name": "중소벤처기업부",
    "url": "https://www.mss.go.kr/site/smba/ex/bbs/List.do?cbIdx=310",
-   "status": "fail",
-   "count": 0,
-   "error": "408 Client Error: Request Timeout for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.mss.go.kr%2Fsite%2Fsmba%2Fex%2Fbbs%2FList.do%3FcbIdx%3D310"
+   "status": "ok",
+   "count": 10
   },
   {
    "id": "kidp",
@@ -21897,17 +21937,15 @@
    "id": "bistep",
    "name": "부산산업과학혁신원",
    "url": "https://www.bistep.re.kr/kor/CMS/Board/Board.do?mCode=MN008",
-   "status": "fail",
-   "count": 0,
-   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.bistep.re.kr%2Fkor%2FCMS%2FBoard%2FBoard.do%3FmCode%3DMN008"
+   "status": "ok",
+   "count": 10
   },
   {
    "id": "busan_gosi",
    "name": "부산광역시 고시공고",
    "url": "https://www.busan.go.kr/nbgosi",
-   "status": "fail",
-   "count": 0,
-   "error": "500 Server Error: Internal Server Error for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.busan.go.kr%2Fnbgosi%3FcurPage%3D1"
+   "status": "ok",
+   "count": 6
   },
   {
    "id": "bscf",
