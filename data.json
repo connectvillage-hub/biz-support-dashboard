@@ -15514,7 +15514,7 @@
    "source": "busan_gosi",
    "sourceName": "부산광역시 고시공고",
    "title": "수산가공선진화단지(공장시설) 입주기업 모집 공고",
-   "url": "https://www.busan.go.kr/nbgosi/view?sno=79408&gosiGbn=A&curPage=1",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=79408&gosiGbn=A&curPage=2",
    "date": "2026-08-18",
    "deadline": null,
    "region": "부산",
@@ -21760,7 +21760,7 @@
    "source": "busan_gosi",
    "sourceName": "부산광역시 고시공고",
    "title": "부산광역시 지방공기업 회계감사인선임위원회 위원 공개모집 공고",
-   "url": "https://www.busan.go.kr/nbgosi/view?sno=79341&gosiGbn=A&curPage=2",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=79341&gosiGbn=A&curPage=3",
    "date": "2026-09-02",
    "deadline": null,
    "region": "부산",
@@ -22108,6 +22108,20 @@
     "사업화"
    ],
    "firstSeen": "2026-09-03"
+  },
+  "86a7f019a10b9e81": {
+   "id": "86a7f019a10b9e81",
+   "source": "kidp",
+   "sourceName": "한국디자인진흥원",
+   "title": "[설문조사] 문화콘텐츠산업 직무역량체계(안) 검토 설문조사",
+   "url": "https://kidp.or.kr/?menuno=1202",
+   "date": "2026-09-03",
+   "deadline": null,
+   "region": "전국",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-09-03"
   }
  },
  "sources": [
@@ -22228,7 +22242,7 @@
    "name": "부산광역시 고시공고",
    "url": "https://www.busan.go.kr/nbgosi",
    "status": "ok",
-   "count": 8
+   "count": 6
   },
   {
    "id": "bscf",
