@@ -15514,7 +15514,7 @@
    "source": "busan_gosi",
    "sourceName": "부산광역시 고시공고",
    "title": "수산가공선진화단지(공장시설) 입주기업 모집 공고",
-   "url": "https://www.busan.go.kr/nbgosi/view?sno=79408&gosiGbn=A&curPage=2",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=79408&gosiGbn=A&curPage=3",
    "date": "2026-08-18",
    "deadline": null,
    "region": "부산",
@@ -21277,7 +21277,7 @@
    "source": "busan_gosi",
    "sourceName": "부산광역시 고시공고",
    "title": "부산광역시 출자출연기관 운영심의위원회 위원 공개모집 추가 공고",
-   "url": "https://www.busan.go.kr/nbgosi/view?sno=79360&gosiGbn=A&curPage=2",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=79360&gosiGbn=A&curPage=3",
    "date": "2026-09-02",
    "deadline": null,
    "region": "부산",
@@ -21732,7 +21732,7 @@
    "source": "busan_gosi",
    "sourceName": "부산광역시 고시공고",
    "title": "제11기 부산광역시 도시균형발전위원회 위원 공개모집 공고",
-   "url": "https://www.busan.go.kr/nbgosi/view?sno=79365&gosiGbn=A&curPage=2",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=79365&gosiGbn=A&curPage=3",
    "date": "2026-09-02",
    "deadline": null,
    "region": "부산",
@@ -21746,7 +21746,7 @@
    "source": "busan_gosi",
    "sourceName": "부산광역시 고시공고",
    "title": "부산광역시 정보공개심의회 위원 공개 모집 공고",
-   "url": "https://www.busan.go.kr/nbgosi/view?sno=79355&gosiGbn=A&curPage=2",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=79355&gosiGbn=A&curPage=3",
    "date": "2026-09-02",
    "deadline": null,
    "region": "부산",
@@ -21817,7 +21817,7 @@
    "source": "busan_gosi",
    "sourceName": "부산광역시 고시공고",
    "title": "2026년 발달장애인 인식개선사업 수행기관 공모",
-   "url": "https://www.busan.go.kr/nbgosi/view?sno=79404&gosiGbn=A&curPage=1",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=79404&gosiGbn=A&curPage=2",
    "date": "2026-09-03",
    "deadline": null,
    "region": "부산",
@@ -22100,7 +22100,7 @@
    "source": "busan_gosi",
    "sourceName": "부산광역시 고시공고",
    "title": "계약형 지역필수의사제 지원사업 공공기관 위탁계약 체결 공고",
-   "url": "https://www.busan.go.kr/nbgosi/view?sno=79385&gosiGbn=A&curPage=1",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=79385&gosiGbn=A&curPage=2",
    "date": "2026-09-03",
    "deadline": null,
    "region": "부산",
@@ -22122,6 +22122,63 @@
     "기타"
    ],
    "firstSeen": "2026-09-03"
+  },
+  "dff7a05a8af0f11a": {
+   "id": "dff7a05a8af0f11a",
+   "source": "kidp",
+   "sourceName": "한국디자인진흥원",
+   "title": "(인터뷰) 『오래 살고 볼 일이다』 안전 정보 디자인·문화 확산 프로젝트 - 오세이프 심준우 실장이 말하는 안전디자인 10년",
+   "url": "https://kidp.or.kr/?menuno=1202",
+   "date": "2026-09-04",
+   "deadline": null,
+   "region": "전국",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-09-04"
+  },
+  "886ecbb51cf7ec98": {
+   "id": "886ecbb51cf7ec98",
+   "source": "kidp",
+   "sourceName": "한국디자인진흥원",
+   "title": "(2026 대한민국 공공디자인대상 수상작) 04. '오래 살고 볼 일이다' 안전 정보 디자인·문화 확산 프로젝트 - 주식회사 오세이프",
+   "url": "https://kidp.or.kr/?menuno=1202",
+   "date": "2026-09-04",
+   "deadline": null,
+   "region": "전국",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-09-04"
+  },
+  "58c3476c4d498f39": {
+   "id": "58c3476c4d498f39",
+   "source": "kidp",
+   "sourceName": "한국디자인진흥원",
+   "title": "디자인전문기업 금융지원 희망기업 25차 모집 공고",
+   "url": "https://kidp.or.kr/?menuno=1202",
+   "date": "2026-09-04",
+   "deadline": null,
+   "region": "전국",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-09-04"
+  },
+  "52890e9ae6fa2eed": {
+   "id": "52890e9ae6fa2eed",
+   "source": "bkic",
+   "sourceName": "부산지식산업센터",
+   "title": "[부산경제진흥원] 기업당 최대 2천만원 지원｜부산 해양산업 R&D·실증(PoC) 참여기업 모집",
+   "url": "http://bkic.bepa.kr/bsknow/view.do?no=1477&idx=1848&view=view&pageIndex=1&sv=&sw=",
+   "date": "2026-09-04",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "R&D",
+    "사업화"
+   ],
+   "firstSeen": "2026-09-04"
   }
  },
  "sources": [
@@ -22158,7 +22215,7 @@
    "name": "한국콘텐츠진흥원",
    "url": "https://www.kocca.kr/kocca/pims/list.do?menuNo=20410",
    "status": "ok",
-   "count": 5
+   "count": 4
   },
   {
    "id": "arte",
@@ -22241,9 +22298,8 @@
    "id": "busan_gosi",
    "name": "부산광역시 고시공고",
    "url": "https://www.busan.go.kr/nbgosi",
-   "status": "fail",
-   "count": 0,
-   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.busan.go.kr%2Fnbgosi%3FcurPage%3D1"
+   "status": "ok",
+   "count": 7
   },
   {
    "id": "bscf",
