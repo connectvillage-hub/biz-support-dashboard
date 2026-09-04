@@ -22433,6 +22433,34 @@
     "기타"
    ],
    "firstSeen": "2026-09-04"
+  },
+  "dffb03fd43165ed3": {
+   "id": "dffb03fd43165ed3",
+   "source": "kstartup",
+   "sourceName": "K스타트업",
+   "title": "2026년 인천국제공항공사 상생형 창업·벤처기업 지원사업 모집공고",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179111",
+   "date": "2026-09-04",
+   "deadline": "2026-09-15",
+   "region": "전국",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-09-04"
+  },
+  "c67f921b2711a676": {
+   "id": "c67f921b2711a676",
+   "source": "busan_gosi",
+   "sourceName": "부산광역시 고시공고",
+   "title": "2026년 부산형 재생에너지 건물지원사업 지원공고",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=79465&gosiGbn=A&curPage=1",
+   "date": "2026-09-04",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-09-04"
   }
  },
  "sources": [
@@ -22553,7 +22581,7 @@
    "name": "부산광역시 고시공고",
    "url": "https://www.busan.go.kr/nbgosi",
    "status": "ok",
-   "count": 5
+   "count": 3
   },
   {
    "id": "bscf",
