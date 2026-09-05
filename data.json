@@ -22426,8 +22426,9 @@
    "id": "mss",
    "name": "중소벤처기업부",
    "url": "https://www.mss.go.kr/site/smba/ex/bbs/List.do?cbIdx=310",
-   "status": "ok",
-   "count": 10
+   "status": "fail",
+   "count": 0,
+   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.mss.go.kr%2Fsite%2Fsmba%2Fex%2Fbbs%2FList.do%3FcbIdx%3D310"
   },
   {
    "id": "kidp",
@@ -22496,9 +22497,8 @@
    "id": "bkic",
    "name": "부산지식산업센터",
    "url": "http://bkic.bepa.kr/bsknow/view.do?no=1477",
-   "status": "fail",
-   "count": 0,
-   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=http%3A%2F%2Fbkic.bepa.kr%2Fbsknow%2Fview.do%3Fno%3D1477"
+   "status": "ok",
+   "count": 10
   },
   {
    "id": "bsia",
