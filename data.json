@@ -22498,7 +22498,7 @@
    "url": "http://bkic.bepa.kr/bsknow/view.do?no=1477",
    "status": "fail",
    "count": 0,
-   "error": "520 Server Error: <none> for url: https://api.allorigins.win/raw?url=http%3A%2F%2Fbkic.bepa.kr%2Fbsknow%2Fview.do%3Fno%3D1477"
+   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=http%3A%2F%2Fbkic.bepa.kr%2Fbsknow%2Fview.do%3Fno%3D1477"
   },
   {
    "id": "bsia",
