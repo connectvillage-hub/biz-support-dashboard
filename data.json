@@ -22419,9 +22419,8 @@
    "id": "bizinfo",
    "name": "기업마당",
    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200View.do",
-   "status": "fail",
-   "count": 0,
-   "error": "408 Client Error: Request Timeout for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.bizinfo.go.kr%2Fsii%2Fsiia%2FselectSIIA200View.do"
+   "status": "ok",
+   "count": 15
   },
   {
    "id": "mss",
@@ -22498,8 +22497,9 @@
    "id": "bkic",
    "name": "부산지식산업센터",
    "url": "http://bkic.bepa.kr/bsknow/view.do?no=1477",
-   "status": "ok",
-   "count": 10
+   "status": "fail",
+   "count": 0,
+   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=http%3A%2F%2Fbkic.bepa.kr%2Fbsknow%2Fview.do%3Fno%3D1477"
   },
   {
    "id": "bsia",
