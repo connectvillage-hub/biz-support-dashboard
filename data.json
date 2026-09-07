@@ -10157,7 +10157,7 @@
    "source": "busan_gosi",
    "sourceName": "부산광역시 고시공고",
    "title": "부산 에코델타시티 조성용지(산업지원시설용지, 주차장용지, 주유소용지) 분양 공고",
-   "url": "https://www.busan.go.kr/nbgosi/view?sno=79469&gosiGbn=A&curPage=2",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=79469&gosiGbn=A&curPage=3",
    "date": "2026-07-31",
    "deadline": null,
    "region": "부산",
@@ -19004,7 +19004,7 @@
    "source": "bepa",
    "sourceName": "부산경제진흥원",
    "title": "「전통시장 소비진작 환급(온누리상품권)지원 행사 운영 용역 」입찰 공고",
-   "url": "https://www.bepa.kr/kor/view.do?no=1502&idx=19458&view=view&pageIndex=1&sv=&sw=&sdate=&edate=&periodState=all&state=ing&temporary=0&items=소상공인",
+   "url": "https://www.bepa.kr/kor/view.do?no=1502&idx=19458&view=view&pageIndex=1&sv=&sw=&sdate=&edate=&periodState=all&state=end&temporary=0&items=소상공인",
    "date": "2026-08-27",
    "deadline": null,
    "region": "부산",
@@ -19546,7 +19546,7 @@
    "source": "bepa",
    "sourceName": "부산경제진흥원",
    "title": "「 2026년 현장 라이브커머스 운영」용역 입찰 공고",
-   "url": "https://www.bepa.kr/kor/view.do?no=1502&idx=19461&view=view&pageIndex=1&sv=&sw=&sdate=&edate=&periodState=all&state=ing&temporary=0&items=소상공인",
+   "url": "https://www.bepa.kr/kor/view.do?no=1502&idx=19461&view=view&pageIndex=1&sv=&sw=&sdate=&edate=&periodState=all&state=end&temporary=0&items=소상공인",
    "date": "2026-08-28",
    "deadline": null,
    "region": "부산",
@@ -22369,7 +22369,7 @@
    "source": "busan_gosi",
    "sourceName": "부산광역시 고시공고",
    "title": "부산 에코델타시티 조성용지(산업지원시설용지) 분양 공고",
-   "url": "https://www.busan.go.kr/nbgosi/view?sno=79468&gosiGbn=A&curPage=2",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=79468&gosiGbn=A&curPage=3",
    "date": "2026-09-04",
    "deadline": null,
    "region": "부산",
@@ -22538,7 +22538,7 @@
    "source": "busan_gosi",
    "sourceName": "부산광역시 고시공고",
    "title": "사단법인 부산광역시자원봉사센터장 공개모집 공고",
-   "url": "https://www.busan.go.kr/nbgosi/view?sno=79418&gosiGbn=A&curPage=1",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=79418&gosiGbn=A&curPage=2",
    "date": "2026-09-07",
    "deadline": null,
    "region": "부산",
@@ -22786,6 +22786,20 @@
     "기타"
    ],
    "firstSeen": "2026-09-07"
+  },
+  "64fe2a7d123265f0": {
+   "id": "64fe2a7d123265f0",
+   "source": "busan_gosi",
+   "sourceName": "부산광역시 고시공고",
+   "title": "「부산오페라하우스 건축물 미술작품 제작 및 설치 공모」 최종 당선작 공고",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=79449&gosiGbn=A&curPage=1",
+   "date": "2026-09-08",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-09-08"
   }
  },
  "sources": [
@@ -22906,7 +22920,7 @@
    "name": "부산광역시 고시공고",
    "url": "https://www.busan.go.kr/nbgosi",
    "status": "ok",
-   "count": 6
+   "count": 7
   },
   {
    "id": "bscf",
