@@ -10157,7 +10157,7 @@
    "source": "busan_gosi",
    "sourceName": "부산광역시 고시공고",
    "title": "부산 에코델타시티 조성용지(산업지원시설용지, 주차장용지, 주유소용지) 분양 공고",
-   "url": "https://www.busan.go.kr/nbgosi/view?sno=79469&gosiGbn=A&curPage=1",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=79469&gosiGbn=A&curPage=2",
    "date": "2026-07-31",
    "deadline": null,
    "region": "부산",
@@ -22369,7 +22369,7 @@
    "source": "busan_gosi",
    "sourceName": "부산광역시 고시공고",
    "title": "부산 에코델타시티 조성용지(산업지원시설용지) 분양 공고",
-   "url": "https://www.busan.go.kr/nbgosi/view?sno=79468&gosiGbn=A&curPage=1",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=79468&gosiGbn=A&curPage=2",
    "date": "2026-09-04",
    "deadline": null,
    "region": "부산",
@@ -22397,7 +22397,7 @@
    "source": "busan_gosi",
    "sourceName": "부산광역시 고시공고",
    "title": "2026년 부산형 재생에너지 건물지원사업 지원공고",
-   "url": "https://www.busan.go.kr/nbgosi/view?sno=79465&gosiGbn=A&curPage=1",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=79465&gosiGbn=A&curPage=2",
    "date": "2026-09-04",
    "deadline": null,
    "region": "부산",
@@ -22405,6 +22405,147 @@
     "사업화"
    ],
    "firstSeen": "2026-09-04"
+  },
+  "86cf2207e94ac6a2": {
+   "id": "86cf2207e94ac6a2",
+   "source": "semas",
+   "sourceName": "소상공인시장진흥공단",
+   "title": "'26년 소상공인시장진흥공단 9월 스케줄 달력",
+   "url": "https://www.semas.or.kr/web/board/webBoardView.kmdc?bCd=1&b_idx=56532&pNm=BOA0101",
+   "date": "2026-09-07",
+   "deadline": null,
+   "region": "전국",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-09-07"
+  },
+  "6ff4d2cc5444473d": {
+   "id": "6ff4d2cc5444473d",
+   "source": "btp",
+   "sourceName": "부산테크노파크",
+   "title": "Age-Tech 종합지원센터 운영 사업 TRL기반 기술성장 맞춤 지원 공고",
+   "url": "https://www.btp.or.kr/kor/CMS/Board/Board.do?mCode=MN013&mode=view&mgr_seq=16&board_seq=9582417",
+   "date": "2026-09-07",
+   "deadline": "2026-09-14",
+   "region": "부산",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-09-07"
+  },
+  "49af2bcc2cf57ab2": {
+   "id": "49af2bcc2cf57ab2",
+   "source": "btp",
+   "sourceName": "부산테크노파크",
+   "title": "「2025년도 시군구연고산업육성 협업프로젝트 2차년도」 기업성장기반 글로벌 하이메디 허브 특구 상생협력사업 지원프로그램 기업지원모집 공고(4차)",
+   "url": "https://www.btp.or.kr/kor/CMS/Board/Board.do?mCode=MN013&mode=view&mgr_seq=16&board_seq=9582414",
+   "date": "2026-09-07",
+   "deadline": "2026-09-11",
+   "region": "부산",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-09-07"
+  },
+  "cacbab7d7c16b904": {
+   "id": "cacbab7d7c16b904",
+   "source": "btp",
+   "sourceName": "부산테크노파크",
+   "title": "글로벌시장 대응 AI기반 공조부품 성능평가 인프라 고도화사업 지원사업 2차 공고",
+   "url": "https://www.btp.or.kr/kor/CMS/Board/Board.do?mCode=MN013&mode=view&mgr_seq=16&board_seq=9582413",
+   "date": "2026-09-07",
+   "deadline": "2026-12-31",
+   "region": "부산",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-09-07"
+  },
+  "d9e372c495394906": {
+   "id": "d9e372c495394906",
+   "source": "btp",
+   "sourceName": "부산테크노파크",
+   "title": "2026년 커피산업 실무인력 양성교육(하반기) 교육생 모집공고",
+   "url": "https://www.btp.or.kr/kor/CMS/Board/Board.do?mCode=MN013&mode=view&mgr_seq=16&board_seq=9582398",
+   "date": "2026-09-07",
+   "deadline": "2026-09-21",
+   "region": "부산",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-09-07"
+  },
+  "b9091c56ed70b7b0": {
+   "id": "b9091c56ed70b7b0",
+   "source": "bipa",
+   "sourceName": "부산정보산업진흥원",
+   "title": "2026 AI 창업 경진대회 참가자 모집",
+   "url": "https://bipa.kr/board/business/view?seq=85338",
+   "date": "2026-09-07",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-09-07"
+  },
+  "ec018b5e195dfed9": {
+   "id": "ec018b5e195dfed9",
+   "source": "bipa",
+   "sourceName": "부산정보산업진흥원",
+   "title": "「국제게임전시회 지스타 2026」 BTB 부산공동관 참가기업 3차 모집 공고",
+   "url": "https://bipa.kr/board/business/view?seq=85337",
+   "date": "2026-09-07",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "홍보·마케팅",
+    "사업화"
+   ],
+   "firstSeen": "2026-09-07"
+  },
+  "f76a5348abdd74e6": {
+   "id": "f76a5348abdd74e6",
+   "source": "bipa",
+   "sourceName": "부산정보산업진흥원",
+   "title": "2026 부산콘텐츠아카데미 일자리 지원사업 4차 모집공고",
+   "url": "https://bipa.kr/board/business/view?seq=85336",
+   "date": "2026-09-07",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-09-07"
+  },
+  "368d0bf533a2c5f3": {
+   "id": "368d0bf533a2c5f3",
+   "source": "busan_gosi",
+   "sourceName": "부산광역시 고시공고",
+   "title": "2026년 전통시장 매니저 지원사업 추가 공고",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=79466&gosiGbn=A&curPage=1",
+   "date": "2026-09-07",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-09-07"
+  },
+  "4ae903c08f990c29": {
+   "id": "4ae903c08f990c29",
+   "source": "busan_gosi",
+   "sourceName": "부산광역시 고시공고",
+   "title": "사단법인 부산광역시자원봉사센터장 공개모집 공고",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=79418&gosiGbn=A&curPage=1",
+   "date": "2026-09-07",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-09-07"
   }
  },
  "sources": [
@@ -22426,8 +22567,9 @@
    "id": "mss",
    "name": "중소벤처기업부",
    "url": "https://www.mss.go.kr/site/smba/ex/bbs/List.do?cbIdx=310",
-   "status": "ok",
-   "count": 10
+   "status": "fail",
+   "count": 0,
+   "error": "408 Client Error: Request Timeout for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.mss.go.kr%2Fsite%2Fsmba%2Fex%2Fbbs%2FList.do%3FcbIdx%3D310"
   },
   {
    "id": "kidp",
@@ -22496,9 +22638,8 @@
    "id": "bkic",
    "name": "부산지식산업센터",
    "url": "http://bkic.bepa.kr/bsknow/view.do?no=1477",
-   "status": "fail",
-   "count": 0,
-   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=http%3A%2F%2Fbkic.bepa.kr%2Fbsknow%2Fview.do%3Fno%3D1477"
+   "status": "ok",
+   "count": 10
   },
   {
    "id": "bsia",
@@ -22525,9 +22666,8 @@
    "id": "busan_gosi",
    "name": "부산광역시 고시공고",
    "url": "https://www.busan.go.kr/nbgosi",
-   "status": "fail",
-   "count": 0,
-   "error": "500 Server Error: Internal Server Error for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.busan.go.kr%2Fnbgosi%3FcurPage%3D1"
+   "status": "ok",
+   "count": 6
   },
   {
    "id": "bscf",
