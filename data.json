@@ -1353,21 +1353,6 @@
    ],
    "firstSeen": "2026-07-09"
   },
-  "e9fcb2ab9eb65d4f": {
-   "id": "e9fcb2ab9eb65d4f",
-   "source": "arte",
-   "sourceName": "한국문화예술교육진흥원",
-   "title": "2026 꿈의 예술단(오케스트라·무용단·극단·스튜디오) 예비거점기관 공모 안내(공모설명회 자료, 질의응답 내용 추가)",
-   "url": "https://arte.or.kr/notice/business/notice/Business_BoardView.do?board_id=BRD_ID0083404",
-   "date": "2026-05-12",
-   "deadline": "2026-06-10",
-   "region": "전국",
-   "categories": [
-    "네트워킹",
-    "사업화"
-   ],
-   "firstSeen": "2026-07-09"
-  },
   "f3bb8f3527da492e": {
    "id": "f3bb8f3527da492e",
    "source": "smtech",
@@ -1998,20 +1983,6 @@
    "categories": [
     "홍보·마케팅",
     "사업화"
-   ],
-   "firstSeen": "2026-07-09"
-  },
-  "74560ad4719925ff": {
-   "id": "74560ad4719925ff",
-   "source": "bkic",
-   "sourceName": "부산지식산업센터",
-   "title": "부산지식산업센터(금곡점) 입주기업 모집 공고",
-   "url": "http://bkic.bepa.kr/bsknow/view.do?no=1477&idx=1819&view=view&pageIndex=1&sv=&sw=",
-   "date": "2026-05-12",
-   "deadline": null,
-   "region": "부산",
-   "categories": [
-    "입주기업"
    ],
    "firstSeen": "2026-07-09"
   },
@@ -24089,6 +24060,20 @@
     "사업화"
    ],
    "firstSeen": "2026-09-09"
+  },
+  "1ebc870923c41b4f": {
+   "id": "1ebc870923c41b4f",
+   "source": "kstartup",
+   "sourceName": "K스타트업",
+   "title": "2026년 국가철도공단 창업·벤처기업 지원사업 희망기업 모집공고",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179209",
+   "date": "2026-09-09",
+   "deadline": "2026-10-30",
+   "region": "전국",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-09-10"
   }
  },
  "sources": [
@@ -24111,8 +24096,9 @@
    "id": "mss",
    "name": "중소벤처기업부",
    "url": "https://www.mss.go.kr/site/smba/ex/bbs/List.do?cbIdx=310",
-   "status": "ok",
-   "count": 10
+   "status": "fail",
+   "count": 0,
+   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.mss.go.kr%2Fsite%2Fsmba%2Fex%2Fbbs%2FList.do%3FcbIdx%3D310"
   },
   {
    "id": "kidp",
@@ -24202,9 +24188,8 @@
    "id": "bistep",
    "name": "부산산업과학혁신원",
    "url": "https://www.bistep.re.kr/kor/CMS/Board/Board.do?mCode=MN008",
-   "status": "fail",
-   "count": 0,
-   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.bistep.re.kr%2Fkor%2FCMS%2FBoard%2FBoard.do%3FmCode%3DMN008"
+   "status": "ok",
+   "count": 10
   },
   {
    "id": "busan_gosi",
@@ -24212,7 +24197,7 @@
    "url": "https://www.busan.go.kr/nbgosi",
    "status": "fail",
    "count": 0,
-   "error": "408 Client Error: Request Timeout for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.busan.go.kr%2Fnbgosi%3FcurPage%3D1"
+   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.busan.go.kr%2Fnbgosi%3FcurPage%3D1"
   },
   {
    "id": "bscf",
