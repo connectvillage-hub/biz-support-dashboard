@@ -9388,9 +9388,9 @@
    "source": "btp",
    "sourceName": "부산테크노파크",
    "title": "2026년 수리조선산업 맞춤형 지원사업 추가모집 공고",
-   "url": "https://www.btp.or.kr/kor/CMS/Board/Board.do?mCode=MN013&mode=view&mgr_seq=16&board_seq=9582239",
-   "date": "2026-07-30",
-   "deadline": "2026-08-13",
+   "url": "https://www.btp.or.kr/kor/CMS/Board/Board.do?mCode=MN013&mode=view&mgr_seq=16&board_seq=9582426",
+   "date": "2026-09-09",
+   "deadline": "2026-09-28",
    "region": "부산",
    "categories": [
     "사업화"
@@ -23507,6 +23507,175 @@
     "사업화"
    ],
    "firstSeen": "2026-09-08"
+  },
+  "22f7b7c0a9e88cf7": {
+   "id": "22f7b7c0a9e88cf7",
+   "source": "kstartup",
+   "sourceName": "K스타트업",
+   "title": "2026년 SVC Seoul 인턴십 프로그램 학생인턴 모집공고",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179200",
+   "date": "2026-09-09",
+   "deadline": "2026-09-17",
+   "region": "전국",
+   "categories": [
+    "투자",
+    "사업화"
+   ],
+   "firstSeen": "2026-09-09"
+  },
+  "4b9c1c4768c16ccf": {
+   "id": "4b9c1c4768c16ccf",
+   "source": "btp",
+   "sourceName": "부산테크노파크",
+   "title": "2026년 수리조선 기업인증 지원사업 추가모집 공고",
+   "url": "https://www.btp.or.kr/kor/CMS/Board/Board.do?mCode=MN013&mode=view&mgr_seq=16&board_seq=9582425",
+   "date": "2026-09-09",
+   "deadline": "2026-09-28",
+   "region": "부산",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-09-09"
+  },
+  "a4016f157a977402": {
+   "id": "a4016f157a977402",
+   "source": "btp",
+   "sourceName": "부산테크노파크",
+   "title": "2027년 부산광역시 전략산업 선도기업 선정공고",
+   "url": "https://www.btp.or.kr/kor/CMS/Board/Board.do?mCode=MN013&mode=view&mgr_seq=16&board_seq=9582418",
+   "date": "2026-09-09",
+   "deadline": "2026-10-08",
+   "region": "부산",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-09-09"
+  },
+  "ec1a58165577d7d9": {
+   "id": "ec1a58165577d7d9",
+   "source": "bepa",
+   "sourceName": "부산경제진흥원",
+   "title": "소상공인 통합교육 - AI 비즈니스 과정 교육생 모집",
+   "url": "https://www.bepa.kr/kor/view.do?no=1502&idx=19498&view=view&pageIndex=1&sv=&sw=&sdate=&edate=&periodState=all&state=ing&temporary=0&items=소상공인",
+   "date": "2026-09-09",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-09-09"
+  },
+  "ef2283d4224fad02": {
+   "id": "ef2283d4224fad02",
+   "source": "busan_gosi",
+   "sourceName": "부산광역시 고시공고",
+   "title": "「2026 하반기 부산 사회적경제 공공구매 페어」 참가기업 모집 공고",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=79501&gosiGbn=A&curPage=1",
+   "date": "2026-09-09",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-09-09"
+  },
+  "9e8d0e992b2287bd": {
+   "id": "9e8d0e992b2287bd",
+   "source": "busan_gosi",
+   "sourceName": "부산광역시 고시공고",
+   "title": "2026년 청렴부산 숏폼 영상 공모전 수상작 공고",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=79498&gosiGbn=A&curPage=1",
+   "date": "2026-09-09",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-09-09"
+  },
+  "94fe0c1a11860b6f": {
+   "id": "94fe0c1a11860b6f",
+   "source": "busan_gosi",
+   "sourceName": "부산광역시 고시공고",
+   "title": "부산광역시 원자력산업육성위원회 위원 공개모집 공고",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=79490&gosiGbn=A&curPage=1",
+   "date": "2026-09-09",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-09-09"
+  },
+  "0f328beed367979b": {
+   "id": "0f328beed367979b",
+   "source": "busan_gosi",
+   "sourceName": "부산광역시 고시공고",
+   "title": "부산광역시 인구정책위원회 위원 공개모집 공고",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=79455&gosiGbn=A&curPage=2",
+   "date": "2026-09-09",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-09-09"
+  },
+  "809ead4bfab2aac3": {
+   "id": "809ead4bfab2aac3",
+   "source": "busan_gosi",
+   "sourceName": "부산광역시 고시공고",
+   "title": "부산광역시 주택건축국 제1공적심사위원회 위원(결원보충) 공개모집 공고",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=79451&gosiGbn=A&curPage=2",
+   "date": "2026-09-09",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-09-09"
+  },
+  "2af0c740285d844f": {
+   "id": "2af0c740285d844f",
+   "source": "busan_gosi",
+   "sourceName": "부산광역시 고시공고",
+   "title": "제11기 부산시민 도시계획 아카데미 수강생 모집 공고",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=79424&gosiGbn=A&curPage=2",
+   "date": "2026-09-09",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-09-09"
+  },
+  "389c93de698f7312": {
+   "id": "389c93de698f7312",
+   "source": "busan_gosi",
+   "sourceName": "부산광역시 고시공고",
+   "title": "부산광역시 평화&#8231;통일교육위원회 위원 공개모집 공고",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=79422&gosiGbn=A&curPage=2",
+   "date": "2026-09-09",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-09-09"
+  },
+  "8e1818567a6a9ba0": {
+   "id": "8e1818567a6a9ba0",
+   "source": "busan_gosi",
+   "sourceName": "부산광역시 고시공고",
+   "title": "부산광역시 성과평가위원회 위원 공개모집 공고",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=79322&gosiGbn=A&curPage=3",
+   "date": "2026-09-09",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-09-09"
   }
  },
  "sources": [
@@ -23627,7 +23796,7 @@
    "name": "부산광역시 고시공고",
    "url": "https://www.busan.go.kr/nbgosi",
    "status": "ok",
-   "count": 1
+   "count": 8
   },
   {
    "id": "bscf",
