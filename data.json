@@ -24074,6 +24074,62 @@
     "사업화"
    ],
    "firstSeen": "2026-09-10"
+  },
+  "fd35c53d2d23f989": {
+   "id": "fd35c53d2d23f989",
+   "source": "kstartup",
+   "sourceName": "K스타트업",
+   "title": "베트남 테크페스트(TECHFEST 2026) K-스타트업 통합관 참가기업 모집공고",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179192",
+   "date": "2026-09-10",
+   "deadline": "2026-09-17",
+   "region": "전국",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-09-10"
+  },
+  "a5a2c3749faa72f1": {
+   "id": "a5a2c3749faa72f1",
+   "source": "semas",
+   "sourceName": "소상공인시장진흥공단",
+   "title": "소상공인시장진흥공단 비상임이사 모집공고",
+   "url": "https://www.semas.or.kr/web/board/webBoardView.kmdc?bCd=1&b_idx=56585&pNm=BOA0101",
+   "date": "2026-09-09",
+   "deadline": null,
+   "region": "전국",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-09-10"
+  },
+  "86dcc5d2452f4da9": {
+   "id": "86dcc5d2452f4da9",
+   "source": "dcb",
+   "sourceName": "부산디자인진흥원",
+   "title": "지역디자인산업진흥사업 디자인 개발 지원과제 2차 모집 공고",
+   "url": "https://dcb.or.kr/01_news/?mcode=0401010000&mode=2&no=14518&page=1",
+   "date": "2026-09-10",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-09-10"
+  },
+  "9e5bf889691b2f35": {
+   "id": "9e5bf889691b2f35",
+   "source": "btp",
+   "sourceName": "부산테크노파크",
+   "title": "2026년 차세대반도체 불량분석 및 품질관리 전문인력양성 교육생 모집공고 [재공고]",
+   "url": "https://www.btp.or.kr/kor/CMS/Board/Board.do?mCode=MN013&mode=view&mgr_seq=16&board_seq=9582429",
+   "date": "2026-09-10",
+   "deadline": "2026-09-23",
+   "region": "부산",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-09-10"
   }
  },
  "sources": [
@@ -24090,7 +24146,7 @@
    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200View.do",
    "status": "fail",
    "count": 0,
-   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.bizinfo.go.kr%2Fsii%2Fsiia%2FselectSIIA200View.do"
+   "error": "408 Client Error: Request Timeout for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.bizinfo.go.kr%2Fsii%2Fsiia%2FselectSIIA200View.do"
   },
   {
    "id": "mss",
@@ -24098,7 +24154,7 @@
    "url": "https://www.mss.go.kr/site/smba/ex/bbs/List.do?cbIdx=310",
    "status": "fail",
    "count": 0,
-   "error": "500 Server Error: Internal Server Error for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.mss.go.kr%2Fsite%2Fsmba%2Fex%2Fbbs%2FList.do%3FcbIdx%3D310"
+   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.mss.go.kr%2Fsite%2Fsmba%2Fex%2Fbbs%2FList.do%3FcbIdx%3D310"
   },
   {
    "id": "kidp",
@@ -24197,7 +24253,7 @@
    "url": "https://www.busan.go.kr/nbgosi",
    "status": "fail",
    "count": 0,
-   "error": "500 Server Error: Internal Server Error for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.busan.go.kr%2Fnbgosi%3FcurPage%3D1"
+   "error": "520 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.busan.go.kr%2Fnbgosi%3FcurPage%3D1"
   },
   {
    "id": "bscf",
