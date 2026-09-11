@@ -24358,6 +24358,22 @@
     "사업화"
    ],
    "firstSeen": "2026-09-10"
+  },
+  "c964a5e3e0d41a60": {
+   "id": "c964a5e3e0d41a60",
+   "source": "btp",
+   "sourceName": "부산테크노파크",
+   "title": "「2026년도 시군구연고산업육성 협업프로젝트」부산 커피산업 생태계 R&D 클러스트 구축사업 국내전시회 공동관 참가지원 프로그램 모집공고",
+   "url": "https://www.btp.or.kr/kor/CMS/Board/Board.do?mCode=MN013&mode=view&mgr_seq=16&board_seq=9582427",
+   "date": "2026-09-11",
+   "deadline": "2026-09-20",
+   "region": "부산",
+   "categories": [
+    "R&D",
+    "홍보·마케팅",
+    "사업화"
+   ],
+   "firstSeen": "2026-09-11"
   }
  },
  "sources": [
@@ -24480,7 +24496,7 @@
    "url": "https://www.busan.go.kr/nbgosi",
    "status": "fail",
    "count": 0,
-   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.busan.go.kr%2Fnbgosi%3FcurPage%3D1"
+   "error": "408 Client Error: Request Timeout for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.busan.go.kr%2Fnbgosi%3FcurPage%3D1"
   },
   {
    "id": "bscf",
