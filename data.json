@@ -25611,6 +25611,34 @@
     "기타"
    ],
    "firstSeen": "2026-09-15"
+  },
+  "0100e609794ddf64": {
+   "id": "0100e609794ddf64",
+   "source": "kidp",
+   "sourceName": "한국디자인진흥원",
+   "title": "한국디자인진흥원, 프랑스 파리에서 K-디자인 해외 판로 확대",
+   "url": "https://kidp.or.kr/?menuno=1202",
+   "date": "2026-09-15",
+   "deadline": null,
+   "region": "전국",
+   "categories": [
+    "홍보·마케팅"
+   ],
+   "firstSeen": "2026-09-15"
+  },
+  "31e64c852b35b875": {
+   "id": "31e64c852b35b875",
+   "source": "dcb",
+   "sourceName": "부산디자인진흥원",
+   "title": "화명 야외수영장 국제 디자인 경쟁공모 1차 제안서 심사 결과 안내",
+   "url": "https://dcb.or.kr/01_news/?mcode=0401010000&mode=2&no=14521&page=1",
+   "date": "2026-09-15",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-09-15"
   }
  },
  "sources": [
@@ -25625,8 +25653,9 @@
    "id": "bizinfo",
    "name": "기업마당",
    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200View.do",
-   "status": "ok",
-   "count": 15
+   "status": "fail",
+   "count": 0,
+   "error": "500 Server Error: Internal Server Error for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.bizinfo.go.kr%2Fsii%2Fsiia%2FselectSIIA200View.do"
   },
   {
    "id": "mss",
@@ -25731,8 +25760,9 @@
    "id": "busan_gosi",
    "name": "부산광역시 고시공고",
    "url": "https://www.busan.go.kr/nbgosi",
-   "status": "ok",
-   "count": 7
+   "status": "fail",
+   "count": 0,
+   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.busan.go.kr%2Fnbgosi%3FcurPage%3D1"
   },
   {
    "id": "bscf",
