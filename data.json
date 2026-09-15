@@ -25519,7 +25519,7 @@
    "source": "busan_gosi",
    "sourceName": "부산광역시 고시공고",
    "title": "2026년 하반기 취업연수생 모집 공고",
-   "url": "https://www.busan.go.kr/nbgosi/view?sno=79603&gosiGbn=A&curPage=1",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=79603&gosiGbn=A&curPage=2",
    "date": "2026-09-15",
    "deadline": null,
    "region": "부산",
@@ -25533,7 +25533,7 @@
    "source": "busan_gosi",
    "sourceName": "부산광역시 고시공고",
    "title": "부산광역시 학교 밖 청소년 지원센터 운영 민간위탁 수탁자 모집 공고",
-   "url": "https://www.busan.go.kr/nbgosi/view?sno=79585&gosiGbn=A&curPage=2",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=79585&gosiGbn=A&curPage=3",
    "date": "2026-09-15",
    "deadline": null,
    "region": "부산",
@@ -25639,6 +25639,20 @@
     "사업화"
    ],
    "firstSeen": "2026-09-15"
+  },
+  "204c14dcfe0cb2e2": {
+   "id": "204c14dcfe0cb2e2",
+   "source": "bistep",
+   "sourceName": "부산산업과학혁신원",
+   "title": "「제12회 부산R&D주간」 개최",
+   "url": "https://www.bistep.re.kr/kor/CMS/Board/Board.dohttps://www.bistep.re.kr/rndweek/Main.do",
+   "date": "2026-09-15",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "R&D"
+   ],
+   "firstSeen": "2026-09-16"
   }
  },
  "sources": [
@@ -25653,9 +25667,8 @@
    "id": "bizinfo",
    "name": "기업마당",
    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200View.do",
-   "status": "fail",
-   "count": 0,
-   "error": "500 Server Error: Internal Server Error for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.bizinfo.go.kr%2Fsii%2Fsiia%2FselectSIIA200View.do"
+   "status": "ok",
+   "count": 15
   },
   {
    "id": "mss",
@@ -25752,17 +25765,15 @@
    "id": "bistep",
    "name": "부산산업과학혁신원",
    "url": "https://www.bistep.re.kr/kor/CMS/Board/Board.do?mCode=MN008",
-   "status": "fail",
-   "count": 0,
-   "error": "408 Client Error: Request Timeout for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.bistep.re.kr%2Fkor%2FCMS%2FBoard%2FBoard.do%3FmCode%3DMN008"
+   "status": "ok",
+   "count": 10
   },
   {
    "id": "busan_gosi",
    "name": "부산광역시 고시공고",
    "url": "https://www.busan.go.kr/nbgosi",
-   "status": "fail",
-   "count": 0,
-   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.busan.go.kr%2Fnbgosi%3FcurPage%3D1"
+   "status": "ok",
+   "count": 3
   },
   {
    "id": "bscf",
