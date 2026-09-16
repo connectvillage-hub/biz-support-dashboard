@@ -26050,6 +26050,20 @@
     "사업화"
    ],
    "firstSeen": "2026-09-16"
+  },
+  "0f25c344a46fd6a1": {
+   "id": "0f25c344a46fd6a1",
+   "source": "busan_gosi",
+   "sourceName": "부산광역시 고시공고",
+   "title": "2026년도 부산광역시 중소기업·소상공인 자금지원계획 10차 변경 공고",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=79622&gosiGbn=A&curPage=1",
+   "date": "2026-09-16",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-09-16"
   }
  },
  "sources": [
@@ -26162,15 +26176,16 @@
    "id": "bistep",
    "name": "부산산업과학혁신원",
    "url": "https://www.bistep.re.kr/kor/CMS/Board/Board.do?mCode=MN008",
-   "status": "ok",
-   "count": 10
+   "status": "fail",
+   "count": 0,
+   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.bistep.re.kr%2Fkor%2FCMS%2FBoard%2FBoard.do%3FmCode%3DMN008"
   },
   {
    "id": "busan_gosi",
    "name": "부산광역시 고시공고",
    "url": "https://www.busan.go.kr/nbgosi",
    "status": "ok",
-   "count": 6
+   "count": 7
   },
   {
    "id": "bscf",
