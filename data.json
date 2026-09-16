@@ -2084,20 +2084,6 @@
    ],
    "firstSeen": "2026-07-09"
   },
-  "f8215f384665c574": {
-   "id": "f8215f384665c574",
-   "source": "semas",
-   "sourceName": "소상공인시장진흥공단",
-   "title": "2026년 찾아가는 1:1 디지털 교육 소상공인 모집 공고",
-   "url": "https://www.semas.or.kr/web/board/webBoardView.kmdc?bCd=1&b_idx=54236&pNm=BOA0101",
-   "date": "2026-05-19",
-   "deadline": null,
-   "region": "전국",
-   "categories": [
-    "기타"
-   ],
-   "firstSeen": "2026-07-09"
-  },
   "f6e488ffa8f8f154": {
    "id": "f6e488ffa8f8f154",
    "source": "btp",
@@ -26178,7 +26164,7 @@
    "url": "https://www.bistep.re.kr/kor/CMS/Board/Board.do?mCode=MN008",
    "status": "fail",
    "count": 0,
-   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.bistep.re.kr%2Fkor%2FCMS%2FBoard%2FBoard.do%3FmCode%3DMN008"
+   "error": "500 Server Error: Internal Server Error for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.bistep.re.kr%2Fkor%2FCMS%2FBoard%2FBoard.do%3FmCode%3DMN008"
   },
   {
    "id": "busan_gosi",
