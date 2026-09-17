@@ -26733,6 +26733,20 @@
     "기타"
    ],
    "firstSeen": "2026-09-17"
+  },
+  "6a3695191135af34": {
+   "id": "6a3695191135af34",
+   "source": "kocca",
+   "sourceName": "한국콘텐츠진흥원",
+   "title": "2026 월드 웹툰 페스티벌 전시 참가자 모집공고",
+   "url": "https://www.kocca.kr/kocca/pims/view.do?intcNo=326D00092012&menuNo=20410&recptSt=&category=&pageIndex=1&search=&searchWrd=",
+   "date": "2026-09-17",
+   "deadline": "2026-10-06",
+   "region": "전국",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-09-17"
   }
  },
  "sources": [
@@ -26754,8 +26768,9 @@
    "id": "mss",
    "name": "중소벤처기업부",
    "url": "https://www.mss.go.kr/site/smba/ex/bbs/List.do?cbIdx=310",
-   "status": "ok",
-   "count": 10
+   "status": "fail",
+   "count": 0,
+   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.mss.go.kr%2Fsite%2Fsmba%2Fex%2Fbbs%2FList.do%3FcbIdx%3D310"
   },
   {
    "id": "kidp",
@@ -26769,7 +26784,7 @@
    "name": "한국콘텐츠진흥원",
    "url": "https://www.kocca.kr/kocca/pims/list.do?menuNo=20410",
    "status": "ok",
-   "count": 5
+   "count": 6
   },
   {
    "id": "arte",
@@ -26853,8 +26868,9 @@
    "id": "busan_gosi",
    "name": "부산광역시 고시공고",
    "url": "https://www.busan.go.kr/nbgosi",
-   "status": "ok",
-   "count": 7
+   "status": "fail",
+   "count": 0,
+   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.busan.go.kr%2Fnbgosi%3FcurPage%3D1"
   },
   {
    "id": "bscf",
