@@ -467,20 +467,6 @@
    ],
    "firstSeen": "2026-07-09"
   },
-  "5c6937c1a1375950": {
-   "id": "5c6937c1a1375950",
-   "source": "orangeplanet",
-   "sourceName": "오렌지플래닛",
-   "title": "오렌지플래닛 개인정보처리방침 변경 안내 (시행 2026.06.10)",
-   "url": "https://orangeplanet.or.kr/news/newsDetail?newsIdx=2673",
-   "date": "2026-05-20",
-   "deadline": null,
-   "region": "전국",
-   "categories": [
-    "기타"
-   ],
-   "firstSeen": "2026-07-09"
-  },
   "5e86792ce64e0143": {
    "id": "5e86792ce64e0143",
    "source": "kstartup",
@@ -1953,21 +1939,6 @@
    "deadline": null,
    "region": "부산",
    "categories": [
-    "사업화"
-   ],
-   "firstSeen": "2026-07-09"
-  },
-  "af1b607f8b09856a": {
-   "id": "af1b607f8b09856a",
-   "source": "bkic",
-   "sourceName": "부산지식산업센터",
-   "title": "2026년 부산 반려동물산업 육성 판로개척 지원사업 참여기업 모집",
-   "url": "http://bkic.bepa.kr/bsknow/view.do?no=1477&idx=1821&view=view&pageIndex=1&sv=&sw=",
-   "date": "2026-05-20",
-   "deadline": null,
-   "region": "부산",
-   "categories": [
-    "홍보·마케팅",
     "사업화"
    ],
    "firstSeen": "2026-07-09"
@@ -26761,16 +26732,16 @@
    "id": "bizinfo",
    "name": "기업마당",
    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200View.do",
-   "status": "ok",
-   "count": 15
+   "status": "fail",
+   "count": 0,
+   "error": "500 Server Error: Internal Server Error for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.bizinfo.go.kr%2Fsii%2Fsiia%2FselectSIIA200View.do"
   },
   {
    "id": "mss",
    "name": "중소벤처기업부",
    "url": "https://www.mss.go.kr/site/smba/ex/bbs/List.do?cbIdx=310",
-   "status": "fail",
-   "count": 0,
-   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.mss.go.kr%2Fsite%2Fsmba%2Fex%2Fbbs%2FList.do%3FcbIdx%3D310"
+   "status": "ok",
+   "count": 10
   },
   {
    "id": "kidp",
@@ -26862,7 +26833,7 @@
    "url": "https://www.bistep.re.kr/kor/CMS/Board/Board.do?mCode=MN008",
    "status": "fail",
    "count": 0,
-   "error": "520 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.bistep.re.kr%2Fkor%2FCMS%2FBoard%2FBoard.do%3FmCode%3DMN008"
+   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.bistep.re.kr%2Fkor%2FCMS%2FBoard%2FBoard.do%3FmCode%3DMN008"
   },
   {
    "id": "busan_gosi",
