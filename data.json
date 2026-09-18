@@ -18918,7 +18918,7 @@
    "source": "bepa",
    "sourceName": "부산경제진흥원",
    "title": "2026 중장년 소상공인 디지털 전환 교육 교육생 모집 공고",
-   "url": "https://www.bepa.kr/kor/view.do?no=1502&idx=19457&view=view&pageIndex=1&sv=&sw=&sdate=&edate=&periodState=all&state=ing&temporary=0&items=소상공인",
+   "url": "https://www.bepa.kr/kor/view.do?no=1502&idx=19457&view=view&pageIndex=1&sv=&sw=&sdate=&edate=&periodState=all&state=end&temporary=0&items=소상공인",
    "date": "2026-08-27",
    "deadline": null,
    "region": "부산",
@@ -22953,7 +22953,7 @@
    "source": "bepa",
    "sourceName": "부산경제진흥원",
    "title": "「전통시장 소비진작 환급(온누리상품권)지원 행사 운영 용역 」재입찰 공고",
-   "url": "https://www.bepa.kr/kor/view.do?no=1502&idx=19491&view=view&pageIndex=1&sv=&sw=&sdate=&edate=&periodState=all&state=ing&temporary=0&items=소상공인",
+   "url": "https://www.bepa.kr/kor/view.do?no=1502&idx=19491&view=view&pageIndex=1&sv=&sw=&sdate=&edate=&periodState=all&state=end&temporary=0&items=소상공인",
    "date": "2026-09-08",
    "deadline": null,
    "region": "부산",
@@ -24695,7 +24695,7 @@
    "source": "bepa",
    "sourceName": "부산경제진흥원",
    "title": "「1만원 임대료 빈 점포 다시채움 프로젝트」 임차인 모집 공고",
-   "url": "https://www.bepa.kr/kor/view.do?no=1502&idx=19510&view=view&pageIndex=1&sv=&sw=&sdate=&edate=&periodState=all&state=ing&temporary=0&items=소상공인",
+   "url": "https://www.bepa.kr/kor/view.do?no=1502&idx=19510&view=view&pageIndex=1&sv=&sw=&sdate=&edate=&periodState=all&state=end&temporary=0&items=소상공인",
    "date": "2026-09-11",
    "deadline": null,
    "region": "부산",
@@ -27111,8 +27111,9 @@
    "id": "bizinfo",
    "name": "기업마당",
    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200View.do",
-   "status": "ok",
-   "count": 15
+   "status": "fail",
+   "count": 0,
+   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.bizinfo.go.kr%2Fsii%2Fsiia%2FselectSIIA200View.do"
   },
   {
    "id": "mss",
@@ -27212,7 +27213,7 @@
    "url": "https://www.bistep.re.kr/kor/CMS/Board/Board.do?mCode=MN008",
    "status": "fail",
    "count": 0,
-   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.bistep.re.kr%2Fkor%2FCMS%2FBoard%2FBoard.do%3FmCode%3DMN008"
+   "error": "520 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.bistep.re.kr%2Fkor%2FCMS%2FBoard%2FBoard.do%3FmCode%3DMN008"
   },
   {
    "id": "busan_gosi",
@@ -27220,7 +27221,7 @@
    "url": "https://www.busan.go.kr/nbgosi",
    "status": "fail",
    "count": 0,
-   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.busan.go.kr%2Fnbgosi%3FcurPage%3D1"
+   "error": "520 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.busan.go.kr%2Fnbgosi%3FcurPage%3D1"
   },
   {
    "id": "bscf",
