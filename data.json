@@ -27069,6 +27069,34 @@
     "기타"
    ],
    "firstSeen": "2026-09-18"
+  },
+  "3f0ade309d424c8d": {
+   "id": "3f0ade309d424c8d",
+   "source": "kstartup",
+   "sourceName": "K스타트업",
+   "title": "「충북 제조창업 마스터 매칭 프로그램」 참여기업 모집 공고",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179288",
+   "date": "2026-09-18",
+   "deadline": "2026-10-02",
+   "region": "전국",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-09-18"
+  },
+  "93263ccfbc7b9612": {
+   "id": "93263ccfbc7b9612",
+   "source": "kidp",
+   "sourceName": "한국디자인진흥원",
+   "title": "2026 완주문화선도산단 청년디자인리빙랩 시범운영 - 완주 오감재 개관 안내",
+   "url": "https://kidp.or.kr/?menuno=1202",
+   "date": "2026-09-18",
+   "deadline": null,
+   "region": "전국",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-09-18"
   }
  },
  "sources": [
@@ -27090,8 +27118,9 @@
    "id": "mss",
    "name": "중소벤처기업부",
    "url": "https://www.mss.go.kr/site/smba/ex/bbs/List.do?cbIdx=310",
-   "status": "ok",
-   "count": 10
+   "status": "fail",
+   "count": 0,
+   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.mss.go.kr%2Fsite%2Fsmba%2Fex%2Fbbs%2FList.do%3FcbIdx%3D310"
   },
   {
    "id": "kidp",
@@ -27181,15 +27210,17 @@
    "id": "bistep",
    "name": "부산산업과학혁신원",
    "url": "https://www.bistep.re.kr/kor/CMS/Board/Board.do?mCode=MN008",
-   "status": "ok",
-   "count": 10
+   "status": "fail",
+   "count": 0,
+   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.bistep.re.kr%2Fkor%2FCMS%2FBoard%2FBoard.do%3FmCode%3DMN008"
   },
   {
    "id": "busan_gosi",
    "name": "부산광역시 고시공고",
    "url": "https://www.busan.go.kr/nbgosi",
-   "status": "ok",
-   "count": 7
+   "status": "fail",
+   "count": 0,
+   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.busan.go.kr%2Fnbgosi%3FcurPage%3D1"
   },
   {
    "id": "bscf",
