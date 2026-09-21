@@ -2258,10 +2258,10 @@
    "source": "kstartup",
    "sourceName": "K스타트업",
    "title": "동국대학교 창업보육센터(서울) 신규 입주기업 모집 공고",
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178473",
-   "date": "2026-07-09",
-   "deadline": "2026-07-30",
-   "region": "전국",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179296",
+   "date": "2026-09-21",
+   "deadline": "2026-10-06",
+   "region": "서울",
    "categories": [
     "입주기업",
     "사업화"
@@ -27125,6 +27125,194 @@
     "기타"
    ],
    "firstSeen": "2026-09-20"
+  },
+  "7b9baffd65404095": {
+   "id": "7b9baffd65404095",
+   "source": "kstartup",
+   "sourceName": "K스타트업",
+   "title": "[GBSA] 2026 판교스타트업 투자교류회 제 3차 투자교류회",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179283",
+   "date": "2026-09-21",
+   "deadline": "2026-10-12",
+   "region": "전국",
+   "categories": [
+    "투자",
+    "네트워킹"
+   ],
+   "firstSeen": "2026-09-21"
+  },
+  "c2e51da7296c5a5f": {
+   "id": "c2e51da7296c5a5f",
+   "source": "kstartup",
+   "sourceName": "K스타트업",
+   "title": "[창업BuS x Station C] 2026년 강원BRIDGE 배치프로그램 2차 창업기업 모집",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179305",
+   "date": "2026-09-21",
+   "deadline": "2026-09-29",
+   "region": "전국",
+   "categories": [
+    "투자",
+    "사업화"
+   ],
+   "firstSeen": "2026-09-21"
+  },
+  "9ae7066c8382e716": {
+   "id": "9ae7066c8382e716",
+   "source": "kstartup",
+   "sourceName": "K스타트업",
+   "title": "2026년 10월 크립톤 IR피칭 & 오피스아워 신청 접수",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179304",
+   "date": "2026-09-21",
+   "deadline": "2026-10-05",
+   "region": "전국",
+   "categories": [
+    "투자"
+   ],
+   "firstSeen": "2026-09-21"
+  },
+  "d3e78c6b8998cc93": {
+   "id": "d3e78c6b8998cc93",
+   "source": "kstartup",
+   "sourceName": "K스타트업",
+   "title": "2026년 블록체인 기업성장허브 입주기업 모집",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179303",
+   "date": "2026-09-21",
+   "deadline": "2026-10-07",
+   "region": "전국",
+   "categories": [
+    "입주기업"
+   ],
+   "firstSeen": "2026-09-21"
+  },
+  "43f3efed0ba55115": {
+   "id": "43f3efed0ba55115",
+   "source": "kstartup",
+   "sourceName": "K스타트업",
+   "title": "용인시산업진흥원 2026년 제4차 창업지원센터 입주기업 모집",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179284",
+   "date": "2026-09-21",
+   "deadline": "2026-10-13",
+   "region": "전국",
+   "categories": [
+    "입주기업",
+    "사업화"
+   ],
+   "firstSeen": "2026-09-21"
+  },
+  "3b6816566b646a93": {
+   "id": "3b6816566b646a93",
+   "source": "kstartup",
+   "sourceName": "K스타트업",
+   "title": "[창업] 창업가를 위한 가격 전략 실전",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179310",
+   "date": "2026-09-21",
+   "deadline": "2026-10-02",
+   "region": "전국",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-09-21"
+  },
+  "46839f3baf06f632": {
+   "id": "46839f3baf06f632",
+   "source": "kstartup",
+   "sourceName": "K스타트업",
+   "title": "청년창업 거주지원시설(창업하여家) 입주자 3차 모집(연장)",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179292",
+   "date": "2026-09-21",
+   "deadline": "2026-09-29",
+   "region": "전국",
+   "categories": [
+    "입주기업",
+    "사업화"
+   ],
+   "firstSeen": "2026-09-21"
+  },
+  "b676b994a18009cf": {
+   "id": "b676b994a18009cf",
+   "source": "kstartup",
+   "sourceName": "K스타트업",
+   "title": "2026년 제2회 테크플러스 스테이지 입주기업 모집 공고",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179291",
+   "date": "2026-09-21",
+   "deadline": "2026-09-29",
+   "region": "전국",
+   "categories": [
+    "입주기업"
+   ],
+   "firstSeen": "2026-09-21"
+  },
+  "99a4d15fc8021013": {
+   "id": "99a4d15fc8021013",
+   "source": "kstartup",
+   "sourceName": "K스타트업",
+   "title": "2026년 전북청년창업박람회 창업기업 모집 공고",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179290",
+   "date": "2026-09-21",
+   "deadline": "2026-09-22",
+   "region": "전국",
+   "categories": [
+    "홍보·마케팅",
+    "사업화"
+   ],
+   "firstSeen": "2026-09-21"
+  },
+  "4bb11a418abffe2a": {
+   "id": "4bb11a418abffe2a",
+   "source": "kstartup",
+   "sourceName": "K스타트업",
+   "title": "2026 제4회 SB 스타트업 네트워킹 페스티벌: AI 기반 지역문제 해결 해커톤 참가자 모집 (~9/30)",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179299",
+   "date": "2026-09-21",
+   "deadline": "2026-09-30",
+   "region": "전국",
+   "categories": [
+    "네트워킹"
+   ],
+   "firstSeen": "2026-09-21"
+  },
+  "bbb82cf7379872b3": {
+   "id": "bbb82cf7379872b3",
+   "source": "kstartup",
+   "sourceName": "K스타트업",
+   "title": "구로구 청년창업지원센터 일반 창업교육(하반기: 4회차): 온라인 마케팅 실전 가이드",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179300",
+   "date": "2026-09-21",
+   "deadline": "2026-10-07",
+   "region": "전국",
+   "categories": [
+    "홍보·마케팅",
+    "사업화"
+   ],
+   "firstSeen": "2026-09-21"
+  },
+  "dc4218ec079cf40d": {
+   "id": "dc4218ec079cf40d",
+   "source": "kstartup",
+   "sourceName": "K스타트업",
+   "title": "2026 제10회 G밸리창업경진대회 참가기업 모집",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179309",
+   "date": "2026-09-21",
+   "deadline": "2026-10-08",
+   "region": "전국",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-09-21"
+  },
+  "b466c1aa460d39c0": {
+   "id": "b466c1aa460d39c0",
+   "source": "dcb",
+   "sourceName": "부산디자인진흥원",
+   "title": "아난티와 함께하는 2026년 K-뉴딜 아카데미 2기 모집공고",
+   "url": "https://dcb.or.kr/01_news/?mcode=0401010000&mode=2&no=14522&page=1",
+   "date": "2026-09-21",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-09-21"
   }
  },
  "sources": [
@@ -27139,8 +27327,9 @@
    "id": "bizinfo",
    "name": "기업마당",
    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200View.do",
-   "status": "ok",
-   "count": 15
+   "status": "fail",
+   "count": 0,
+   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.bizinfo.go.kr%2Fsii%2Fsiia%2FselectSIIA200View.do"
   },
   {
    "id": "mss",
@@ -27162,7 +27351,7 @@
    "name": "한국콘텐츠진흥원",
    "url": "https://www.kocca.kr/kocca/pims/list.do?menuNo=20410",
    "status": "ok",
-   "count": 6
+   "count": 5
   },
   {
    "id": "arte",
