@@ -26991,7 +26991,7 @@
    "source": "busan_gosi",
    "sourceName": "부산광역시 고시공고",
    "title": "함정 MRO 방산혁신클러스터 수행기관 모집 공고",
-   "url": "https://www.busan.go.kr/nbgosi/view?sno=79673&gosiGbn=A&curPage=1",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=79673&gosiGbn=A&curPage=2",
    "date": "2026-09-18",
    "deadline": null,
    "region": "부산",
@@ -27047,7 +27047,7 @@
    "source": "busan_gosi",
    "sourceName": "부산광역시 고시공고",
    "title": "2026년도「기업환경개선 사업」지원 기업 최종 선정 결과 공고",
-   "url": "https://www.busan.go.kr/nbgosi/view?sno=79591&gosiGbn=A&curPage=2",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=79591&gosiGbn=A&curPage=3",
    "date": "2026-08-20",
    "deadline": null,
    "region": "부산",
@@ -27696,6 +27696,48 @@
     "기타"
    ],
    "firstSeen": "2026-09-21"
+  },
+  "a1dce606c2b471e0": {
+   "id": "a1dce606c2b471e0",
+   "source": "kidp",
+   "sourceName": "한국디자인진흥원",
+   "title": "2026년 청년연계 K디자인 파워업 사업 수요기업 추가모집 공고문",
+   "url": "https://kidp.or.kr/?menuno=1202",
+   "date": "2026-09-21",
+   "deadline": null,
+   "region": "전국",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-09-22"
+  },
+  "3cdd43e52747a716": {
+   "id": "3cdd43e52747a716",
+   "source": "kidp",
+   "sourceName": "한국디자인진흥원",
+   "title": "(발표자료) 재난안전 디자인 3.0 - 김묘영 바이스 버사 디자인 스튜디오 대표",
+   "url": "https://kidp.or.kr/?menuno=1202",
+   "date": "2026-09-21",
+   "deadline": null,
+   "region": "전국",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-09-22"
+  },
+  "7be6b6ae5dedd421": {
+   "id": "7be6b6ae5dedd421",
+   "source": "busan_gosi",
+   "sourceName": "부산광역시 고시공고",
+   "title": "공유재산(중도매인 점포) 신규 사용자 모집 공고",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=79689&gosiGbn=A&curPage=1",
+   "date": "2026-07-06",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-09-22"
   }
  },
  "sources": [
@@ -27816,7 +27858,7 @@
    "name": "부산광역시 고시공고",
    "url": "https://www.busan.go.kr/nbgosi",
    "status": "ok",
-   "count": 9
+   "count": 10
   },
   {
    "id": "bscf",
