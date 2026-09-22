@@ -27738,6 +27738,76 @@
     "기타"
    ],
    "firstSeen": "2026-09-22"
+  },
+  "64a8a38eed7cc8a7": {
+   "id": "64a8a38eed7cc8a7",
+   "source": "kidp",
+   "sourceName": "한국디자인진흥원",
+   "title": "[서울,경기 기업] 생성형 AI 기반 디자인 콘텐츠 실무 역량 강화 과정 교육 신청 안내",
+   "url": "https://kidp.or.kr/?menuno=1202",
+   "date": "2026-09-22",
+   "deadline": null,
+   "region": "서울",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-09-22"
+  },
+  "ae3164292defd867": {
+   "id": "ae3164292defd867",
+   "source": "kidp",
+   "sourceName": "한국디자인진흥원",
+   "title": "(알림) 「‘26년 산업안전디자인 우수사례 경진대회」 개최 및 참가 안내 - 한국산업안전보건공단",
+   "url": "https://kidp.or.kr/?menuno=1202",
+   "date": "2026-09-22",
+   "deadline": null,
+   "region": "전국",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-09-22"
+  },
+  "187d91402d55da4d": {
+   "id": "187d91402d55da4d",
+   "source": "kidp",
+   "sourceName": "한국디자인진흥원",
+   "title": "2026년 하반기 경남 디자인 인식 확산을 위한 AI 실무활용교육 교육생 모집 안내",
+   "url": "https://kidp.or.kr/?menuno=1202",
+   "date": "2026-09-22",
+   "deadline": null,
+   "region": "경남",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-09-22"
+  },
+  "3a6879fcafdb613f": {
+   "id": "3a6879fcafdb613f",
+   "source": "smtech",
+   "sourceName": "중소기업 기술개발(SMTECH)",
+   "title": "2026년도 중소벤처기업부 혁신제품 3차 규격추가 모집 안내문",
+   "url": "https://www.smtech.go.kr/front/ifg/no/notice02_detail.do?buclYy=&ancmId=S02880&buclCd=S9111&dtlAncmSn=1&schdSe=MO5005&aplySn=1&searchCondition=&searchKeyword=&pageIndex=1",
+   "date": "2026-09-22",
+   "deadline": "2026-10-19",
+   "region": "전국",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-09-22"
+  },
+  "0e091ba97075dfe2": {
+   "id": "0e091ba97075dfe2",
+   "source": "btp",
+   "sourceName": "부산테크노파크",
+   "title": "2026 신발산업 해외물류 바우처 지원사업 참가기업 모집공고(지원범위확대)",
+   "url": "https://www.btp.or.kr/kor/CMS/Board/Board.do?mCode=MN013&mode=view&mgr_seq=16&board_seq=9582475",
+   "date": "2026-09-22",
+   "deadline": "2026-12-11",
+   "region": "부산",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-09-22"
   }
  },
  "sources": [
@@ -27752,15 +27822,17 @@
    "id": "bizinfo",
    "name": "기업마당",
    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200View.do",
-   "status": "ok",
-   "count": 15
+   "status": "fail",
+   "count": 0,
+   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.bizinfo.go.kr%2Fsii%2Fsiia%2FselectSIIA200View.do"
   },
   {
    "id": "mss",
    "name": "중소벤처기업부",
    "url": "https://www.mss.go.kr/site/smba/ex/bbs/List.do?cbIdx=310",
-   "status": "ok",
-   "count": 10
+   "status": "fail",
+   "count": 0,
+   "error": "408 Client Error: Request Timeout for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.mss.go.kr%2Fsite%2Fsmba%2Fex%2Fbbs%2FList.do%3FcbIdx%3D310"
   },
   {
    "id": "kidp",
