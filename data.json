@@ -28148,6 +28148,62 @@
     "기타"
    ],
    "firstSeen": "2026-09-23"
+  },
+  "de3b1fd076f0b0f3": {
+   "id": "de3b1fd076f0b0f3",
+   "source": "kidp",
+   "sourceName": "한국디자인진흥원",
+   "title": "2026년 '디자인산업발전유공' 정부포상 추천 후보자 공개검증",
+   "url": "https://kidp.or.kr/?menuno=1202",
+   "date": "2026-09-23",
+   "deadline": null,
+   "region": "전국",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-09-23"
+  },
+  "617d2a1d875c25ad": {
+   "id": "617d2a1d875c25ad",
+   "source": "dcb",
+   "sourceName": "부산디자인진흥원",
+   "title": "재단법인 부산디자인진흥원 세계디자인수도 부산 추진단장 모집 공고",
+   "url": "https://dcb.or.kr/01_news/?mcode=0401010000&mode=2&no=14526&page=1",
+   "date": "2026-09-23",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-09-23"
+  },
+  "1340d8191d55c382": {
+   "id": "1340d8191d55c382",
+   "source": "busan_gosi",
+   "sourceName": "부산광역시 고시공고",
+   "title": "부산광역시 원자력산업육성위원회 위원 공개모집 선정결과 공고",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=79715&gosiGbn=A&curPage=1",
+   "date": "2026-09-23",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-09-23"
+  },
+  "9d98db54614e64ae": {
+   "id": "9d98db54614e64ae",
+   "source": "busan_gosi",
+   "sourceName": "부산광역시 고시공고",
+   "title": "부산광역시 인구정책위원회 위원 공개모집 결과 공고",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=79714&gosiGbn=A&curPage=1",
+   "date": "2026-09-23",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-09-23"
   }
  },
  "sources": [
@@ -28197,15 +28253,17 @@
    "id": "semas",
    "name": "소상공인시장진흥공단",
    "url": "https://www.semas.or.kr/web/board/webBoardList.kmdc?bCd=1&pNm=BOA0101",
-   "status": "ok",
-   "count": 10
+   "status": "fail",
+   "count": 0,
+   "error": "500 Server Error: Internal Server Error for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.semas.or.kr%2Fweb%2Fboard%2FwebBoardList.kmdc%3FbCd%3D1%26pNm%3DBOA0101"
   },
   {
    "id": "smtech",
    "name": "중소기업 기술개발(SMTECH)",
    "url": "https://www.smtech.go.kr/front/ifg/no/notice02_list.do",
-   "status": "ok",
-   "count": 10
+   "status": "fail",
+   "count": 0,
+   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.smtech.go.kr%2Ffront%2Fifg%2Fno%2Fnotice02_list.do"
   },
   {
    "id": "busanstartup",
@@ -28260,15 +28318,16 @@
    "id": "bistep",
    "name": "부산산업과학혁신원",
    "url": "https://www.bistep.re.kr/kor/CMS/Board/Board.do?mCode=MN008",
-   "status": "ok",
-   "count": 10
+   "status": "fail",
+   "count": 0,
+   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.bistep.re.kr%2Fkor%2FCMS%2FBoard%2FBoard.do%3FmCode%3DMN008"
   },
   {
    "id": "busan_gosi",
    "name": "부산광역시 고시공고",
    "url": "https://www.busan.go.kr/nbgosi",
    "status": "ok",
-   "count": 6
+   "count": 3
   },
   {
    "id": "bscf",
