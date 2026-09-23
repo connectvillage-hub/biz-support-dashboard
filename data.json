@@ -28126,7 +28126,7 @@
    "source": "busan_gosi",
    "sourceName": "부산광역시 고시공고",
    "title": "부산광역시 하천살리기운동지원위원회 위원 공개모집 공고",
-   "url": "https://www.busan.go.kr/nbgosi/view?sno=79628&gosiGbn=A&curPage=1",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=79628&gosiGbn=A&curPage=2",
    "date": "2026-09-23",
    "deadline": null,
    "region": "부산",
@@ -28487,6 +28487,90 @@
     "사업화"
    ],
    "firstSeen": "2026-09-23"
+  },
+  "7c493515d285c5a1": {
+   "id": "7c493515d285c5a1",
+   "source": "kidp",
+   "sourceName": "한국디자인진흥원",
+   "title": "(문화산단1기) \"잠깐 쉬어갈 곳, 어디 없나요?\" 완주산단 청년들이 직접 만든 쉼터 '완주 오감재', 체험 프로그램 시범운영 - 한국디자인진흥원, 바이널엑스",
+   "url": "https://kidp.or.kr/?menuno=1202",
+   "date": "2026-09-23",
+   "deadline": null,
+   "region": "전국",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-09-23"
+  },
+  "d19e0a72ece7d9b5": {
+   "id": "d19e0a72ece7d9b5",
+   "source": "kidp",
+   "sourceName": "한국디자인진흥원",
+   "title": "(문화산단1기) 구미산단 청년 아이디어로 만든 '힐링텃밭’, ‘기업투어' 프로그램 시범운영 - 한국디자인진흥원, 디자인선",
+   "url": "https://kidp.or.kr/?menuno=1202",
+   "date": "2026-09-23",
+   "deadline": null,
+   "region": "전국",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-09-23"
+  },
+  "0b0ad2a348d69e77": {
+   "id": "0b0ad2a348d69e77",
+   "source": "kidp",
+   "sourceName": "한국디자인진흥원",
+   "title": "(문화산단1기) 구미, 완주, 창원 청년디자인리빙랩 시범운영 일정 계획",
+   "url": "https://kidp.or.kr/?menuno=1202",
+   "date": "2026-09-21",
+   "deadline": null,
+   "region": "경남",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-09-23"
+  },
+  "36d79f7c8914013f": {
+   "id": "36d79f7c8914013f",
+   "source": "busan_gosi",
+   "sourceName": "부산광역시 고시공고",
+   "title": "부산광역시 물가대책위원회 위원 모집공고",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=79732&gosiGbn=A&curPage=1",
+   "date": "2026-09-23",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-09-23"
+  },
+  "cedefa3704650892": {
+   "id": "cedefa3704650892",
+   "source": "busan_gosi",
+   "sourceName": "부산광역시 고시공고",
+   "title": "제14회 부산광역시 아름다운 조경상 공모 연장 공고",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=79727&gosiGbn=A&curPage=1",
+   "date": "2026-09-23",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-09-23"
+  },
+  "45802c394b1d5a0f": {
+   "id": "45802c394b1d5a0f",
+   "source": "busan_gosi",
+   "sourceName": "부산광역시 고시공고",
+   "title": "2027년 농산물 소득조사 분석 대상농가 모집 공고",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=79721&gosiGbn=A&curPage=1",
+   "date": "2026-09-23",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-09-23"
   }
  },
  "sources": [
@@ -28606,9 +28690,8 @@
    "id": "busan_gosi",
    "name": "부산광역시 고시공고",
    "url": "https://www.busan.go.kr/nbgosi",
-   "status": "fail",
-   "count": 0,
-   "error": "520 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.busan.go.kr%2Fnbgosi%3FcurPage%3D1"
+   "status": "ok",
+   "count": 6
   },
   {
    "id": "bscf",
