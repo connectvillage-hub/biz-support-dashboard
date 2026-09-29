@@ -1915,20 +1915,6 @@
    ],
    "firstSeen": "2026-07-09"
   },
-  "9f15060b7a0ffc45": {
-   "id": "9f15060b7a0ffc45",
-   "source": "bkic",
-   "sourceName": "부산지식산업센터",
-   "title": "2026 상반기 전문가 컨설팅 지원사업 참가기업 모집공고",
-   "url": "http://bkic.bepa.kr/bsknow/view.do?no=1477&idx=1825&view=view&pageIndex=1&sv=&sw=",
-   "date": "2026-06-01",
-   "deadline": null,
-   "region": "부산",
-   "categories": [
-    "사업화"
-   ],
-   "firstSeen": "2026-07-09"
-  },
   "87b4a9c8326ffa08": {
    "id": "87b4a9c8326ffa08",
    "source": "semas",
@@ -29538,15 +29524,17 @@
    "id": "bizinfo",
    "name": "기업마당",
    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200View.do",
-   "status": "ok",
-   "count": 15
+   "status": "fail",
+   "count": 0,
+   "error": "500 Server Error: Internal Server Error for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.bizinfo.go.kr%2Fsii%2Fsiia%2FselectSIIA200View.do"
   },
   {
    "id": "mss",
    "name": "중소벤처기업부",
    "url": "https://www.mss.go.kr/site/smba/ex/bbs/List.do?cbIdx=310",
-   "status": "ok",
-   "count": 10
+   "status": "fail",
+   "count": 0,
+   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.mss.go.kr%2Fsite%2Fsmba%2Fex%2Fbbs%2FList.do%3FcbIdx%3D310"
   },
   {
    "id": "kidp",
@@ -29643,8 +29631,9 @@
    "id": "busan_gosi",
    "name": "부산광역시 고시공고",
    "url": "https://www.busan.go.kr/nbgosi",
-   "status": "ok",
-   "count": 8
+   "status": "fail",
+   "count": 0,
+   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.busan.go.kr%2Fnbgosi%3FcurPage%3D1"
   },
   {
    "id": "bscf",
