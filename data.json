@@ -17911,7 +17911,7 @@
    "source": "busan_gosi",
    "sourceName": "부산광역시 고시공고",
    "title": "부산광역시 지방시대위원회 위원 공개모집 공고",
-   "url": "https://www.busan.go.kr/nbgosi/view?sno=79283&gosiGbn=A&curPage=3",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=79738&gosiGbn=A&curPage=1",
    "date": "2026-08-25",
    "deadline": null,
    "region": "부산",
@@ -28154,7 +28154,7 @@
    "source": "busan_gosi",
    "sourceName": "부산광역시 고시공고",
    "title": "부산광역시 원자력산업육성위원회 위원 공개모집 선정결과 공고",
-   "url": "https://www.busan.go.kr/nbgosi/view?sno=79715&gosiGbn=A&curPage=2",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=79715&gosiGbn=A&curPage=3",
    "date": "2026-09-23",
    "deadline": null,
    "region": "부산",
@@ -28168,7 +28168,7 @@
    "source": "busan_gosi",
    "sourceName": "부산광역시 고시공고",
    "title": "부산광역시 인구정책위원회 위원 공개모집 결과 공고",
-   "url": "https://www.busan.go.kr/nbgosi/view?sno=79714&gosiGbn=A&curPage=2",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=79714&gosiGbn=A&curPage=3",
    "date": "2026-09-23",
    "deadline": null,
    "region": "부산",
@@ -28507,7 +28507,7 @@
    "source": "busan_gosi",
    "sourceName": "부산광역시 고시공고",
    "title": "부산광역시 물가대책위원회 위원 모집공고",
-   "url": "https://www.busan.go.kr/nbgosi/view?sno=79732&gosiGbn=A&curPage=2",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=79732&gosiGbn=A&curPage=3",
    "date": "2026-09-23",
    "deadline": null,
    "region": "부산",
@@ -28521,7 +28521,7 @@
    "source": "busan_gosi",
    "sourceName": "부산광역시 고시공고",
    "title": "제14회 부산광역시 아름다운 조경상 공모 연장 공고",
-   "url": "https://www.busan.go.kr/nbgosi/view?sno=79727&gosiGbn=A&curPage=2",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=79727&gosiGbn=A&curPage=3",
    "date": "2026-09-23",
    "deadline": null,
    "region": "부산",
@@ -28535,7 +28535,7 @@
    "source": "busan_gosi",
    "sourceName": "부산광역시 고시공고",
    "title": "2027년 농산물 소득조사 분석 대상농가 모집 공고",
-   "url": "https://www.busan.go.kr/nbgosi/view?sno=79721&gosiGbn=A&curPage=2",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=79721&gosiGbn=A&curPage=3",
    "date": "2026-09-23",
    "deadline": null,
    "region": "부산",
@@ -28918,7 +28918,7 @@
    "source": "busan_gosi",
    "sourceName": "부산광역시 고시공고",
    "title": "2026년 머물자리론 사업 대상자 모집(3차 변경) 공고",
-   "url": "https://www.busan.go.kr/nbgosi/view?sno=79730&gosiGbn=A&curPage=1",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=79730&gosiGbn=A&curPage=2",
    "date": "2026-09-28",
    "deadline": null,
    "region": "부산",
@@ -28932,7 +28932,7 @@
    "source": "busan_gosi",
    "sourceName": "부산광역시 고시공고",
    "title": "부산광역시 장애인가족지원센터 운영 민간위탁 수탁기관 모집 공고",
-   "url": "https://www.busan.go.kr/nbgosi/view?sno=79687&gosiGbn=A&curPage=1",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=79687&gosiGbn=A&curPage=2",
    "date": "2026-09-28",
    "deadline": null,
    "region": "부산",
@@ -28946,7 +28946,7 @@
    "source": "busan_gosi",
    "sourceName": "부산광역시 고시공고",
    "title": "부산광역시 사상여성인력개발센터 관리·운영 민간위탁 수탁기관 공개모집 공고",
-   "url": "https://www.busan.go.kr/nbgosi/view?sno=79686&gosiGbn=A&curPage=1",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=79686&gosiGbn=A&curPage=2",
    "date": "2026-09-28",
    "deadline": null,
    "region": "부산",
@@ -28954,6 +28954,35 @@
     "기타"
    ],
    "firstSeen": "2026-09-28"
+  },
+  "dd98262a0bba9171": {
+   "id": "dd98262a0bba9171",
+   "source": "btp",
+   "sourceName": "부산테크노파크",
+   "title": "2026년 해양과학기술 산학연 협력센터 입주기업 문제해결형 과제 지원사업 모집공고",
+   "url": "https://www.btp.or.kr/kor/CMS/Board/Board.do?mCode=MN013&mode=view&mgr_seq=16&board_seq=9582478",
+   "date": "2026-09-29",
+   "deadline": "2026-10-06",
+   "region": "부산",
+   "categories": [
+    "입주기업",
+    "사업화"
+   ],
+   "firstSeen": "2026-09-29"
+  },
+  "97a471ddb9f93c58": {
+   "id": "97a471ddb9f93c58",
+   "source": "busan_gosi",
+   "sourceName": "부산광역시 고시공고",
+   "title": "부산패션비즈센터 민간위탁 수탁기관 공개모집 공고",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=79750&gosiGbn=A&curPage=1",
+   "date": "2026-09-29",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-09-29"
   }
  },
  "sources": [
@@ -28968,17 +28997,15 @@
    "id": "bizinfo",
    "name": "기업마당",
    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200View.do",
-   "status": "fail",
-   "count": 0,
-   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.bizinfo.go.kr%2Fsii%2Fsiia%2FselectSIIA200View.do"
+   "status": "ok",
+   "count": 15
   },
   {
    "id": "mss",
    "name": "중소벤처기업부",
    "url": "https://www.mss.go.kr/site/smba/ex/bbs/List.do?cbIdx=310",
-   "status": "fail",
-   "count": 0,
-   "error": "520 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.mss.go.kr%2Fsite%2Fsmba%2Fex%2Fbbs%2FList.do%3FcbIdx%3D310"
+   "status": "ok",
+   "count": 10
   },
   {
    "id": "kidp",
@@ -29075,9 +29102,8 @@
    "id": "busan_gosi",
    "name": "부산광역시 고시공고",
    "url": "https://www.busan.go.kr/nbgosi",
-   "status": "fail",
-   "count": 0,
-   "error": "408 Client Error: Request Timeout for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.busan.go.kr%2Fnbgosi%3FcurPage%3D1"
+   "status": "ok",
+   "count": 10
   },
   {
    "id": "bscf",
