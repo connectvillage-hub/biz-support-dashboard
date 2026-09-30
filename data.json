@@ -10341,7 +10341,7 @@
    "sourceName": "중소기업 기술개발(SMTECH)",
    "title": "2026년 중소기업 연구인력지원사업(파견) 8월 공고",
    "url": "https://www.smtech.go.kr/front/ifg/no/notice02_detail.do?buclYy=&ancmId=S02847&buclCd=S6041&dtlAncmSn=7&schdSe=MO5005&aplySn=1&searchCondition=&searchKeyword=&pageIndex=1",
-   "date": "2026-09-01",
+   "date": "2026-10-01",
    "deadline": "2026-08-31",
    "region": "전국",
    "categories": [
@@ -20368,7 +20368,7 @@
    "sourceName": "중소기업 기술개발(SMTECH)",
    "title": "2026년 중소기업 연구인력지원사업(파견) 9월 공고",
    "url": "https://www.smtech.go.kr/front/ifg/no/notice02_detail.do?buclYy=&ancmId=S02847&buclCd=S6041&dtlAncmSn=8&schdSe=MO5005&aplySn=1&searchCondition=&searchKeyword=&pageIndex=1",
-   "date": "2026-09-01",
+   "date": "2026-10-01",
    "deadline": "2026-09-30",
    "region": "전국",
    "categories": [
@@ -29446,7 +29446,7 @@
    "source": "busan_gosi",
    "sourceName": "부산광역시 고시공고",
    "title": "제안서 평가위원 후보자 모집 공고[2026 대한민국 지방시대 엑스포 부산시 전시관 설치·운영 용역]",
-   "url": "https://www.busan.go.kr/nbgosi/view?sno=79752&gosiGbn=A&curPage=2",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=79752&gosiGbn=A&curPage=3",
    "date": "2026-09-29",
    "deadline": null,
    "region": "부산",
@@ -29550,6 +29550,273 @@
    "region": "부산",
    "categories": [
     "기타"
+   ],
+   "firstSeen": "2026-09-30"
+  },
+  "a1f85f137a5004fe": {
+   "id": "a1f85f137a5004fe",
+   "source": "kstartup",
+   "sourceName": "K스타트업",
+   "title": "2026년 관악S밸리 창업 첫걸음 스쿨 모집 공고",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179363",
+   "date": "2026-09-30",
+   "deadline": "2026-10-02",
+   "region": "전국",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-09-30"
+  },
+  "6092e0de71ffcdda": {
+   "id": "6092e0de71ffcdda",
+   "source": "bizinfo",
+   "sourceName": "기업마당",
+   "title": "2026년 한국건강증진개발원 ESG 컨설팅 지원 사업 공고",
+   "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000126903",
+   "date": "2026-09-30",
+   "deadline": "2026-10-09",
+   "region": "전국",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-09-30"
+  },
+  "055413b1cd09258a": {
+   "id": "055413b1cd09258a",
+   "source": "bizinfo",
+   "sourceName": "기업마당",
+   "title": "[경남] 2026년 특산물박람회 해외바이어 초청 수출상담회 참가업체 모집 공고",
+   "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000126902",
+   "date": "2026-09-30",
+   "deadline": "2026-10-16",
+   "region": "경남",
+   "categories": [
+    "홍보·마케팅"
+   ],
+   "firstSeen": "2026-09-30"
+  },
+  "8fce33856cd7c6ca": {
+   "id": "8fce33856cd7c6ca",
+   "source": "bizinfo",
+   "sourceName": "기업마당",
+   "title": "[강원] 홍천군 2026년 가축분뇨 퇴ㆍ액비 제조시설 방지시설 설치 지원사업 공고",
+   "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000126901",
+   "date": "2026-09-30",
+   "deadline": "2026-10-30",
+   "region": "전국",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-09-30"
+  },
+  "08a0b5960da37bf6": {
+   "id": "08a0b5960da37bf6",
+   "source": "bizinfo",
+   "sourceName": "기업마당",
+   "title": "[강원] 홍천군 2026년 사물인터넷(IoT) 측정기기 부착 지원사업 공고",
+   "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000126899",
+   "date": "2026-09-30",
+   "deadline": "2026-11-30",
+   "region": "전국",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-09-30"
+  },
+  "10f96c57e1d953ba": {
+   "id": "10f96c57e1d953ba",
+   "source": "bizinfo",
+   "sourceName": "기업마당",
+   "title": "[충북] 음성군 2026년 반려동물 동반 출입 음식점 위생용품 지원사업 공고",
+   "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000126898",
+   "date": "2026-09-30",
+   "deadline": "2026-10-13",
+   "region": "전국",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-09-30"
+  },
+  "86293a36af8889ee": {
+   "id": "86293a36af8889ee",
+   "source": "bizinfo",
+   "sourceName": "기업마당",
+   "title": "2026년 3차 K-브랜드 정부인증제도 참여기업 모집 공고",
+   "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000126897",
+   "date": "2026-09-30",
+   "deadline": "2026-10-12",
+   "region": "전국",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-09-30"
+  },
+  "9553c891769ecce0": {
+   "id": "9553c891769ecce0",
+   "source": "bizinfo",
+   "sourceName": "기업마당",
+   "title": "2026년 4차 미래개척융합과학기술개발사업 신규과제 공고",
+   "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000126896",
+   "date": "2026-09-30",
+   "deadline": "2026-10-08",
+   "region": "전국",
+   "categories": [
+    "R&D"
+   ],
+   "firstSeen": "2026-09-30"
+  },
+  "b0d3d87f2cc22ccc": {
+   "id": "b0d3d87f2cc22ccc",
+   "source": "bizinfo",
+   "sourceName": "기업마당",
+   "title": "[충북] 음성군 소상공인 충북신용보증 보증료 지원 공고",
+   "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000126895",
+   "date": "2026-09-30",
+   "deadline": "2026-10-23",
+   "region": "전국",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-09-30"
+  },
+  "a8a79a674d4b8bd1": {
+   "id": "a8a79a674d4b8bd1",
+   "source": "bizinfo",
+   "sourceName": "기업마당",
+   "title": "[충남] 예산군 모범음식점 지정 신청 공고",
+   "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000126894",
+   "date": "2026-09-30",
+   "deadline": "2026-10-08",
+   "region": "전국",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-09-30"
+  },
+  "ce6d224d7daff856": {
+   "id": "ce6d224d7daff856",
+   "source": "bizinfo",
+   "sourceName": "기업마당",
+   "title": "2026년 3차 전자책 제작 지원 사업 신청 공고",
+   "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000126893",
+   "date": "2026-09-30",
+   "deadline": "2026-10-12",
+   "region": "전국",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-09-30"
+  },
+  "803739668c6e4c52": {
+   "id": "803739668c6e4c52",
+   "source": "bizinfo",
+   "sourceName": "기업마당",
+   "title": "[경기] 2026년 중소기업 마케팅 지원사업 해외 오프라인 지원기업 모집 공고",
+   "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000126892",
+   "date": "2026-09-30",
+   "deadline": "2026-10-12",
+   "region": "전국",
+   "categories": [
+    "홍보·마케팅",
+    "사업화"
+   ],
+   "firstSeen": "2026-09-30"
+  },
+  "fe1b97befebaf860": {
+   "id": "fe1b97befebaf860",
+   "source": "bizinfo",
+   "sourceName": "기업마당",
+   "title": "[충남] 청양군 2026년 6차 음식점 시설개선 지원사업 계획 공고",
+   "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000126891",
+   "date": "2026-09-30",
+   "deadline": "2026-10-16",
+   "region": "전국",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-09-30"
+  },
+  "0e28afa2e86c0131": {
+   "id": "0e28afa2e86c0131",
+   "source": "bizinfo",
+   "sourceName": "기업마당",
+   "title": "2026년 2차 웹소설 IP 저작화 지원 사업 추가모집 공고",
+   "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000126890",
+   "date": "2026-09-30",
+   "deadline": "2026-10-14",
+   "region": "전국",
+   "categories": [
+    "특허·지재권"
+   ],
+   "firstSeen": "2026-09-30"
+  },
+  "230ac0fdc90cfc24": {
+   "id": "230ac0fdc90cfc24",
+   "source": "bizinfo",
+   "sourceName": "기업마당",
+   "title": "[충남] 계룡시 2026년 중소기업 국내 개별 전시박람회 참가 지원계획 재공고",
+   "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000126889",
+   "date": "2026-09-30",
+   "deadline": "2026-10-13",
+   "region": "전국",
+   "categories": [
+    "홍보·마케팅"
+   ],
+   "firstSeen": "2026-09-30"
+  },
+  "d79f08572c198234": {
+   "id": "d79f08572c198234",
+   "source": "bizinfo",
+   "sourceName": "기업마당",
+   "title": "2026년 해외 환경프로젝트 타당성조사 지원사업 본타당성조사(다년도) 모집 공고",
+   "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000126888",
+   "date": "2026-09-30",
+   "deadline": "2026-10-16",
+   "region": "전국",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-09-30"
+  },
+  "9183d1a4491246fe": {
+   "id": "9183d1a4491246fe",
+   "source": "btp",
+   "sourceName": "부산테크노파크",
+   "title": "조선기자재 e-BOM 데이터 및 3D 모델링 기반 가상 데모공장 구축 용역 제안서 평가위원 모집공고",
+   "url": "https://www.btp.or.kr/kor/CMS/Board/Board.do?mCode=MN013&mode=view&mgr_seq=16&board_seq=9582501",
+   "date": "2026-09-30",
+   "deadline": "2026-10-06",
+   "region": "부산",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-09-30"
+  },
+  "16e38a9b6bd6cd72": {
+   "id": "16e38a9b6bd6cd72",
+   "source": "bipa",
+   "sourceName": "부산정보산업진흥원",
+   "title": "2026 부산콘텐츠아카데미 실무자 AI활용 교육 3회차 교육생 모집",
+   "url": "https://bipa.kr/board/business/view?seq=85381",
+   "date": "2026-09-30",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-09-30"
+  },
+  "dad6094071611f69": {
+   "id": "dad6094071611f69",
+   "source": "bscf",
+   "sourceName": "부산문화재단",
+   "title": "지원공모[모집] 2026년 문화예술 토크콘서트 - 브로콜리너마저 '윤덕원'과 함께하는 예술이야기 참여자 모집",
+   "url": "https://www.bscf.or.kr/view.do?no=1010&pgMode=show&pbancSn=2433",
+   "date": "2026-09-30",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "사업화"
    ],
    "firstSeen": "2026-09-30"
   }
