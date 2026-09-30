@@ -17897,7 +17897,7 @@
    "source": "busan_gosi",
    "sourceName": "부산광역시 고시공고",
    "title": "부산광역시 지방시대위원회 위원 공개모집 공고",
-   "url": "https://www.busan.go.kr/nbgosi/view?sno=79738&gosiGbn=A&curPage=1",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=79738&gosiGbn=A&curPage=3",
    "date": "2026-08-25",
    "deadline": null,
    "region": "부산",
@@ -23995,9 +23995,9 @@
    "source": "btp",
    "sourceName": "부산테크노파크",
    "title": "2026년 차세대반도체 불량분석 및 품질관리 전문인력양성 교육생 모집공고 [재공고]",
-   "url": "https://www.btp.or.kr/kor/CMS/Board/Board.do?mCode=MN013&mode=view&mgr_seq=16&board_seq=9582429",
-   "date": "2026-09-10",
-   "deadline": "2026-09-23",
+   "url": "https://www.btp.or.kr/kor/CMS/Board/Board.do?mCode=MN013&mode=view&mgr_seq=16&board_seq=9582499",
+   "date": "2026-09-30",
+   "deadline": "2026-10-20",
    "region": "부산",
    "categories": [
     "사업화"
@@ -28961,7 +28961,7 @@
    "source": "busan_gosi",
    "sourceName": "부산광역시 고시공고",
    "title": "부산패션비즈센터 민간위탁 수탁기관 공개모집 공고",
-   "url": "https://www.busan.go.kr/nbgosi/view?sno=79750&gosiGbn=A&curPage=1",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=79750&gosiGbn=A&curPage=3",
    "date": "2026-09-29",
    "deadline": null,
    "region": "부산",
@@ -29446,7 +29446,7 @@
    "source": "busan_gosi",
    "sourceName": "부산광역시 고시공고",
    "title": "제안서 평가위원 후보자 모집 공고[2026 대한민국 지방시대 엑스포 부산시 전시관 설치·운영 용역]",
-   "url": "https://www.busan.go.kr/nbgosi/view?sno=79752&gosiGbn=A&curPage=1",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=79752&gosiGbn=A&curPage=2",
    "date": "2026-09-29",
    "deadline": null,
    "region": "부산",
@@ -29510,6 +29510,48 @@
     "사업화"
    ],
    "firstSeen": "2026-09-29"
+  },
+  "568af118a5d7bf71": {
+   "id": "568af118a5d7bf71",
+   "source": "bepa",
+   "sourceName": "부산경제진흥원",
+   "title": "소상공인 통합교육 전문가 특강 & 토크콘서트 「일하는 사장의 생각」 참가자 모집",
+   "url": "https://www.bepa.kr/kor/view.do?no=1502&idx=19581&view=view&pageIndex=1&sv=&sw=&sdate=&edate=&periodState=all&state=ing&temporary=0&items=소상공인",
+   "date": "2026-09-30",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-09-30"
+  },
+  "2dbe8a5892d003e0": {
+   "id": "2dbe8a5892d003e0",
+   "source": "busan_gosi",
+   "sourceName": "부산광역시 고시공고",
+   "title": "부산광역시 도시재정비위원회 위원 공개모집 공고",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=79726&gosiGbn=A&curPage=1",
+   "date": "2026-09-30",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-09-30"
+  },
+  "b7eb0fedd480fa96": {
+   "id": "b7eb0fedd480fa96",
+   "source": "busan_gosi",
+   "sourceName": "부산광역시 고시공고",
+   "title": "에코델타시티 마을버스 노선 운영 및 통합관리제 협약 대상자 모집 공고",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=79699&gosiGbn=A&curPage=1",
+   "date": "2026-09-30",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-09-30"
   }
  },
  "sources": [
@@ -29524,17 +29566,15 @@
    "id": "bizinfo",
    "name": "기업마당",
    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200View.do",
-   "status": "fail",
-   "count": 0,
-   "error": "500 Server Error: Internal Server Error for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.bizinfo.go.kr%2Fsii%2Fsiia%2FselectSIIA200View.do"
+   "status": "ok",
+   "count": 15
   },
   {
    "id": "mss",
    "name": "중소벤처기업부",
    "url": "https://www.mss.go.kr/site/smba/ex/bbs/List.do?cbIdx=310",
-   "status": "fail",
-   "count": 0,
-   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.mss.go.kr%2Fsite%2Fsmba%2Fex%2Fbbs%2FList.do%3FcbIdx%3D310"
+   "status": "ok",
+   "count": 10
   },
   {
    "id": "kidp",
@@ -29631,9 +29671,8 @@
    "id": "busan_gosi",
    "name": "부산광역시 고시공고",
    "url": "https://www.busan.go.kr/nbgosi",
-   "status": "fail",
-   "count": 0,
-   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.busan.go.kr%2Fnbgosi%3FcurPage%3D1"
+   "status": "ok",
+   "count": 5
   },
   {
    "id": "bscf",
