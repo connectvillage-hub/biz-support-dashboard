@@ -186,21 +186,6 @@
    ],
    "firstSeen": "2026-07-09"
   },
-  "18f6674ef8d3fa58": {
-   "id": "18f6674ef8d3fa58",
-   "source": "bistep",
-   "sourceName": "부산산업과학혁신원",
-   "title": "[사전접수 마감]「2026년 제1회 BISTEP 미래기술혁신 포럼」 개최",
-   "url": "https://www.bistep.re.kr/kor/CMS/Board/Board.do?mCode=MN008&mode=view&mgr_seq=23&board_seq=5729",
-   "date": "2026-06-02",
-   "deadline": null,
-   "region": "부산",
-   "categories": [
-    "R&D",
-    "네트워킹"
-   ],
-   "firstSeen": "2026-07-09"
-  },
   "58cd5f659d39f4f4": {
    "id": "58cd5f659d39f4f4",
    "source": "bscf",
@@ -3475,20 +3460,6 @@
    "categories": [
     "네트워킹",
     "사업화"
-   ],
-   "firstSeen": "2026-07-13"
-  },
-  "27440cff3011d237": {
-   "id": "27440cff3011d237",
-   "source": "dcamp",
-   "sourceName": "디캠프(d.camp)",
-   "title": "디캠프 대관 공간 운영시간 및 휴무일 안내",
-   "url": "https://dcamp.kr/news/notice/7339",
-   "date": "2026-06-02",
-   "deadline": null,
-   "region": "전국",
-   "categories": [
-    "기타"
    ],
    "firstSeen": "2026-07-13"
   },
@@ -23400,7 +23371,7 @@
    "source": "bepa",
    "sourceName": "부산경제진흥원",
    "title": "소상공인 통합교육 - AI 비즈니스 과정 교육생 모집",
-   "url": "https://www.bepa.kr/kor/view.do?no=1502&idx=19498&view=view&pageIndex=1&sv=&sw=&sdate=&edate=&periodState=all&state=ing&temporary=0&items=소상공인",
+   "url": "https://www.bepa.kr/kor/view.do?no=1502&idx=19498&view=view&pageIndex=1&sv=&sw=&sdate=&edate=&periodState=all&state=end&temporary=0&items=소상공인",
    "date": "2026-09-09",
    "deadline": null,
    "region": "부산",
@@ -29819,6 +29790,94 @@
     "사업화"
    ],
    "firstSeen": "2026-09-30"
+  },
+  "6526430b72368e6a": {
+   "id": "6526430b72368e6a",
+   "source": "smtech",
+   "sourceName": "중소기업 기술개발(SMTECH)",
+   "title": "2026년 중소기업 연구인력지원사업(파견) 10월 공고",
+   "url": "https://www.smtech.go.kr/front/ifg/no/notice02_detail.do?buclYy=&ancmId=S02847&buclCd=S6041&dtlAncmSn=10&schdSe=MO5005&aplySn=1&searchCondition=&searchKeyword=&pageIndex=1",
+   "date": "2026-10-01",
+   "deadline": "2026-10-31",
+   "region": "전국",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-10-01"
+  },
+  "635fa357de04ef47": {
+   "id": "635fa357de04ef47",
+   "source": "busanstartup",
+   "sourceName": "부산창업포털",
+   "title": "『글로벌 교류·투자유치 지원사업』 자율형 프로그램 참가 기업 모집 정정 공고",
+   "url": "https://www.busanstartup.kr/biz_sup/2179?mcode=biz02",
+   "date": "2026-07-14",
+   "deadline": "2026-12-31",
+   "region": "부산",
+   "categories": [
+    "투자",
+    "사업화"
+   ],
+   "firstSeen": "2026-10-01"
+  },
+  "687dab8e69c8e010": {
+   "id": "687dab8e69c8e010",
+   "source": "bscf",
+   "sourceName": "부산문화재단",
+   "title": "2026.09.16[공고] 2026년 청년예술가 국제교류(댄스) 참여예술가 모집(연장)(재)부산문화재단 제2026- 231호 2026 청년문화육성지원 청년예술가 국제교류(댄스) 참여예술가 모집(연장) 부산문화재단에서는 청년예술인들의 활동을 적극 지원하여 청년문화의 저변확대를 통해 시민의 문화향유 기회를 확대하고, 젊음이 넘치는 활기찬 문화도시 부산을 조성하기 위해 청년문화육성지원사업을 시행하고 있습니다. 이에 본 사업에 참여할 청년예술가를 모집하오니, 많은 관심과 적극적인 참여를 바랍니다. 자세한 사항은 첨부된 공고문을 확인 바랍니다. 감사합니다.",
+   "url": "https://www.bscf.or.kr/view.do?no=1010&pgMode=show&pbancSn=2429",
+   "date": "2026-10-01",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-10-01"
+  },
+  "08c36c70476fd017": {
+   "id": "08c36c70476fd017",
+   "source": "bscf",
+   "sourceName": "부산문화재단",
+   "title": "2026.08.28[공고] 2026년 청년예술가 국제교류(댄스) 참여예술가 모집(재)부산문화재단 제2026- 228호 2026 청년문화육성지원 청년예술가 국제교류(댄스) 참여예술가 모집 부산문화재단에서는 청년예술인들의 활동을 적극 지원하여 청년문화의 저변확대를 통해 시민의 문화향유 기회를 확대하고, 젊음이 넘치는 활기찬 문화도시 부산을 조성하기 위해 청년문화육성지원사업을 시행하고 있습니다. 이에 본 사업에 참여할 청년예술가를 모집하오니, 많은 관심과 적극적인 참여를 바랍니다. 자세한 사항은 첨부된 공고문을 확인 바랍니다. 감사합니다.",
+   "url": "https://www.bscf.or.kr/view.do?no=1010&pgMode=show&pbancSn=2427",
+   "date": "2026-10-01",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-10-01"
+  },
+  "b1113387cf7c1c6d": {
+   "id": "b1113387cf7c1c6d",
+   "source": "bscf",
+   "sourceName": "부산문화재단",
+   "title": "2026.08.26[모집] 2026 부산국제공연예술마켓(BPAM) 네트워킹 프로그램 참가단체 공모(재)부산문화재단 공고 제2026-227호 부산국제공연예술마켓(Busan International Performing Arts Market)은 우수 공연예술작품의 유통 판로를 개척하고 시민들이 고품격 공연예술을 즐길 수 있도록 연극, 무용, 음악, 다원예술, 거리예술 등 다양한 장르의 국내외 공연작품을 선보이는 축제입니다. 또한 예술가, 기획자, 프로듀서, 페스티벌 디렉터 등 국내외 공연예술 관계자들이 한자리에 모여 작품을 소개하고 네트워크를 구축하며, 협업과 유통의 가능성을 모색하는 국제 교류의 장이기도 합니다. 올해로 4회째를 맞이한 BPAM은 ‘공연예술의 새로운 물결’이라는 슬로건 아래 공식 초청작품, 부산지역의 예술단체와 작품을 조명하는 공연 등 다양한 프로그램들을 부산 곳곳에서 선보입니다. 문화의 향기로 가득한 부산에서 BPAM 네트워킹 프로그램에 참여할 단체를 모집하오니, 많은 신청 바랍니다. ❍ 프로그램명: 2026 BPAM CONNECT - ❍ 행 사 일 시: 2026. 10. 2.(금) ~ 10. 5.(월) 10:00 ~ 14:00❍ 행 사 장 소: 동서대학교 센텀캠퍼스 B1 컨벤션홀, 민석소극장 등❍ 신 청 방 법: 구글 폼(Google Form) 통한 희망 프로그램 신청 ① BPAM Booth: 공연예술작품 및 콘텐츠 홍보 등을 위한 홍보 부스 운영② BPAM Just 10 min.: 예술단체-델리게이트 간 작품 유통을 위한 1:1 비즈니스 미팅③ BPAM Pitching: 공연예술관계자가 작품 및 프로젝트를 소개하는 발표 세션 ❍ 신청일자: 8. 26.(수) ~ 9. 2.(수) 17:00 ※ 모집현황에 따라 변동 가능❍ 신청방법: 구글 폼(Google Form) 통한 희망 프로그램 신청- 공연예술단체 Artist: https://forms.gle/yeiQbdYcCZUmFyRL6- 델리게이트 및 기관 Delegate: https://forms.gle/dyHXVjqfS5VC4HJ18",
+   "url": "https://www.bscf.or.kr/view.do?no=1010&pgMode=show&pbancSn=2426",
+   "date": "2026-10-01",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "투자",
+    "홍보·마케팅",
+    "네트워킹",
+    "사업화"
+   ],
+   "firstSeen": "2026-10-01"
+  },
+  "c37218b290be9e84": {
+   "id": "c37218b290be9e84",
+   "source": "bscf",
+   "sourceName": "부산문화재단",
+   "title": "2026.08.24[공고] 2026년 4/4분기 부산공연예술연습공간 정기대관 신청 공고부산공연예술연습공간은 예술가들에게 최적의 연습환경을 제공하여 다양한 공연예술분야에서 참신한 창작품을 만들어낼 수 있도록 조성된 공간입니다. 2026년 4/4분기 정기대관 신청을 다음과 같이 안내하오니 연습공간 사용을 희망하는 예술인 및 단체는 세부 내용을 확인하신 후 대관 신청 바랍니다. 1. 대 관 명: 부산공연예술연습공간 2026년 4/4분기 정기대관 2. 장 소: 부산광역시 우암로 84-1 감만창의문화촌 5층 부산공연예술연습공간 3. 사용기간: 2026. 10. 1.(수) ~ 12. 19.(토) ※ 회계연도 정산 일정에 따라 12월 대관의 경우, 2주 조기 마감 4. 운영시간: 월 ~ 토요일(10:00 ~ 22:00) 5. 휴 관 일: 일요일, 법정 공휴일, (재)부산문화재단 지정일 6. 공고 및 접수 ❍ 공고기간: 2026. 8. 24.(월) ~ 9. 15.(화) ❍ 접수 및 가승인: 2026. 9. 1.(월) 10:00 ~ 9. 15.(화) 14:00 ❍ 확정 및 대관료 납입: 2026. 9. 15.(화) ~ 9. 18.(금) ❍ 접수방법: 부산공연예술연습공간 누리집을 통한 접수(https://pspace.bscf.or.kr/pspace/main.do) 신청 전 공고문 내 세부 내용을 반드시 확인 바랍니다. 감사합니다.",
+   "url": "https://www.bscf.or.kr/view.do?no=1010&pgMode=show&pbancSn=2423",
+   "date": "2026-10-01",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-10-01"
   }
  },
  "sources": [
@@ -29938,8 +29997,9 @@
    "id": "busan_gosi",
    "name": "부산광역시 고시공고",
    "url": "https://www.busan.go.kr/nbgosi",
-   "status": "ok",
-   "count": 4
+   "status": "fail",
+   "count": 0,
+   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.busan.go.kr%2Fnbgosi%3FcurPage%3D1"
   },
   {
    "id": "bscf",
