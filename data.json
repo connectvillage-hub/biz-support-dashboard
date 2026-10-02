@@ -3448,21 +3448,6 @@
    ],
    "firstSeen": "2026-07-13"
   },
-  "56f5ac1026bba239": {
-   "id": "56f5ac1026bba239",
-   "source": "dcamp",
-   "sourceName": "디캠프(d.camp)",
-   "title": "『2026 디캠프 창업자 워크숍 운영』 입찰 공고",
-   "url": "https://dcamp.kr/news/notice/7340",
-   "date": "2026-06-04",
-   "deadline": null,
-   "region": "전국",
-   "categories": [
-    "네트워킹",
-    "사업화"
-   ],
-   "firstSeen": "2026-07-13"
-  },
   "d650fd55a94a15ce": {
    "id": "d650fd55a94a15ce",
    "source": "busan_gosi",
@@ -31037,6 +31022,20 @@
     "입주기업"
    ],
    "firstSeen": "2026-10-02"
+  },
+  "74d384e62a1bc421": {
+   "id": "74d384e62a1bc421",
+   "source": "kidp",
+   "sourceName": "한국디자인진흥원",
+   "title": "오감재. 완주의 지역 자원을 활용한 문화·휴식 프로그램 시범운영 안내 자료 - 완주 청년디자인리빙랩",
+   "url": "https://kidp.or.kr/?menuno=1202",
+   "date": "2026-10-02",
+   "deadline": null,
+   "region": "전국",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-10-03"
   }
  },
  "sources": [
@@ -31051,8 +31050,9 @@
    "id": "bizinfo",
    "name": "기업마당",
    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200View.do",
-   "status": "ok",
-   "count": 15
+   "status": "fail",
+   "count": 0,
+   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.bizinfo.go.kr%2Fsii%2Fsiia%2FselectSIIA200View.do"
   },
   {
    "id": "mss",
@@ -31158,7 +31158,7 @@
    "url": "https://www.busan.go.kr/nbgosi",
    "status": "fail",
    "count": 0,
-   "error": "520 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.busan.go.kr%2Fnbgosi%3FcurPage%3D1"
+   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.busan.go.kr%2Fnbgosi%3FcurPage%3D1"
   },
   {
    "id": "bscf",
