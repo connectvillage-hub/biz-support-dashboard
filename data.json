@@ -29501,7 +29501,7 @@
    "source": "busan_gosi",
    "sourceName": "부산광역시 고시공고",
    "title": "부산광역시 도시재정비위원회 위원 공개모집 공고",
-   "url": "https://www.busan.go.kr/nbgosi/view?sno=79726&gosiGbn=A&curPage=1",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=79726&gosiGbn=A&curPage=3",
    "date": "2026-09-30",
    "deadline": null,
    "region": "부산",
@@ -29515,7 +29515,7 @@
    "source": "busan_gosi",
    "sourceName": "부산광역시 고시공고",
    "title": "에코델타시티 마을버스 노선 운영 및 통합관리제 협약 대상자 모집 공고",
-   "url": "https://www.busan.go.kr/nbgosi/view?sno=79699&gosiGbn=A&curPage=1",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=79699&gosiGbn=A&curPage=3",
    "date": "2026-09-30",
    "deadline": null,
    "region": "부산",
@@ -30456,6 +30456,104 @@
     "기타"
    ],
    "firstSeen": "2026-10-02"
+  },
+  "6aa1725f6511f93c": {
+   "id": "6aa1725f6511f93c",
+   "source": "dcb",
+   "sourceName": "부산디자인진흥원",
+   "title": "2026 대학생연계굿즈(상품)디자인개발 및 전시지원사업 선정 결과(최종)",
+   "url": "https://dcb.or.kr/01_news/?mcode=0401010000&mode=2&no=14534&page=1",
+   "date": "2026-10-02",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-10-02"
+  },
+  "9f8679822ca44497": {
+   "id": "9f8679822ca44497",
+   "source": "btp",
+   "sourceName": "부산테크노파크",
+   "title": "재단법인 부산테크노파크 신규 금고 지정 입찰 공고",
+   "url": "https://www.btp.or.kr/kor/CMS/Board/Board.do?mCode=MN013&mode=view&mgr_seq=16&board_seq=9582515",
+   "date": "2026-10-02",
+   "deadline": "2026-10-14",
+   "region": "부산",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-10-02"
+  },
+  "6c262f21a0fdf196": {
+   "id": "6c262f21a0fdf196",
+   "source": "bipa",
+   "sourceName": "부산정보산업진흥원",
+   "title": "Bu:net 인사이트 포럼 개최 안내",
+   "url": "https://bipa.kr/board/business/view?seq=85385",
+   "date": "2026-10-02",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "네트워킹"
+   ],
+   "firstSeen": "2026-10-02"
+  },
+  "758b1ebc20eb1b38": {
+   "id": "758b1ebc20eb1b38",
+   "source": "busan_gosi",
+   "sourceName": "부산광역시 고시공고",
+   "title": "부산예술회관 관리.운영 민간위탁 수탁기관 모집 공고",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=79785&gosiGbn=A&curPage=1",
+   "date": "2026-10-02",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-10-02"
+  },
+  "e108c4efa2ffd654": {
+   "id": "e108c4efa2ffd654",
+   "source": "busan_gosi",
+   "sourceName": "부산광역시 고시공고",
+   "title": "2026년 부산문화글판 겨울편 문안 모집 공고",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=79778&gosiGbn=A&curPage=1",
+   "date": "2026-10-02",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-10-02"
+  },
+  "3fad644b5874a784": {
+   "id": "3fad644b5874a784",
+   "source": "busan_gosi",
+   "sourceName": "부산광역시 고시공고",
+   "title": "노동자종합복지관 관리운영 수탁기관 공개모집 재공고",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=79798&gosiGbn=A&curPage=2",
+   "date": "2026-10-02",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-10-02"
+  },
+  "5ea43f16f2efb076": {
+   "id": "5ea43f16f2efb076",
+   "source": "busan_gosi",
+   "sourceName": "부산광역시 고시공고",
+   "title": "부산장애인종합회관 관리·운영 민간위탁 수탁자 모집 공고",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=79767&gosiGbn=A&curPage=2",
+   "date": "2026-10-02",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-10-02"
   }
  },
  "sources": [
@@ -30484,9 +30582,8 @@
    "id": "kidp",
    "name": "한국디자인진흥원",
    "url": "https://kidp.or.kr/?menuno=1202",
-   "status": "fail",
-   "count": 0,
-   "error": "408 Client Error: Request Timeout for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fkidp.or.kr%2F%3Fmenuno%3D1202"
+   "status": "ok",
+   "count": 10
   },
   {
    "id": "kocca",
@@ -30576,9 +30673,8 @@
    "id": "busan_gosi",
    "name": "부산광역시 고시공고",
    "url": "https://www.busan.go.kr/nbgosi",
-   "status": "fail",
-   "count": 0,
-   "error": "520 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.busan.go.kr%2Fnbgosi%3FcurPage%3D1"
+   "status": "ok",
+   "count": 6
   },
   {
    "id": "bscf",
