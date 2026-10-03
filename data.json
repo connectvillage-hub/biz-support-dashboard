@@ -31036,6 +31036,20 @@
     "기타"
    ],
    "firstSeen": "2026-10-03"
+  },
+  "e80e6d4acfa50821": {
+   "id": "e80e6d4acfa50821",
+   "source": "kidp",
+   "sourceName": "한국디자인진흥원",
+   "title": "(시범운영 후기) 산업단지에 머무는 시간을 디자인하다. 완주 청년디자인리빙랩, ‘완주 오감재’ 현장에서",
+   "url": "https://kidp.or.kr/?menuno=1202",
+   "date": "2026-10-03",
+   "deadline": null,
+   "region": "전국",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-10-03"
   }
  },
  "sources": [
@@ -31050,9 +31064,8 @@
    "id": "bizinfo",
    "name": "기업마당",
    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200View.do",
-   "status": "fail",
-   "count": 0,
-   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.bizinfo.go.kr%2Fsii%2Fsiia%2FselectSIIA200View.do"
+   "status": "ok",
+   "count": 15
   },
   {
    "id": "mss",
@@ -31096,7 +31109,7 @@
    "url": "https://www.smtech.go.kr/front/ifg/no/notice02_list.do",
    "status": "fail",
    "count": 0,
-   "error": "520 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.smtech.go.kr%2Ffront%2Fifg%2Fno%2Fnotice02_list.do"
+   "error": "408 Client Error: Request Timeout for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.smtech.go.kr%2Ffront%2Fifg%2Fno%2Fnotice02_list.do"
   },
   {
    "id": "busanstartup",
@@ -31160,7 +31173,7 @@
    "url": "https://www.busan.go.kr/nbgosi",
    "status": "fail",
    "count": 0,
-   "error": "408 Client Error: Request Timeout for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.busan.go.kr%2Fnbgosi%3FcurPage%3D1"
+   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.busan.go.kr%2Fnbgosi%3FcurPage%3D1"
   },
   {
    "id": "bscf",
