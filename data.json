@@ -9069,20 +9069,6 @@
    ],
    "firstSeen": "2026-07-29"
   },
-  "9252719e4ca38201": {
-   "id": "9252719e4ca38201",
-   "source": "busanstartup",
-   "sourceName": "부산창업포털",
-   "title": "[2026년 부산스타트업라운지 운영사업] 전문가 상주형 창업 컨설팅",
-   "url": "https://www.busanstartup.kr/biz_sup/2130?mcode=biz02",
-   "date": "2026-06-08",
-   "deadline": "2026-12-12",
-   "region": "부산",
-   "categories": [
-    "사업화"
-   ],
-   "firstSeen": "2026-07-29"
-  },
   "d2fe989aeb1e7169": {
    "id": "d2fe989aeb1e7169",
    "source": "bipa",
@@ -31438,6 +31424,34 @@
     "홍보·마케팅"
    ],
    "firstSeen": "2026-10-06"
+  },
+  "729a237bf0135920": {
+   "id": "729a237bf0135920",
+   "source": "kstartup",
+   "sourceName": "K스타트업",
+   "title": "2026년 스타트업 법률지원사업 대전광역시 법률상담회 참여 기업 모집 안내",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179439",
+   "date": "2026-10-06",
+   "deadline": "2026-10-13",
+   "region": "전국",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-10-07"
+  },
+  "1053ce054bc9ea92": {
+   "id": "1053ce054bc9ea92",
+   "source": "mss",
+   "sourceName": "중소벤처기업부",
+   "title": "2026년 소공인 클린제조환경조성사업 3차 모집 공고",
+   "url": "https://www.mss.go.kr/site/smba/ex/bbs/View.do?cbIdx=310&bcIdx=1071619&parentSeq=1071619",
+   "date": "2026-10-07",
+   "deadline": null,
+   "region": "전국",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-10-07"
   }
  },
  "sources": [
@@ -31474,7 +31488,7 @@
    "name": "한국콘텐츠진흥원",
    "url": "https://www.kocca.kr/kocca/pims/list.do?menuNo=20410",
    "status": "ok",
-   "count": 3
+   "count": 2
   },
   {
    "id": "arte",
@@ -31550,9 +31564,8 @@
    "id": "bistep",
    "name": "부산산업과학혁신원",
    "url": "https://www.bistep.re.kr/kor/CMS/Board/Board.do?mCode=MN008",
-   "status": "fail",
-   "count": 0,
-   "error": "408 Client Error: Request Timeout for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.bistep.re.kr%2Fkor%2FCMS%2FBoard%2FBoard.do%3FmCode%3DMN008"
+   "status": "ok",
+   "count": 10
   },
   {
    "id": "busan_gosi",
@@ -31560,7 +31573,7 @@
    "url": "https://www.busan.go.kr/nbgosi",
    "status": "fail",
    "count": 0,
-   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.busan.go.kr%2Fnbgosi%3FcurPage%3D1"
+   "error": "400 Client Error: Bad Request for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.busan.go.kr%2Fnbgosi%3FcurPage%3D1"
   },
   {
    "id": "bscf",
