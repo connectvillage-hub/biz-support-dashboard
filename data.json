@@ -32468,6 +32468,20 @@
     "네트워킹"
    ],
    "firstSeen": "2026-10-08"
+  },
+  "b7c1b0315b2a5bbe": {
+   "id": "b7c1b0315b2a5bbe",
+   "source": "kidp",
+   "sourceName": "한국디자인진흥원",
+   "title": "2025년 대·중소기업 안전보건 상생협력활동 사례 100선 - 안전보건공단",
+   "url": "https://kidp.or.kr/?menuno=1202",
+   "date": "2026-10-09",
+   "deadline": null,
+   "region": "전국",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-10-09"
   }
  },
  "sources": [
@@ -32504,7 +32518,7 @@
    "name": "한국콘텐츠진흥원",
    "url": "https://www.kocca.kr/kocca/pims/list.do?menuNo=20410",
    "status": "ok",
-   "count": 3
+   "count": 2
   },
   {
    "id": "arte",
@@ -32589,7 +32603,7 @@
    "url": "https://www.busan.go.kr/nbgosi",
    "status": "fail",
    "count": 0,
-   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.busan.go.kr%2Fnbgosi%3FcurPage%3D1"
+   "error": "408 Client Error: Request Timeout for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.busan.go.kr%2Fnbgosi%3FcurPage%3D1"
   },
   {
    "id": "bscf",
