@@ -31773,7 +31773,7 @@
    "source": "busan_gosi",
    "sourceName": "부산광역시 고시공고",
    "title": "2026년 감사원「국민제안감사 아이디어 공모」참여 안내",
-   "url": "https://www.busan.go.kr/nbgosi/view?sno=79848&gosiGbn=A&curPage=2",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=79848&gosiGbn=A&curPage=3",
    "date": "2026-10-08",
    "deadline": null,
    "region": "부산",
@@ -31787,7 +31787,7 @@
    "source": "busan_gosi",
    "sourceName": "부산광역시 고시공고",
    "title": "부산광역시 시민경제국 제1공적심사위원회 위원 공개모집",
-   "url": "https://www.busan.go.kr/nbgosi/view?sno=79835&gosiGbn=A&curPage=2",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=79835&gosiGbn=A&curPage=3",
    "date": "2026-10-08",
    "deadline": null,
    "region": "부산",
@@ -32482,6 +32482,20 @@
     "기타"
    ],
    "firstSeen": "2026-10-09"
+  },
+  "42552aa437a26e5f": {
+   "id": "42552aa437a26e5f",
+   "source": "busan_gosi",
+   "sourceName": "부산광역시 고시공고",
+   "title": "2026년 부산국가지질공원해설사 신규모집 공고",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=79852&gosiGbn=A&curPage=3",
+   "date": "2026-10-09",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-10-09"
   }
  },
  "sources": [
@@ -32601,9 +32615,8 @@
    "id": "busan_gosi",
    "name": "부산광역시 고시공고",
    "url": "https://www.busan.go.kr/nbgosi",
-   "status": "fail",
-   "count": 0,
-   "error": "408 Client Error: Request Timeout for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.busan.go.kr%2Fnbgosi%3FcurPage%3D1"
+   "status": "ok",
+   "count": 4
   },
   {
    "id": "bscf",
