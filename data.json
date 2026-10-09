@@ -32496,6 +32496,90 @@
     "기타"
    ],
    "firstSeen": "2026-10-09"
+  },
+  "b5dec4d357a5df20": {
+   "id": "b5dec4d357a5df20",
+   "source": "kidp",
+   "sourceName": "한국디자인진흥원",
+   "title": "안전디자인 연구 동향 5. 감염예방을 위한 안전디자인, 연구에서 제품 개발과 현장 적용까지 - 영국 Design Bugs Out. 2011",
+   "url": "https://kidp.or.kr/?menuno=1202",
+   "date": "2026-10-09",
+   "deadline": null,
+   "region": "전국",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-10-10"
+  },
+  "c5c74423f8b38a71": {
+   "id": "c5c74423f8b38a71",
+   "source": "kidp",
+   "sourceName": "한국디자인진흥원",
+   "title": "안전디자인 연구 동향 4. 산업안전보건 지침_안전을 위한 디자인 - 싱가포르 WSH Council, 2022",
+   "url": "https://kidp.or.kr/?menuno=1202",
+   "date": "2026-10-09",
+   "deadline": null,
+   "region": "전국",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-10-10"
+  },
+  "a71577b8dd8501f2": {
+   "id": "a71577b8dd8501f2",
+   "source": "kidp",
+   "sourceName": "한국디자인진흥원",
+   "title": "안전디자인 연구 동향 3. 미국은 안전디자인을 어떻게 국가적으로 확산했나? 산업재해 예방을 위한 디자인 성과 - 미국 국립산업안전보건연구원, 2014",
+   "url": "https://kidp.or.kr/?menuno=1202",
+   "date": "2026-10-09",
+   "deadline": null,
+   "region": "전국",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-10-10"
+  },
+  "5bfa7b862fb17837": {
+   "id": "5bfa7b862fb17837",
+   "source": "kidp",
+   "sourceName": "한국디자인진흥원",
+   "title": "안전디자인 연구 동향 2. 안전한 일터를 만드는 디자인의 10대 원칙 - 호주 산업안전보건청(Safe Work Australia), 2015",
+   "url": "https://kidp.or.kr/?menuno=1202",
+   "date": "2026-10-09",
+   "deadline": null,
+   "region": "전국",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-10-10"
+  },
+  "18cc85d93139a44b": {
+   "id": "18cc85d93139a44b",
+   "source": "kidp",
+   "sourceName": "한국디자인진흥원",
+   "title": "안전디자인 연구 동향 1. 산업재해 사망사고의 원인이 된 잘못된 디자인 - 호주 산업안전보건청, 2014",
+   "url": "https://kidp.or.kr/?menuno=1202",
+   "date": "2026-10-09",
+   "deadline": null,
+   "region": "전국",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-10-10"
+  },
+  "bbcb48a02723ae07": {
+   "id": "bbcb48a02723ae07",
+   "source": "kidp",
+   "sourceName": "한국디자인진흥원",
+   "title": "안전디자인 연구 동향 : 주목할만한 안전디자인 연구자료 50선 - 한국디자인진흥원",
+   "url": "https://kidp.or.kr/?menuno=1202",
+   "date": "2026-10-09",
+   "deadline": null,
+   "region": "전국",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-10-10"
   }
  },
  "sources": [
@@ -32617,7 +32701,7 @@
    "url": "https://www.busan.go.kr/nbgosi",
    "status": "fail",
    "count": 0,
-   "error": "500 Server Error: Internal Server Error for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.busan.go.kr%2Fnbgosi%3FcurPage%3D1"
+   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.busan.go.kr%2Fnbgosi%3FcurPage%3D1"
   },
   {
    "id": "bscf",
