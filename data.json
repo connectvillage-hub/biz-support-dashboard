@@ -1394,21 +1394,6 @@
    ],
    "firstSeen": "2026-07-09"
   },
-  "3e0a2ebbbad7e31b": {
-   "id": "3e0a2ebbbad7e31b",
-   "source": "smtech",
-   "sourceName": "중소기업 기술개발(SMTECH)",
-   "title": "2026년 제4차 중소기업 R&D 전담은행 투자지원 추천기업(영남권) 모집 공고",
-   "url": "https://www.smtech.go.kr/front/ifg/no/notice02_detail.do?buclYy=&ancmId=S02867&buclCd=S9171&dtlAncmSn=1&schdSe=MO5005&aplySn=1&searchCondition=&searchKeyword=&pageIndex=1",
-   "date": "2026-06-12",
-   "deadline": "2026-07-02",
-   "region": "전국",
-   "categories": [
-    "투자",
-    "R&D"
-   ],
-   "firstSeen": "2026-07-09"
-  },
   "a98aedb80d08be05": {
    "id": "a98aedb80d08be05",
    "source": "dcb",
@@ -1855,20 +1840,6 @@
    "region": "부산",
    "categories": [
     "사업화"
-   ],
-   "firstSeen": "2026-07-09"
-  },
-  "9231971e82c2f00f": {
-   "id": "9231971e82c2f00f",
-   "source": "bepa",
-   "sourceName": "부산경제진흥원",
-   "title": "[라이브커머스 운영 지원] 용역 입찰 제안서 평가위원(후보자) 등록 신청 공고",
-   "url": "https://www.bepa.kr/kor/view.do?no=1502&idx=19179&view=view&pageIndex=1&sv=&sw=&sdate=&edate=&periodState=all&state=end&temporary=0&items=소상공인",
-   "date": "2026-06-12",
-   "deadline": null,
-   "region": "부산",
-   "categories": [
-    "홍보·마케팅"
    ],
    "firstSeen": "2026-07-09"
   },
