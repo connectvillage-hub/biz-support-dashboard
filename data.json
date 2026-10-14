@@ -1857,20 +1857,6 @@
    ],
    "firstSeen": "2026-07-09"
   },
-  "308a581f899a6829": {
-   "id": "308a581f899a6829",
-   "source": "bkic",
-   "sourceName": "부산지식산업센터",
-   "title": "부산지식산업센터(금곡점) 6월 입주기업 선정결과 공고",
-   "url": "http://bkic.bepa.kr/bsknow/view.do?no=1477&idx=1829&view=view&pageIndex=1&sv=&sw=",
-   "date": "2026-06-16",
-   "deadline": null,
-   "region": "부산",
-   "categories": [
-    "입주기업"
-   ],
-   "firstSeen": "2026-07-09"
-  },
   "87b4a9c8326ffa08": {
    "id": "87b4a9c8326ffa08",
    "source": "semas",
@@ -1922,20 +1908,6 @@
    "date": "2026-06-26",
    "deadline": null,
    "region": "서울",
-   "categories": [
-    "기타"
-   ],
-   "firstSeen": "2026-07-09"
-  },
-  "4e873c4d5d87ea9d": {
-   "id": "4e873c4d5d87ea9d",
-   "source": "semas",
-   "sourceName": "소상공인시장진흥공단",
-   "title": "상생페이백 반환 결정 통지서(3차) 미열람자 공시송달 공고",
-   "url": "https://www.semas.or.kr/web/board/webBoardView.kmdc?bCd=1&b_idx=54916&pNm=BOA0101",
-   "date": "2026-06-16",
-   "deadline": null,
-   "region": "전국",
    "categories": [
     "기타"
    ],
@@ -34104,7 +34076,7 @@
    "url": "https://www.busan.go.kr/nbgosi",
    "status": "fail",
    "count": 0,
-   "error": "500 Server Error: Internal Server Error for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.busan.go.kr%2Fnbgosi%3FcurPage%3D1"
+   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.busan.go.kr%2Fnbgosi%3FcurPage%3D1"
   },
   {
    "id": "bscf",
