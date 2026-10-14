@@ -33955,6 +33955,34 @@
     "기타"
    ],
    "firstSeen": "2026-10-14"
+  },
+  "493ec164d9d46865": {
+   "id": "493ec164d9d46865",
+   "source": "kidp",
+   "sourceName": "한국디자인진흥원",
+   "title": "2026 창원 문화선도산단 청년디자인리빙랩 시범운영 「K-방산 PLAYGROUND」 전시 패널 모음",
+   "url": "https://kidp.or.kr/?menuno=1202",
+   "date": "2026-10-14",
+   "deadline": null,
+   "region": "경남",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-10-14"
+  },
+  "5c36c9c5703ffd46": {
+   "id": "5c36c9c5703ffd46",
+   "source": "kidp",
+   "sourceName": "한국디자인진흥원",
+   "title": "(시범운영 후기) 방산을 일상으로, 기술을 문화로 - 창원 청년디자인리빙랩, ‘콘셉트 무기 대전’ 과제 시범운영 참가 후기",
+   "url": "https://kidp.or.kr/?menuno=1202",
+   "date": "2026-10-14",
+   "deadline": null,
+   "region": "경남",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-10-14"
   }
  },
  "sources": [
@@ -34076,7 +34104,7 @@
    "url": "https://www.busan.go.kr/nbgosi",
    "status": "fail",
    "count": 0,
-   "error": "408 Client Error: Request Timeout for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.busan.go.kr%2Fnbgosi%3FcurPage%3D1"
+   "error": "500 Server Error: Internal Server Error for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.busan.go.kr%2Fnbgosi%3FcurPage%3D1"
   },
   {
    "id": "bscf",
