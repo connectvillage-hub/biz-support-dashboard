@@ -34405,6 +34405,48 @@
     "기타"
    ],
    "firstSeen": "2026-10-15"
+  },
+  "bb33aed0aaa163db": {
+   "id": "bb33aed0aaa163db",
+   "source": "kidp",
+   "sourceName": "한국디자인진흥원",
+   "title": "(시범운영 후기) 공장을 청년의 일상으로, 기술을 경험으로 - 구미 청년디자인리빙랩 ‘브랜드공장’",
+   "url": "https://kidp.or.kr/?menuno=1202",
+   "date": "2026-10-16",
+   "deadline": null,
+   "region": "전국",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-10-16"
+  },
+  "eb5121ab9a1bd887": {
+   "id": "eb5121ab9a1bd887",
+   "source": "kidp",
+   "sourceName": "한국디자인진흥원",
+   "title": "(시범운영 후기) 달려보고, 다시 길을 바꾸다 - 완주 청년디자인리빙랩 완주루프",
+   "url": "https://kidp.or.kr/?menuno=1202",
+   "date": "2026-10-16",
+   "deadline": null,
+   "region": "전국",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-10-16"
+  },
+  "362934ffb00c2725": {
+   "id": "362934ffb00c2725",
+   "source": "semas",
+   "sourceName": "소상공인시장진흥공단",
+   "title": "2026년 희망리턴패키지 우수사례 공모전 개최",
+   "url": "https://www.semas.or.kr/web/board/webBoardView.kmdc?bCd=1&b_idx=57138&pNm=BOA0101",
+   "date": "2026-10-15",
+   "deadline": null,
+   "region": "전국",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-10-16"
   }
  },
  "sources": [
@@ -34419,15 +34461,17 @@
    "id": "bizinfo",
    "name": "기업마당",
    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200View.do",
-   "status": "ok",
-   "count": 15
+   "status": "fail",
+   "count": 0,
+   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.bizinfo.go.kr%2Fsii%2Fsiia%2FselectSIIA200View.do"
   },
   {
    "id": "mss",
    "name": "중소벤처기업부",
    "url": "https://www.mss.go.kr/site/smba/ex/bbs/List.do?cbIdx=310",
-   "status": "ok",
-   "count": 10
+   "status": "fail",
+   "count": 0,
+   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.mss.go.kr%2Fsite%2Fsmba%2Fex%2Fbbs%2FList.do%3FcbIdx%3D310"
   },
   {
    "id": "kidp",
