@@ -5,8 +5,8 @@
    "source": "bipa",
    "sourceName": "부산정보산업진흥원",
    "title": "부산 글로벌게임센터(BGC) 오렌지플래닛 입주모집 공고",
-   "url": "https://bipa.kr/board/business/view?seq=85348",
-   "date": "2026-09-10",
+   "url": "https://bipa.kr/board/business/view?seq=85409",
+   "date": "2026-10-15",
    "deadline": null,
    "region": "부산",
    "categories": [
@@ -33955,6 +33955,34 @@
     "기타"
    ],
    "firstSeen": "2026-10-14"
+  },
+  "8897ddca46cfee64": {
+   "id": "8897ddca46cfee64",
+   "source": "kocca",
+   "sourceName": "한국콘텐츠진흥원",
+   "title": "<2026년 게임콘텐츠 제작지원 이용자평가 및 QA 지원> 과제 모집공고",
+   "url": "https://www.kocca.kr/kocca/pims/view.do?intcNo=326D00108003&menuNo=20410&recptSt=&category=&pageIndex=1&search=&searchWrd=",
+   "date": "2026-10-15",
+   "deadline": "2026-10-28",
+   "region": "전국",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-10-15"
+  },
+  "681e2b4cb8835a62": {
+   "id": "681e2b4cb8835a62",
+   "source": "dcb",
+   "sourceName": "부산디자인진흥원",
+   "title": "재단법인 부산디자인진흥원 세계디자인수도 부산 추진단장 모집 변경일정 공고",
+   "url": "https://dcb.or.kr/01_news/?mcode=0401010000&mode=2&no=14554&page=1",
+   "date": "2026-10-15",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-10-15"
   }
  },
  "sources": [
@@ -33991,7 +34019,7 @@
    "name": "한국콘텐츠진흥원",
    "url": "https://www.kocca.kr/kocca/pims/list.do?menuNo=20410",
    "status": "ok",
-   "count": 6
+   "count": 7
   },
   {
    "id": "arte",
@@ -34076,7 +34104,7 @@
    "url": "https://www.busan.go.kr/nbgosi",
    "status": "fail",
    "count": 0,
-   "error": "408 Client Error: Request Timeout for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.busan.go.kr%2Fnbgosi%3FcurPage%3D1"
+   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.busan.go.kr%2Fnbgosi%3FcurPage%3D1"
   },
   {
    "id": "bscf",
