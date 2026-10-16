@@ -34447,6 +34447,34 @@
     "사업화"
    ],
    "firstSeen": "2026-10-16"
+  },
+  "2fcfa671daf5bd50": {
+   "id": "2fcfa671daf5bd50",
+   "source": "btp",
+   "sourceName": "부산테크노파크",
+   "title": "(재)부산테크노파크 구내식당 위탁운영사 입찰 공고",
+   "url": "https://www.btp.or.kr/kor/CMS/Board/Board.do?mCode=MN013&mode=view&mgr_seq=16&board_seq=9582556",
+   "date": "2026-10-16",
+   "deadline": "2026-10-29",
+   "region": "부산",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-10-16"
+  },
+  "436e84bedb58730e": {
+   "id": "436e84bedb58730e",
+   "source": "bepa",
+   "sourceName": "부산경제진흥원",
+   "title": "제112회 부산미래경제포럼",
+   "url": "https://www.bepa.kr/kor/view.do?no=1502&idx=19619&view=view&pageIndex=1&sv=&sw=&sdate=&edate=&periodState=all&state=ing&temporary=0&items=소상공인",
+   "date": "2026-10-16",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "네트워킹"
+   ],
+   "firstSeen": "2026-10-16"
   }
  },
  "sources": [
@@ -34568,7 +34596,7 @@
    "url": "https://www.busan.go.kr/nbgosi",
    "status": "fail",
    "count": 0,
-   "error": "408 Client Error: Request Timeout for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.busan.go.kr%2Fnbgosi%3FcurPage%3D1"
+   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.busan.go.kr%2Fnbgosi%3FcurPage%3D1"
   },
   {
    "id": "bscf",
