@@ -34872,6 +34872,20 @@
     "네트워킹"
    ],
    "firstSeen": "2026-10-16"
+  },
+  "be981af1e8f58083": {
+   "id": "be981af1e8f58083",
+   "source": "btp",
+   "sourceName": "부산테크노파크",
+   "title": "『2026 동남권 멀티도메인 모빌리티 비즈니스 해커톤』 참가자 모집 수정 공고",
+   "url": "https://www.btp.or.kr/kor/CMS/Board/Board.do?mCode=MN013&mode=view&mgr_seq=16&board_seq=9582558",
+   "date": "2026-10-16",
+   "deadline": "2026-10-26",
+   "region": "부산",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-10-16"
   }
  },
  "sources": [
@@ -34993,7 +35007,7 @@
    "url": "https://www.busan.go.kr/nbgosi",
    "status": "fail",
    "count": 0,
-   "error": "408 Client Error: Request Timeout for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.busan.go.kr%2Fnbgosi%3FcurPage%3D1"
+   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.busan.go.kr%2Fnbgosi%3FcurPage%3D1"
   },
   {
    "id": "bscf",
