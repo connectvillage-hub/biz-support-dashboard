@@ -16910,20 +16910,6 @@
    ],
    "firstSeen": "2026-08-21"
   },
-  "901bc0dcb9594c5d": {
-   "id": "901bc0dcb9594c5d",
-   "source": "bipa",
-   "sourceName": "부산정보산업진흥원",
-   "title": "「AX 에이지테크 레퍼런스-업 프로젝트」 일반 실증 수요처 Pool 안내 (상시)",
-   "url": "https://bipa.kr/board/business/view?seq=85155",
-   "date": "2026-06-18",
-   "deadline": null,
-   "region": "부산",
-   "categories": [
-    "R&D"
-   ],
-   "firstSeen": "2026-08-21"
-  },
   "28c8c0852eaf50ff": {
    "id": "28c8c0852eaf50ff",
    "source": "dcamp",
@@ -29387,7 +29373,7 @@
    "source": "bepa",
    "sourceName": "부산경제진흥원",
    "title": "소상공인 통합교육 전문가 특강 & 토크콘서트 「일하는 사장의 생각」 참가자 모집",
-   "url": "https://www.bepa.kr/kor/view.do?no=1502&idx=19581&view=view&pageIndex=1&sv=&sw=&sdate=&edate=&periodState=all&state=ing&temporary=0&items=소상공인",
+   "url": "https://www.bepa.kr/kor/view.do?no=1502&idx=19581&view=view&pageIndex=1&sv=&sw=&sdate=&edate=&periodState=all&state=end&temporary=0&items=소상공인",
    "date": "2026-09-30",
    "deadline": null,
    "region": "부산",
