@@ -34880,7 +34880,7 @@
    "name": "K스타트업",
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do",
    "status": "ok",
-   "count": 0
+   "count": 15
   },
   {
    "id": "bizinfo",
@@ -34942,8 +34942,9 @@
    "id": "dcb",
    "name": "부산디자인진흥원",
    "url": "https://dcb.or.kr/01_news/?mcode=0401010000",
-   "status": "ok",
-   "count": 15
+   "status": "fail",
+   "count": 0,
+   "error": "408 Client Error: Request Timeout for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fdcb.or.kr%2F01_news%2F%3Fmcode%3D0401010000"
   },
   {
    "id": "btp",
@@ -34993,7 +34994,7 @@
    "url": "https://www.busan.go.kr/nbgosi",
    "status": "fail",
    "count": 0,
-   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.busan.go.kr%2Fnbgosi%3FcurPage%3D1"
+   "error": "500 Server Error: Internal Server Error for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.busan.go.kr%2Fnbgosi%3FcurPage%3D1"
   },
   {
    "id": "bscf",
