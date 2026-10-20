@@ -35113,6 +35113,34 @@
     "기타"
    ],
    "firstSeen": "2026-10-19"
+  },
+  "bc66f43d153108fa": {
+   "id": "bc66f43d153108fa",
+   "source": "kidp",
+   "sourceName": "한국디자인진흥원",
+   "title": "한국디자인진흥원, GOOD DESIGN KOREA 2026 올해 대통령상은 민둥산을 오르는 경험",
+   "url": "https://kidp.or.kr/?menuno=1202",
+   "date": "2026-10-20",
+   "deadline": null,
+   "region": "전국",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-10-20"
+  },
+  "2ce2a7e325d4d765": {
+   "id": "2ce2a7e325d4d765",
+   "source": "bepa",
+   "sourceName": "부산경제진흥원",
+   "title": "2026 로컬 레벨업 컨퍼런스 참가자 모집",
+   "url": "https://www.bepa.kr/kor/view.do?no=1502&idx=19625&view=view&pageIndex=1&sv=&sw=&sdate=&edate=&periodState=all&state=ing&temporary=0&items=소상공인",
+   "date": "2026-10-20",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "네트워킹"
+   ],
+   "firstSeen": "2026-10-20"
   }
  },
  "sources": [
@@ -35234,7 +35262,7 @@
    "url": "https://www.busan.go.kr/nbgosi",
    "status": "fail",
    "count": 0,
-   "error": "520 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.busan.go.kr%2Fnbgosi%3FcurPage%3D1"
+   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.busan.go.kr%2Fnbgosi%3FcurPage%3D1"
   },
   {
    "id": "bscf",
