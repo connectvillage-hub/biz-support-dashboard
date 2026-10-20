@@ -172,20 +172,6 @@
    ],
    "firstSeen": "2026-07-09"
   },
-  "faf134d930a31912": {
-   "id": "faf134d930a31912",
-   "source": "bistep",
-   "sourceName": "부산산업과학혁신원",
-   "title": "2026년 부산지역 연구개발 우수성과 선정 공고",
-   "url": "https://www.bistep.re.kr/kor/CMS/Board/Board.do?mCode=MN008&mode=view&mgr_seq=23&board_seq=5745",
-   "date": "2026-06-22",
-   "deadline": null,
-   "region": "부산",
-   "categories": [
-    "R&D"
-   ],
-   "firstSeen": "2026-07-09"
-  },
   "58cd5f659d39f4f4": {
    "id": "58cd5f659d39f4f4",
    "source": "bscf",
@@ -1784,48 +1770,6 @@
    "region": "부산",
    "categories": [
     "기타"
-   ],
-   "firstSeen": "2026-07-09"
-  },
-  "eff3860030d83355": {
-   "id": "eff3860030d83355",
-   "source": "bepa",
-   "sourceName": "부산경제진흥원",
-   "title": "라이브커머스 운영 지원 용역 입찰 공고(정정)",
-   "url": "https://www.bepa.kr/kor/view.do?no=1502&idx=19220&view=view&pageIndex=1&sv=&sw=&sdate=&edate=&periodState=all&state=end&temporary=0&items=소상공인",
-   "date": "2026-06-22",
-   "deadline": null,
-   "region": "부산",
-   "categories": [
-    "홍보·마케팅"
-   ],
-   "firstSeen": "2026-07-09"
-  },
-  "19a6743750b00d66": {
-   "id": "19a6743750b00d66",
-   "source": "bepa",
-   "sourceName": "부산경제진흥원",
-   "title": "2026 정부지원사업 공모 컨설팅 지원 사업 참여 소공인 모집",
-   "url": "https://www.bepa.kr/kor/view.do?no=1502&idx=19210&view=view&pageIndex=1&sv=&sw=&sdate=&edate=&periodState=all&state=end&temporary=0&items=소상공인",
-   "date": "2026-06-22",
-   "deadline": null,
-   "region": "부산",
-   "categories": [
-    "사업화"
-   ],
-   "firstSeen": "2026-07-09"
-  },
-  "7f0f5d58079121b5": {
-   "id": "7f0f5d58079121b5",
-   "source": "bepa",
-   "sourceName": "부산경제진흥원",
-   "title": "2026 도시형소공인 맞춤형 패키지 지원사업 참여 소공인 모집",
-   "url": "https://www.bepa.kr/kor/view.do?no=1502&idx=19209&view=view&pageIndex=1&sv=&sw=&sdate=&edate=&periodState=all&state=end&temporary=0&items=소상공인",
-   "date": "2026-06-22",
-   "deadline": null,
-   "region": "부산",
-   "categories": [
-    "사업화"
    ],
    "firstSeen": "2026-07-09"
   },
@@ -35674,7 +35618,7 @@
    "url": "https://www.busan.go.kr/nbgosi",
    "status": "fail",
    "count": 0,
-   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.busan.go.kr%2Fnbgosi%3FcurPage%3D1"
+   "error": "500 Server Error: Internal Server Error for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.busan.go.kr%2Fnbgosi%3FcurPage%3D1"
   },
   {
    "id": "bscf",
