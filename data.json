@@ -35440,6 +35440,119 @@
     "기타"
    ],
    "firstSeen": "2026-10-20"
+  },
+  "55b4c77e2bba3ff0": {
+   "id": "55b4c77e2bba3ff0",
+   "source": "kstartup",
+   "sourceName": "K스타트업",
+   "title": "2026년 스타트업 법률지원사업 울산광역시 법률상담회 참여 기업 모집 안내",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179572",
+   "date": "2026-10-20",
+   "deadline": "2026-11-02",
+   "region": "울산",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-10-20"
+  },
+  "b30aa6b7b931a379": {
+   "id": "b30aa6b7b931a379",
+   "source": "kstartup",
+   "sourceName": "K스타트업",
+   "title": "2026년 스타트업, 중소기업, 소상공인을 위한 M&A 전략 세미나",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179557",
+   "date": "2026-10-20",
+   "deadline": "2026-11-04",
+   "region": "전국",
+   "categories": [
+    "네트워킹"
+   ],
+   "firstSeen": "2026-10-20"
+  },
+  "6d81899c102d4ecc": {
+   "id": "6d81899c102d4ecc",
+   "source": "kstartup",
+   "sourceName": "K스타트업",
+   "title": "2026 글로벌 진출 - 글로벌 진출과 협력 네트워크 확장 전략",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179555",
+   "date": "2026-10-20",
+   "deadline": "2026-11-17",
+   "region": "전국",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-10-20"
+  },
+  "8e3830a8bd342bf7": {
+   "id": "8e3830a8bd342bf7",
+   "source": "kstartup",
+   "sourceName": "K스타트업",
+   "title": "[GBSA] 2026 판교스타트업 투자교류회 제 4차 투자교류회",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179554",
+   "date": "2026-10-20",
+   "deadline": "2026-11-10",
+   "region": "전국",
+   "categories": [
+    "투자",
+    "네트워킹"
+   ],
+   "firstSeen": "2026-10-20"
+  },
+  "e21302eb1e752c52": {
+   "id": "e21302eb1e752c52",
+   "source": "kstartup",
+   "sourceName": "K스타트업",
+   "title": "2026년 영등포구 소상공인 디지털 전환교육 교육생 모집",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=177421",
+   "date": "2026-10-20",
+   "deadline": "2026-10-23",
+   "region": "전국",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-10-20"
+  },
+  "22d83f3034a1fdbf": {
+   "id": "22d83f3034a1fdbf",
+   "source": "kstartup",
+   "sourceName": "K스타트업",
+   "title": "충북테크노파크 차세대에너지 스타트업 DEMO DAY",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179537",
+   "date": "2026-10-20",
+   "deadline": "2026-10-21",
+   "region": "전국",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-10-20"
+  },
+  "6c4caaae834c12fc": {
+   "id": "6c4caaae834c12fc",
+   "source": "mss",
+   "sourceName": "중소벤처기업부",
+   "title": "2026년 소공인 클린제조환경조성사업 3차 모집 공고(연장)",
+   "url": "https://www.mss.go.kr/site/smba/ex/bbs/View.do?cbIdx=310&bcIdx=1071870&parentSeq=1071870",
+   "date": "2026-10-20",
+   "deadline": null,
+   "region": "전국",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-10-20"
+  },
+  "6edbd31a93f1a42b": {
+   "id": "6edbd31a93f1a42b",
+   "source": "bipa",
+   "sourceName": "부산정보산업진흥원",
+   "title": "[부산음악창작소 X KT&G 상상마당 부산] 2026 부산 뮤지션 네트워킹 파티 참가 뮤지션 모집",
+   "url": "https://bipa.kr/board/business/view?seq=85426",
+   "date": "2026-10-20",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "네트워킹"
+   ],
+   "firstSeen": "2026-10-20"
   }
  },
  "sources": [
