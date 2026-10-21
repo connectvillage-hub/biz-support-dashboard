@@ -5678,20 +5678,6 @@
    ],
    "firstSeen": "2026-07-21"
   },
-  "25125900b1fbc0f0": {
-   "id": "25125900b1fbc0f0",
-   "source": "kocca",
-   "sourceName": "한국콘텐츠진흥원",
-   "title": "2026년 대중음악 공연환경 개선 지원사업 공고",
-   "url": "https://www.kocca.kr/kocca/pims/view.do?intcNo=126D00070008&menuNo=20410&recptSt=&category=&pageIndex=1&search=&searchWrd=",
-   "date": "2026-06-23",
-   "deadline": "2026-07-24",
-   "region": "전국",
-   "categories": [
-    "사업화"
-   ],
-   "firstSeen": "2026-07-21"
-  },
   "7c591900f729c56b": {
    "id": "7c591900f729c56b",
    "source": "kstartup",
@@ -31976,7 +31962,7 @@
    "source": "bepa",
    "sourceName": "부산경제진흥원",
    "title": "달달 더 마켓 참여기업 모집 공고",
-   "url": "https://www.bepa.kr/kor/view.do?no=1502&idx=19599&view=view&pageIndex=1&sv=&sw=&sdate=&edate=&periodState=all&state=ing&temporary=0&items=소상공인",
+   "url": "https://www.bepa.kr/kor/view.do?no=1502&idx=19599&view=view&pageIndex=1&sv=&sw=&sdate=&edate=&periodState=all&state=end&temporary=0&items=소상공인",
    "date": "2026-10-08",
    "deadline": null,
    "region": "부산",
@@ -36053,6 +36039,20 @@
     "기타"
    ],
    "firstSeen": "2026-10-21"
+  },
+  "8dbed1441ec27970": {
+   "id": "8dbed1441ec27970",
+   "source": "kstartup",
+   "sourceName": "K스타트업",
+   "title": "2026 논산시 사회적경제 창업 아카데미 참여자 모집",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179591",
+   "date": "2026-10-21",
+   "deadline": "2026-11-18",
+   "region": "전국",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-10-22"
   }
  },
  "sources": [
@@ -36174,7 +36174,7 @@
    "url": "https://www.busan.go.kr/nbgosi",
    "status": "fail",
    "count": 0,
-   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.busan.go.kr%2Fnbgosi%3FcurPage%3D1"
+   "error": "408 Client Error: Request Timeout for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.busan.go.kr%2Fnbgosi%3FcurPage%3D1"
   },
   {
    "id": "bscf",
