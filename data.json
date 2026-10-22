@@ -1254,20 +1254,6 @@
    ],
    "firstSeen": "2026-07-09"
   },
-  "247128c06552945f": {
-   "id": "247128c06552945f",
-   "source": "kocca",
-   "sourceName": "한국콘텐츠진흥원",
-   "title": "2026년 화면해설방송 제작지원작 추가 공모",
-   "url": "https://www.kocca.kr/kocca/pims/view.do?intcNo=326D00085004&menuNo=20410&recptSt=&category=&pageIndex=1&search=&searchWrd=",
-   "date": "2026-06-24",
-   "deadline": "2026-07-15",
-   "region": "전국",
-   "categories": [
-    "사업화"
-   ],
-   "firstSeen": "2026-07-09"
-  },
   "f3bb8f3527da492e": {
    "id": "f3bb8f3527da492e",
    "source": "smtech",
@@ -1349,20 +1335,6 @@
    "region": "전국",
    "categories": [
     "기타"
-   ],
-   "firstSeen": "2026-07-09"
-  },
-  "b05826b1549342bc": {
-   "id": "b05826b1549342bc",
-   "source": "smtech",
-   "sourceName": "중소기업 기술개발(SMTECH)",
-   "title": "TIPA ValueUP 프로그램 19기 참여기업 모집 공고",
-   "url": "https://www.smtech.go.kr/front/ifg/no/notice02_detail.do?buclYy=&ancmId=S02868&buclCd=S9141&dtlAncmSn=1&schdSe=MO5005&aplySn=1&searchCondition=&searchKeyword=&pageIndex=1",
-   "date": "2026-06-24",
-   "deadline": "2026-07-15",
-   "region": "전국",
-   "categories": [
-    "사업화"
    ],
    "firstSeen": "2026-07-09"
   },
@@ -1756,20 +1728,6 @@
    "region": "부산",
    "categories": [
     "사업화"
-   ],
-   "firstSeen": "2026-07-09"
-  },
-  "6885f7a9d7fdd158": {
-   "id": "6885f7a9d7fdd158",
-   "source": "bepa",
-   "sourceName": "부산경제진흥원",
-   "title": "2026 부산 수제맥주 마스터스 챌린지 행사 운영 용역 제안서 평가위원 후보자 모집 공고",
-   "url": "https://www.bepa.kr/kor/view.do?no=1502&idx=19230&view=view&pageIndex=1&sv=&sw=&sdate=&edate=&periodState=all&state=end&temporary=0&items=소상공인",
-   "date": "2026-06-24",
-   "deadline": null,
-   "region": "부산",
-   "categories": [
-    "기타"
    ],
    "firstSeen": "2026-07-09"
   },
@@ -35063,7 +35021,7 @@
    "source": "bepa",
    "sourceName": "부산경제진흥원",
    "title": "2026 로컬 레벨업 컨퍼런스 참가자 모집",
-   "url": "https://www.bepa.kr/kor/view.do?no=1502&idx=19625&view=view&pageIndex=1&sv=&sw=&sdate=&edate=&periodState=all&state=ing&temporary=0&items=소상공인",
+   "url": "https://www.bepa.kr/kor/view.do?no=1502&idx=19625&view=view&pageIndex=1&sv=&sw=&sdate=&edate=&periodState=all&state=end&temporary=0&items=소상공인",
    "date": "2026-10-20",
    "deadline": null,
    "region": "부산",
@@ -36586,7 +36544,7 @@
    "url": "https://www.busan.go.kr/nbgosi",
    "status": "fail",
    "count": 0,
-   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.busan.go.kr%2Fnbgosi%3FcurPage%3D1"
+   "error": "408 Client Error: Request Timeout for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.busan.go.kr%2Fnbgosi%3FcurPage%3D1"
   },
   {
    "id": "bscf",
