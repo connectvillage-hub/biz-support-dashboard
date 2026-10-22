@@ -36451,6 +36451,20 @@
     "기타"
    ],
    "firstSeen": "2026-10-22"
+  },
+  "5568b5dcf2a93c02": {
+   "id": "5568b5dcf2a93c02",
+   "source": "kocca",
+   "sourceName": "한국콘텐츠진흥원",
+   "title": "2027 콘텐츠 아메리카 한국공동관 및 쇼케이스 참가기업 추가모집 공고",
+   "url": "https://www.kocca.kr/kocca/pims/view.do?intcNo=326D00085010&menuNo=20410&recptSt=&category=&pageIndex=1&search=&searchWrd=",
+   "date": "2026-10-22",
+   "deadline": "2026-11-03",
+   "region": "전국",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-10-22"
   }
  },
  "sources": [
@@ -36487,7 +36501,7 @@
    "name": "한국콘텐츠진흥원",
    "url": "https://www.kocca.kr/kocca/pims/list.do?menuNo=20410",
    "status": "ok",
-   "count": 6
+   "count": 7
   },
   {
    "id": "arte",
