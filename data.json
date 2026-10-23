@@ -1717,20 +1717,6 @@
    ],
    "firstSeen": "2026-07-09"
   },
-  "985c09a4cf7b6dc0": {
-   "id": "985c09a4cf7b6dc0",
-   "source": "bepa",
-   "sourceName": "부산경제진흥원",
-   "title": "도시형소공인활성화 지원사업 임시직 서류전형 합격자 발표 및 면접전형 시행계획 공고",
-   "url": "https://www.bepa.kr/kor/view.do?no=1502&idx=19237&view=view&pageIndex=1&sv=&sw=&sdate=&edate=&periodState=all&state=end&temporary=0&items=소상공인",
-   "date": "2026-06-25",
-   "deadline": null,
-   "region": "부산",
-   "categories": [
-    "사업화"
-   ],
-   "firstSeen": "2026-07-09"
-  },
   "62a0e82bb69004a0": {
    "id": "62a0e82bb69004a0",
    "source": "bkic",
@@ -7097,20 +7083,6 @@
     "사업화"
    ],
    "firstSeen": "2026-07-23"
-  },
-  "83a3de6ac703cfad": {
-   "id": "83a3de6ac703cfad",
-   "source": "btp",
-   "sourceName": "부산테크노파크",
-   "title": "2026년 Big Data 활용 대회 공고",
-   "url": "https://www.btp.or.kr/kor/CMS/Board/Board.do?mCode=MN013&mode=view&mgr_seq=16&board_seq=9582117",
-   "date": "2026-06-25",
-   "deadline": "2026-09-18",
-   "region": "부산",
-   "categories": [
-    "기타"
-   ],
-   "firstSeen": "2026-07-24"
   },
   "abf161f00b5eedb7": {
    "id": "abf161f00b5eedb7",
@@ -30802,7 +30774,7 @@
    "source": "bepa",
    "sourceName": "부산경제진흥원",
    "title": "[희망아카데미 7기] AI로 끝내는 문서 자동화 (심화과정)",
-   "url": "https://www.bepa.kr/kor/view.do?no=1502&idx=19589&view=view&pageIndex=1&sv=&sw=&sdate=&edate=&periodState=all&state=ing&temporary=0&items=소상공인",
+   "url": "https://www.bepa.kr/kor/view.do?no=1502&idx=19589&view=view&pageIndex=1&sv=&sw=&sdate=&edate=&periodState=all&state=end&temporary=0&items=소상공인",
    "date": "2026-10-06",
    "deadline": null,
    "region": "부산",
@@ -36852,7 +36824,7 @@
    "url": "https://www.busan.go.kr/nbgosi",
    "status": "fail",
    "count": 0,
-   "error": "408 Client Error: Request Timeout for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.busan.go.kr%2Fnbgosi%3FcurPage%3D1"
+   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.busan.go.kr%2Fnbgosi%3FcurPage%3D1"
   },
   {
    "id": "bscf",
