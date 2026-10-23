@@ -36703,6 +36703,34 @@
     "사업화"
    ],
    "firstSeen": "2026-10-23"
+  },
+  "684f960716aeda23": {
+   "id": "684f960716aeda23",
+   "source": "semas",
+   "sourceName": "소상공인시장진흥공단",
+   "title": "침해사고 예방을 위한 취약점 점검 무료 지원 안내",
+   "url": "https://www.semas.or.kr/web/board/webBoardView.kmdc?bCd=1&b_idx=57241&pNm=BOA0101",
+   "date": "2026-10-23",
+   "deadline": null,
+   "region": "전국",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-10-23"
+  },
+  "8c49054b4d0d43e0": {
+   "id": "8c49054b4d0d43e0",
+   "source": "dcb",
+   "sourceName": "부산디자인진흥원",
+   "title": "시민 참여 디자인 아이디어 공모전 1차 심사 결과 공고문",
+   "url": "https://dcb.or.kr/01_news/?mcode=0401010000&mode=2&no=14559&page=1",
+   "date": "2026-10-23",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-10-23"
   }
  },
  "sources": [
@@ -36824,7 +36852,7 @@
    "url": "https://www.busan.go.kr/nbgosi",
    "status": "fail",
    "count": 0,
-   "error": "500 Server Error: Internal Server Error for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.busan.go.kr%2Fnbgosi%3FcurPage%3D1"
+   "error": "408 Client Error: Request Timeout for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.busan.go.kr%2Fnbgosi%3FcurPage%3D1"
   },
   {
    "id": "bscf",
