@@ -36423,6 +36423,48 @@
     "사업화"
    ],
    "firstSeen": "2026-10-22"
+  },
+  "db509f142e0e7768": {
+   "id": "db509f142e0e7768",
+   "source": "mss",
+   "sourceName": "중소벤처기업부",
+   "title": "창업도시 조성 프로젝트 창업도시 모집 공고",
+   "url": "https://www.mss.go.kr/site/smba/ex/bbs/View.do?cbIdx=310&bcIdx=1071948&parentSeq=1071948",
+   "date": "2026-10-23",
+   "deadline": null,
+   "region": "전국",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-10-23"
+  },
+  "b03dc375f727b4f3": {
+   "id": "b03dc375f727b4f3",
+   "source": "kocca",
+   "sourceName": "한국콘텐츠진흥원",
+   "title": "2026년 VP 활용 콘텐츠 제작 인프라 지원 추가공모",
+   "url": "https://www.kocca.kr/kocca/pims/view.do?intcNo=326D00059002&menuNo=20410&recptSt=&category=&pageIndex=1&search=&searchWrd=",
+   "date": "2026-10-22",
+   "deadline": "2026-11-17",
+   "region": "전국",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-10-23"
+  },
+  "b280c5f6917f35f4": {
+   "id": "b280c5f6917f35f4",
+   "source": "bipa",
+   "sourceName": "부산정보산업진흥원",
+   "title": "2026 부산콘텐츠아카데미 실무자 AI활용 교육 4회차 교육생 모집",
+   "url": "https://bipa.kr/board/business/view?seq=85437",
+   "date": "2026-10-23",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-10-23"
   }
  },
  "sources": [
@@ -36459,7 +36501,7 @@
    "name": "한국콘텐츠진흥원",
    "url": "https://www.kocca.kr/kocca/pims/list.do?menuNo=20410",
    "status": "ok",
-   "count": 7
+   "count": 8
   },
   {
    "id": "arte",
@@ -36544,7 +36586,7 @@
    "url": "https://www.busan.go.kr/nbgosi",
    "status": "fail",
    "count": 0,
-   "error": "500 Server Error: Internal Server Error for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.busan.go.kr%2Fnbgosi%3FcurPage%3D1"
+   "error": "408 Client Error: Request Timeout for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.busan.go.kr%2Fnbgosi%3FcurPage%3D1"
   },
   {
    "id": "bscf",
@@ -36586,7 +36628,7 @@
    "name": "윤민창의투자재단",
    "url": "https://yoonmin.org/good-starter",
    "status": "ok",
-   "count": 1
+   "count": 0
   },
   {
    "id": "ccei_busan",
