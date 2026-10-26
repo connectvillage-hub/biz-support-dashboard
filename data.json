@@ -36647,6 +36647,136 @@
     "사업화"
    ],
    "firstSeen": "2026-10-23"
+  },
+  "a276235a9f5a699f": {
+   "id": "a276235a9f5a699f",
+   "source": "kstartup",
+   "sourceName": "K스타트업",
+   "title": "제 7차 충남 오픈이노베이션 포럼",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179585",
+   "date": "2026-10-26",
+   "deadline": "2026-10-27",
+   "region": "전국",
+   "categories": [
+    "네트워킹"
+   ],
+   "firstSeen": "2026-10-26"
+  },
+  "62f767118d6a4cc1": {
+   "id": "62f767118d6a4cc1",
+   "source": "kstartup",
+   "sourceName": "K스타트업",
+   "title": "성남 중장년 기술창업센터 입주기업 모집 공고",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179607",
+   "date": "2026-10-26",
+   "deadline": "2026-10-30",
+   "region": "전국",
+   "categories": [
+    "입주기업",
+    "사업화"
+   ],
+   "firstSeen": "2026-10-26"
+  },
+  "6ea06809c4d28a27": {
+   "id": "6ea06809c4d28a27",
+   "source": "kstartup",
+   "sourceName": "K스타트업",
+   "title": "[창업행사] 2026 마포청년 창업데이",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179605",
+   "date": "2026-10-26",
+   "deadline": "2026-11-02",
+   "region": "전국",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-10-26"
+  },
+  "ad8d5bd52dd72808": {
+   "id": "ad8d5bd52dd72808",
+   "source": "kstartup",
+   "sourceName": "K스타트업",
+   "title": "2026 용인 반도체 스타트업 육성 전략 포럼 참가자 모집",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179608",
+   "date": "2026-10-26",
+   "deadline": "2026-11-03",
+   "region": "전국",
+   "categories": [
+    "네트워킹",
+    "사업화"
+   ],
+   "firstSeen": "2026-10-26"
+  },
+  "d3162573b4db48ee": {
+   "id": "d3162573b4db48ee",
+   "source": "kstartup",
+   "sourceName": "K스타트업",
+   "title": "[청년 취창업 특강] 나만의 일을 만들어가는 방법",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179611",
+   "date": "2026-10-26",
+   "deadline": "2026-11-16",
+   "region": "전국",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-10-26"
+  },
+  "ad1c3c264579edbd": {
+   "id": "ad1c3c264579edbd",
+   "source": "kstartup",
+   "sourceName": "K스타트업",
+   "title": "인천중장년기술창업센터 4차 입주기업 모집",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179613",
+   "date": "2026-10-26",
+   "deadline": "2026-11-06",
+   "region": "전국",
+   "categories": [
+    "입주기업",
+    "사업화"
+   ],
+   "firstSeen": "2026-10-26"
+  },
+  "9fa014cbfba07e82": {
+   "id": "9fa014cbfba07e82",
+   "source": "kstartup",
+   "sourceName": "K스타트업",
+   "title": "[경남 창원 강소연구개발특구] 청년 기술창업 아이디어 경진대회",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179599",
+   "date": "2026-10-26",
+   "deadline": "2026-11-06",
+   "region": "경남",
+   "categories": [
+    "R&D",
+    "사업화"
+   ],
+   "firstSeen": "2026-10-26"
+  },
+  "f37d545ec9e2d369": {
+   "id": "f37d545ec9e2d369",
+   "source": "kstartup",
+   "sourceName": "K스타트업",
+   "title": "[2027 Dream Play] LGD 스타트업 육성프로그램 9기 참가기업 모집",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179603",
+   "date": "2026-10-26",
+   "deadline": "2026-11-13",
+   "region": "전국",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-10-26"
+  },
+  "e9e5b1418505d1a6": {
+   "id": "e9e5b1418505d1a6",
+   "source": "btp",
+   "sourceName": "부산테크노파크",
+   "title": "(재)부산테크노파크 구내식당 위탁운영사 모집 제안서 평가위원 후보자 모집공고",
+   "url": "https://www.btp.or.kr/kor/CMS/Board/Board.do?mCode=MN013&mode=view&mgr_seq=16&board_seq=9582608",
+   "date": "2026-10-26",
+   "deadline": "2026-11-01",
+   "region": "부산",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-10-26"
   }
  },
  "sources": [
