@@ -34611,7 +34611,7 @@
    "source": "bepa",
    "sourceName": "부산경제진흥원",
    "title": "제112회 부산미래경제포럼 참석자 모집",
-   "url": "https://www.bepa.kr/kor/view.do?no=1502&idx=19621&view=view&pageIndex=1&sv=&sw=&sdate=&edate=&periodState=all&state=ing&temporary=0&items=소상공인",
+   "url": "https://www.bepa.kr/kor/view.do?no=1502&idx=19621&view=view&pageIndex=1&sv=&sw=&sdate=&edate=&periodState=all&state=end&temporary=0&items=소상공인",
    "date": "2026-10-16",
    "deadline": null,
    "region": "부산",
@@ -37103,6 +37103,20 @@
     "사업화"
    ],
    "firstSeen": "2026-10-26"
+  },
+  "e2c845be223117bf": {
+   "id": "e2c845be223117bf",
+   "source": "kidp",
+   "sourceName": "한국디자인진흥원",
+   "title": "(시범운영 안내자료) 인도어팜 : 씨앗부터 밥상까지 - 구미 청년디자인리빙랩",
+   "url": "https://kidp.or.kr/?menuno=1202",
+   "date": "2026-10-26",
+   "deadline": null,
+   "region": "전국",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-10-27"
   }
  },
  "sources": [
