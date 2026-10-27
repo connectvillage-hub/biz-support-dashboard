@@ -37117,6 +37117,63 @@
     "기타"
    ],
    "firstSeen": "2026-10-27"
+  },
+  "95f0d7694d946503": {
+   "id": "95f0d7694d946503",
+   "source": "kstartup",
+   "sourceName": "K스타트업",
+   "title": "경기과학기술대학교 창업보육센터 입주기업 모집 9차",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179623",
+   "date": "2026-10-27",
+   "deadline": "2026-11-18",
+   "region": "전국",
+   "categories": [
+    "입주기업",
+    "사업화"
+   ],
+   "firstSeen": "2026-10-27"
+  },
+  "cbe500c1ea3aa6ee": {
+   "id": "cbe500c1ea3aa6ee",
+   "source": "kstartup",
+   "sourceName": "K스타트업",
+   "title": "[서초창업스테이션] 11월 창업 교육 프로그램 - 초기 스타트업을 위한 브랜드 만들기",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179622",
+   "date": "2026-10-27",
+   "deadline": "2026-11-09",
+   "region": "전국",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-10-27"
+  },
+  "c1bd3e219081a2a5": {
+   "id": "c1bd3e219081a2a5",
+   "source": "kidp",
+   "sourceName": "한국디자인진흥원",
+   "title": "(시범운영 안내자료) 인도어팜, 브랜드공장 안내자료 및 툴킷 - 구미 청년디자인리빙랩",
+   "url": "https://kidp.or.kr/?menuno=1202",
+   "date": "2026-10-26",
+   "deadline": null,
+   "region": "전국",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-10-27"
+  },
+  "ee4dafcc07714e12": {
+   "id": "ee4dafcc07714e12",
+   "source": "bipa",
+   "sourceName": "부산정보산업진흥원",
+   "title": "IQM 양자컴퓨터 기초 활용교육 모집공고",
+   "url": "https://bipa.kr/board/business/view?seq=85448",
+   "date": "2026-10-27",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-10-27"
   }
  },
  "sources": [
@@ -37167,15 +37224,17 @@
    "id": "semas",
    "name": "소상공인시장진흥공단",
    "url": "https://www.semas.or.kr/web/board/webBoardList.kmdc?bCd=1&pNm=BOA0101",
-   "status": "ok",
-   "count": 10
+   "status": "fail",
+   "count": 0,
+   "error": "500 Server Error: Internal Server Error for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.semas.or.kr%2Fweb%2Fboard%2FwebBoardList.kmdc%3FbCd%3D1%26pNm%3DBOA0101"
   },
   {
    "id": "smtech",
    "name": "중소기업 기술개발(SMTECH)",
    "url": "https://www.smtech.go.kr/front/ifg/no/notice02_list.do",
-   "status": "ok",
-   "count": 10
+   "status": "fail",
+   "count": 0,
+   "error": "500 Server Error: Internal Server Error for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.smtech.go.kr%2Ffront%2Fifg%2Fno%2Fnotice02_list.do"
   },
   {
    "id": "busanstartup",
@@ -37239,7 +37298,7 @@
    "url": "https://www.busan.go.kr/nbgosi",
    "status": "fail",
    "count": 0,
-   "error": "502 Server Error: Bad Gateway for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.busan.go.kr%2Fnbgosi%3FcurPage%3D1"
+   "error": "520 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.busan.go.kr%2Fnbgosi%3FcurPage%3D1"
   },
   {
    "id": "bscf",
