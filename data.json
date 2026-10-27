@@ -127,21 +127,6 @@
    ],
    "firstSeen": "2026-07-09"
   },
-  "5e194e1aea920b2f": {
-   "id": "5e194e1aea920b2f",
-   "source": "bipa",
-   "sourceName": "부산정보산업진흥원",
-   "title": "2026 부산 콘텐츠코리아 랩 웹소설 IP 개발·사업화 패키지 모집공고",
-   "url": "https://bipa.kr/board/business/view?seq=85197",
-   "date": "2026-06-29",
-   "deadline": null,
-   "region": "부산",
-   "categories": [
-    "특허·지재권",
-    "사업화"
-   ],
-   "firstSeen": "2026-07-09"
-  },
   "a02c49314cfa9fa6": {
    "id": "a02c49314cfa9fa6",
    "source": "bistep",
@@ -1675,20 +1660,6 @@
    ],
    "firstSeen": "2026-07-09"
   },
-  "31e8995074c01544": {
-   "id": "31e8995074c01544",
-   "source": "bepa",
-   "sourceName": "부산경제진흥원",
-   "title": "도시형소공인활성화 지원사업 임시직 최종합격자 공고",
-   "url": "https://www.bepa.kr/kor/view.do?no=1502&idx=19245&view=view&pageIndex=1&sv=&sw=&sdate=&edate=&periodState=all&state=end&temporary=0&items=소상공인",
-   "date": "2026-06-29",
-   "deadline": null,
-   "region": "부산",
-   "categories": [
-    "사업화"
-   ],
-   "firstSeen": "2026-07-09"
-  },
   "62a0e82bb69004a0": {
    "id": "62a0e82bb69004a0",
    "source": "bkic",
@@ -1724,20 +1695,6 @@
    "title": "소상공인시장진흥공단 상임감사 모집공고",
    "url": "https://www.semas.or.kr/web/board/webBoardView.kmdc?bCd=1&b_idx=55277&pNm=BOA0101",
    "date": "2026-07-03",
-   "deadline": null,
-   "region": "전국",
-   "categories": [
-    "사업화"
-   ],
-   "firstSeen": "2026-07-09"
-  },
-  "5065062eda01e668": {
-   "id": "5065062eda01e668",
-   "source": "semas",
-   "sourceName": "소상공인시장진흥공단",
-   "title": "2026년 상권육성 전문인력 양성과정 운영 전문기관 모집 공고",
-   "url": "https://www.semas.or.kr/web/board/webBoardView.kmdc?bCd=1&b_idx=55172&pNm=BOA0101",
-   "date": "2026-06-29",
    "deadline": null,
    "region": "전국",
    "categories": [
@@ -28148,21 +28105,6 @@
    ],
    "firstSeen": "2026-09-23"
   },
-  "132fbd40cd082fb8": {
-   "id": "132fbd40cd082fb8",
-   "source": "busanstartup",
-   "sourceName": "부산창업포털",
-   "title": "부산가톨릭대학교 창업보육센터 신규 입주기업 모집 공고",
-   "url": "https://www.busanstartup.kr/biz_sup/2160?mcode=biz02",
-   "date": "2026-06-29",
-   "deadline": null,
-   "region": "부산",
-   "categories": [
-    "입주기업",
-    "사업화"
-   ],
-   "firstSeen": "2026-09-28"
-  },
   "80d58d0908c4a412": {
    "id": "80d58d0908c4a412",
    "source": "bistep",
@@ -37081,7 +37023,7 @@
    "source": "bepa",
    "sourceName": "부산경제진흥원",
    "title": "2026 AX BUSAN 2026+ 포럼",
-   "url": "https://www.bepa.kr/kor/view.do?no=1502&idx=19647&view=view&pageIndex=1&sv=&sw=&sdate=&edate=&periodState=all&state=ing&temporary=0&items=소상공인",
+   "url": "https://www.bepa.kr/kor/view.do?no=1502&idx=19647&view=view&pageIndex=1&sv=&sw=&sdate=&edate=&periodState=all&state=end&temporary=0&items=소상공인",
    "date": "2026-10-26",
    "deadline": null,
    "region": "부산",
@@ -37608,7 +37550,7 @@
    "url": "https://www.busan.go.kr/nbgosi",
    "status": "fail",
    "count": 0,
-   "error": "408 Client Error: Request Timeout for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.busan.go.kr%2Fnbgosi%3FcurPage%3D1"
+   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.busan.go.kr%2Fnbgosi%3FcurPage%3D1"
   },
   {
    "id": "bscf",
