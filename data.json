@@ -37429,6 +37429,20 @@
     "기타"
    ],
    "firstSeen": "2026-10-27"
+  },
+  "de6a3cd9c2557b49": {
+   "id": "de6a3cd9c2557b49",
+   "source": "bistep",
+   "sourceName": "부산산업과학혁신원",
+   "title": "2026년 BIFC에 잡(Job) 왔데이(Day) ! 행사 안내",
+   "url": "https://www.bistep.re.kr/kor/CMS/Board/Board.do?mCode=MN008&mode=view&mgr_seq=23&board_seq=6154",
+   "date": "2026-10-23",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-10-28"
   }
  },
  "sources": [
@@ -37443,15 +37457,17 @@
    "id": "bizinfo",
    "name": "기업마당",
    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200View.do",
-   "status": "ok",
-   "count": 15
+   "status": "fail",
+   "count": 0,
+   "error": "520 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.bizinfo.go.kr%2Fsii%2Fsiia%2FselectSIIA200View.do"
   },
   {
    "id": "mss",
    "name": "중소벤처기업부",
    "url": "https://www.mss.go.kr/site/smba/ex/bbs/List.do?cbIdx=310",
-   "status": "ok",
-   "count": 10
+   "status": "fail",
+   "count": 0,
+   "error": "408 Client Error: Request Timeout for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.mss.go.kr%2Fsite%2Fsmba%2Fex%2Fbbs%2FList.do%3FcbIdx%3D310"
   },
   {
    "id": "kidp",
