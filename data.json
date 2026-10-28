@@ -112,21 +112,6 @@
    ],
    "firstSeen": "2026-07-09"
   },
-  "09f659b149561a3d": {
-   "id": "09f659b149561a3d",
-   "source": "bipa",
-   "sourceName": "부산정보산업진흥원",
-   "title": "2026년 부산 정보보호기업 성장지원(사업화(비R&D)) 추가 모집",
-   "url": "https://bipa.kr/board/business/view?seq=85198",
-   "date": "2026-06-30",
-   "deadline": null,
-   "region": "부산",
-   "categories": [
-    "R&D",
-    "사업화"
-   ],
-   "firstSeen": "2026-07-09"
-  },
   "a02c49314cfa9fa6": {
    "id": "a02c49314cfa9fa6",
    "source": "bistep",
@@ -1070,48 +1055,6 @@
    ],
    "firstSeen": "2026-07-09"
   },
-  "8572178fa147a622": {
-   "id": "8572178fa147a622",
-   "source": "kidp",
-   "sourceName": "한국디자인진흥원",
-   "title": "2025년 디자인산업 인력실태조사 보고서",
-   "url": "https://kidp.or.kr/?menuno=1202",
-   "date": "2026-06-30",
-   "deadline": null,
-   "region": "전국",
-   "categories": [
-    "기타"
-   ],
-   "firstSeen": "2026-07-09"
-  },
-  "df08744484e3c8cc": {
-   "id": "df08744484e3c8cc",
-   "source": "kidp",
-   "sourceName": "한국디자인진흥원",
-   "title": "2026 재직자 대상 디자인 교육 8월 [신기술 융합] 생성형 AI를 활용한 스토리텔링 기획 및 숏폼 영상 제작 실습",
-   "url": "https://kidp.or.kr/?menuno=1202",
-   "date": "2026-06-30",
-   "deadline": null,
-   "region": "전국",
-   "categories": [
-    "기타"
-   ],
-   "firstSeen": "2026-07-09"
-  },
-  "c8e249e9ad9a71ae": {
-   "id": "c8e249e9ad9a71ae",
-   "source": "kidp",
-   "sourceName": "한국디자인진흥원",
-   "title": "2026 재직자 대상 디자인 교육 8월 [신기술 융합] AI 기반 실무 워크플로우 - 디자인 효율 300% 올리기",
-   "url": "https://kidp.or.kr/?menuno=1202",
-   "date": "2026-06-30",
-   "deadline": null,
-   "region": "전국",
-   "categories": [
-    "기타"
-   ],
-   "firstSeen": "2026-07-09"
-  },
   "ff3956082370a147": {
    "id": "ff3956082370a147",
    "source": "kocca",
@@ -1225,20 +1168,6 @@
    ],
    "firstSeen": "2026-07-09"
   },
-  "4999c7562795e31f": {
-   "id": "4999c7562795e31f",
-   "source": "kocca",
-   "sourceName": "한국콘텐츠진흥원",
-   "title": "[추가공고] 2026년 대중음악 비즈니스 인력양성 지원",
-   "url": "https://www.kocca.kr/kocca/pims/view.do?intcNo=126D00110011&menuNo=20410&recptSt=&category=&pageIndex=1&search=&searchWrd=",
-   "date": "2026-06-30",
-   "deadline": "2026-07-14",
-   "region": "전국",
-   "categories": [
-    "기타"
-   ],
-   "firstSeen": "2026-07-09"
-  },
   "7a22a271392120db": {
    "id": "7a22a271392120db",
    "source": "smtech",
@@ -1250,34 +1179,6 @@
    "region": "전국",
    "categories": [
     "홍보·마케팅"
-   ],
-   "firstSeen": "2026-07-09"
-  },
-  "801ab4ab75f12231": {
-   "id": "801ab4ab75f12231",
-   "source": "smtech",
-   "sourceName": "중소기업 기술개발(SMTECH)",
-   "title": "2026년도 중소기업 R&D 우수성과 50선 모집 공고",
-   "url": "https://www.smtech.go.kr/front/ifg/no/notice02_detail.do?buclYy=&ancmId=S02871&buclCd=S9161&dtlAncmSn=1&schdSe=MO5005&aplySn=1&searchCondition=&searchKeyword=&pageIndex=1",
-   "date": "2026-06-30",
-   "deadline": "2026-08-14",
-   "region": "전국",
-   "categories": [
-    "R&D"
-   ],
-   "firstSeen": "2026-07-09"
-  },
-  "db4249bccf11a9d3": {
-   "id": "db4249bccf11a9d3",
-   "source": "smtech",
-   "sourceName": "중소기업 기술개발(SMTECH)",
-   "title": "2026년도 중소벤처기업부 혁신제품 2차 규격추가 모집 안내문",
-   "url": "https://www.smtech.go.kr/front/ifg/no/notice02_detail.do?buclYy=&ancmId=S02872&buclCd=S9111&dtlAncmSn=1&schdSe=MO5005&aplySn=1&searchCondition=&searchKeyword=&pageIndex=1",
-   "date": "2026-06-30",
-   "deadline": "2026-07-21",
-   "region": "전국",
-   "categories": [
-    "기타"
    ],
    "firstSeen": "2026-07-09"
   },
@@ -1657,20 +1558,6 @@
    "region": "부산",
    "categories": [
     "홍보·마케팅"
-   ],
-   "firstSeen": "2026-07-09"
-  },
-  "62a0e82bb69004a0": {
-   "id": "62a0e82bb69004a0",
-   "source": "bkic",
-   "sourceName": "부산지식산업센터",
-   "title": "2026년 부산형 반려동물 산업 친화 인증 지원사업 참여업체 모집",
-   "url": "http://bkic.bepa.kr/bsknow/view.do?no=1477&idx=1837&view=view&pageIndex=1&sv=&sw=",
-   "date": "2026-06-30",
-   "deadline": null,
-   "region": "부산",
-   "categories": [
-    "사업화"
    ],
    "firstSeen": "2026-07-09"
   },
@@ -21768,21 +21655,6 @@
    ],
    "firstSeen": "2026-09-04"
   },
-  "d0edd05b5067feee": {
-   "id": "d0edd05b5067feee",
-   "source": "smtech",
-   "sourceName": "중소기업 기술개발(SMTECH)",
-   "title": "2026년도 중소기업 R&D 우수성과 50선 모집 공고(한계재도전)",
-   "url": "https://www.smtech.go.kr/front/ifg/no/notice02_detail.do?buclYy=&ancmId=S02871&buclCd=S9161&dtlAncmSn=2&schdSe=MO5005&aplySn=1&searchCondition=&searchKeyword=&pageIndex=1",
-   "date": "2026-06-30",
-   "deadline": "2026-08-13",
-   "region": "전국",
-   "categories": [
-    "R&D",
-    "사업화"
-   ],
-   "firstSeen": "2026-09-04"
-  },
   "eb51f2fa76e9d26a": {
    "id": "eb51f2fa76e9d26a",
    "source": "busan_gosi",
@@ -37813,6 +37685,20 @@
     "사업화"
    ],
    "firstSeen": "2026-10-28"
+  },
+  "df864c92f5345ee7": {
+   "id": "df864c92f5345ee7",
+   "source": "semas",
+   "sourceName": "소상공인시장진흥공단",
+   "title": "2026년 소공인 성장 · 육성 유공 포상 공고",
+   "url": "https://www.semas.or.kr/web/board/webBoardView.kmdc?bCd=1&b_idx=57284&pNm=BOA0101",
+   "date": "2026-10-28",
+   "deadline": null,
+   "region": "전국",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-10-29"
   }
  },
  "sources": [
@@ -37862,17 +37748,15 @@
    "id": "semas",
    "name": "소상공인시장진흥공단",
    "url": "https://www.semas.or.kr/web/board/webBoardList.kmdc?bCd=1&pNm=BOA0101",
-   "status": "fail",
-   "count": 0,
-   "error": "500 Server Error: Internal Server Error for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.semas.or.kr%2Fweb%2Fboard%2FwebBoardList.kmdc%3FbCd%3D1%26pNm%3DBOA0101"
+   "status": "ok",
+   "count": 10
   },
   {
    "id": "smtech",
    "name": "중소기업 기술개발(SMTECH)",
    "url": "https://www.smtech.go.kr/front/ifg/no/notice02_list.do",
-   "status": "fail",
-   "count": 0,
-   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.smtech.go.kr%2Ffront%2Fifg%2Fno%2Fnotice02_list.do"
+   "status": "ok",
+   "count": 10
   },
   {
    "id": "busanstartup",
@@ -37936,7 +37820,7 @@
    "url": "https://www.busan.go.kr/nbgosi",
    "status": "fail",
    "count": 0,
-   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.busan.go.kr%2Fnbgosi%3FcurPage%3D1"
+   "error": "520 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.busan.go.kr%2Fnbgosi%3FcurPage%3D1"
   },
   {
    "id": "bscf",
