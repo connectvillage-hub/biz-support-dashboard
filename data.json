@@ -37699,6 +37699,34 @@
     "사업화"
    ],
    "firstSeen": "2026-10-29"
+  },
+  "cb0b5a62ccfc2fc6": {
+   "id": "cb0b5a62ccfc2fc6",
+   "source": "kidp",
+   "sourceName": "한국디자인진흥원",
+   "title": "2026년 대한민국디자인대상 시상식 일정변경 안내",
+   "url": "https://kidp.or.kr/?menuno=1202",
+   "date": "2026-10-29",
+   "deadline": null,
+   "region": "전국",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-10-29"
+  },
+  "7abc42df0ea04184": {
+   "id": "7abc42df0ea04184",
+   "source": "btp",
+   "sourceName": "부산테크노파크",
+   "title": "지능형 부산 하수관로 스마트 안전관리 구축사업 수행사업자 모집 공고",
+   "url": "https://www.btp.or.kr/kor/CMS/Board/Board.do?mCode=MN013&mode=view&mgr_seq=16&board_seq=9582621",
+   "date": "2026-10-29",
+   "deadline": "2026-11-05",
+   "region": "부산",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-10-29"
   }
  },
  "sources": [
@@ -37748,15 +37776,17 @@
    "id": "semas",
    "name": "소상공인시장진흥공단",
    "url": "https://www.semas.or.kr/web/board/webBoardList.kmdc?bCd=1&pNm=BOA0101",
-   "status": "ok",
-   "count": 10
+   "status": "fail",
+   "count": 0,
+   "error": "520 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.semas.or.kr%2Fweb%2Fboard%2FwebBoardList.kmdc%3FbCd%3D1%26pNm%3DBOA0101"
   },
   {
    "id": "smtech",
    "name": "중소기업 기술개발(SMTECH)",
    "url": "https://www.smtech.go.kr/front/ifg/no/notice02_list.do",
-   "status": "ok",
-   "count": 10
+   "status": "fail",
+   "count": 0,
+   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.smtech.go.kr%2Ffront%2Fifg%2Fno%2Fnotice02_list.do"
   },
   {
    "id": "busanstartup",
@@ -37820,7 +37850,7 @@
    "url": "https://www.busan.go.kr/nbgosi",
    "status": "fail",
    "count": 0,
-   "error": "520 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.busan.go.kr%2Fnbgosi%3FcurPage%3D1"
+   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.busan.go.kr%2Fnbgosi%3FcurPage%3D1"
   },
   {
    "id": "bscf",
