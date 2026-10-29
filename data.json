@@ -38122,6 +38122,20 @@
     "사업화"
    ],
    "firstSeen": "2026-10-29"
+  },
+  "020a611fd10da999": {
+   "id": "020a611fd10da999",
+   "source": "bipa",
+   "sourceName": "부산정보산업진흥원",
+   "title": "2026 부산음악창작소 버스킹 활동 지원사업 참여 뮤지션 모집",
+   "url": "https://bipa.kr/board/business/view?seq=85463",
+   "date": "2026-10-29",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-10-29"
   }
  },
  "sources": [
@@ -38243,7 +38257,7 @@
    "url": "https://www.busan.go.kr/nbgosi",
    "status": "fail",
    "count": 0,
-   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.busan.go.kr%2Fnbgosi%3FcurPage%3D1"
+   "error": "520 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.busan.go.kr%2Fnbgosi%3FcurPage%3D1"
   },
   {
    "id": "bscf",
