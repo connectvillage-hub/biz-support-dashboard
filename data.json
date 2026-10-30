@@ -37940,6 +37940,34 @@
     "사업화"
    ],
    "firstSeen": "2026-10-29"
+  },
+  "06832222cc3d301a": {
+   "id": "06832222cc3d301a",
+   "source": "kstartup",
+   "sourceName": "K스타트업",
+   "title": "한국기술교육대학교 오픈이노베이션 프로그램 참여기업 모집 통합 공고",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179662",
+   "date": "2026-10-30",
+   "deadline": "2026-11-27",
+   "region": "전국",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-10-30"
+  },
+  "d70d33408a8db688": {
+   "id": "d70d33408a8db688",
+   "source": "mss",
+   "sourceName": "중소벤처기업부",
+   "title": "2027년 스마트 제조혁신 지원사업 통합공고",
+   "url": "https://www.mss.go.kr/site/smba/ex/bbs/View.do?cbIdx=310&bcIdx=1072138&parentSeq=1072138",
+   "date": "2026-10-30",
+   "deadline": null,
+   "region": "전국",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-10-30"
   }
  },
  "sources": [
@@ -37989,17 +38017,15 @@
    "id": "semas",
    "name": "소상공인시장진흥공단",
    "url": "https://www.semas.or.kr/web/board/webBoardList.kmdc?bCd=1&pNm=BOA0101",
-   "status": "fail",
-   "count": 0,
-   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.semas.or.kr%2Fweb%2Fboard%2FwebBoardList.kmdc%3FbCd%3D1%26pNm%3DBOA0101"
+   "status": "ok",
+   "count": 10
   },
   {
    "id": "smtech",
    "name": "중소기업 기술개발(SMTECH)",
    "url": "https://www.smtech.go.kr/front/ifg/no/notice02_list.do",
-   "status": "fail",
-   "count": 0,
-   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.smtech.go.kr%2Ffront%2Fifg%2Fno%2Fnotice02_list.do"
+   "status": "ok",
+   "count": 10
   },
   {
    "id": "busanstartup",
