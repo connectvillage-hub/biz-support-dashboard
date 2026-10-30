@@ -942,35 +942,6 @@
    ],
    "firstSeen": "2026-07-09"
   },
-  "a719ea7f248f7aaf": {
-   "id": "a719ea7f248f7aaf",
-   "source": "kidp",
-   "sourceName": "한국디자인진흥원",
-   "title": "2026년도 국가인적자원개발컨소시엄 교육과정 개선 및 개발을 위한 의견수렴",
-   "url": "https://kidp.or.kr/?menuno=1202",
-   "date": "2026-07-02",
-   "deadline": null,
-   "region": "전국",
-   "categories": [
-    "기타"
-   ],
-   "firstSeen": "2026-07-09"
-  },
-  "8dd2f04d0f71f9d9": {
-   "id": "8dd2f04d0f71f9d9",
-   "source": "kidp",
-   "sourceName": "한국디자인진흥원",
-   "title": "2026년 경남 디자인주도 제조혁신 신제품 R&D 기획 지원사업 모집공고",
-   "url": "https://kidp.or.kr/?menuno=1202",
-   "date": "2026-07-02",
-   "deadline": null,
-   "region": "경남",
-   "categories": [
-    "R&D",
-    "사업화"
-   ],
-   "firstSeen": "2026-07-09"
-  },
   "ff3956082370a147": {
    "id": "ff3956082370a147",
    "source": "kocca",
@@ -1028,34 +999,6 @@
    ],
    "firstSeen": "2026-07-09"
   },
-  "448e3009c6226810": {
-   "id": "448e3009c6226810",
-   "source": "kocca",
-   "sourceName": "한국콘텐츠진흥원",
-   "title": "2026년 K-Animation Global Showcase in Canada(캐니메이션 글로벌 쇼케이스 인 캐나다) 참가기업 모집 공고",
-   "url": "https://www.kocca.kr/kocca/pims/view.do?intcNo=326D00037010&menuNo=20410&recptSt=&category=&pageIndex=1&search=&searchWrd=",
-   "date": "2026-07-02",
-   "deadline": "2026-07-20",
-   "region": "전국",
-   "categories": [
-    "사업화"
-   ],
-   "firstSeen": "2026-07-09"
-  },
-  "bf4758287f15976a": {
-   "id": "bf4758287f15976a",
-   "source": "kocca",
-   "sourceName": "한국콘텐츠진흥원",
-   "title": "<2026 대만크리에이티브콘텐츠페스티벌(TCCF) 공동관> 참가기업 모집 공고",
-   "url": "https://www.kocca.kr/kocca/pims/view.do?intcNo=326D00088005&menuNo=20410&recptSt=&category=&pageIndex=1&search=&searchWrd=",
-   "date": "2026-07-02",
-   "deadline": "2026-07-15",
-   "region": "전국",
-   "categories": [
-    "사업화"
-   ],
-   "firstSeen": "2026-07-09"
-  },
   "7a22a271392120db": {
    "id": "7a22a271392120db",
    "source": "smtech",
@@ -1095,20 +1038,6 @@
    "region": "부산",
    "categories": [
     "사업화"
-   ],
-   "firstSeen": "2026-07-09"
-  },
-  "92993234e2f41add": {
-   "id": "92993234e2f41add",
-   "source": "dcb",
-   "sourceName": "부산디자인진흥원",
-   "title": "2026년 공공서비스디자인 퍼실테이터 양성 교육과정 교육생 모집",
-   "url": "https://dcb.or.kr/01_news/?mcode=0401010000&mode=2&no=14449&page=1",
-   "date": "2026-07-02",
-   "deadline": null,
-   "region": "부산",
-   "categories": [
-    "기타"
    ],
    "firstSeen": "2026-07-09"
   },
@@ -1217,20 +1146,6 @@
    "title": "2028 세계디자인수도(WDC) 부산 디지털 플랫폼 구축 입찰 공고",
    "url": "https://dcb.or.kr/01_news/?mcode=0401010000&mode=2&no=14507&page=1",
    "date": "2026-08-31",
-   "deadline": null,
-   "region": "부산",
-   "categories": [
-    "기타"
-   ],
-   "firstSeen": "2026-07-09"
-  },
-  "cf57f28d4449cba5": {
-   "id": "cf57f28d4449cba5",
-   "source": "dcb",
-   "sourceName": "부산디자인진흥원",
-   "title": "2026 중소기업 디자인 개발 지원 사업 3차 모집 발표 대상자 안내",
-   "url": "https://dcb.or.kr/01_news/?mcode=0401010000&mode=2&no=14450&page=1",
-   "date": "2026-07-02",
    "deadline": null,
    "region": "부산",
    "categories": [
@@ -1347,35 +1262,6 @@
    "region": "부산",
    "categories": [
     "기타"
-   ],
-   "firstSeen": "2026-07-09"
-  },
-  "3fe167968ee06cb0": {
-   "id": "3fe167968ee06cb0",
-   "source": "btp",
-   "sourceName": "부산테크노파크",
-   "title": "2026년 대형모빌리티 부품조립 복수로봇시스템 개발사업 통합 기술지원 공고",
-   "url": "https://www.btp.or.kr/kor/CMS/Board/Board.do?mCode=MN013&mode=view&mgr_seq=16&board_seq=9582145",
-   "date": "2026-07-02",
-   "deadline": "2026-07-16",
-   "region": "부산",
-   "categories": [
-    "기타"
-   ],
-   "firstSeen": "2026-07-09"
-  },
-  "48f70a468b651666": {
-   "id": "48f70a468b651666",
-   "source": "btp",
-   "sourceName": "부산테크노파크",
-   "title": "2026 부산 수출 스타기업 점프업 지원사업 수출 코디네이터 모집 공고",
-   "url": "https://www.btp.or.kr/kor/CMS/Board/Board.do?mCode=MN013&mode=view&mgr_seq=16&board_seq=9582144",
-   "date": "2026-07-02",
-   "deadline": "2026-07-17",
-   "region": "부산",
-   "categories": [
-    "홍보·마케팅",
-    "사업화"
    ],
    "firstSeen": "2026-07-09"
   },
@@ -4869,20 +4755,6 @@
    "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178602",
    "date": "2026-07-20",
    "deadline": "2026-07-22",
-   "region": "전국",
-   "categories": [
-    "사업화"
-   ],
-   "firstSeen": "2026-07-20"
-  },
-  "357e29361bf19de5": {
-   "id": "357e29361bf19de5",
-   "source": "kocca",
-   "sourceName": "한국콘텐츠진흥원",
-   "title": "[공고 연장] 2026년 K-Animation Global Showcase in Canada(캐니메이션 글로벌 쇼케이스 인 캐나다) 참가기업 모집 공고",
-   "url": "https://www.kocca.kr/kocca/pims/view.do?intcNo=326D00037010&menuNo=20410&recptSt=&category=&pageIndex=1&search=&searchWrd=",
-   "date": "2026-07-02",
-   "deadline": "2026-07-27",
    "region": "전국",
    "categories": [
     "사업화"
@@ -32759,7 +32631,7 @@
    "source": "bepa",
    "sourceName": "부산경제진흥원",
    "title": "「1만원 임대료 빈 점포 다시채움 프로젝트」임차인 선정 공고",
-   "url": "https://www.bepa.kr/kor/view.do?no=1502&idx=19606&view=view&pageIndex=1&sv=&sw=&sdate=&edate=&periodState=all&state=ing&temporary=0&items=소상공인",
+   "url": "https://www.bepa.kr/kor/view.do?no=1502&idx=19606&view=view&pageIndex=1&sv=&sw=&sdate=&edate=&periodState=all&state=end&temporary=0&items=소상공인",
    "date": "2026-10-16",
    "deadline": null,
    "region": "부산",
@@ -38314,15 +38186,17 @@
    "id": "semas",
    "name": "소상공인시장진흥공단",
    "url": "https://www.semas.or.kr/web/board/webBoardList.kmdc?bCd=1&pNm=BOA0101",
-   "status": "ok",
-   "count": 10
+   "status": "fail",
+   "count": 0,
+   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.semas.or.kr%2Fweb%2Fboard%2FwebBoardList.kmdc%3FbCd%3D1%26pNm%3DBOA0101"
   },
   {
    "id": "smtech",
    "name": "중소기업 기술개발(SMTECH)",
    "url": "https://www.smtech.go.kr/front/ifg/no/notice02_list.do",
-   "status": "ok",
-   "count": 10
+   "status": "fail",
+   "count": 0,
+   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.smtech.go.kr%2Ffront%2Fifg%2Fno%2Fnotice02_list.do"
   },
   {
    "id": "busanstartup",
@@ -38335,9 +38209,8 @@
    "id": "dcb",
    "name": "부산디자인진흥원",
    "url": "https://dcb.or.kr/01_news/?mcode=0401010000",
-   "status": "fail",
-   "count": 0,
-   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fdcb.or.kr%2F01_news%2F%3Fmcode%3D0401010000"
+   "status": "ok",
+   "count": 15
   },
   {
    "id": "btp",
@@ -38387,7 +38260,7 @@
    "url": "https://www.busan.go.kr/nbgosi",
    "status": "fail",
    "count": 0,
-   "error": "520 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.busan.go.kr%2Fnbgosi%3FcurPage%3D1"
+   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.busan.go.kr%2Fnbgosi%3FcurPage%3D1"
   },
   {
    "id": "bscf",
