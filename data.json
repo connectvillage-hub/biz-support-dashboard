@@ -38237,6 +38237,34 @@
     "기타"
    ],
    "firstSeen": "2026-10-30"
+  },
+  "c79b15ae197ff03f": {
+   "id": "c79b15ae197ff03f",
+   "source": "kstartup",
+   "sourceName": "K스타트업",
+   "title": "2027년도 초기창업·창업도약 패키지 사업 신규 주관기관 모집 공고",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179660",
+   "date": "2026-10-30",
+   "deadline": "2026-11-20",
+   "region": "전국",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-10-30"
+  },
+  "c8176c04bd12ad9f": {
+   "id": "c8176c04bd12ad9f",
+   "source": "mss",
+   "sourceName": "중소벤처기업부",
+   "title": "2027년도 초기창업·창업도약 패키지 사업 신규 주관기관 모집 공고",
+   "url": "https://www.mss.go.kr/site/smba/ex/bbs/View.do?cbIdx=310&bcIdx=1072172&parentSeq=1072172",
+   "date": "2026-10-30",
+   "deadline": null,
+   "region": "전국",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-10-30"
   }
  },
  "sources": [
@@ -38307,8 +38335,9 @@
    "id": "dcb",
    "name": "부산디자인진흥원",
    "url": "https://dcb.or.kr/01_news/?mcode=0401010000",
-   "status": "ok",
-   "count": 15
+   "status": "fail",
+   "count": 0,
+   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fdcb.or.kr%2F01_news%2F%3Fmcode%3D0401010000"
   },
   {
    "id": "btp",
@@ -38358,7 +38387,7 @@
    "url": "https://www.busan.go.kr/nbgosi",
    "status": "fail",
    "count": 0,
-   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.busan.go.kr%2Fnbgosi%3FcurPage%3D1"
+   "error": "520 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.busan.go.kr%2Fnbgosi%3FcurPage%3D1"
   },
   {
    "id": "bscf",
