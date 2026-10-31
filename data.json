@@ -38068,6 +38068,20 @@
     "사업화"
    ],
    "firstSeen": "2026-11-01"
+  },
+  "6ef54060294b97bc": {
+   "id": "6ef54060294b97bc",
+   "source": "smtech",
+   "sourceName": "중소기업 기술개발(SMTECH)",
+   "title": "2026년 중소기업 연구인력지원사업(파견) 11월 공고",
+   "url": "https://www.smtech.go.kr/front/ifg/no/notice02_detail.do?buclYy=&ancmId=S02847&buclCd=S6041&dtlAncmSn=11&schdSe=MO5005&aplySn=1&searchCondition=&searchKeyword=&pageIndex=1",
+   "date": "2026-10-01",
+   "deadline": "2026-11-30",
+   "region": "전국",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-11-01"
   }
  },
  "sources": [
@@ -38117,17 +38131,15 @@
    "id": "semas",
    "name": "소상공인시장진흥공단",
    "url": "https://www.semas.or.kr/web/board/webBoardList.kmdc?bCd=1&pNm=BOA0101",
-   "status": "fail",
-   "count": 0,
-   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.semas.or.kr%2Fweb%2Fboard%2FwebBoardList.kmdc%3FbCd%3D1%26pNm%3DBOA0101"
+   "status": "ok",
+   "count": 10
   },
   {
    "id": "smtech",
    "name": "중소기업 기술개발(SMTECH)",
    "url": "https://www.smtech.go.kr/front/ifg/no/notice02_list.do",
-   "status": "fail",
-   "count": 0,
-   "error": "500 Server Error: Internal Server Error for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.smtech.go.kr%2Ffront%2Fifg%2Fno%2Fnotice02_list.do"
+   "status": "ok",
+   "count": 10
   },
   {
    "id": "busanstartup",
@@ -38191,7 +38203,7 @@
    "url": "https://www.busan.go.kr/nbgosi",
    "status": "fail",
    "count": 0,
-   "error": "408 Client Error: Request Timeout for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.busan.go.kr%2Fnbgosi%3FcurPage%3D1"
+   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.busan.go.kr%2Fnbgosi%3FcurPage%3D1"
   },
   {
    "id": "bscf",
