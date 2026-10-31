@@ -14,34 +14,6 @@
    ],
    "firstSeen": "2026-07-09"
   },
-  "83cf9b0762a098d8": {
-   "id": "83cf9b0762a098d8",
-   "source": "bipa",
-   "sourceName": "부산정보산업진흥원",
-   "title": "2026 부산콘텐츠아카데미 실무자 AI활용 교육 1회차 교육생 모집",
-   "url": "https://bipa.kr/board/business/view?seq=85212",
-   "date": "2026-07-03",
-   "deadline": null,
-   "region": "부산",
-   "categories": [
-    "기타"
-   ],
-   "firstSeen": "2026-07-09"
-  },
-  "68e826c45d7d6031": {
-   "id": "68e826c45d7d6031",
-   "source": "bipa",
-   "sourceName": "부산정보산업진흥원",
-   "title": "[소프트스퀘어드] AI 활용 JAVA 백엔드 부트캠프 교육생 모집",
-   "url": "https://bipa.kr/board/business/view?seq=85211",
-   "date": "2026-07-03",
-   "deadline": null,
-   "region": "부산",
-   "categories": [
-    "기타"
-   ],
-   "firstSeen": "2026-07-09"
-  },
   "fea2d5d513518452": {
    "id": "fea2d5d513518452",
    "source": "bipa",
@@ -928,20 +900,6 @@
    ],
    "firstSeen": "2026-07-09"
   },
-  "6d8561bf1af15162": {
-   "id": "6d8561bf1af15162",
-   "source": "kidp",
-   "sourceName": "한국디자인진흥원",
-   "title": "2026년 서울센터 상시 디자인 컨설팅 무료 지원(~12.31)",
-   "url": "https://kidp.or.kr/?menuno=1202",
-   "date": "2026-07-03",
-   "deadline": null,
-   "region": "서울",
-   "categories": [
-    "사업화"
-   ],
-   "firstSeen": "2026-07-09"
-  },
   "ff3956082370a147": {
    "id": "ff3956082370a147",
    "source": "kocca",
@@ -971,34 +929,6 @@
    ],
    "firstSeen": "2026-07-09"
   },
-  "409e4bc13779af89": {
-   "id": "409e4bc13779af89",
-   "source": "kocca",
-   "sourceName": "한국콘텐츠진흥원",
-   "title": "2026 시리즈 온 보드 2차 참가기업 추가모집 공고",
-   "url": "https://www.kocca.kr/kocca/pims/view.do?intcNo=326D00107006&menuNo=20410&recptSt=&category=&pageIndex=1&search=&searchWrd=",
-   "date": "2026-07-03",
-   "deadline": "2026-07-10",
-   "region": "전국",
-   "categories": [
-    "사업화"
-   ],
-   "firstSeen": "2026-07-09"
-  },
-  "92246ec77c7a65ca": {
-   "id": "92246ec77c7a65ca",
-   "source": "kocca",
-   "sourceName": "한국콘텐츠진흥원",
-   "title": "싱가포르 미디어테크 쇼케이스 참가기업 모집",
-   "url": "https://www.kocca.kr/kocca/pims/view.do?intcNo=326D00088006&menuNo=20410&recptSt=&category=&pageIndex=1&search=&searchWrd=",
-   "date": "2026-07-03",
-   "deadline": "2026-07-21",
-   "region": "전국",
-   "categories": [
-    "사업화"
-   ],
-   "firstSeen": "2026-07-09"
-  },
   "7a22a271392120db": {
    "id": "7a22a271392120db",
    "source": "smtech",
@@ -1024,20 +954,6 @@
    "region": "전국",
    "categories": [
     "기타"
-   ],
-   "firstSeen": "2026-07-09"
-  },
-  "a98aedb80d08be05": {
-   "id": "a98aedb80d08be05",
-   "source": "dcb",
-   "sourceName": "부산디자인진흥원",
-   "title": "2026 대만창의엑스포 2026 CREATIVE EXPO TAIWAN(CET) 참가기업 모집 선정 결과 안내",
-   "url": "https://dcb.or.kr/01_news/?mcode=0401010000&mode=2&no=14453&page=1",
-   "date": "2026-07-03",
-   "deadline": null,
-   "region": "부산",
-   "categories": [
-    "사업화"
    ],
    "firstSeen": "2026-07-09"
   },
@@ -1118,20 +1034,6 @@
    "title": "2026 유니버설디자인 개선사업 디자인 용역 입찰 재공고",
    "url": "https://dcb.or.kr/01_news/?mcode=0401010000&mode=2&no=14454&page=1",
    "date": "2026-07-06",
-   "deadline": null,
-   "region": "부산",
-   "categories": [
-    "기타"
-   ],
-   "firstSeen": "2026-07-09"
-  },
-  "f9fa5b742046ac72": {
-   "id": "f9fa5b742046ac72",
-   "source": "dcb",
-   "sourceName": "부산디자인진흥원",
-   "title": "2026 청년디자이너-소상공인 협업 디자인 프로젝트 지원 과제 모집",
-   "url": "https://dcb.or.kr/01_news/?mcode=0401010000&mode=2&no=14452&page=1",
-   "date": "2026-07-03",
    "deadline": null,
    "region": "부산",
    "categories": [
@@ -1251,20 +1153,6 @@
    ],
    "firstSeen": "2026-07-09"
   },
-  "9ed4adfb986aeefc": {
-   "id": "9ed4adfb986aeefc",
-   "source": "btp",
-   "sourceName": "부산테크노파크",
-   "title": "2026년「부산지역인재 장학금」상반기 취업장려금 지원 신청 공고",
-   "url": "https://www.btp.or.kr/kor/CMS/Board/Board.do?mCode=MN013&mode=view&mgr_seq=16&board_seq=9582125",
-   "date": "2026-07-03",
-   "deadline": "2026-07-20",
-   "region": "부산",
-   "categories": [
-    "기타"
-   ],
-   "firstSeen": "2026-07-09"
-  },
   "62c4675f71929255": {
    "id": "62c4675f71929255",
    "source": "bepa",
@@ -1279,20 +1167,6 @@
    ],
    "firstSeen": "2026-07-09"
   },
-  "9b741d05d76e53b4": {
-   "id": "9b741d05d76e53b4",
-   "source": "bepa",
-   "sourceName": "부산경제진흥원",
-   "title": "소상공인 디지털 마케팅 실무교육 - 블로그 마케팅 과정 교육생 모집",
-   "url": "https://www.bepa.kr/kor/view.do?no=1502&idx=19259&view=view&pageIndex=1&sv=&sw=&sdate=&edate=&periodState=all&state=end&temporary=0&items=소상공인",
-   "date": "2026-07-03",
-   "deadline": null,
-   "region": "부산",
-   "categories": [
-    "홍보·마케팅"
-   ],
-   "firstSeen": "2026-07-09"
-  },
   "87b4a9c8326ffa08": {
    "id": "87b4a9c8326ffa08",
    "source": "semas",
@@ -1304,20 +1178,6 @@
    "region": "전국",
    "categories": [
     "기타"
-   ],
-   "firstSeen": "2026-07-09"
-  },
-  "ca4808ae86ab90a7": {
-   "id": "ca4808ae86ab90a7",
-   "source": "semas",
-   "sourceName": "소상공인시장진흥공단",
-   "title": "소상공인시장진흥공단 상임감사 모집공고",
-   "url": "https://www.semas.or.kr/web/board/webBoardView.kmdc?bCd=1&b_idx=55277&pNm=BOA0101",
-   "date": "2026-07-03",
-   "deadline": null,
-   "region": "전국",
-   "categories": [
-    "사업화"
    ],
    "firstSeen": "2026-07-09"
   },
@@ -38137,6 +37997,77 @@
     "사업화"
    ],
    "firstSeen": "2026-10-30"
+  },
+  "3ea9719c3444dcb6": {
+   "id": "3ea9719c3444dcb6",
+   "source": "kstartup",
+   "sourceName": "K스타트업",
+   "title": "2026 년 홍익대 아트앤디자인테크 창업보육센터 입주기업 모집(2 차) 공고문",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179665",
+   "date": "2026-10-30",
+   "deadline": "2026-11-13",
+   "region": "전국",
+   "categories": [
+    "입주기업",
+    "사업화"
+   ],
+   "firstSeen": "2026-11-01"
+  },
+  "414d650a033683dc": {
+   "id": "414d650a033683dc",
+   "source": "bscf",
+   "sourceName": "부산문화재단",
+   "title": "2026.10.22[모집] 산단 구석구석 문화충전소 찾아가는 공연 운영 용역 입찰 제안서 평가위원 후보자 모집 공고(재)부산문화재단 공고 제2026-242호 산단 구석구석 문화충전소 찾아가는 공연 운영 제안서 평가위원 후보자 모집 공고 (재)부산문화재단에서는 「산단 구석구석 문화충전소 찾아가는 공연 운영 용역」 선정의 공정하고 투명한 제안서 평가위원회 개최를 위해 아래와 같이 평가위원 후보자를 공개 모집합니다. ○ 모집개요 1) 용 역 명: 산단 구석구석 문화충전소 찾아가는 공연 운영 용역 2) 모집기간: 2026. 10. 22.(목) ~ 10. 29.(목) 17:00까지 3) 모집대상: 「산단 구석구석 문화충전소 찾아가는 공연 운영 용역」 입찰 제안서 평가위원 후보자 4) 모집분야: 축제·행사기획, 문화예술, 홍보·마케팅 분야 ○ 문의전화: 051-745-7268 ○ 자세한 사항은 첨부파일을 참고해주시기 바랍니다.",
+   "url": "https://www.bscf.or.kr/view.do?no=1010&pgMode=show&pbancSn=2440",
+   "date": "2026-11-01",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "홍보·마케팅"
+   ],
+   "firstSeen": "2026-11-01"
+  },
+  "86fb4ada9c2449e0": {
+   "id": "86fb4ada9c2449e0",
+   "source": "bscf",
+   "sourceName": "부산문화재단",
+   "title": "2026.10.12[모집] 2026년 D.O.C(Dance On the CATs) 참가자 모집(재)부산문화재단 공고 제2026-238호 2026 D.O.C(Dance On the CATs) 참가자 모집 부산문화재단은 정기적인 댄스 배틀을 통한 청년 댄서 및 스트릿 문화 활성화를 도모하기 위해 D.O.C(Dance On the CATs)를 운영하고 있습니다. 이에 본 사업 운영을 위한 참가자를 모집하오니, 많은 관심과 적극적인 참여를 바랍니다. ㅇ 모집 기간: 2026. 10. 12.(월) ~ 10. 20.(화) 17:00까지 ㅇ 모집 인원: 최대 60명(선착순 마감) ㅇ 신청 방법: 네이버 폼 접수(https://naver.me/IMZAytDG) ㅇ 문의처: 부산문화재단 청년융합예술팀 051-316-7633/7638 자세한 사항은 첨부된 공고문을 확인 바랍니다. 감사합니다.",
+   "url": "https://www.bscf.or.kr/view.do?no=1010&pgMode=show&pbancSn=2437",
+   "date": "2026-11-01",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-11-01"
+  },
+  "8651a3a843ed09df": {
+   "id": "8651a3a843ed09df",
+   "source": "bscf",
+   "sourceName": "부산문화재단",
+   "title": "2026.09.30[모집] 2026년 문화예술 토크콘서트 - 브로콜리너마저 '윤덕원'과 함께하는 예술이야기 참여자 모집[부산예술인지원센터 문화예술 토크콘서트] ▢ 행 사 명: 예술의 안부_오늘, 당신의 예술은 안녕하신가요 ▢ 일 시: 2026. 10. 14.(수) 19:00 ~ 20:30 ▢ 장 소: 한성1918 B-Culture PLAZA 청자홀(부산시 중구 백산길 13) ▢ 대 상: 부산 예술인 및 예술에 관심 있는 시민 70여명 (선착순) ▢ 내 용: 예술의 가치와 창작의 의미를 함께 나누는 문화예술 토크콘서트 ▢ 신 청: https://forms.gle/UDbsiZV6L7no7Xrq5 ▢ 문 의: (운영사무국) 070-4129-1027 예술인 및 시민 여러분의 많은 관심 부탁드립니다",
+   "url": "https://www.bscf.or.kr/view.do?no=1010&pgMode=show&pbancSn=2433",
+   "date": "2026-11-01",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-11-01"
+  },
+  "9b90c2c92457af55": {
+   "id": "9b90c2c92457af55",
+   "source": "bscf",
+   "sourceName": "부산문화재단",
+   "title": "2026.09.29[모집] 2026 K-Arts 컨설팅 참가자 모집 - 공연예술 해외진출, 현장 기획자에게 묻다많은 참여와 관심 부탁드립니다.",
+   "url": "https://www.bscf.or.kr/view.do?no=1010&pgMode=show&pbancSn=2432",
+   "date": "2026-11-01",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-11-01"
   }
  },
  "sources": [
@@ -38186,15 +38117,17 @@
    "id": "semas",
    "name": "소상공인시장진흥공단",
    "url": "https://www.semas.or.kr/web/board/webBoardList.kmdc?bCd=1&pNm=BOA0101",
-   "status": "ok",
-   "count": 10
+   "status": "fail",
+   "count": 0,
+   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.semas.or.kr%2Fweb%2Fboard%2FwebBoardList.kmdc%3FbCd%3D1%26pNm%3DBOA0101"
   },
   {
    "id": "smtech",
    "name": "중소기업 기술개발(SMTECH)",
    "url": "https://www.smtech.go.kr/front/ifg/no/notice02_list.do",
-   "status": "ok",
-   "count": 10
+   "status": "fail",
+   "count": 0,
+   "error": "500 Server Error: Internal Server Error for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.smtech.go.kr%2Ffront%2Fifg%2Fno%2Fnotice02_list.do"
   },
   {
    "id": "busanstartup",
@@ -38258,7 +38191,7 @@
    "url": "https://www.busan.go.kr/nbgosi",
    "status": "fail",
    "count": 0,
-   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.busan.go.kr%2Fnbgosi%3FcurPage%3D1"
+   "error": "408 Client Error: Request Timeout for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.busan.go.kr%2Fnbgosi%3FcurPage%3D1"
   },
   {
    "id": "bscf",
