@@ -38509,6 +38509,48 @@
     "입주기업"
    ],
    "firstSeen": "2026-11-02"
+  },
+  "7a79bd3fde8a7cf6": {
+   "id": "7a79bd3fde8a7cf6",
+   "source": "mss",
+   "sourceName": "중소벤처기업부",
+   "title": "2027년도 초기창업·창업도약 패키지 사업신규 주관기관 모집 수정 공고",
+   "url": "https://www.mss.go.kr/site/smba/ex/bbs/View.do?cbIdx=310&bcIdx=1072214&parentSeq=1072214",
+   "date": "2026-11-03",
+   "deadline": null,
+   "region": "전국",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-11-03"
+  },
+  "9eb627368666861a": {
+   "id": "9eb627368666861a",
+   "source": "kidp",
+   "sourceName": "한국디자인진흥원",
+   "title": "[참가자 모집] 산업안전디자인 국회 세미나 참가 신청하기",
+   "url": "https://kidp.or.kr/?menuno=1202",
+   "date": "2026-11-02",
+   "deadline": null,
+   "region": "전국",
+   "categories": [
+    "네트워킹"
+   ],
+   "firstSeen": "2026-11-03"
+  },
+  "f175eba71418417e": {
+   "id": "f175eba71418417e",
+   "source": "dcb",
+   "sourceName": "부산디자인진흥원",
+   "title": "파빌리온 디자인 국제공모전 1단계 심사 결과 공고",
+   "url": "https://dcb.or.kr/01_news/?mcode=0401010000&mode=2&no=14570&page=1",
+   "date": "2026-11-02",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-11-03"
   }
  },
  "sources": [
@@ -38630,7 +38672,7 @@
    "url": "https://www.busan.go.kr/nbgosi",
    "status": "fail",
    "count": 0,
-   "error": "408 Client Error: Request Timeout for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.busan.go.kr%2Fnbgosi%3FcurPage%3D1"
+   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.busan.go.kr%2Fnbgosi%3FcurPage%3D1"
   },
   {
    "id": "bscf",
