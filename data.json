@@ -38097,6 +38097,48 @@
     "사업화"
    ],
    "firstSeen": "2026-11-02"
+  },
+  "7cc4af14756151bf": {
+   "id": "7cc4af14756151bf",
+   "source": "kstartup",
+   "sourceName": "K스타트업",
+   "title": "2026년도 키친인큐베이터 개별·공유주방 25기 및 제조주방 13기 모집",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179653",
+   "date": "2026-10-29",
+   "deadline": "2026-11-26",
+   "region": "전국",
+   "categories": [
+    "입주기업"
+   ],
+   "firstSeen": "2026-11-02"
+  },
+  "5bf0563b08044849": {
+   "id": "5bf0563b08044849",
+   "source": "dcb",
+   "sourceName": "부산디자인진흥원",
+   "title": "화명 야외수영장 국제 디자인 경쟁공모 최종 심사 결과 공고",
+   "url": "https://dcb.or.kr/01_news/?mcode=0401010000&mode=2&no=14569&page=1",
+   "date": "2026-11-02",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-11-02"
+  },
+  "c5fbe27d199f17e6": {
+   "id": "c5fbe27d199f17e6",
+   "source": "btp",
+   "sourceName": "부산테크노파크",
+   "title": "고위험산업 사각지대 집중관리사업(안전보호구 지원) 참여기업 5차 추가모집 공고",
+   "url": "https://www.btp.or.kr/kor/CMS/Board/Board.do?mCode=MN013&mode=view&mgr_seq=16&board_seq=9582641",
+   "date": "2026-11-02",
+   "deadline": "2026-11-30",
+   "region": "부산",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-11-02"
   }
  },
  "sources": [
