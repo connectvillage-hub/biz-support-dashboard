@@ -268,20 +268,6 @@
    ],
    "firstSeen": "2026-07-09"
   },
-  "40ea230d80e199f3": {
-   "id": "40ea230d80e199f3",
-   "source": "orangeplanet",
-   "sourceName": "오렌지플래닛",
-   "title": "26년도 하반기 오렌지플래닛 정기모집 (~7/27 14:00)",
-   "url": "https://orangeplanet.or.kr/news/newsDetail?newsIdx=2675",
-   "date": "2026-07-06",
-   "deadline": null,
-   "region": "전국",
-   "categories": [
-    "기타"
-   ],
-   "firstSeen": "2026-07-09"
-  },
   "5e86792ce64e0143": {
    "id": "5e86792ce64e0143",
    "source": "kstartup",
@@ -915,34 +901,6 @@
    ],
    "firstSeen": "2026-07-09"
   },
-  "257d9cef40ed3fdf": {
-   "id": "257d9cef40ed3fdf",
-   "source": "kocca",
-   "sourceName": "한국콘텐츠진흥원",
-   "title": "패션코드 2027 S/S 참가브랜드 모집 공고",
-   "url": "https://www.kocca.kr/kocca/pims/view.do?intcNo=326D00091011&menuNo=20410&recptSt=&category=&pageIndex=1&search=&searchWrd=",
-   "date": "2026-07-06",
-   "deadline": "2026-07-27",
-   "region": "전국",
-   "categories": [
-    "기타"
-   ],
-   "firstSeen": "2026-07-09"
-  },
-  "7a22a271392120db": {
-   "id": "7a22a271392120db",
-   "source": "smtech",
-   "sourceName": "중소기업 기술개발(SMTECH)",
-   "title": "2026년도 제1차 한국무역보험공사 연계 수출지원프로그램 시행계획 안내",
-   "url": "https://www.smtech.go.kr/front/ifg/no/notice02_detail.do?buclYy=&ancmId=S02873&buclCd=S9121&dtlAncmSn=1&schdSe=MO5005&aplySn=1&searchCondition=&searchKeyword=&pageIndex=1",
-   "date": "2026-07-06",
-   "deadline": "2026-08-10",
-   "region": "전국",
-   "categories": [
-    "홍보·마케팅"
-   ],
-   "firstSeen": "2026-07-09"
-  },
   "b0cbc38b7f4a64e6": {
    "id": "b0cbc38b7f4a64e6",
    "source": "smtech",
@@ -1006,34 +964,6 @@
    "title": "「부산디자인진흥원 업무시설 707호 임대」 입찰 공고",
    "url": "https://dcb.or.kr/01_news/?mcode=0401010000&mode=2&no=14456&page=1",
    "date": "2026-07-08",
-   "deadline": null,
-   "region": "부산",
-   "categories": [
-    "기타"
-   ],
-   "firstSeen": "2026-07-09"
-  },
-  "89d7a41915d1dd9d": {
-   "id": "89d7a41915d1dd9d",
-   "source": "dcb",
-   "sourceName": "부산디자인진흥원",
-   "title": "지역디자인산업진흥 사업 디자인 개발 지원과제 모집 연장공고",
-   "url": "https://dcb.or.kr/01_news/?mcode=0401010000&mode=2&no=14455&page=1",
-   "date": "2026-07-06",
-   "deadline": null,
-   "region": "부산",
-   "categories": [
-    "기타"
-   ],
-   "firstSeen": "2026-07-09"
-  },
-  "3603c22afde425e8": {
-   "id": "3603c22afde425e8",
-   "source": "dcb",
-   "sourceName": "부산디자인진흥원",
-   "title": "2026 유니버설디자인 개선사업 디자인 용역 입찰 재공고",
-   "url": "https://dcb.or.kr/01_news/?mcode=0401010000&mode=2&no=14454&page=1",
-   "date": "2026-07-06",
    "deadline": null,
    "region": "부산",
    "categories": [
@@ -1111,48 +1041,6 @@
    ],
    "firstSeen": "2026-07-09"
   },
-  "4c31b80a35f8e901": {
-   "id": "4c31b80a35f8e901",
-   "source": "btp",
-   "sourceName": "부산테크노파크",
-   "title": "「2025년도 시군구연고산업육성 협업프로젝트」2차년도 기업성장기반 글로벌 하이메디 허브 특구 상생협력사업 지원프로그램 기업지원모집 추가공고",
-   "url": "https://www.btp.or.kr/kor/CMS/Board/Board.do?mCode=MN013&mode=view&mgr_seq=16&board_seq=9582164",
-   "date": "2026-07-06",
-   "deadline": "2026-07-17",
-   "region": "부산",
-   "categories": [
-    "사업화"
-   ],
-   "firstSeen": "2026-07-09"
-  },
-  "ec3b3508f3387348": {
-   "id": "ec3b3508f3387348",
-   "source": "btp",
-   "sourceName": "부산테크노파크",
-   "title": "「제7회 부산 대학-지역 상생 혁신 아이디어 경진대회」공고",
-   "url": "https://www.btp.or.kr/kor/CMS/Board/Board.do?mCode=MN013&mode=view&mgr_seq=16&board_seq=9582158",
-   "date": "2026-07-06",
-   "deadline": "2026-07-24",
-   "region": "부산",
-   "categories": [
-    "사업화"
-   ],
-   "firstSeen": "2026-07-09"
-  },
-  "f096bbd8ade17a37": {
-   "id": "f096bbd8ade17a37",
-   "source": "btp",
-   "sourceName": "부산테크노파크",
-   "title": "2026년 치의학산업 디지털 전환을 위한 기술플랫폼 구축사업 모집공고(재공고 4차)",
-   "url": "https://www.btp.or.kr/kor/CMS/Board/Board.do?mCode=MN013&mode=view&mgr_seq=16&board_seq=9582154",
-   "date": "2026-07-06",
-   "deadline": "2026-07-10",
-   "region": "부산",
-   "categories": [
-    "사업화"
-   ],
-   "firstSeen": "2026-07-09"
-  },
   "62c4675f71929255": {
    "id": "62c4675f71929255",
    "source": "bepa",
@@ -1162,20 +1050,6 @@
    "date": "2026-07-08",
    "deadline": null,
    "region": "부산",
-   "categories": [
-    "기타"
-   ],
-   "firstSeen": "2026-07-09"
-  },
-  "87b4a9c8326ffa08": {
-   "id": "87b4a9c8326ffa08",
-   "source": "semas",
-   "sourceName": "소상공인시장진흥공단",
-   "title": "'26년 소상공인시장진흥공단 7월 스케줄 달력",
-   "url": "https://www.semas.or.kr/web/board/webBoardView.kmdc?bCd=1&b_idx=55318&pNm=BOA0101",
-   "date": "2026-07-06",
-   "deadline": null,
-   "region": "전국",
    "categories": [
     "기타"
    ],
@@ -26666,20 +26540,6 @@
    ],
    "firstSeen": "2026-09-22"
   },
-  "7be6b6ae5dedd421": {
-   "id": "7be6b6ae5dedd421",
-   "source": "busan_gosi",
-   "sourceName": "부산광역시 고시공고",
-   "title": "공유재산(중도매인 점포) 신규 사용자 모집 공고",
-   "url": "https://www.busan.go.kr/nbgosi/view?sno=79689&gosiGbn=A&curPage=2",
-   "date": "2026-07-06",
-   "deadline": null,
-   "region": "부산",
-   "categories": [
-    "기타"
-   ],
-   "firstSeen": "2026-09-22"
-  },
   "64a8a38eed7cc8a7": {
    "id": "64a8a38eed7cc8a7",
    "source": "kidp",
@@ -39015,7 +38875,7 @@
    "url": "https://www.busan.go.kr/nbgosi",
    "status": "fail",
    "count": 0,
-   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.busan.go.kr%2Fnbgosi%3FcurPage%3D1"
+   "error": "520 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.busan.go.kr%2Fnbgosi%3FcurPage%3D1"
   },
   {
    "id": "bscf",
