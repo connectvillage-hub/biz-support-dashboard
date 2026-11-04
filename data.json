@@ -38754,6 +38754,78 @@
     "사업화"
    ],
    "firstSeen": "2026-11-03"
+  },
+  "ba1a8f544e9173b0": {
+   "id": "ba1a8f544e9173b0",
+   "source": "kidp",
+   "sourceName": "한국디자인진흥원",
+   "title": "디자인전문기업 금융지원 희망기업 27차 모집 공고",
+   "url": "https://kidp.or.kr/?menuno=1202",
+   "date": "2026-11-04",
+   "deadline": null,
+   "region": "전국",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-11-04"
+  },
+  "c3a2fd43cb4f4eb8": {
+   "id": "c3a2fd43cb4f4eb8",
+   "source": "btp",
+   "sourceName": "부산테크노파크",
+   "title": "2026 「부산지역 물류기업 해외마케팅 지원사업」 참여기업 모집 공고",
+   "url": "https://www.btp.or.kr/kor/CMS/Board/Board.do?mCode=MN013&mode=view&mgr_seq=16&board_seq=9582646",
+   "date": "2026-11-04",
+   "deadline": "2026-11-15",
+   "region": "부산",
+   "categories": [
+    "홍보·마케팅",
+    "사업화"
+   ],
+   "firstSeen": "2026-11-04"
+  },
+  "54e567fa52f43c0b": {
+   "id": "54e567fa52f43c0b",
+   "source": "busan_gosi",
+   "sourceName": "부산광역시 고시공고",
+   "title": "부산광역시 자율주행자동차 시범운행지구 운영 및 관련산업 육성ㆍ지원 조례 일부개정조례안 입법예고",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=80105&gosiGbn=P&curPage=3",
+   "date": "2026-10-05",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-11-04"
+  },
+  "73974225f3ae575d": {
+   "id": "73974225f3ae575d",
+   "source": "busan_gosi",
+   "sourceName": "부산광역시 고시공고",
+   "title": "민간주관 전시회 육성관리 사무 민간위탁 수탁기관 모집 재공고",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=80252&gosiGbn=A&curPage=3",
+   "date": "2026-11-04",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "홍보·마케팅",
+    "사업화"
+   ],
+   "firstSeen": "2026-11-04"
+  },
+  "dc596bfb1c3ada46": {
+   "id": "dc596bfb1c3ada46",
+   "source": "busan_gosi",
+   "sourceName": "부산광역시 고시공고",
+   "title": "부산광역시 물정책국 제1공적심사위원회 위원 공개모집 선정 결과 공고",
+   "url": "https://www.busan.go.kr/nbgosi/view?sno=80249&gosiGbn=A&curPage=3",
+   "date": "2026-11-04",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-11-04"
   }
  },
  "sources": [
@@ -38873,9 +38945,8 @@
    "id": "busan_gosi",
    "name": "부산광역시 고시공고",
    "url": "https://www.busan.go.kr/nbgosi",
-   "status": "fail",
-   "count": 0,
-   "error": "520 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.busan.go.kr%2Fnbgosi%3FcurPage%3D1"
+   "status": "ok",
+   "count": 3
   },
   {
    "id": "bscf",
