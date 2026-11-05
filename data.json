@@ -39038,6 +39038,78 @@
     "기타"
    ],
    "firstSeen": "2026-11-05"
+  },
+  "6733816dced3287f": {
+   "id": "6733816dced3287f",
+   "source": "kstartup",
+   "sourceName": "K스타트업",
+   "title": "2026년 중동 상황 대응 규격 컨설팅 지원사업「수혜기업 모집」",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179723",
+   "date": "2026-11-05",
+   "deadline": "2026-11-09",
+   "region": "전국",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-11-05"
+  },
+  "a6f86d67b6ec07a3": {
+   "id": "a6f86d67b6ec07a3",
+   "source": "kstartup",
+   "sourceName": "K스타트업",
+   "title": "2026년 인공지능산업융합사업단「AI 창업동」 입주기업 모집 공고",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179710",
+   "date": "2026-11-05",
+   "deadline": "2026-11-23",
+   "region": "전국",
+   "categories": [
+    "입주기업",
+    "사업화"
+   ],
+   "firstSeen": "2026-11-05"
+  },
+  "acb77936f8e4b77e": {
+   "id": "acb77936f8e4b77e",
+   "source": "kstartup",
+   "sourceName": "K스타트업",
+   "title": "(부산센터) 2026년 제10회 제대군인 창업 워크숍 개최 안내",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179725",
+   "date": "2026-11-05",
+   "deadline": "2026-11-23",
+   "region": "부산",
+   "categories": [
+    "네트워킹",
+    "사업화"
+   ],
+   "firstSeen": "2026-11-05"
+  },
+  "0d4abbc345e974d9": {
+   "id": "0d4abbc345e974d9",
+   "source": "semas",
+   "sourceName": "소상공인시장진흥공단",
+   "title": "'26년 소상공인시장진흥공단 11월 스케줄 달력",
+   "url": "https://www.semas.or.kr/web/board/webBoardView.kmdc?bCd=1&b_idx=57332&pNm=BOA0101",
+   "date": "2026-11-05",
+   "deadline": null,
+   "region": "전국",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-11-05"
+  },
+  "f0c78e29cfd257d3": {
+   "id": "f0c78e29cfd257d3",
+   "source": "semas",
+   "sourceName": "소상공인시장진흥공단",
+   "title": "소상공인시장진흥공단 및 공공기관 직원 사칭 피싱 피해 신고 안내",
+   "url": "https://www.semas.or.kr/web/board/webBoardView.kmdc?bCd=1&b_idx=57314&pNm=BOA0101",
+   "date": "2026-11-05",
+   "deadline": null,
+   "region": "전국",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-11-05"
   }
  },
  "sources": [
@@ -39074,7 +39146,7 @@
    "name": "한국콘텐츠진흥원",
    "url": "https://www.kocca.kr/kocca/pims/list.do?menuNo=20410",
    "status": "ok",
-   "count": 4
+   "count": 3
   },
   {
    "id": "arte",
@@ -39159,7 +39231,7 @@
    "url": "https://www.busan.go.kr/nbgosi",
    "status": "fail",
    "count": 0,
-   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.busan.go.kr%2Fnbgosi%3FcurPage%3D1"
+   "error": "520 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.busan.go.kr%2Fnbgosi%3FcurPage%3D1"
   },
   {
    "id": "bscf",
