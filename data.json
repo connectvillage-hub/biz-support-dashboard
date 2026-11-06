@@ -39063,6 +39063,34 @@
     "기타"
    ],
    "firstSeen": "2026-11-05"
+  },
+  "d73a5775356ce643": {
+   "id": "d73a5775356ce643",
+   "source": "dcb",
+   "sourceName": "부산디자인진흥원",
+   "title": "부산디자인진흥원 디자인리빙랩 UV프린터 및 진공성형기 장비 구매 입찰 재공고",
+   "url": "https://dcb.or.kr/01_news/?mcode=0401010000&mode=2&no=14575&page=1",
+   "date": "2026-11-06",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-11-06"
+  },
+  "cf6c2c81aeae3fab": {
+   "id": "cf6c2c81aeae3fab",
+   "source": "dcb",
+   "sourceName": "부산디자인진흥원",
+   "title": "부산디자인진흥원 디자인리빙랩 3D장비 구매 입찰 재공고",
+   "url": "https://dcb.or.kr/01_news/?mcode=0401010000&mode=2&no=14574&page=1",
+   "date": "2026-11-06",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-11-06"
   }
  },
  "sources": [
@@ -39184,7 +39212,7 @@
    "url": "https://www.busan.go.kr/nbgosi",
    "status": "fail",
    "count": 0,
-   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.busan.go.kr%2Fnbgosi%3FcurPage%3D1"
+   "error": "408 Client Error: Request Timeout for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.busan.go.kr%2Fnbgosi%3FcurPage%3D1"
   },
   {
    "id": "bscf",
