@@ -38398,6 +38398,62 @@
     "사업화"
    ],
    "firstSeen": "2026-11-06"
+  },
+  "2f84b21ce417fbd3": {
+   "id": "2f84b21ce417fbd3",
+   "source": "bscf",
+   "sourceName": "부산문화재단",
+   "title": "부산예술인대상 창작과정에서 겪는 의문점 해소를 위한 컨설팅 기회제공 사업 안내입니다.",
+   "url": "https://www.bscf.or.kr/view.do?pageIndex=1&pgMode=show&sv=title&sw=%EC%95%84%EC%9D%B4%EC%BB%A8%ED%83%9D&no=1010&nowUrl=%2Fview.do%3Fno%3D1010&siteId=SITE003&pbancSn=2194&_csrf=501b6a6e-fb6e-4acc-86cf-",
+   "date": "2026-11-07",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-11-07"
+  },
+  "50ccc262b3786429": {
+   "id": "50ccc262b3786429",
+   "source": "bscf",
+   "sourceName": "부산문화재단",
+   "title": "지원공모[공고] 예술인 권리보장 협력사업 참여 단체 모집",
+   "url": "https://www.bscf.or.kr/view.do?no=1010&pgMode=show&pbancSn=2295",
+   "date": "2026-11-07",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-11-07"
+  },
+  "f91edd62dabbfaca": {
+   "id": "f91edd62dabbfaca",
+   "source": "primer",
+   "sourceName": "프라이머",
+   "title": "프라이머 프라이머 클럽",
+   "url": "https://primer.kr/club",
+   "date": "2026-11-07",
+   "deadline": null,
+   "region": "전국",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-11-07"
+  },
+  "3e331b6c9ea2bec6": {
+   "id": "3e331b6c9ea2bec6",
+   "source": "primer",
+   "sourceName": "프라이머",
+   "title": "프라이머 프라이머 클럽 모집",
+   "url": "https://primer.kr/apply",
+   "date": "2026-11-07",
+   "deadline": null,
+   "region": "전국",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-11-07"
   }
  },
  "sources": [
