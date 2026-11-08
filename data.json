@@ -37896,6 +37896,21 @@
     "기타"
    ],
    "firstSeen": "2026-11-07"
+  },
+  "45bbc9d818346eae": {
+   "id": "45bbc9d818346eae",
+   "source": "kstartup",
+   "sourceName": "K스타트업",
+   "title": "한국공항공사 창업보육센터 입주기업 모집 공고",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179731",
+   "date": "2026-11-06",
+   "deadline": "2026-11-26",
+   "region": "전국",
+   "categories": [
+    "입주기업",
+    "사업화"
+   ],
+   "firstSeen": "2026-11-09"
   }
  },
  "sources": [
