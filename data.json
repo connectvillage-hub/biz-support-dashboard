@@ -37911,6 +37911,104 @@
     "사업화"
    ],
    "firstSeen": "2026-11-09"
+  },
+  "7a303e00a559fd30": {
+   "id": "7a303e00a559fd30",
+   "source": "kstartup",
+   "sourceName": "K스타트업",
+   "title": "2026년 여성CEO 비즈니스 아카데미 인천경기권역 시즌 2",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179579",
+   "date": "2026-11-09",
+   "deadline": "2026-11-10",
+   "region": "전국",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-11-09"
+  },
+  "f60b8730ce729ce5": {
+   "id": "f60b8730ce729ce5",
+   "source": "kstartup",
+   "sourceName": "K스타트업",
+   "title": "임팩트 페스타 2026 참관객 모집",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179745",
+   "date": "2026-11-09",
+   "deadline": "2026-11-20",
+   "region": "전국",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-11-09"
+  },
+  "14d64b7d9a8b9bca": {
+   "id": "14d64b7d9a8b9bca",
+   "source": "kstartup",
+   "sourceName": "K스타트업",
+   "title": "2027년 고양인쇄문화허브센터 입주기업 모집 공고 ( ~ 2026.11.23.(월)까지)",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179729",
+   "date": "2026-11-09",
+   "deadline": "2026-11-23",
+   "region": "전국",
+   "categories": [
+    "입주기업"
+   ],
+   "firstSeen": "2026-11-09"
+  },
+  "d64f5f95edde9a9f": {
+   "id": "d64f5f95edde9a9f",
+   "source": "kstartup",
+   "sourceName": "K스타트업",
+   "title": "2027년 1인 창조기업 지원센터 상반기 신규 입주기업 1차 모집 공고",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179748",
+   "date": "2026-11-09",
+   "deadline": "2026-12-04",
+   "region": "전국",
+   "categories": [
+    "입주기업"
+   ],
+   "firstSeen": "2026-11-09"
+  },
+  "8f04287004bdf462": {
+   "id": "8f04287004bdf462",
+   "source": "kstartup",
+   "sourceName": "K스타트업",
+   "title": "2026년 8회차 지식재산권 무료 초청교육 수요조사",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179717",
+   "date": "2026-11-09",
+   "deadline": "2026-12-14",
+   "region": "전국",
+   "categories": [
+    "특허·지재권"
+   ],
+   "firstSeen": "2026-11-09"
+  },
+  "55a6c568506243ba": {
+   "id": "55a6c568506243ba",
+   "source": "btp",
+   "sourceName": "부산테크노파크",
+   "title": "부산안전산업존(BSI-Zone) 초기창업자 모집공고",
+   "url": "https://www.btp.or.kr/kor/CMS/Board/Board.do?mCode=MN013&mode=view&mgr_seq=16&board_seq=9582659",
+   "date": "2026-11-09",
+   "deadline": "2026-11-18",
+   "region": "부산",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-11-09"
+  },
+  "b40553434f77dece": {
+   "id": "b40553434f77dece",
+   "source": "bipa",
+   "sourceName": "부산정보산업진흥원",
+   "title": "2026 뮤직텔링 부산 공모전 개최(~11.23. 18:00까지 이메일 접수)",
+   "url": "https://bipa.kr/board/business/view?seq=85481",
+   "date": "2026-11-09",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-11-09"
   }
  },
  "sources": [
