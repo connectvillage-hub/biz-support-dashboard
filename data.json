@@ -38392,6 +38392,48 @@
     "네트워킹"
    ],
    "firstSeen": "2026-11-09"
+  },
+  "441ad0b15ff40ecd": {
+   "id": "441ad0b15ff40ecd",
+   "source": "dcb",
+   "sourceName": "부산디자인진흥원",
+   "title": "재단법인 부산디자인진흥원 2026년 하반기 기간제 직원 채용(2차) 공고",
+   "url": "https://dcb.or.kr/01_news/?mcode=0401010000&mode=2&no=14578&page=1",
+   "date": "2026-11-10",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-11-10"
+  },
+  "a618d7aa4484ae85": {
+   "id": "a618d7aa4484ae85",
+   "source": "dcb",
+   "sourceName": "부산디자인진흥원",
+   "title": "재단법인 부산디자인진흥원 금고지정 입찰 공고",
+   "url": "https://dcb.or.kr/01_news/?mcode=0401010000&mode=2&no=14577&page=1",
+   "date": "2026-11-10",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-11-10"
+  },
+  "8c5ce22e5bab7ff6": {
+   "id": "8c5ce22e5bab7ff6",
+   "source": "bscf",
+   "sourceName": "부산문화재단",
+   "title": "지원공모2026 <광역문화재단 대표공연 콘텐츠 유통 활성화 지원사업> 콘텐츠 작품공모 공고",
+   "url": "https://www.bscf.or.kr/view.do?no=1010&pgMode=show&pbancSn=2448",
+   "date": "2026-11-10",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-11-10"
   }
  },
  "sources": [
@@ -38441,15 +38483,17 @@
    "id": "semas",
    "name": "소상공인시장진흥공단",
    "url": "https://www.semas.or.kr/web/board/webBoardList.kmdc?bCd=1&pNm=BOA0101",
-   "status": "ok",
-   "count": 10
+   "status": "fail",
+   "count": 0,
+   "error": "408 Client Error: Request Timeout for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.semas.or.kr%2Fweb%2Fboard%2FwebBoardList.kmdc%3FbCd%3D1%26pNm%3DBOA0101"
   },
   {
    "id": "smtech",
    "name": "중소기업 기술개발(SMTECH)",
    "url": "https://www.smtech.go.kr/front/ifg/no/notice02_list.do",
-   "status": "ok",
-   "count": 10
+   "status": "fail",
+   "count": 0,
+   "error": "408 Client Error: Request Timeout for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.smtech.go.kr%2Ffront%2Fifg%2Fno%2Fnotice02_list.do"
   },
   {
    "id": "busanstartup",
@@ -38513,7 +38557,7 @@
    "url": "https://www.busan.go.kr/nbgosi",
    "status": "fail",
    "count": 0,
-   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.busan.go.kr%2Fnbgosi%3FcurPage%3D1"
+   "error": "408 Client Error: Request Timeout for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.busan.go.kr%2Fnbgosi%3FcurPage%3D1"
   },
   {
    "id": "bscf",
