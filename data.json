@@ -38064,6 +38064,62 @@
     "사업화"
    ],
    "firstSeen": "2026-11-13"
+  },
+  "e427cfec6fe487da": {
+   "id": "e427cfec6fe487da",
+   "source": "btp",
+   "sourceName": "부산테크노파크",
+   "title": "지능형 부산 하수관로 스마트 안전관리 구축사업 수행사업자 모집 재공고",
+   "url": "https://www.btp.or.kr/kor/CMS/Board/Board.do?mCode=MN013&mode=view&mgr_seq=16&board_seq=9582676",
+   "date": "2026-11-13",
+   "deadline": "2026-11-20",
+   "region": "부산",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-11-13"
+  },
+  "d4ebb19dd782b6c4": {
+   "id": "d4ebb19dd782b6c4",
+   "source": "bipa",
+   "sourceName": "부산정보산업진흥원",
+   "title": "2026 부산음악창작소 버스킹 활동 지원사업 참여 뮤지션 추가 모집",
+   "url": "https://bipa.kr/board/business/view?seq=85491",
+   "date": "2026-11-13",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-11-13"
+  },
+  "a922e958f6858ed0": {
+   "id": "a922e958f6858ed0",
+   "source": "dcamp",
+   "sourceName": "디캠프(d.camp)",
+   "title": "[디캠프 공간 개선 설계 및 시공] 입찰공고",
+   "url": "https://dcamp.kr/news/notice/7942",
+   "date": "2026-10-27",
+   "deadline": null,
+   "region": "전국",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-11-13"
+  },
+  "c69ddaf49ef3bf95": {
+   "id": "c69ddaf49ef3bf95",
+   "source": "dcamp",
+   "sourceName": "디캠프(d.camp)",
+   "title": "『스타트업과 시니어 전문가의 협업 가이드 – 경험을 연결하는 계약』 배포 안내",
+   "url": "https://dcamp.kr/news/notice/7936",
+   "date": "2026-10-13",
+   "deadline": null,
+   "region": "전국",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-11-13"
   }
  },
  "sources": [
@@ -38113,8 +38169,9 @@
    "id": "semas",
    "name": "소상공인시장진흥공단",
    "url": "https://www.semas.or.kr/web/board/webBoardList.kmdc?bCd=1&pNm=BOA0101",
-   "status": "ok",
-   "count": 10
+   "status": "fail",
+   "count": 0,
+   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.semas.or.kr%2Fweb%2Fboard%2FwebBoardList.kmdc%3FbCd%3D1%26pNm%3DBOA0101"
   },
   {
    "id": "smtech",
@@ -38185,7 +38242,7 @@
    "url": "https://www.busan.go.kr/nbgosi",
    "status": "fail",
    "count": 0,
-   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.busan.go.kr%2Fnbgosi%3FcurPage%3D1"
+   "error": "520 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.busan.go.kr%2Fnbgosi%3FcurPage%3D1"
   },
   {
    "id": "bscf",
