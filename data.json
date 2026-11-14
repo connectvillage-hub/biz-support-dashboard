@@ -114,20 +114,6 @@
    ],
    "firstSeen": "2026-07-16"
   },
-  "37bb2e4912f24bdc": {
-   "id": "37bb2e4912f24bdc",
-   "source": "busan_gosi",
-   "sourceName": "부산광역시 고시공고",
-   "title": "제10기 부산광역시 재난관리기금운용심의위원회 위원 공개모집 공고",
-   "url": "https://www.busan.go.kr/nbgosi/view?sno=78803&gosiGbn=A&curPage=3",
-   "date": "2026-07-17",
-   "deadline": null,
-   "region": "부산",
-   "categories": [
-    "기타"
-   ],
-   "firstSeen": "2026-07-17"
-  },
   "29084a646ee10ee0": {
    "id": "29084a646ee10ee0",
    "source": "kstartup",
@@ -34948,7 +34934,7 @@
    "source": "bepa",
    "sourceName": "부산경제진흥원",
    "title": "2026년 전통시장 온누리상품권 환급지원 행사(2차) 알림",
-   "url": "https://www.bepa.kr/kor/view.do?no=1502&idx=19702&view=view&pageIndex=1&sv=&sw=&sdate=&edate=&periodState=all&state=ing&temporary=0&items=소상공인",
+   "url": "https://www.bepa.kr/kor/view.do?no=1502&idx=19702&view=view&pageIndex=1&sv=&sw=&sdate=&edate=&periodState=all&state=end&temporary=0&items=소상공인",
    "date": "2026-11-04",
    "deadline": null,
    "region": "부산",
@@ -37847,6 +37833,20 @@
     "사업화"
    ],
    "firstSeen": "2026-11-13"
+  },
+  "8a5b4771063759a8": {
+   "id": "8a5b4771063759a8",
+   "source": "busanstartup",
+   "sourceName": "부산창업포털",
+   "title": "「2026 하반기 부산 원스톱기업지원센터 전문가 컨설팅 지원사업」 참가기업 모집공고",
+   "url": "https://www.busanstartup.kr/biz_sup/2194?mcode=biz02",
+   "date": "2026-07-28",
+   "deadline": "2026-11-30",
+   "region": "부산",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-11-15"
   }
  },
  "sources": [
@@ -37968,7 +37968,7 @@
    "url": "https://www.busan.go.kr/nbgosi",
    "status": "fail",
    "count": 0,
-   "error": "520 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.busan.go.kr%2Fnbgosi%3FcurPage%3D1"
+   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.busan.go.kr%2Fnbgosi%3FcurPage%3D1"
   },
   {
    "id": "bscf",
