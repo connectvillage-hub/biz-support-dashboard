@@ -37916,6 +37916,35 @@
     "기타"
    ],
    "firstSeen": "2026-11-19"
+  },
+  "3dd1fa96a4b60b08": {
+   "id": "3dd1fa96a4b60b08",
+   "source": "btp",
+   "sourceName": "부산테크노파크",
+   "title": "2027년 지역 자율형 권역단위 핵심기업 육성(R&D) 기술 수요조사 공고",
+   "url": "https://www.btp.or.kr/kor/CMS/Board/Board.do?mCode=MN013&mode=view&mgr_seq=16&board_seq=9582696",
+   "date": "2026-11-20",
+   "deadline": "2026-11-27",
+   "region": "부산",
+   "categories": [
+    "R&D",
+    "사업화"
+   ],
+   "firstSeen": "2026-11-20"
+  },
+  "73046ac31cc92f85": {
+   "id": "73046ac31cc92f85",
+   "source": "bepa",
+   "sourceName": "부산경제진흥원",
+   "title": "『2026 부산 사회연대경제 WEEK 프로그램 운영』 참여기업 모집 공고",
+   "url": "https://www.bepa.kr/kor/view.do?no=1502&idx=19755&view=view&pageIndex=1&sv=&sw=&sdate=&edate=&periodState=all&state=ing&temporary=0&items=소상공인",
+   "date": "2026-11-20",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-11-20"
   }
  },
  "sources": [
@@ -38037,7 +38066,7 @@
    "url": "https://www.busan.go.kr/nbgosi",
    "status": "fail",
    "count": 0,
-   "error": "408 Client Error: Request Timeout for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.busan.go.kr%2Fnbgosi%3FcurPage%3D1"
+   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.busan.go.kr%2Fnbgosi%3FcurPage%3D1"
   },
   {
    "id": "bscf",
