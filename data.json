@@ -37447,6 +37447,21 @@
     "네트워킹"
    ],
    "firstSeen": "2026-11-22"
+  },
+  "f115670e150ebbd3": {
+   "id": "f115670e150ebbd3",
+   "source": "bipa",
+   "sourceName": "부산정보산업진흥원",
+   "title": "2026년 지역 게임 IP 콘텐츠 글로벌 확장 및 사업화 컨설팅 공고",
+   "url": "https://bipa.kr/board/business/view?seq=85504",
+   "date": "2026-11-22",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "특허·지재권",
+    "사업화"
+   ],
+   "firstSeen": "2026-11-23"
   }
  },
  "sources": [
@@ -37568,7 +37583,7 @@
    "url": "https://www.busan.go.kr/nbgosi",
    "status": "fail",
    "count": 0,
-   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.busan.go.kr%2Fnbgosi%3FcurPage%3D1"
+   "error": "408 Client Error: Request Timeout for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.busan.go.kr%2Fnbgosi%3FcurPage%3D1"
   },
   {
    "id": "bscf",
