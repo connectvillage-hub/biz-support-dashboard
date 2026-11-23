@@ -37462,6 +37462,48 @@
     "사업화"
    ],
    "firstSeen": "2026-11-23"
+  },
+  "3d15cc53cf5aece2": {
+   "id": "3d15cc53cf5aece2",
+   "source": "dcb",
+   "sourceName": "부산디자인진흥원",
+   "title": "부산어린이대공원 어린이 복합문화공간 조성 리모델링 건축 공사 입찰 공고",
+   "url": "https://dcb.or.kr/01_news/?mcode=0401010000&mode=2&no=14586&page=1",
+   "date": "2026-11-23",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-11-23"
+  },
+  "5fc577bbb2599d67": {
+   "id": "5fc577bbb2599d67",
+   "source": "dcb",
+   "sourceName": "부산디자인진흥원",
+   "title": "부산어린이대공원 어린이 복합문화공간 조성 폐기물처리 용역 입찰 공고",
+   "url": "https://dcb.or.kr/01_news/?mcode=0401010000&mode=2&no=14585&page=1",
+   "date": "2026-11-23",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-11-23"
+  },
+  "308a0336a82cece9": {
+   "id": "308a0336a82cece9",
+   "source": "btp",
+   "sourceName": "부산테크노파크",
+   "title": "부산광역시 신규 규제자유특구 사업발굴 수요조사 공고",
+   "url": "https://www.btp.or.kr/kor/CMS/Board/Board.do?mCode=MN013&mode=view&mgr_seq=16&board_seq=9582692",
+   "date": "2026-11-23",
+   "deadline": "2026-12-23",
+   "region": "부산",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-11-23"
   }
  },
  "sources": [
@@ -37583,7 +37625,7 @@
    "url": "https://www.busan.go.kr/nbgosi",
    "status": "fail",
    "count": 0,
-   "error": "408 Client Error: Request Timeout for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.busan.go.kr%2Fnbgosi%3FcurPage%3D1"
+   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.busan.go.kr%2Fnbgosi%3FcurPage%3D1"
   },
   {
    "id": "bscf",
