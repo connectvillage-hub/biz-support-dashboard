@@ -37961,6 +37961,118 @@
     "기타"
    ],
    "firstSeen": "2026-11-26"
+  },
+  "8b0e96c343d4fda2": {
+   "id": "8b0e96c343d4fda2",
+   "source": "kidp",
+   "sourceName": "한국디자인진흥원",
+   "title": "AI·로봇 기술, 어떻게 제품이 될까… 중소기업이 디자인 개발 파트너 찾았다",
+   "url": "https://kidp.or.kr/?menuno=1202",
+   "date": "2026-11-26",
+   "deadline": null,
+   "region": "전국",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-11-26"
+  },
+  "5246941d183d7850": {
+   "id": "5246941d183d7850",
+   "source": "kidp",
+   "sourceName": "한국디자인진흥원",
+   "title": "폐현수막으로 만든 가구… 디자인전문기업 29곳, 제품 들고 판로 찾았다",
+   "url": "https://kidp.or.kr/?menuno=1202",
+   "date": "2026-11-26",
+   "deadline": null,
+   "region": "전국",
+   "categories": [
+    "홍보·마케팅"
+   ],
+   "firstSeen": "2026-11-26"
+  },
+  "ccd65e3f6837ae64": {
+   "id": "ccd65e3f6837ae64",
+   "source": "kidp",
+   "sourceName": "한국디자인진흥원",
+   "title": "무엇을 왜 디자인할 것인가 세계 디자이너 9인이 답하다",
+   "url": "https://kidp.or.kr/?menuno=1202",
+   "date": "2026-11-26",
+   "deadline": null,
+   "region": "전국",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-11-26"
+  },
+  "bc3a0379c9db7ff4": {
+   "id": "bc3a0379c9db7ff4",
+   "source": "dcb",
+   "sourceName": "부산디자인진흥원",
+   "title": "재단법인 부산디자인진흥원 2026년 하반기 기간제 직원 채용(2차) 서류전형 합격자 발표",
+   "url": "https://dcb.or.kr/01_news/?mcode=0401010000&mode=2&no=14595&page=1",
+   "date": "2026-11-26",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-11-26"
+  },
+  "b848c68f43bb670b": {
+   "id": "b848c68f43bb670b",
+   "source": "dcb",
+   "sourceName": "부산디자인진흥원",
+   "title": "2026년도 하반기 부산디자인진흥원 정규직 직원 공개채용 서류전형 합격자 발표",
+   "url": "https://dcb.or.kr/01_news/?mcode=0401010000&mode=2&no=14594&page=1",
+   "date": "2026-11-26",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-11-26"
+  },
+  "869299df66bef9ca": {
+   "id": "869299df66bef9ca",
+   "source": "dcb",
+   "sourceName": "부산디자인진흥원",
+   "title": "재단법인 부산디자인진흥원 금고지정 입찰 재공고",
+   "url": "https://dcb.or.kr/01_news/?mcode=0401010000&mode=2&no=14593&page=1",
+   "date": "2026-11-26",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-11-26"
+  },
+  "caf2552056a2977a": {
+   "id": "caf2552056a2977a",
+   "source": "btp",
+   "sourceName": "부산테크노파크",
+   "title": "2026년 블록체인 특화 클러스터 조성 사업 민간위탁사업비 회계 정산기관 모집",
+   "url": "https://www.btp.or.kr/kor/CMS/Board/Board.do?mCode=MN013&mode=view&mgr_seq=16&board_seq=9582719",
+   "date": "2026-11-26",
+   "deadline": "2026-12-02",
+   "region": "부산",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-11-26"
+  },
+  "54ed51e41f152db2": {
+   "id": "54ed51e41f152db2",
+   "source": "bepa",
+   "sourceName": "부산경제진흥원",
+   "title": "2026년 사회연대경제 청년 일경험 시범사업 참여청년 수시 모집",
+   "url": "https://www.bepa.kr/kor/view.do?no=1502&idx=19768&view=view&pageIndex=1&sv=&sw=&sdate=&edate=&periodState=all&state=ing&temporary=0&items=소상공인",
+   "date": "2026-11-26",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-11-26"
   }
  },
  "sources": [
@@ -37975,15 +38087,17 @@
    "id": "bizinfo",
    "name": "기업마당",
    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200View.do",
-   "status": "ok",
-   "count": 15
+   "status": "fail",
+   "count": 0,
+   "error": "520 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.bizinfo.go.kr%2Fsii%2Fsiia%2FselectSIIA200View.do"
   },
   {
    "id": "mss",
    "name": "중소벤처기업부",
    "url": "https://www.mss.go.kr/site/smba/ex/bbs/List.do?cbIdx=310",
-   "status": "ok",
-   "count": 10
+   "status": "fail",
+   "count": 0,
+   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.mss.go.kr%2Fsite%2Fsmba%2Fex%2Fbbs%2FList.do%3FcbIdx%3D310"
   },
   {
    "id": "kidp",
