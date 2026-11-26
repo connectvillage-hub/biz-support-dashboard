@@ -37932,6 +37932,35 @@
     "R&D"
    ],
    "firstSeen": "2026-11-26"
+  },
+  "a0dae7bd0bbea390": {
+   "id": "a0dae7bd0bbea390",
+   "source": "kstartup",
+   "sourceName": "K스타트업",
+   "title": "2026년 서울창업센터 관악 하반기 입주기업 모집",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179878",
+   "date": "2026-11-25",
+   "deadline": "2026-12-11",
+   "region": "서울",
+   "categories": [
+    "입주기업",
+    "사업화"
+   ],
+   "firstSeen": "2026-11-26"
+  },
+  "fd9c9d3ee876164d": {
+   "id": "fd9c9d3ee876164d",
+   "source": "kidp",
+   "sourceName": "한국디자인진흥원",
+   "title": "2026년 제28회 대한민국디자인대상 수상자 현황",
+   "url": "https://kidp.or.kr/?menuno=1202",
+   "date": "2026-11-26",
+   "deadline": null,
+   "region": "전국",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-11-26"
   }
  },
  "sources": [
@@ -38053,7 +38082,7 @@
    "url": "https://www.busan.go.kr/nbgosi",
    "status": "fail",
    "count": 0,
-   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.busan.go.kr%2Fnbgosi%3FcurPage%3D1"
+   "error": "500 Server Error: Internal Server Error for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.busan.go.kr%2Fnbgosi%3FcurPage%3D1"
   },
   {
    "id": "bscf",
