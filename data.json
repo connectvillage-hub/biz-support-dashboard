@@ -90,9 +90,9 @@
    "source": "kstartup",
    "sourceName": "K스타트업",
    "title": "2026년 한국외대 창업보육센터 입주기업 모집 공고",
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179002",
-   "date": "2026-08-24",
-   "deadline": "2026-09-30",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179877",
+   "date": "2026-11-27",
+   "deadline": "2026-11-29",
    "region": "전국",
    "categories": [
     "입주기업",
@@ -37702,6 +37702,189 @@
     "사업화"
    ],
    "firstSeen": "2026-11-27"
+  },
+  "0d6fd328d1d22cb1": {
+   "id": "0d6fd328d1d22cb1",
+   "source": "kstartup",
+   "sourceName": "K스타트업",
+   "title": "[알파브라더스] 「2026 충청 스타트업 벤처포럼」 3회차-파트너링 참가 기업 모집",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179889",
+   "date": "2026-11-27",
+   "deadline": "2026-12-10",
+   "region": "전국",
+   "categories": [
+    "네트워킹"
+   ],
+   "firstSeen": "2026-11-27"
+  },
+  "d59d749dc3881497": {
+   "id": "d59d749dc3881497",
+   "source": "kstartup",
+   "sourceName": "K스타트업",
+   "title": "스담스담 13회차 참석자 모집",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179880",
+   "date": "2026-11-27",
+   "deadline": "2026-12-03",
+   "region": "전국",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-11-27"
+  },
+  "63bd0655153af850": {
+   "id": "63bd0655153af850",
+   "source": "kstartup",
+   "sourceName": "K스타트업",
+   "title": "『춘천시 1인 창조기업 지원센터 입주기업 모집 』공고 (11월)",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179897",
+   "date": "2026-11-27",
+   "deadline": "2026-12-07",
+   "region": "전국",
+   "categories": [
+    "입주기업"
+   ],
+   "firstSeen": "2026-11-27"
+  },
+  "3a25dad7e330a6a1": {
+   "id": "3a25dad7e330a6a1",
+   "source": "kstartup",
+   "sourceName": "K스타트업",
+   "title": "[한양대학교] AI 창업 인사이트 특강 참가자 모집(12/2(수) 18:00)",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179899",
+   "date": "2026-11-27",
+   "deadline": "2026-12-01",
+   "region": "전국",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-11-27"
+  },
+  "a0219cc3164fba9c": {
+   "id": "a0219cc3164fba9c",
+   "source": "kstartup",
+   "sourceName": "K스타트업",
+   "title": "「유니콘 랩(U-Lab) 대구」2026년 3차 입주기업 모집 공고",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179903",
+   "date": "2026-11-27",
+   "deadline": "2026-12-10",
+   "region": "전국",
+   "categories": [
+    "입주기업"
+   ],
+   "firstSeen": "2026-11-27"
+  },
+  "0ce88f7c4678473a": {
+   "id": "0ce88f7c4678473a",
+   "source": "kstartup",
+   "sourceName": "K스타트업",
+   "title": "2026년 시흥 R-AI-S-E 워케이션 참가자 모집",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179904",
+   "date": "2026-11-27",
+   "deadline": "2026-12-02",
+   "region": "전국",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-11-27"
+  },
+  "5a1e7c919f6685c2": {
+   "id": "5a1e7c919f6685c2",
+   "source": "kstartup",
+   "sourceName": "K스타트업",
+   "title": "2027년 양천공공오(공공형 공유오피스) 입주기업 모집 공고",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179896",
+   "date": "2026-11-27",
+   "deadline": "2026-12-11",
+   "region": "전국",
+   "categories": [
+    "입주기업"
+   ],
+   "firstSeen": "2026-11-27"
+  },
+  "83445d011dfb12f3": {
+   "id": "83445d011dfb12f3",
+   "source": "kstartup",
+   "sourceName": "K스타트업",
+   "title": "2026년 제2차 공간정보 창업지원센터 입주기업 모집공고",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179905",
+   "date": "2026-11-27",
+   "deadline": "2026-12-13",
+   "region": "전국",
+   "categories": [
+    "입주기업",
+    "사업화"
+   ],
+   "firstSeen": "2026-11-27"
+  },
+  "80a942bbb74ec012": {
+   "id": "80a942bbb74ec012",
+   "source": "kstartup",
+   "sourceName": "K스타트업",
+   "title": "[서울소셜벤처허브] 2027년 서울소셜벤처허브 1차 신규 입주기업 모집",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179850",
+   "date": "2026-11-27",
+   "deadline": "2026-12-13",
+   "region": "서울",
+   "categories": [
+    "입주기업"
+   ],
+   "firstSeen": "2026-11-27"
+  },
+  "85fed76404f696af": {
+   "id": "85fed76404f696af",
+   "source": "kstartup",
+   "sourceName": "K스타트업",
+   "title": "2026년 보건의료 빅데이터 미래포럼",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179857",
+   "date": "2026-11-27",
+   "deadline": "2026-12-02",
+   "region": "전국",
+   "categories": [
+    "네트워킹"
+   ],
+   "firstSeen": "2026-11-27"
+  },
+  "8609ceb4524f4598": {
+   "id": "8609ceb4524f4598",
+   "source": "kstartup",
+   "sourceName": "K스타트업",
+   "title": "2026년 하반기 양주시 스타트업 성장 지원센터 입주기업 모집",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179906",
+   "date": "2026-11-27",
+   "deadline": "2026-12-08",
+   "region": "전국",
+   "categories": [
+    "입주기업"
+   ],
+   "firstSeen": "2026-11-27"
+  },
+  "683b9a8f19d29d89": {
+   "id": "683b9a8f19d29d89",
+   "source": "kidp",
+   "sourceName": "한국디자인진흥원",
+   "title": "로봇공학자 데니스 원서 홍이 디자인코리아를 찾은 이유",
+   "url": "https://kidp.or.kr/?menuno=1202",
+   "date": "2026-11-27",
+   "deadline": null,
+   "region": "전국",
+   "categories": [
+    "기타"
+   ],
+   "firstSeen": "2026-11-27"
+  },
+  "1453518dcf27aa65": {
+   "id": "1453518dcf27aa65",
+   "source": "bscf",
+   "sourceName": "부산문화재단",
+   "title": "지원공모[모집] 금고지정심의위원회 외부위원 후보자 모집 공고",
+   "url": "https://www.bscf.or.kr/view.do?no=1010&pgMode=show&pbancSn=2463",
+   "date": "2026-11-27",
+   "deadline": null,
+   "region": "부산",
+   "categories": [
+    "사업화"
+   ],
+   "firstSeen": "2026-11-27"
   }
  },
  "sources": [
@@ -37823,14 +38006,14 @@
    "url": "https://www.busan.go.kr/nbgosi",
    "status": "fail",
    "count": 0,
-   "error": "520 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.busan.go.kr%2Fnbgosi%3FcurPage%3D1"
+   "error": "522 Server Error: <none> for url: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.busan.go.kr%2Fnbgosi%3FcurPage%3D1"
   },
   {
    "id": "bscf",
    "name": "부산문화재단",
    "url": "https://www.bscf.or.kr",
    "status": "ok",
-   "count": 15
+   "count": 16
   },
   {
    "id": "dcamp",
